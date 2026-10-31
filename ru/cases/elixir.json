@@ -195,7 +195,7 @@
     "id": "documents[how-to-answer]",
     "field": "contentMarkdown",
     "source": "Once you have found the 3 flowers, type their names yourself. Put each one in single quotes, and name its column:\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a` and `flower_b` are the 2 fresh flowers, in either order. `flower_c` is the dried one. Run it, then press Verify.",
-    "text": "Когда найдёшь 3 цветка, введи их названия вручную. Возьми каждое в одинарные кавычки и назови его столбец:\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a` и `flower_b` означают 2 свежих цветка, в любом порядке. `flower_c` означает сушёный. Запусти запрос, затем нажми «Проверь».",
+    "text": "Когда найдёшь 3 цветка, введи их названия вручную. Возьми каждое в одинарные кавычки и назови его столбец:\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a` и `flower_b` означают 2 свежих цветка, в любом порядке. `flower_c` означает сушёный. Запусти запрос, затем нажми «Проверить».",
     "note": "dossier \"Elixir V\" · document `how-to-answer` — contentMarkdown",
     "rev": "f3a1d035a982"
   },

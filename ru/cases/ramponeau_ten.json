@@ -211,7 +211,7 @@
     "id": "documents[how-to-answer]",
     "field": "contentMarkdown",
     "source": "You can type the answer yourself. Put it in single quotes and name the column:\n\n`SELECT 'Chatelet' AS kiosk`\n\nRun it, then press Verify.",
-    "text": "Ты можешь ввести ответ вручную. Возьми его в одинарные кавычки и назови столбец:\n\n`SELECT 'Chatelet' AS kiosk`\n\nВыполни, потом нажми «Проверь».",
+    "text": "Ты можешь ввести ответ вручную. Возьми его в одинарные кавычки и назови столбец:\n\n`SELECT 'Chatelet' AS kiosk`\n\nВыполни, потом нажми «Проверить».",
     "note": "dossier \"The Ticket With No Name\" · document `how-to-answer` — contentMarkdown",
     "rev": "fcfa4f2638d7"
   },
