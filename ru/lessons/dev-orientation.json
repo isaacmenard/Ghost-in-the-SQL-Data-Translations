@@ -43,7 +43,7 @@
     "id": "V3-run",
     "field": "goal",
     "source": "Run executes the query.",
-    "text": "«Выполни» запускает запрос.",
+    "text": "«Выполнить» запускает запрос.",
     "note": "lesson dev-orientation, beat 3/5 · difficulty 1",
     "rev": "16fe35bd8fca"
   },
@@ -51,7 +51,7 @@
     "id": "V3-run",
     "field": "coach",
     "source": "Run executes the query. Run it as many times as you like. The rows come back underneath.",
-    "text": "«Выполни» запускает запрос. Запускай сколько угодно раз. Строки появляются снизу.",
+    "text": "«Выполнить» запускает запрос. Запускай сколько угодно раз. Строки появляются снизу.",
     "note": "lesson dev-orientation, beat 3/5 · difficulty 1 · goal: Run executes the query.",
     "rev": "56df8a2b0ee3"
   },
@@ -59,7 +59,7 @@
     "id": "V4-verify",
     "field": "goal",
     "source": "Verify submits your answer.",
-    "text": "«Проверь» отправляет твой ответ.",
+    "text": "«Проверить» отправляет твой ответ.",
     "note": "lesson dev-orientation, beat 4/5 · difficulty 1",
     "rev": "5434a8503dd3"
   },
@@ -67,7 +67,7 @@
     "id": "V4-verify",
     "field": "coach",
     "source": "Verify sends those rows in as your answer. It reads the rows you brought back and nothing else.",
-    "text": "«Проверь» отправляет эти строки как твой ответ. Читаются только строки, а не написанный тобой запрос.",
+    "text": "«Проверить» отправляет эти строки как твой ответ. Читаются только строки, а не написанный тобой запрос.",
     "note": "lesson dev-orientation, beat 4/5 · difficulty 1 · goal: Verify submits your answer.",
     "rev": "89c0a5cefad3"
   },

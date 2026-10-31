@@ -115,7 +115,7 @@
     "id": "steps[open-the-archive]",
     "field": "expectedResult",
     "source": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
-    "text": "Введи `SELECT * FROM dispatch_log` и нажми «Выполни». Когда появятся строки, нажми «Проверь». `SELECT *` запрашивает каждый столбец, а `FROM` указывает таблицу.",
+    "text": "Введи `SELECT * FROM dispatch_log` и нажми «Выполнить». Когда появятся строки, нажми «Проверить». `SELECT *` запрашивает каждый столбец, а `FROM` указывает таблицу.",
     "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
     "rev": "022c5c3a8f9a"
   },

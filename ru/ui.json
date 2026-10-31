@@ -1131,7 +1131,7 @@
     "id": "desk.run",
     "field": "",
     "source": "Run",
-    "text": "Выполни",
+    "text": "Выполнить",
     "note": "group desk: The query desk and the whiteboard around it — the screen a player spends every hour of the game on.",
     "rev": "00d60e31a4e6"
   },
@@ -1243,7 +1243,7 @@
     "id": "desk.verify",
     "field": "",
     "source": "✓ Verify",
-    "text": "✓ Проверь",
+    "text": "✓ Проверить",
     "note": "The Verify button, and the retry it becomes. Just `Verify`, not `Verify checkpoint 3`. The checkpoint number is on the brief, on the goal rail and on the pips — three places within a hundred pixels of the button — so the button was the fourth, and the longest. It also stopped a translation fitting: `Vérifier le point de contrôle 3` is two and a half times the English.",
     "rev": "822b239d4b27"
   },
@@ -1275,7 +1275,7 @@
     "id": "desk.writeAQuery",
     "field": "",
     "source": "Write a query and press Run",
-    "text": "Напиши запрос и нажми «Выполни»",
+    "text": "Напиши запрос и нажми «Выполнить»",
     "note": "group desk: The query desk and the whiteboard around it — the screen a player spends every hour of the game on.",
     "rev": "50793f418789"
   },
