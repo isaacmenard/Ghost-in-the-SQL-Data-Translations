@@ -27,7 +27,7 @@
     "id": "casefile.title",
     "field": "",
     "source": "The case so far",
-    "text": "L’enquête à ce jour",
+    "text": "L’enquête, à ce jour",
     "note": "The heading over the block at the foot of the checkpoint column, and the bar of the More sheet.",
     "rev": "e374d6aa73f5"
   },
