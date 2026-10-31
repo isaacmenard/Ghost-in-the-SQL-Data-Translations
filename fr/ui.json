@@ -29,7 +29,7 @@
     "source": "The case so far",
     "text": "L’enquête à ce jour",
     "note": "The heading over the block at the foot of the checkpoint column, and the bar of the More sheet.",
-    "rev": "e374d6aa73f5"
+    "rev": "000000000000"
   },
   {
     "id": "casefile.open",
@@ -59,7 +59,7 @@
     "id": "casefile.after",
     "field": "",
     "source": "after checkpoint {n}",
-    "text": "après le point de contrôle {n}",
+    "text": "après le point de contrôle — n",
     "note": "Beside Reyes's name, over what he said once that checkpoint was cleared.",
     "rev": "8ce8e696dfdd"
   },
