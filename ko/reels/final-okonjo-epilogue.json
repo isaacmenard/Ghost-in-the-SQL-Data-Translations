@@ -1,0 +1,226 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "단편",
+    "note": "reel final-okonjo-epilogue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "형제",
+    "note": "reel final-okonjo-epilogue · the line beside the chapter head · chapter: Standalone",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "362 ROWS · 6 COLUMNS",
+    "text": "362행 · 6열",
+    "note": "reel final-okonjo-epilogue · the words around the figures of the fair_badges set piece · chapter: Standalone",
+    "rev": "1caeff4f6f73"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 360 more rows",
+    "text": "… 외 360행",
+    "note": "reel final-okonjo-epilogue · what the fair_badges sample leaves out · chapter: Standalone",
+    "rev": "e9d04aa74e4b"
+  },
+  {
+    "id": "X1-lie",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-lie",
+    "field": "text",
+    "source": "His brother asked him who was doing this. He said: not me, I'm with you.",
+    "text": "형이 대체 누가 이러는지 묻자, 놈은 이렇게 말했다. “난 아니야. 형 편이야.”",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "a66c2415d692"
+  },
+  {
+    "id": "X1-lie",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "형제",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "text",
+    "source": "The same day, he told Vigie his brother suspected nothing.",
+    "text": "같은 날, 놈은 Vigie에 형이 아무것도 의심하지 않는다고 알렸다.",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "5cef378f0b06"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "형제",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-why",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-why",
+    "field": "text",
+    "source": "Vigie paid him for every claim. He works in the office that picks the City's insurer.",
+    "text": "Vigie는 청구 건마다 놈에게 돈을 줬다. 놈은 시의 보험사를 선정하는 부서에서 일한다.",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "8d51cf97c8d2"
+  },
+  {
+    "id": "X1-why",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "형제",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-name",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-name",
+    "field": "text",
+    "source": "At the fair, Vigie gave him a second name. Kevin Germon.",
+    "text": "박람회에서 Vigie는 놈에게 두 번째 이름을 줬다. Kevin Germon.",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "d0808fecb219"
+  },
+  {
+    "id": "X1-name",
+    "field": "subject",
+    "source": "THE SECOND NAME",
+    "text": "두 번째 이름",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9d6e052efd66"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "text",
+    "source": "6 days after his arrest. 22 December, 11:00, `Room B`. The meeting on his telephone.",
+    "text": "체포된 지 6일 뒤. 12월 22일 11:00, 회의실(`Room B`). 전화기에 있던 약속이다.",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "99fd939960a2"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "마지막 만남",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "text",
+    "source": "We went in with his badge. Bertrand Lacombe was waiting.",
+    "text": "우리는 놈의 출입증을 들고 들어갔다. Bertrand Lacombe가 기다리고 있었다.",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "3e7654c7b52e"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "마지막 만남",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-confess",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-confess",
+    "field": "text",
+    "source": "We arrested Bertrand Lacombe. He admits it. He paid to make Okonjo Insurance fail.",
+    "text": "Bertrand Lacombe을 체포했다. 놈은 혐의를 인정했다. Okonjo Insurance를 무너뜨리려고 돈을 댔다.",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "94d4c13b074c"
+  },
+  {
+    "id": "X1-confess",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "마지막 만남",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-end",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-end",
+    "field": "text",
+    "source": "From the school fire to the van. One file. Closed.",
+    "text": "학교 화재부터 호송차 사건까지. 사건 파일 하나. 종결이다.",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "87b853669b0b"
+  },
+  {
+    "id": "X1-end",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "마지막 만남",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  }
+]

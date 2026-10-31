@@ -1,0 +1,154 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "단편",
+    "note": "reel ramponeau-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "RUE RAMPONEAU",
+    "text": "RUE RAMPONEAU",
+    "note": "reel ramponeau-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "832ad82ec09a"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "5,408 ROWS · 7 COLUMNS",
+    "text": "5,408개 행 · 7개 열",
+    "note": "reel ramponeau-prologue · the words around the figures of the validations set piece · chapter: Standalone",
+    "rev": "d8ede74474fc"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 5,404 more rows, and 1 more column",
+    "text": "… 5,404개 행과 1개 열 더 있음",
+    "note": "reel ramponeau-prologue · what the validations sample leaves out · chapter: Standalone",
+    "rev": "1a7dcea5b317"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel ramponeau-prologue, beat 1/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "text",
+    "source": "Friday night, rue Ramponeau, Paris. A man pushes a woman aged `71` to the floor in her entrance hall. He takes her handbag.",
+    "text": "금요일 밤, 파리 rue Ramponeau. 한 남자가 건물 현관에서 `71`세 여성을 밀쳐 넘어뜨렸다. 핸드백을 빼앗았다.",
+    "note": "reel ramponeau-prologue, beat 1/5 · the line itself · speaker Detective Reyes",
+    "rev": "52f01882cce1"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "사건 경위",
+    "note": "reel ramponeau-prologue, beat 1/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel ramponeau-prologue, beat 2/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "text",
+    "source": "We've got one thing: `the used ticket he dropped in the building's hall`.",
+    "text": "우리한테 있는 건 하나다. `그자가 건물 현관에 떨어뜨린 사용한 승차권`이다.",
+    "note": "reel ramponeau-prologue, beat 2/5 · the line itself · speaker Detective Reyes",
+    "rev": "20ee5a4350de"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "사건 경위",
+    "note": "reel ramponeau-prologue, beat 2/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R3-network",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel ramponeau-prologue, beat 3/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R3-network",
+    "field": "text",
+    "source": "Every gate in the city records the card that opens it. `7 lines, 2 months`.",
+    "text": "도시의 모든 개찰구는 문을 여는 승차권을 기록한다. `7개 노선, 2개월`.",
+    "note": "reel ramponeau-prologue, beat 3/5 · the line itself · speaker Detective Reyes",
+    "rev": "5abda15bb118"
+  },
+  {
+    "id": "R3-network",
+    "field": "subject",
+    "source": "WHAT THE NETWORK WROTE DOWN",
+    "text": "교통망이 기록한 것",
+    "note": "reel ramponeau-prologue, beat 3/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R4-book",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel ramponeau-prologue, beat 4/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R4-book",
+    "field": "text",
+    "source": "One row each time a ticket goes through a gate.",
+    "text": "승차권이 개찰구를 통과할 때마다 행이 하나씩 기록된다.",
+    "note": "reel ramponeau-prologue, beat 4/5 · the line itself · speaker Detective Reyes",
+    "rev": "6faf1ba124d7"
+  },
+  {
+    "id": "R4-book",
+    "field": "subject",
+    "source": "WHAT THE NETWORK WROTE DOWN",
+    "text": "교통망이 기록한 것",
+    "note": "reel ramponeau-prologue, beat 4/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel ramponeau-prologue, beat 5/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "text",
+    "source": "Ours is a paper card for 10 trips. No name on it. Start there.",
+    "text": "우리가 확보한 건 10회용 종이 승차권이다. 이름은 없다. 거기서 시작해라.",
+    "note": "reel ramponeau-prologue, beat 5/5 · the line itself · speaker Detective Reyes",
+    "rev": "44e916597bf2"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "subject",
+    "source": "WHO YOU ARE LOOKING AT",
+    "text": "수사 대상",
+    "note": "reel ramponeau-prologue, beat 5/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ffd11392eaf6"
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "The Ticket With No Name",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own title",
+    "rev": "dced24962025"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "A used ticket on the floor of a hall, with no name on it. Two months of turnstiles.",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own summary",
+    "rev": "3e7a1dbda5e4"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "Friday 30 October, 23:15. Madame Ilse Kessler, 71, is pushed down in the hall of her building, rue Ramponeau. Broken hip. Her door is 250 m from Belleville station.\n\nOn the tiles beside her: a paper travel card, `'C-88291'`. 10 trips, 9 left. There is no name on it.\n\nTwo months of turnstiles and the operator's register of cards.",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own pitchMarkdown",
+    "rev": "7a0ee5af3412"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "text": "Two tables, and one column in common: `card_id`.\n\n`validations` is every passage. `supports` is every card. It carries the name where there is one, and how the card was paid for.",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own rulesMarkdown",
+    "rev": "8899b2293bb5"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "text": "Who bought the ticket with no name, and where can we arrest him?",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own openQuestion",
+    "rev": "fe2f2be34680"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "text": "Marcel Hautin, arrested at Place de Clichy",
+    "note": "dossier \"The Ticket With No Name\" · the dossier's own verdictText",
+    "rev": "ef73a32f3b51"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "NOVEMBER 2, 2026",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's date",
+    "rev": "e1de7a669c25"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Pensioner Robbed In Her Own Hall",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's headline",
+    "rev": "f5e016bf75cf"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "A Used Ticket Left On The Floor Beside Her",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's subheadline",
+    "rev": "92be40887cb0"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "text": "The card found in the rue Ramponeau is a paper card for 10 trips. It was paid for in cash. There is no name on it. Police have 5,408 turnstile passages on 7 lines. They have no name at all.",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's editorialArticle",
+    "rev": "426845737721"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "text": "The card gives no name. It can still tell us where to find him.",
+    "note": "dossier \"The Ticket With No Name\" · the gazette's leadQuote",
+    "rev": "8ae2686a4209"
+  },
+  {
+    "id": "documents[the-ticket]",
+    "field": "title",
+    "text": "WHAT WAS ON THE FLOOR",
+    "note": "dossier \"The Ticket With No Name\" · document `the-ticket` — title",
+    "rev": "0aa75e349081"
+  },
+  {
+    "id": "documents[the-empty-cell]",
+    "field": "title",
+    "text": "WHAT THE REGISTER KEEPS",
+    "note": "dossier \"The Ticket With No Name\" · document `the-empty-cell` — title",
+    "rev": "ac1923f1e2ae"
+  },
+  {
+    "id": "documents[the-empty-cell]",
+    "field": "contentMarkdown",
+    "text": "A `navigo_annual` pass has its holder's name in `holder_last` and `holder_first`. For a `book_of_10` or a `single_ticket`, both are empty. Paid in cash or by card, nobody gives a name.\n\nWhat the register does keep is the payment. All the cards one person buys at once share the same `payment_id`.",
+    "note": "dossier \"The Ticket With No Name\" · document `the-empty-cell` — contentMarkdown",
+    "rev": "8f7cdf71372e"
+  },
+  {
+    "id": "documents[network-plan]",
+    "field": "title",
+    "text": "METRO MAP",
+    "note": "dossier \"The Ticket With No Name\" · document `network-plan` — title",
+    "rev": "0c70e3586d23"
+  },
+  {
+    "id": "documents[the-face]",
+    "field": "title",
+    "text": "GARE DU NORD, 07:12",
+    "note": "dossier \"The Ticket With No Name\" · document `the-face` — title",
+    "rev": "f49db877fec8"
+  },
+  {
+    "id": "documents[the-machine]",
+    "field": "title",
+    "text": "TICKET MACHINES, GARE DU NORD, 28 SEPTEMBER",
+    "note": "dossier \"The Ticket With No Name\"",
+    "rev": "56c2540e2664"
+  },
+  {
+    "id": "documents[the-machine]",
+    "field": "contentMarkdown",
+    "text": "**07:12.** One customer. 10 paper cards for 10 trips, paid in cash. Payment `V-88410`.",
+    "note": "dossier \"The Ticket With No Name\"",
+    "rev": "1a89523d00f5"
+  },
+  {
+    "id": "documents[the-gazette]",
+    "field": "title",
+    "text": "PARIS CRIME NEWSLETTER, 3 NOVEMBER",
+    "note": "dossier \"The Ticket With No Name\" · document `the-gazette` — title",
+    "rev": "76b0d3553fb7"
+  },
+  {
+    "id": "documents[the-gazette]",
+    "field": "contentMarkdown",
+    "text": "*To be printed in tomorrow's paper, 4 November.*\n\n**DO YOU KNOW THIS MAN?**\n\nFilmed at a ticket machine at Gare du Nord, 07:12, Monday 28 September. Police ask anyone who knows him to call 01 45 00 17 17.",
+    "note": "dossier \"The Ticket With No Name\" · document `the-gazette` — contentMarkdown",
+    "rev": "035e7679c39a"
+  },
+  {
+    "id": "documents[the-hotline]",
+    "field": "title",
+    "text": "POLICE LINE, CALL LOG",
+    "note": "dossier \"The Ticket With No Name\" · document `the-hotline` — title",
+    "rev": "237052b39798"
+  },
+  {
+    "id": "documents[the-hotline]",
+    "field": "contentMarkdown",
+    "text": "3 NOVEMBER · 18:02 · BUSINESS LINE · NOT TRACED\n\n**OPERATOR:** Police. Take your time. I'm listening.\n\n**CALLER:** *(a woman, very low)* The man in tomorrow morning's paper. I know him.\n\n**OPERATOR:** All right. How do you know him?\n\n**CALLER:** We sell papers. A kiosk, in the metro. In the corridor between two lines. People who change lines walk past us. People who come in or go out never pass us. The gates are further on.\n\n**OPERATOR:** And you see him there?\n\n**CALLER:** Every morning. 07:15, about. Off one train, onto the other, and gone. He pays in coins. Always coins.\n\n**CALLER:** And he looks at me. Too long. I look away first.\n\n**OPERATOR:** That sounds frightening. You're safe on this line. Nobody hears this call but me. And where are you now, madame?\n\n**CALLER:** Next to the kiosk. It's at...\n\n**A MAN:** *(behind her, shouting)* Hang up. Hang up now. That man can find us.\n\n*LINE DEAD · 18:03*",
+    "note": "dossier \"The Ticket With No Name\" · document `the-hotline` — contentMarkdown",
+    "rev": "09019be8299b"
+  },
+  {
+    "id": "documents[her-statement]",
+    "field": "title",
+    "text": "MADAME ILSE KESSLER, 3 NOVEMBER",
+    "note": "dossier \"The Ticket With No Name\" · document `her-statement` — title",
+    "rev": "f0b5af0c5691"
+  },
+  {
+    "id": "documents[her-statement]",
+    "field": "contentMarkdown",
+    "text": "\"That's the man in your photo. The long coat, the white hair.\n\nWhen he pushed me, a ticket fell out of his coat pocket onto the tiles. He took my handbag: my keys, my purse, my library card.\"",
+    "note": "dossier \"The Ticket With No Name\" · document `her-statement` — contentMarkdown",
+    "rev": "4bcdaa69f08d"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "text": "HOW TO GIVE THE ANSWER",
+    "note": "dossier \"The Ticket With No Name\" · document `how-to-answer` — title",
+    "rev": "d0bb7b6a1e06"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "text": "You can type the answer yourself. Put it in single quotes and name the column:\n\n`SELECT 'Chatelet' AS kiosk`\n\nRun it, then press Verify.",
+    "note": "dossier \"The Ticket With No Name\" · document `how-to-answer` — contentMarkdown",
+    "rev": "fcfa4f2638d7"
+  },
+  {
+    "id": "documents[the-arrest]",
+    "field": "title",
+    "text": "HIS PAPERS, 4 NOVEMBER, 07:14",
+    "note": "dossier \"The Ticket With No Name\" · document `the-arrest` — title",
+    "rev": "438ab1772b0a"
+  },
+  {
+    "id": "documents[the-report]",
+    "field": "title",
+    "text": "ARREST REPORT, 4 NOVEMBER",
+    "note": "dossier \"The Ticket With No Name\" · document `the-report` — title",
+    "rev": "a291e91b36dd"
+  },
+  {
+    "id": "documents[the-report]",
+    "field": "contentMarkdown",
+    "text": "**07:14, `Place de Clichy`, by the kiosk.** 2 officers waiting. Marcel Hautin, 58, walks past. No resistance.\n\n**Why we arrested him.** The cards of payment `V-88410`. Every morning: in on the `M2`, out on the `M13`. On the map, the 2 lines meet only at `Place de Clichy`. The card from her building's hall, `C-88291`, on 30 October: in at `Saint-Lazare` 22:40. Out at `Belleville` 23:02.\n\n**In his coat pocket:** 5 paper cards for 10 trips, from payment `V-88410`. `C-88003`, `C-88176`, `C-88903` and `C-90417` were never used. `C-87830` has 5 trips left. In `supports` it still has 10, because our records end on 30 October. He began using it after 30 October.\n\n**In his wallet:** a library card in the name of Ilse Kessler. It was in the handbag taken from her.\n\n**15:30, photo line-up, at her hospital bed.** 5 photos. Madame Ilse Kessler points straight at number 3, Marcel Hautin.",
+    "note": "dossier \"The Ticket With No Name\" · document `the-report` — contentMarkdown",
+    "rev": "f59aebf6cbd9"
+  },
+  {
+    "id": "documents[metro-1104]",
+    "field": "title",
+    "text": "Wednesday 4 November 2026",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104` — title",
+    "rev": "5f987ffa830c"
+  },
+  {
+    "id": "documents[metro-1104-wanted]",
+    "field": "title",
+    "text": "DO YOU KNOW THIS MAN?",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-wanted` — title",
+    "rev": "9f41dc9348de"
+  },
+  {
+    "id": "documents[metro-1104-wanted]",
+    "field": "contentMarkdown",
+    "text": "Filmed at a ticket machine at Gare du Nord, 07:12, Monday 28 September. On Friday night, a woman of 71 was pushed over in her hall, rue Ramponeau.\n\nPolice ask anyone who knows him to call 01 45 00 17 17.",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-wanted` — contentMarkdown",
+    "rev": "4dbb27433a2f"
+  },
+  {
+    "id": "documents[metro-1104-godin]",
+    "field": "title",
+    "text": "Villa Godin: A Quiet Autumn",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-godin` — title",
+    "rev": "1590217ca544"
+  },
+  {
+    "id": "documents[metro-1104-godin]",
+    "field": "contentMarkdown",
+    "text": "No house on Villa Godin has been painted blue since June.",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-godin` — contentMarkdown",
+    "rev": "c3d3cfc6fcfe"
+  },
+  {
+    "id": "documents[metro-1104-m13]",
+    "field": "title",
+    "text": "M13: Later Trains on Saturdays",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-m13` — title",
+    "rev": "5ee7e0b1010e"
+  },
+  {
+    "id": "documents[metro-1104-m13]",
+    "field": "contentMarkdown",
+    "text": "From 7 November, the M13 will run until 02:15 on Saturday nights.",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-m13` — contentMarkdown",
+    "rev": "637a38d153fd"
+  },
+  {
+    "id": "documents[metro-1104-mutefone]",
+    "field": "title",
+    "text": "MUTEFONE 4",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-mutefone` — title",
+    "rev": "17f0f64edaa6"
+  },
+  {
+    "id": "documents[metro-1104-mutefone]",
+    "field": "contentMarkdown",
+    "text": "Say it in code. Only your contact can read it.",
+    "note": "dossier \"The Ticket With No Name\" · document `metro-1104-mutefone` — contentMarkdown",
+    "rev": "78c277bf5bf7"
+  },
+  {
+    "id": "csvFiles[supports]",
+    "field": "description",
+    "text": "The operator's register of cards. What each one is, the name on it if there is one, where and when it was sold, how it was paid for, and the payment it was bought in. `trips_left` is counted on 30 October.",
+    "note": "dossier \"The Ticket With No Name\" · the `supports` table — description",
+    "rev": "db9fc63c923d"
+  },
+  {
+    "id": "csvFiles[validations]",
+    "field": "description",
+    "text": "Every turnstile passage on 7 lines, 31 August to 30 October. One row per passage, and `line` is the line of the gate, not of the journey.",
+    "note": "dossier \"The Ticket With No Name\" · the `validations` table — description",
+    "rev": "7731d2532a02"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "title",
+    "text": "The Same Payment",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — title",
+    "rev": "3c8b6555c227"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "instructions",
+    "text": "The card on the floor of her building's hall carries no name. Whoever bought it may have bought other cards in the same payment.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — instructions",
+    "rev": "0fe1efa74eea"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "expectedResult",
+    "text": "Show every card in `supports` that has the same `payment_id` as the card `'C-88291'`.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — expectedResult",
+    "rev": "43f34dc955f0"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "expectedShapeNote",
+    "text": "10 rows. One payment, one station, one day.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — expectedShapeNote",
+    "rev": "b4e1b8a00033"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "afterText",
+    "text": "10 cards, one payment, 07:12 at Gare du Nord. There's a camera over the ticket machines. That's the buyer. A face with no name.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — afterText",
+    "rev": "094c74ca98ff"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "afterTextNext",
+    "text": "His photo goes in tomorrow's Paris Crime Newsletter. One call already came in this evening. A business line, and we can't trace where it came from.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — afterTextNext",
+    "rev": "d6bbb89191c3"
+  },
+  {
+    "id": "steps[the-ten-bought-together]",
+    "field": "lead",
+    "text": "Look up `'C-88291'` in `supports`. You need its `payment_id` next.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 1/2 \"The Same Payment\" — lead",
+    "rev": "bd214fc941a7"
+  },
+  {
+    "id": "steps[her-kiosk]",
+    "field": "title",
+    "text": "The Kiosk",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 2/2 \"The Kiosk\" — title",
+    "rev": "7a1da0d595c7"
+  },
+  {
+    "id": "steps[her-kiosk]",
+    "field": "instructions",
+    "text": "The caller's kiosk is in a corridor between two lines, with no gate. The buyer walks past it every morning, about 07:15. Find the station.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 2/2 \"The Kiosk\" — instructions",
+    "rev": "4fe4f3829f01"
+  },
+  {
+    "id": "steps[her-kiosk]",
+    "field": "expectedResult",
+    "text": "One row, one column: `kiosk`. It holds the station name as it appears on the map.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 2/2 \"The Kiosk\" — expectedResult",
+    "rev": "00c1a78a4765"
+  },
+  {
+    "id": "steps[her-kiosk]",
+    "field": "expectedShapeNote",
+    "text": "1 row. A station.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 2/2 \"The Kiosk\" — expectedShapeNote",
+    "rev": "9bcccef984af"
+  },
+  {
+    "id": "steps[her-kiosk]",
+    "field": "lead",
+    "text": "Check every column of his morning rows in `validations`. Then use the map to find the station where the kiosk is.",
+    "note": "dossier \"The Ticket With No Name\" · checkpoint 2/2 \"The Kiosk\" — lead",
+    "rev": "3097881a2f0c"
+  },
+  {
+    "id": "closing[the-crossing]",
+    "field": "say",
+    "text": "On the map, the `M2` and the `M13` meet only at `Place de Clichy`. And there's a kiosk.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 1/6, said after the last stamp — say",
+    "rev": "fe1666e17e64"
+  },
+  {
+    "id": "closing[the-night-gate]",
+    "field": "say",
+    "text": "The kiosk isn't at `Belleville`. He went out through a gate at `Belleville`, at night. The newspaper seller sees him in the mornings, in a corridor with no gate.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 2/6, said after the last stamp — say",
+    "rev": "ad307184fb6b"
+  },
+  {
+    "id": "closing[the-arrest]",
+    "field": "say",
+    "text": "2 officers waited by the kiosk. He walked past at 07:14. They arrested him.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 3/6, said after the last stamp — say",
+    "rev": "6b0b9510a21d"
+  },
+  {
+    "id": "closing[the-paper]",
+    "field": "say",
+    "text": "This morning's paper, at that kiosk. His face was on it when they arrested him.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 4/6, said after the last stamp — say",
+    "rev": "82a1d17b5911"
+  },
+  {
+    "id": "closing[the-report]",
+    "field": "say",
+    "text": "5 cards from that payment in his coat, and her library card. Madame Ilse Kessler saw 5 photos and pointed at his photo.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 5/6, said after the last stamp — say",
+    "rev": "fd5e0c15fb8d"
+  },
+  {
+    "id": "closing[his-papers]",
+    "field": "say",
+    "text": "His papers say Marcel Hautin. It's the face from the camera, and the man Madame Ilse Kessler saw.",
+    "note": "dossier \"The Ticket With No Name\" · Reyes's closing, shot 6/6, said after the last stamp — say",
+    "rev": "0035269231bf"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "text": "The dropped ticket `C-88291` → `supports.payment_id` → 10 `book_of_10` bought with one payment.",
+    "note": "dossier \"The Ticket With No Name\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "c3cb7f19a158"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "text": "His mornings: `M2` in, `M13` out → `validations` → the map → both lines: `Place de Clichy`.",
+    "note": "dossier \"The Ticket With No Name\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "0dfc61248419"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "text": "Kiosk at `Place de Clichy` → arrest at 07:14 → photo line-up: Madame Ilse Kessler picks Marcel Hautin.",
+    "note": "dossier \"The Ticket With No Name\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "87f1febd1b46"
+  }
+]

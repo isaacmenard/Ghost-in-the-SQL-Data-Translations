@@ -1,0 +1,266 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "ORDER BY",
+    "text": "ORDER BY",
+    "note": "dossier \"ORDER BY\" · the dossier's own title",
+    "rev": "1817546456c1"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The call on `LINE 4417` at 20:58 was made from the `Lodge`, the caretaker's room. The school keeps a record of every badge read at every door.",
+    "text": "La llamada de `LINE 4417` a las 20:58 se hizo desde la conserjería (`Lodge`), la sala del conserje. El colegio guarda un registro de cada tarjeta en cada puerta.",
+    "note": "dossier \"ORDER BY\" · the dossier's own summary",
+    "rev": "8ed045306d17"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Somebody called from the `Lodge` telephone at 20:58. That was 14 minutes before the first witness saw the fire.\n\nThe school sent its badge record: every door, up to the night of the fire.",
+    "text": "Alguien llamó desde el teléfono de la conserjería (`Lodge`) a las 20:58. Fue 14 minutos antes de que el primer testigo viera el fuego.\n\nEl colegio envió el registro de tarjetas: cada puerta, hasta la noche del incendio.",
+    "note": "dossier \"ORDER BY\" · the dossier's own pitchMarkdown",
+    "rev": "c9be856080b0"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "One table, `keycard_log`.",
+    "text": "Una tabla, `keycard_log`.",
+    "note": "dossier \"ORDER BY\" · the dossier's own rulesMarkdown",
+    "rev": "d5c120faf1bd"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who called from the `Lodge` at 20:58, and where did they go before calling?",
+    "text": "¿Quién llamó desde la conserjería (`Lodge`) a las 20:58 y adónde fue esa persona antes de llamar?",
+    "note": "dossier \"ORDER BY\" · the dossier's own openQuestion",
+    "rev": "43b3b7a68ef0"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 17, 2025",
+    "text": "17 DE OCTUBRE DE 2025",
+    "note": "dossier \"ORDER BY\" · the gazette's date",
+    "rev": "1f35b463209b"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "Redactor jefe de sucesos",
+    "note": "dossier \"ORDER BY\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "School Fire Call Came From the School's Own Lodge",
+    "text": "La llamada sobre el incendio del colegio salió de la propia conserjería del centro",
+    "note": "dossier \"ORDER BY\" · the gazette's headline",
+    "rev": "1262701a34af"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "The Call Came 14 Minutes Before the First Witness",
+    "text": "La llamada entró 14 minutos antes del primer testigo",
+    "note": "dossier \"ORDER BY\" · the gazette's subheadline",
+    "rev": "e922b817d53d"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The first call about the school fire came from the caretaker's lodge. No witness had seen the fire yet. In the evening, that line is the lodge telephone, not the `Main Office` one.\n\nThe school keeps a record of every badge read at every door. Detectives are checking every badge read on the evening of the 14th.",
+    "text": "La primera llamada sobre el incendio del colegio se realizó desde la conserjería (`Lodge`). Ningún testigo había visto el fuego todavía. Por la noche, esa línea es el teléfono de la conserjería, no el de la secretaría (`Main Office`).\n\nEl colegio guarda un registro de cada tarjeta en cada puerta. Los inspectores revisan cada tarjeta leída la noche del 14.",
+    "note": "dossier \"ORDER BY\" · the gazette's editorialArticle",
+    "rev": "ab246ab2972a"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Somebody was in that room at 20:58.\"",
+    "text": "«Alguien estaba en esa sala a las 20:58.»",
+    "note": "dossier \"ORDER BY\" · the gazette's leadQuote",
+    "rev": "2ebeb5dfa0e0"
+  },
+  {
+    "id": "csvFiles[keycard_log]",
+    "field": "description",
+    "source": "College Jean Moulin's own badge log: every badge, every door, on Monday 13 and Tuesday 14 October, up to the night of the fire. Doors: `Main Gate`, `Lodge`, `Science Wing`, `Library`, `Gym`, `Staff Room`, `Boiler Room`.",
+    "text": "El registro de tarjetas del propio College Jean Moulin: cada tarjeta, cada puerta, el lunes 13 y el martes 14 de octubre, hasta la noche del incendio. Puertas: `Main Gate`, `Lodge`, `Science Wing`, `Library`, `Gym`, `Staff Room`, `Boiler Room`.",
+    "note": "dossier \"ORDER BY\" · the `keycard_log` table — description",
+    "rev": "c86c1e8a3e9e"
+  },
+  {
+    "id": "steps[last-out]",
+    "field": "title",
+    "source": "The *Last* Out",
+    "text": "El *último* en salir",
+    "note": "dossier \"ORDER BY\" · checkpoint 1/3 \"The *Last* Out\" — title",
+    "rev": "ed2dfaf0e1d9"
+  },
+  {
+    "id": "steps[last-out]",
+    "field": "instructions",
+    "source": "First the `Main Gate`, then the `Lodge`. Every door in `keycard_log` reads a badge going in. The `Main Gate` also reads it going out.",
+    "text": "Primero la `Main Gate`, luego la conserjería (`Lodge`). Cada puerta de `keycard_log` lee la tarjeta a la entrada. La `Main Gate` también la lee a la salida.",
+    "note": "dossier \"ORDER BY\" · checkpoint 1/3 \"The *Last* Out\" — instructions",
+    "rev": "63b21ff587ac"
+  },
+  {
+    "id": "steps[last-out]",
+    "field": "expectedResult",
+    "source": "Whoever made the call was inside at 20:58. The last person to leave is the obvious suspect. Who left last on `2025-10-14`, through `Main Gate`? `ORDER BY at_time DESC` sorts from the latest to the earliest, and `LIMIT 1` keeps only the first row. Return one row: the name, the door and the time.",
+    "text": "Quien llamó estaba dentro a las 20:58. El último en salir es el sospechoso evidente. ¿Quién salió el último el `2025-10-14`, por `Main Gate`? `ORDER BY at_time DESC` ordena de más reciente a más antiguo, y `LIMIT 1` conserva solo la primera fila. Devuelve una fila: el nombre, la puerta y la hora.",
+    "note": "dossier \"ORDER BY\" · checkpoint 1/3 \"The *Last* Out\" — expectedResult",
+    "rev": "77fd838ef8c5"
+  },
+  {
+    "id": "steps[last-out]",
+    "field": "expectedShapeNote",
+    "source": "One row: a name, a door and a time.",
+    "text": "Una fila: un nombre, una puerta y una hora.",
+    "note": "dossier \"ORDER BY\" · checkpoint 1/3 \"The *Last* Out\" — expectedShapeNote",
+    "rev": "badecb9c0968"
+  },
+  {
+    "id": "steps[last-out]",
+    "field": "afterText",
+    "source": "Ruth Abasi, 21:19, 7 minutes after the flames were seen. Nobody went through the `Main Gate` after her. Now the `Lodge`, and who was in it at 20:58.",
+    "text": "Ruth Abasi, 21:19, 7 minutos después de que se vieran las llamas. Nadie pasó por la `Main Gate` después de ella. Ahora la conserjería (`Lodge`), y quién estaba dentro a las 20:58.",
+    "note": "dossier \"ORDER BY\" · checkpoint 1/3 \"The *Last* Out\" — afterText",
+    "rev": "7d9cadcc84b8"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "title",
+    "source": "Before the *Call*",
+    "text": "Antes de la *llamada*",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — title",
+    "rev": "83ae54ff2361"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "instructions",
+    "source": "The 20:58 call was made from the `Lodge`. Its door reads every badge going in. The last one in before 20:58 was in the room.",
+    "text": "La llamada de las 20:58 se hizo desde la conserjería (`Lodge`). Su puerta lee cada tarjeta que entra. La última persona que entró antes de las 20:58 estaba en la sala.",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — instructions",
+    "rev": "3a23d7b7e2d5"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "expectedResult",
+    "source": "Search `keycard_log` again. Who made that call? Return one row: that person's name and the time they went in.",
+    "text": "Busca de nuevo en `keycard_log`. ¿Quién hizo esa llamada? Devuelve una fila: el nombre de esa persona y la hora a la que entró.",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — expectedResult",
+    "rev": "83dec77a3c1b"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "expectedShapeNote",
+    "source": "One row: a name and the time they went in.",
+    "text": "Una fila: un nombre y la hora a la que entró.",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — expectedShapeNote",
+    "rev": "69e94e0fa859"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "afterText",
+    "source": "Victor Pell, 20:44. 14 minutes before the call. Bring him to the station and take his statement.",
+    "text": "Victor Pell, 20:44. 14 minutos antes de la llamada. Tráelo a comisaría y toma su declaración.",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — afterText",
+    "rev": "ce12d7dfe641"
+  },
+  {
+    "id": "steps[before-the-call]",
+    "field": "lead",
+    "source": "Check the doors in `keycard_log`. Somebody was in the `Lodge` when the call was made.",
+    "text": "Revisa las puertas en `keycard_log`. Alguien estaba en la conserjería (`Lodge`) en el momento de la llamada.",
+    "note": "dossier \"ORDER BY\" · checkpoint 2/3 \"Before the *Call*\" — lead",
+    "rev": "5978f2878cd8"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "title",
+    "source": "His *Statement*",
+    "text": "Su *declaración*",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — title",
+    "rev": "b86c35d6082c"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "instructions",
+    "source": "Firefighters: the fire was started with white spirit, a paint thinner, probably from the `Boiler Room`.",
+    "text": "Los bomberos: el fuego se prendió con aguarrás, un disolvente de pintura, probablemente de la `Boiler Room`.",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — instructions",
+    "rev": "0ffb296efc8a"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "expectedResult",
+    "source": "Victor Pell's statement: that evening he went only to the `Gym`, then the `Science Wing`. Did he take the white spirit? Return the row from `keycard_log` that answers it: name, door, day and time.",
+    "text": "Declaración de Victor Pell: esa noche solo fue al `Gym`, luego al `Science Wing`. ¿Se llevó el aguarrás? Devuelve la fila de `keycard_log` que lo responda: nombre, puerta, día y hora.",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — expectedResult",
+    "rev": "94c196346f18"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "expectedShapeNote",
+    "source": "One row: a name, a door, a day and a time.",
+    "text": "Una sola fila: un nombre, una puerta, un día y una hora.",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — expectedShapeNote",
+    "rev": "485be5343bf1"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "afterText",
+    "source": "The `Boiler Room` at 20:35. He named only the `Gym` and the `Science Wing`. He lied about where he went. Bring him back to the station.",
+    "text": "La `Boiler Room` a las 20:35. Solo mencionó el `Gym` y el `Science Wing`. Mintió sobre adónde fue. Tráelo de vuelta a comisaría.",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — afterText",
+    "rev": "40701a04287f"
+  },
+  {
+    "id": "steps[the-statement]",
+    "field": "lead",
+    "source": "Check all of Victor Pell's movements on the day of the fire, in `keycard_log`. One of them does not match his statement.",
+    "text": "Revisa todos los movimientos de Victor Pell el día del incendio, en `keycard_log`. Uno de ellos no coincide con su declaración.",
+    "note": "dossier \"ORDER BY\" · checkpoint 3/3 \"His *Statement*\" — lead",
+    "rev": "d40e3b709c44"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "Llamas a las 21:12 → `dispatch_log` → una llamada previa por el incendio del colegio: 20:58, `LINE 4417`.",
+    "note": "dossier \"ORDER BY\" · the cleared sheet's chain, step 1/4 — text",
+    "rev": "d2913b0af757"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "20:58 is between 18:00 and 22:00 → `line_register` → then `LINE 4417` is the `Lodge`.",
+    "text": "Las 20:58 están entre las 18:00 y las 22:00 → `line_register` → entonces `LINE 4417` es la `Lodge`.",
+    "note": "dossier \"ORDER BY\" · the cleared sheet's chain, step 2/4 — text",
+    "rev": "c148cb65f478"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "The last swipe at the `Lodge` door before 20:58 → `keycard_log` → Victor Pell, 20:44.",
+    "text": "El último pase de tarjeta en la puerta de la conserjería (`Lodge`) antes de las 20:58 → `keycard_log` → Victor Pell, 20:44.",
+    "note": "dossier \"ORDER BY\" · the cleared sheet's chain, step 3/4 — text",
+    "rev": "79b0e6af473f"
+  },
+  {
+    "id": "explanation[step-4]",
+    "field": "text",
+    "source": "In his statement: the `Gym` and the `Science Wing`. The school's white spirit is in the `Boiler Room` → `keycard_log` → Victor Pell, `Boiler Room`, 20:35.",
+    "text": "En su declaración: el `Gym` y el `Science Wing`. El aguarrás del colegio está en `Boiler Room` → `keycard_log` → Victor Pell, `Boiler Room`, 20:35.",
+    "note": "dossier \"ORDER BY\" · the cleared sheet's chain, step 4/4 — text",
+    "rev": "b22b274e778d"
+  }
+]

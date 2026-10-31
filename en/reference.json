@@ -1,0 +1,338 @@
+[
+  {
+    "id": "SELECT … FROM",
+    "field": "what",
+    "text": "Which columns you want, and which table they come from. `*` means every column.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2960be0dd535"
+  },
+  {
+    "id": "SELECT … FROM",
+    "field": "note",
+    "text": "5 rows: the whole table.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · the caveat under it · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2fcc9982d940"
+  },
+  {
+    "id": "WHERE",
+    "field": "what",
+    "text": "Keeps only the rows this condition is true for. Text goes in single quotes, and the text inside them must match capitals exactly.",
+    "note": "the SQL reference card, entry `WHERE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "33ecec56da88"
+  },
+  {
+    "id": "WHERE",
+    "field": "note",
+    "text": "**Equal.** `WHERE column_1 = 'Alpha'` → 2 rows out of 5. `'alpha'`, lower case, would match nothing at all.\n\n**Not equal.** `WHERE column_1 != 'Alpha'` keeps exactly the rows the first one removed. `<>` means the same thing.",
+    "note": "the SQL reference card, entry `WHERE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "fdff95901ac1"
+  },
+  {
+    "id": "LIKE",
+    "field": "what",
+    "text": "Matches a pattern instead of a whole value. `%` stands for any number of characters, so `'%lph%'` finds `Alpha`. With `%` only at the end, the value must start with the letters before it: `'Al%'`.",
+    "note": "the SQL reference card, entry `LIKE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "b0158765f741"
+  },
+  {
+    "id": "LIKE",
+    "field": "note",
+    "text": "2 rows. LIKE ignores upper and lower case, so `'%LPH%'` returns the same 2. That is the tool for a value somebody has typed 2 ways. `_` is the other pattern symbol. It matches exactly 1 character, so `'Al___'` is a 5-letter value beginning Al.",
+    "note": "the SQL reference card, entry `LIKE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "6d6cf7401bbb"
+  },
+  {
+    "id": "AND / OR",
+    "field": "what",
+    "text": "Combines conditions. `AND` needs both to be true; `OR` needs either.",
+    "note": "the SQL reference card, entry `AND / OR` · what the clause does, in the player's terms · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "fe1b3e1cda36"
+  },
+  {
+    "id": "AND / OR",
+    "field": "note",
+    "text": "1 row. Mixing both in one filter needs brackets. That has its own entry on this card: `AND (A OR B)`.",
+    "note": "the SQL reference card, entry `AND / OR` · the caveat under it · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "47f8c60ad75e"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "what",
+    "text": "2 conditions where either can be true, inside one filter. `A` and `B` are the conditions you write; everything else is typed as it appears.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "16f6d60c4937"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "note",
+    "text": "2 rows: the 14th, and either name. **The brackets are the whole entry.** Without them `AND` runs before `OR`, so `A AND B OR C` reads as `(A AND B) OR C`. The `OR` then splits the filter in 2 instead of offering a choice inside it. Take the brackets off the example above and it returns 3 rows instead of 2.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "661c7768f0fa"
+  },
+  {
+    "id": "IN (…)",
+    "field": "what",
+    "text": "One column, a list of values, any of them can match. Shorter than writing `OR` between the same comparisons.",
+    "note": "the SQL reference card, entry `IN (…)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "8734aa31e441"
+  },
+  {
+    "id": "IN (…)",
+    "field": "note",
+    "text": "4 rows: every row whose name is one of the 2 asked for. Commas between the values, brackets around the list. Each value is quoted, because the column is text.",
+    "note": "the SQL reference card, entry `IN (…)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "c69bee4c97c6"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "what",
+    "text": "The list can be a query. The inner query returns one column. A row is kept when its value appears in that column, and `NOT IN` keeps the rest.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "d844eb2a686e"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "note",
+    "text": "3 rows: the 2 names with a row after 22:00, and every row with those names. The inner query runs first, on its own. Swap `IN` for `NOT IN` and the answer is the other 2 rows.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "3ab8add9c70d"
+  },
+  {
+    "id": "-- a comment",
+    "field": "what",
+    "text": "2 dashes and a space, and the rest of the line is a note to yourself. Nothing after them runs. A block between `/*` and `*/` can cross lines.",
+    "note": "the SQL reference card, entry `-- a comment` · what the clause does, in the player's terms · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "f8d89ff82246"
+  },
+  {
+    "id": "-- a comment",
+    "field": "note",
+    "text": "2 rows, the same 2 the query returns without the notes. Ignore a filter for now with `--`, or say what a query is for.",
+    "note": "the SQL reference card, entry `-- a comment` · the caveat under it · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "e509c57f2b93"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "what",
+    "text": "Stored as text, `'YYYY-MM-DD'` and `'HH:MM'`, so they compare like text. The bigger value is the later one. `BETWEEN` takes a range, ends included.",
+    "note": "the SQL reference card, entry `Dates and hours` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "7156dd88bf66"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "note",
+    "text": "3 rows.\n\n**One day.** `WHERE day = '2026-03-14'`\n\n**A range of days.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, ends included\n\n**From an hour on.** `WHERE at_time >= '23:00'`\n\n**Before an hour.** `WHERE at_time < '04:00'`\n\nBoth columns are text, so `>` and `<` read as later and earlier.",
+    "note": "the SQL reference card, entry `Dates and hours` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "aa423a31f683"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "what",
+    "text": "Keeps the values from one end to the other, both ends included. The 2 ends are joined by `AND`.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "06380d381084"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "note",
+    "text": "3 rows: the 14th and the 15th, both ends in. No brackets and no comma around the ends: `BETWEEN ('09:00', '15:00')` is refused. Hours and numbers work the same way.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "13e9e4fe0970"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "what",
+    "text": "One row per distinct value, however many times it occurs. Answers \"which values are in this column at all\".",
+    "note": "the SQL reference card, entry `DISTINCT` · what the clause does, in the player's terms · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "1b5dcd19e256"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "note",
+    "text": "3 rows out of 5. The quickest way to see which values a column holds before you filter on it.",
+    "note": "the SQL reference card, entry `DISTINCT` · the caveat under it · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "c902720d2524"
+  },
+  {
+    "id": "IS NULL",
+    "field": "what",
+    "text": "An empty cell holds no value at all, and nothing equals no value. Not even another empty cell. So `= NULL` never matches anything. Use `IS NULL` instead, or `IS NOT NULL`.",
+    "note": "the SQL reference card, entry `IS NULL` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "f5a6e58bd67d"
+  },
+  {
+    "id": "IS NULL",
+    "field": "note",
+    "text": "5 rows: every cell in the example table is filled, and that is the point. The test is about whether there is a value, never about what it is.\n\n**Empty.** `WHERE column_2 IS NULL`\n\n**Filled.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` is wrong the same way `= NULL` is, and neither is an error. They just return nothing.",
+    "note": "the SQL reference card, entry `IS NULL` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "0d5a51ab84f5"
+  },
+  {
+    "id": "JOIN",
+    "field": "what",
+    "text": "Puts 2 tables side by side. After `ON`, name the 2 columns that must be equal, one from each table.",
+    "note": "the SQL reference card, entry `JOIN` · what the clause does, in the player's terms · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "f95e44717f12"
+  },
+  {
+    "id": "JOIN",
+    "field": "note",
+    "text": "4 rows out of 5. `Gamma` has no code in `demo_codes`, so it is dropped, like any row with no match.",
+    "note": "the SQL reference card, entry `JOIN` · the caveat under it · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "80d75fc7ed01"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "what",
+    "text": "Joins the values of each group into one text. The second value goes between them. `ORDER BY` inside the brackets sets their order.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · what the clause does, in the player's terms · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "ddc427f75167"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "note",
+    "text": "4 rows, one per day. On the 14th, Beta comes first because its `at_time` is earlier. With `''` as the second value, nothing goes between them. One letter per row then makes a word.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · the caveat under it · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "48b95431edd0"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "what",
+    "text": "A formula in the SELECT, on every row: `+`, `-`, `*`, `/` and brackets. No GROUP BY needed. `AS` names the new column.",
+    "note": "the SQL reference card, entry `Calculation AS name` · what the clause does, in the player's terms · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "93f13b933793"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "note",
+    "text": "5 rows, 1 new column. `score` exists only in this result: the table does not change. A whole number divided by a whole number drops the decimals: `1/2` is `0`, `1.0/2` is `0.5`.",
+    "note": "the SQL reference card, entry `Calculation AS name` · the caveat under it · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "f79793d9716c"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "what",
+    "text": "Uses the same table twice, side by side: every row next to every row, itself included. Give each copy a name after `AS`, and write `a.` or `b.` before each column.",
+    "note": "the SQL reference card, entry `FROM, twice` · what the clause does, in the player's terms · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "3deb31227157"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "note",
+    "text": "1 row: Alpha and Gamma, 2 + 8 = 10. `a.label < b.label` drops a box paired with itself, and keeps each pair once. Add `, demo_boxes AS c` to use the table 3 times.",
+    "note": "the SQL reference card, entry `FROM, twice` · the caveat under it · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "277243dc493a"
+  },
+  {
+    "id": "COUNT(*)",
+    "field": "what",
+    "text": "One number: how many rows matched. Use `AS` to give it a name you can refer to later.",
+    "note": "the SQL reference card, entry `COUNT(*)` · what the clause does, in the player's terms · its example: SELECT COUNT(*) AS total FROM demo",
+    "rev": "846bd0acc804"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "what",
+    "text": "Counts each distinct value separately instead of all together: one row out per group. Include the column too, or you get numbers with no labels.",
+    "note": "the SQL reference card, entry `GROUP BY` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "7608b178dd01"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "note",
+    "text": "Note the order: grouped, not ranked. The biggest number is not necessarily first. That is what ORDER BY is for.",
+    "note": "the SQL reference card, entry `GROUP BY` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "8d4a05a94caa"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "what",
+    "text": "Adds a column up instead of counting rows. What goes inside can be arithmetic, not only a column name.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · what the clause does, in the player's terms · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "edee98c7809d"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "note",
+    "text": "3 rows: one per group, each the total of its own. `COUNT` says how many lines a group has. `SUM` gives their total.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · the caveat under it · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "cc4e00386a52"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "what",
+    "text": "The average of a column: its total divided by the number of rows. With `GROUP BY`, one average per group.",
+    "note": "the SQL reference card, entry `AVG(…)` · what the clause does, in the player's terms · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "aac9dd33929c"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "note",
+    "text": "3 rows. Alpha has 10 and 20, so 15. Put 2 groups side by side to see which one is higher.",
+    "note": "the SQL reference card, entry `AVG(…)` · the caveat under it · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "2ea9877e9eec"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "what",
+    "text": "Counts how many *different* values a column holds, not how many rows there are. The way to count things that each wrote more than one line.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "d14b5ca9fd0f"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "note",
+    "text": "3 rows: one per group. Compare it with `COUNT(*)`: Alpha's 2 lines fall on 2 different days, so both counts say 2. Add a second line on one of those days, and the 2 counts differ.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · the caveat under it · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "76c660a3ec64"
+  },
+  {
+    "id": "HAVING",
+    "field": "what",
+    "text": "Filters the groups a GROUP BY produced, the way WHERE filters rows. WHERE runs before the grouping and cannot use a count; HAVING runs after it and can.",
+    "note": "the SQL reference card, entry `HAVING` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "5aeceafc0936"
+  },
+  {
+    "id": "HAVING",
+    "field": "note",
+    "text": "2 rows: Gamma appears once and is dropped. Use it to keep only the values that occur more often than a number you choose.",
+    "note": "the SQL reference card, entry `HAVING` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "1e85d3a715a6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "what",
+    "text": "The smallest and the largest value in each group. On text they read alphabetically, so on an hour they mean earliest and latest.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · what the clause does, in the player's terms · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "2d934b8ab3d6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "note",
+    "text": "3 rows. A group of 1 gives the same answer twice. That is correct: it happened once. Side by side, the 2 columns give each row a beginning and an end.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · the caveat under it · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "1cdc71ea8307"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "what",
+    "text": "Sorts the result by a column. `ASC` is smallest first, and is what you get if you say nothing. `DESC` puts the biggest on top.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "b53f83956f6b"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "note",
+    "text": "The same query with `ORDER BY column_2 ASC`, or just `ORDER BY column_2`, returns smallest first: Beta 5, then Alpha 10. You can also sort by a name you invented with `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` puts the biggest count on top.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · the caveat under it · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "46db563808a7"
+  },
+  {
+    "id": "LIMIT",
+    "field": "what",
+    "text": "Keeps only the first N rows. It comes last: sort first, then take the top.",
+    "note": "the SQL reference card, entry `LIMIT` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC LIMIT 1",
+    "rev": "a89fe47141e5"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Where It Came From",
+    "text": "Woher es kam",
+    "note": "dossier \"Where It Came From\" · the dossier's own title",
+    "rev": "27adcacb1a0a"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "Der Schulbrand",
+    "note": "dossier \"Where It Came From\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "INTERLUDE",
+    "text": "ZWISCHENSPIEL",
+    "note": "dossier \"Where It Came From\" · the dossier's own partLabel",
+    "rev": "8044a8fb6c29"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Between stage 1.1 and stage 1.2. The call from LINE 4417, and the register of telephone lines.",
+    "text": "Zwischen Stufe 1.1 und Stufe 1.2. Der Anruf von `LINE 4417` und das Verzeichnis der Telefonleitungen.",
+    "note": "dossier \"Where It Came From\" · the dossier's own summary",
+    "rev": "3e00afe70b19"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "30 seconds, no typing. Reyes says what the first stage found and what to find next.",
+    "text": "30 Sekunden, kein Tippen. Reyes sagt, was die erste Stufe ergab und was als Nächstes zu finden ist.",
+    "note": "dossier \"Where It Came From\" · the dossier's own pitchMarkdown",
+    "rev": "7ad475fbe78e"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 16, 2025",
+    "text": "16. OKTOBER 2025",
+    "note": "dossier \"Where It Came From\" · the gazette's date",
+    "rev": "64c7845dbafb"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Where It Came From",
+    "text": "Woher es kam",
+    "note": "dossier \"Where It Came From\" · the gazette's headline",
+    "rev": "27adcacb1a0a"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "Pariser Notrufzentrale",
+    "note": "dossier \"Where It Came From\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[line-intro-watched]",
+    "field": "title",
+    "source": "Interlude",
+    "text": "Zwischenspiel",
+    "note": "dossier \"Where It Came From\" · checkpoint 1/1 \"Interlude\" — title",
+    "rev": "135741f5dc74"
+  },
+  {
+    "id": "steps[line-intro-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Sieh dir die Lagebesprechung an.",
+    "note": "dossier \"Where It Came From\" · checkpoint 1/1 \"Interlude\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

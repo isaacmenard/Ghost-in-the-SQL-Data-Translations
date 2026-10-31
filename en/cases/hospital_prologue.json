@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "Three Back Rooms",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own title",
+    "rev": "af43269df92c"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "The Hospital Stalker",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own arcTitle",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "text": "PROLOGUE",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "Before the door log: 3 attacks in one week, and the table that recorded every badge.",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own summary",
+    "rev": "e6d645f9f364"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "1 minute, no typing. Reyes names the 3 attacks and hands over the door log.",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own pitchMarkdown",
+    "rev": "a66c5b21350d"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "FEBRUARY 6, 2026",
+    "note": "dossier \"Three Back Rooms\" · the gazette's date",
+    "rev": "b65c0893ec58"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Three Back Rooms",
+    "note": "dossier \"Three Back Rooms\" · the gazette's headline",
+    "rev": "af43269df92c"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Hopital Lamarck",
+    "note": "dossier \"Three Back Rooms\" · the gazette's subheadline",
+    "rev": "ffbc8170a64a"
+  },
+  {
+    "id": "steps[hospital-prologue-watched]",
+    "field": "title",
+    "text": "Prologue",
+    "note": "dossier \"Three Back Rooms\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[hospital-prologue-watched]",
+    "field": "instructions",
+    "text": "Watch the briefing.",
+    "note": "dossier \"Three Back Rooms\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

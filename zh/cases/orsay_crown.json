@@ -1,0 +1,330 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Orsay Crown",
+    "text": "Orsay王冠",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own title",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Orsay Crown",
+    "text": "Orsay王冠",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own arcTitle",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A crown gone from the `Reserve` on the evening of the ceremony. Every door in the museum keeps a record of the badges that opened it.",
+    "text": "典礼当晚，王冠从库房（`Reserve`）不见了。博物馆里的每扇门都会记录开门的门禁卡。",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own summary",
+    "rev": "6357123eac5b"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Thursday 19 November, 19:00. Musee d'Orsay.\n\nThe crown for the opening tonight is gone from the `Reserve`. The ceremony is at 20:00.\n\nEvery door in the building reads a badge.",
+    "text": "11月19日星期四，19:00。Musee d'Orsay。\n\n今晚开幕式要用的王冠从库房（`Reserve`）不见了。典礼在20:00举行。\n\n馆内每扇门都要刷门禁卡。",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own pitchMarkdown",
+    "rev": "744f30270240"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "3 tables.\n\n`badge_passages` is every swipe of the day, `'in'` and `'out'`, until 19:00. The `room` is the name on the plan.\n\n`badge_holders` says whose badge is whose.\n\n`museum_rooms` says who may open each room.",
+    "text": "3张表。\n\n`badge_passages`记录了当天截至19:00的每一次刷卡，分为进门（`'in'`）和出门（`'out'`）。`room`就是平面图上写的名称。\n\n`badge_holders`写明了门禁卡各属于谁。\n\n`museum_rooms`写明了每个房间谁可以开门。",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own rulesMarkdown",
+    "rev": "197365fc6d92"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who stole the crown?",
+    "text": "谁偷了王冠？",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own openQuestion",
+    "rev": "1e2764847c11"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 20, 2026",
+    "text": "2026年11月20日",
+    "note": "dossier \"The Orsay Crown\" · the gazette's date",
+    "rev": "688ec119edfe"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "《巴黎罪案快报》",
+    "note": "dossier \"The Orsay Crown\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Crown Stolen From Orsay Hours Before Its Unveiling",
+    "text": "Orsay王冠揭幕前数小时失窃",
+    "note": "dossier \"The Orsay Crown\" · the gazette's headline",
+    "rev": "c871d368b18d"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Ceremony Held Beside an Empty Case",
+    "text": "空展柜旁举行典礼",
+    "note": "dossier \"The Orsay Crown\" · the gazette's subheadline",
+    "rev": "e2cf73aca835"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The crown was to open the exhibition at 20:00. At 18:40 a guard went to fetch it from the reserve and found its case empty. Only a staff badge opens the reserve. The museum logged 3,329 badge swipes that day.",
+    "text": "王冠原定在20:00为展览揭幕。18:40，一名警卫（`Security Guard`）去库房（`Reserve`）取王冠，发现展柜空了。只有员工门禁卡才能打开库房。博物馆当天记录了3,329次刷卡。",
+    "note": "dossier \"The Orsay Crown\" · the gazette's editorialArticle",
+    "rev": "00b1f74ebaca"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "Nobody forced that door. It was opened with a badge.",
+    "text": "没人撬过那扇门。开门用的是门禁卡。",
+    "note": "dossier \"The Orsay Crown\" · the gazette's leadQuote",
+    "rev": "a802c13e27de"
+  },
+  {
+    "id": "documents[the-plan]",
+    "field": "title",
+    "source": "GROUND FLOOR",
+    "text": "一层",
+    "note": "dossier \"The Orsay Crown\" · document `the-plan` — title",
+    "rev": "3dffe1fe5b71"
+  },
+  {
+    "id": "documents[the-timetable]",
+    "field": "title",
+    "source": "THE RESERVE, THURSDAY",
+    "text": "库房，星期四",
+    "note": "dossier \"The Orsay Crown\" · document `the-timetable` — title",
+    "rev": "39d05e012423"
+  },
+  {
+    "id": "documents[the-timetable]",
+    "field": "contentMarkdown",
+    "source": "17:30. The crown is locked in its case in the `Reserve`. Claire Fontanel has just left the room.\n\n18:40. A guard goes to fetch it. The case is empty.\n\n20:00. The ceremony.",
+    "text": "17:30。王冠锁在库房（`Reserve`）的展柜里。Claire Fontanel刚离开房间。\n\n18:40。警卫（`Security Guard`）前去取王冠。展柜空了。\n\n20:00。典礼。",
+    "note": "dossier \"The Orsay Crown\" · document `the-timetable` — contentMarkdown",
+    "rev": "84dfa1b47eb2"
+  },
+  {
+    "id": "documents[vasseur-statement]",
+    "field": "title",
+    "source": "ETIENNE VASSEUR, REGISTRAR",
+    "text": "ETIENNE VASSEUR，登记员",
+    "note": "dossier \"The Orsay Crown\" · document `vasseur-statement` — title",
+    "rev": "e7890976390a"
+  },
+  {
+    "id": "documents[vasseur-statement]",
+    "field": "contentMarkdown",
+    "source": "Fine all day. He missed lunch. At 16:48 he took the meal kept for him in the `Kitchen` fridge. He worked in the `Staff Room` and did not eat it until about 17:25. He was ill after the first bite: food poisoning. Nobody else on the staff was ill. In the `Restrooms` from 17:30 until 19:00.\n\nThe badge was clipped to his jacket. It was gone when he came out.",
+    "text": "一整天都好好的。他没吃午饭。16:48拿了厨房（`Kitchen`）冰箱里留给他的饭。他在员工休息室（`Staff Room`）工作，17:25左右才吃。吃了第一口就开始不舒服：食物中毒。员工里没别人生病。在洗手间（`Restrooms`）从17:30一直待到19:00。\n\n门禁卡别在夹克上。出来时不见了。",
+    "note": "dossier \"The Orsay Crown\" · document `vasseur-statement` — contentMarkdown",
+    "rev": "7f10a5bef447"
+  },
+  {
+    "id": "documents[the-badge]",
+    "field": "title",
+    "source": "FOUND AT THE RESERVE DOOR, 18:40",
+    "text": "在库房门口发现，18:40",
+    "note": "dossier \"The Orsay Crown\" · document `the-badge` — title",
+    "rev": "ef94d5f9d3d8"
+  },
+  {
+    "id": "documents[the-badge]",
+    "field": "contentMarkdown",
+    "source": "On the corridor floor, outside the `Reserve` door: a staff badge.\n\n`B-0218`. Etienne Vasseur, Registrar.\n\nThe `Reserve` door read it at 17:55, going in, and at 18:01, going out.",
+    "text": "走廊地上，库房（`Reserve`）门外：员工门禁卡。\n\n`B-0218`。Etienne Vasseur，登记员（`Registrar`）。\n\n库房（`Reserve`）门在17:55读到它进门，在18:01读到它出门。",
+    "note": "dossier \"The Orsay Crown\" · document `the-badge` — contentMarkdown",
+    "rev": "aa697e527234"
+  },
+  {
+    "id": "documents[his-badge]",
+    "field": "title",
+    "source": "THE RESTROOMS DOOR, THURSDAY",
+    "text": "洗手间的门，周四",
+    "note": "dossier \"The Orsay Crown\" · document `his-badge` — title",
+    "rev": "81fcc16837a7"
+  },
+  {
+    "id": "documents[his-badge]",
+    "field": "contentMarkdown",
+    "source": "| badge | in | out |\n| --- | --- | --- |\n| `B-0218`, Etienne Vasseur | 17:31 | 17:38 |\n| `B-0109`, Hugo Delorme | 17:33 | none |\n\nAfter that, `B-0109` opens the `Kitchen` at 18:03 and leaves by the `Main Entrance` at 18:10.",
+    "text": "| badge | in | out |\n| --- | --- | --- |\n| `B-0218`, Etienne Vasseur | 17:31 | 17:38 |\n| `B-0109`, Hugo Delorme | 17:33 | 无 |\n\n之后，`B-0109`在18:03打开厨房（`Kitchen`），18:10从正门（`Main Entrance`）离开。",
+    "note": "dossier \"The Orsay Crown\" · document `his-badge` — contentMarkdown",
+    "rev": "f0f104548545"
+  },
+  {
+    "id": "csvFiles[badge_passages]",
+    "field": "description",
+    "source": "Every badge swipe on Thursday, from 07:25 until the log was pulled at 19:00. One row per swipe, `'in'` or `'out'` of one room.",
+    "text": "星期四的每次刷卡，从07:25到19:00调取日志为止。每次刷卡占一行，记录进（`'in'`）或出（`'out'`）某个房间。",
+    "note": "dossier \"The Orsay Crown\" · the `badge_passages` table — description",
+    "rev": "740cae7f0c61"
+  },
+  {
+    "id": "csvFiles[badge_holders]",
+    "field": "description",
+    "source": "Every badge issued that day. The staff with their job, the public as `'Visitor'`.",
+    "text": "当天发放的每张门禁卡。工作人员注明职务，公众记为访客（`'Visitor'`）。",
+    "note": "dossier \"The Orsay Crown\" · the `badge_holders` table — description",
+    "rev": "2b1af0abc663"
+  },
+  {
+    "id": "csvFiles[museum_rooms]",
+    "field": "description",
+    "source": "The 10 rooms on the plan. `access` says whether any badge opens the door, or only a staff badge.",
+    "text": "平面图上的10个房间。`access`说明任何门禁卡都能开门，还是只有工作人员门禁卡才能开门。",
+    "note": "dossier \"The Orsay Crown\" · the `museum_rooms` table — description",
+    "rev": "5376ca900664"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "title",
+    "source": "The Reserve Door",
+    "text": "库房门",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — title",
+    "rev": "f37d9536b81c"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "instructions",
+    "source": "At 17:30 the crown was locked in the `Reserve`. At 18:40 a guard went to fetch it, and the case was empty.",
+    "text": "17:30时，王冠锁在库房（`Reserve`）里。18:40，一名警卫（`Security Guard`）前去取王冠，展柜空了。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — instructions",
+    "rev": "1bdb190ebc5b"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "expectedResult",
+    "source": "Find the badge used to steal the crown from the `'Reserve'`. Search `badge_passages`, and give the row of that badge in `badge_holders`.",
+    "text": "找出从库房（`'Reserve'`）偷走王冠所用的门禁卡。查`badge_passages`，给出该门禁卡在`badge_holders`里的那一行。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — expectedResult",
+    "rev": "5a6daa4abc2e"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "expectedShapeNote",
+    "source": "1 row. The badge that opened the `Reserve`.",
+    "text": "1行。打开库房（`Reserve`）的门禁卡。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — expectedShapeNote",
+    "rev": "b58cd4e3efd7"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "afterText",
+    "source": "Between Claire Fontanel leaving and 18:40, only 1 badge opened the `Reserve`: Etienne Vasseur's. We found it outside the door. He's been sick in the `Restrooms` since 17:30. Somebody took his badge. Find out who.",
+    "text": "Claire Fontanel走后到18:40，只有1张门禁卡开过库房（`Reserve`），是Etienne Vasseur的。在门外捡到的。他17:30起就不舒服，一直在洗手间（`Restrooms`）里。有人拿走了他的门禁卡。查出是谁。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — afterText",
+    "rev": "2a0a20b1b960"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "lead",
+    "source": "You need a badge to enter the `Reserve`. Check which badges went in.",
+    "text": "进库房（`Reserve`）要门禁卡。查哪些门禁卡进去了。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — lead",
+    "rev": "1dc599c65857"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "title",
+    "source": "The Thief",
+    "text": "窃贼",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — title",
+    "rev": "d2714ca0722d"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "instructions",
+    "source": "Food poisoning made Etienne Vasseur sick after the first bite. Nobody else was ill. From 17:30 to 19:00 he was in the `Restrooms`.",
+    "text": "食物中毒让Etienne Vasseur吃了第一口就开始不舒服。别人都没生病。从17:30到19:00他在洗手间（`Restrooms`）。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — instructions",
+    "rev": "03606d65defc"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "expectedResult",
+    "source": "When he came out, his badge was gone. Every door reads badges both ways. Who took the badge, and the crown? Search `badge_passages`, and give the row of that person in `badge_holders`.",
+    "text": "他出来时，门禁卡不见了。每道门进出都会读门禁卡。谁拿走了门禁卡和王冠？查`badge_passages`，在`badge_holders`中给出该人的那一行。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — expectedResult",
+    "rev": "c6dcb13acca5"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "expectedShapeNote",
+    "source": "1 row. The badge of the person who took it.",
+    "text": "1行。偷走王冠之人的门禁卡。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — expectedShapeNote",
+    "rev": "98d2257ac964"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "lead",
+    "source": "Check who went into the `Restrooms` at the same time as Etienne Vasseur. That person may also have poisoned his meal. Check the `Kitchen` too.",
+    "text": "查谁和Etienne Vasseur同一时间进了洗手间（`Restrooms`）。这人可能还在他的饭里下了毒。厨房（`Kitchen`）也查一下。",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — lead",
+    "rev": "1353e0e6ffc7"
+  },
+  {
+    "id": "closing[his-statement]",
+    "field": "say",
+    "source": "Etienne Vasseur was sick from 17:30, in the `Restrooms`. His badge was on his jacket. When he came out, it was gone.",
+    "text": "Etienne Vasseur从17:30起就身体不适，一直在洗手间（`Restrooms`）里。门禁卡别在夹克上。等他出来，门禁卡没了。",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "c45ed21f085c"
+  },
+  {
+    "id": "closing[the-restrooms]",
+    "field": "say",
+    "source": "Hugo Delorme went into the `Restrooms` after Etienne Vasseur. He never badged out of that door with his own badge. Etienne Vasseur's badge went out at 17:38, while Etienne Vasseur was still inside.",
+    "text": "Hugo Delorme在Etienne Vasseur之后进了洗手间（`Restrooms`）。他没用自己的门禁卡从那扇门刷出来过。17:38，Etienne Vasseur的门禁卡刷卡出了门，而Etienne Vasseur本人还在里面。",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "679dfc2f894b"
+  },
+  {
+    "id": "closing[the-reserve]",
+    "field": "say",
+    "source": "Etienne Vasseur's badge went into the `Reserve` at 17:55 and out at 18:01. Then it was left outside the door. Etienne Vasseur was still in the `Restrooms`.",
+    "text": "Etienne Vasseur的门禁卡17:55进了库房（`Reserve`），18:01出来。然后落在了门外。Etienne Vasseur还在洗手间（`Restrooms`）里。",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "a8a44695e5ea"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "One badge opened the `Reserve` between 17:30 and 18:40 → `badge_passages` → `B-0218`, Etienne Vasseur's.",
+    "text": "17:30至18:40之间有一张门禁卡打开了库房（`Reserve`） → `badge_passages` → `B-0218`，属于Etienne Vasseur。",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "06039397e9d4"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "`Restrooms` after Etienne Vasseur → `badge_passages` → one badge never came out → `B-0109`.",
+    "text": "在Etienne Vasseur之后进入洗手间（`Restrooms`） → `badge_passages` → 有一张门禁卡进去后没再出来 → `B-0109`。",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "8d6120b3a0f3"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`B-0109` → `badge_holders` → Hugo Delorme, `Visitor`.",
+    "text": "`B-0109` → `badge_holders` → Hugo Delorme，访客（`Visitor`）。",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "535b7d667bf0"
+  }
+]

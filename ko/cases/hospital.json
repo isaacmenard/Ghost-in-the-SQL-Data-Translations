@@ -1,0 +1,386 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Hospital Stalker",
+    "text": "병원 스토커",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own title",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Hospital Stalker",
+    "text": "병원 스토커",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own arcTitle",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "3 staff attacked in one week, each alone in a room at the back. Every staff door keeps a record of the badges that opened it.",
+    "text": "일주일 동안 직원 3명이 습격당했다. 모두 건물 안쪽 방에 혼자 있었다. 직원 출입문마다 열고 들어간 출입증 기록이 남는다.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own summary",
+    "rev": "184f91021651"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Friday 6 February, 12:30. Hopital Lamarck.\n\n3 staff attacked from behind in 4 days. Each had just taken a box of morphine from the `Drug Reserve`. He took it.",
+    "text": "2월6일 금요일 12:30. Hopital Lamarck.\n\n4일 동안 직원 3명이 등 뒤에서 습격당했다. 각자 약품 보관실(`Drug Reserve`)에서 막 모르핀 한 상자를 꺼낸 참이었다. 범인이 상자를 빼앗아 갔다.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own pitchMarkdown",
+    "rev": "cd18680a980c"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables.\n\n`door_log` is every badge swipe at a staff door, Monday to Friday. One row per badge going in. The `door` is the name on the plan.\n\n`staff_badges` is the list of badges: who holds each one, and their `role`.",
+    "text": "테이블 2개.\n\n`door_log`에는 월요일부터 금요일까지 직원 출입문에서 찍힌 출입증 기록이 모두 담겨 있다. 출입증을 찍고 들어갈 때마다 행 하나가 기록된다. `door`는 도면에 적힌 출입문 이름이다.\n\n`staff_badges`는 출입증 목록이다. 출입증마다 소지자와 그 사람의 `role`이 적혀 있다.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own rulesMarkdown",
+    "rev": "123cb58a81ac"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who attacked 3 of the staff, and who will he attack next?",
+    "text": "직원 3명을 습격한 자는 누구이고, 다음 표적은 누구인가?",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own openQuestion",
+    "rev": "cb9035d61190"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Colin Marsh. Next: Owen Clarke",
+    "text": "Colin Marsh. 다음: Owen Clarke",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own verdictText",
+    "rev": "643283228c91"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "FEBRUARY 6, 2026",
+    "text": "2026년 2월 6일",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's date",
+    "rev": "b65c0893ec58"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Third Nurse Attacked at Hopital Lamarck",
+    "text": "Hopital Lamarck에서 세 번째 간호사 피습",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's headline",
+    "rev": "26b36b004f75"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Morphine Stolen From 3 Staff",
+    "text": "직원 3명에게서 모르핀 도난",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's subheadline",
+    "rev": "679a249cbc79"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "3 members of staff at Hopital Lamarck were attacked this week. Each was alone in a room at the back of the building. None of them saw the attacker.\n\nEach one had just taken morphine from the hospital's Drug Reserve. The attacker took it. Every staff door in the building reads a badge.",
+    "text": "이번 주 Hopital Lamarck에서 직원 3명이 습격당했다. 각자 건물 안쪽 방에 혼자 있었다. 습격범을 본 사람은 아무도 없었다.\n\n각자 병원의 약품 보관실(`Drug Reserve`)에서 막 모르핀을 꺼낸 참이었다. 습격범이 빼앗아 갔다. 건물 안 모든 직원 출입문은 출입증을 인식한다.",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's editorialArticle",
+    "rev": "292ad136cc39"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"He came in behind me. I never saw his face.\"",
+    "text": "“등 뒤로 들어왔어요. 얼굴은 전혀 보지 못했습니다.”",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's leadQuote",
+    "rev": "0930adc961b3"
+  },
+  {
+    "id": "documents[the-plan]",
+    "field": "title",
+    "source": "THE FLOOR",
+    "text": "평면도",
+    "note": "dossier \"The Hospital Stalker\" · document `the-plan` — title",
+    "rev": "79fd65468faf"
+  },
+  {
+    "id": "documents[statements]",
+    "field": "title",
+    "source": "THE 3 STATEMENTS",
+    "text": "진술서 3건",
+    "note": "dossier \"The Hospital Stalker\" · document `statements` — title",
+    "rev": "481c062fec1b"
+  },
+  {
+    "id": "documents[statements]",
+    "field": "contentMarkdown",
+    "source": "**Amira Saleh, Monday `2026-02-02`.** Around 15:30 I took morphine from the `Drug Reserve`. Then I went into the `Supply Room` alone. A few minutes later I heard the badge reader, and the door opened behind me. A hand over my mouth. \"The box,\" he said, and took it. I never saw his face, and I did not recognise his voice. I reported it. All that day, somebody was behind me.\n\n**Helen Shaw, Wednesday `2026-02-04`.** Around 11:10 I took morphine from the `Drug Reserve`. Then I took a bag to the `Waste Room`. I heard the badge reader, and somebody came in after me. He pushed me into the wall and took the box. He took only the box. My bag and my telephone stayed on the floor. I never saw his face, and I did not recognise his voice. I reported it. All that day, somebody was behind me.\n\n**Grace Mensah, Thursday `2026-02-05`.** Just before 16:00, I took morphine from the `Drug Reserve`. Then the `Loading Bay`. The shutter to the street was down: it is closed from 10:00 in the morning. The badge reader, the door, then his arm. He took the box. I never saw his face or recognised his voice. I reported it. All that day, somebody was behind me.",
+    "text": "**Amira Saleh, 월요일 `2026-02-02`.** 15:30 무렵 약품 보관실(`Drug Reserve`)에서 모르핀을 꺼냈다. 그러고 나서 혼자 비품실(`Supply Room`)에 들어갔다. 몇 분 뒤 출입증 리더기 소리가 들리더니 등 뒤에서 문이 열렸다. 입을 막는 손. “상자.” 그가 말하더니 빼앗아 갔다. 얼굴은 전혀 보지 못했고 목소리도 알아보지 못했다. 도난 신고를 했다. 그날 내내 누군가 등 뒤에 있었다.\n\n**Helen Shaw, 수요일 `2026-02-04`.** 11:10 무렵 약품 보관실(`Drug Reserve`)에서 모르핀을 꺼냈다. 그러고 나서 자루를 들고 폐기물실(`Waste Room`)로 갔다. 출입증 리더기 소리가 들리더니 누군가 따라 들어왔다. 그가 나를 벽으로 밀치고 상자를 빼앗아 갔다. 그는 상자만 가져갔다. 가방과 전화기는 바닥에 그대로 있었다. 얼굴은 전혀 보지 못했고 목소리도 알아보지 못했다. 도난 신고를 했다. 그날 내내 누군가 등 뒤에 있었다.\n\n**Grace Mensah, 목요일 `2026-02-05`.** 16:00 직전, 약품 보관실(`Drug Reserve`)에서 모르핀을 꺼냈다. 그다음 하역장(`Loading Bay`). 거리 쪽 셔터는 내려가 있었다. 오전 10시부터는 닫아두기 때문이다. 출입증 리더기 소리, 문, 그다음 그의 팔. 그가 상자를 빼앗아 갔다. 얼굴은 전혀 보지 못했고 목소리도 알아보지 못했다. 도난 신고를 했다. 그날 내내 누군가 등 뒤에 있었다.",
+    "note": "dossier \"The Hospital Stalker\" · document `statements` — contentMarkdown",
+    "rev": "3ebf64d9c5ae"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "답변 제출 방법",
+    "note": "dossier \"The Hospital Stalker\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the name, return that person's row from `staff_badges`.\n\nFor example, if you think the answer is Amira Saleh, type this:\n\n```sql\nSELECT *\nFROM staff_badges\nWHERE holder = 'Amira Saleh'\n```",
+    "text": "이름을 찾았으면 `staff_badges`에서 그 사람의 행을 조회하라.\n\n예를 들어 답이 Amira Saleh라고 생각한다면 이렇게 입력하라:\n\n```sql\nSELECT *\nFROM staff_badges\nWHERE holder = 'Amira Saleh'\n```",
+    "note": "dossier \"The Hospital Stalker\" · document `how-to-answer` — contentMarkdown",
+    "rev": "62cb0603016b"
+  },
+  {
+    "id": "documents[his-tuesday]",
+    "field": "title",
+    "source": "COLIN MARSH, TUESDAY",
+    "text": "COLIN MARSH, 화요일",
+    "note": "dossier \"The Hospital Stalker\" · document `his-tuesday` — title",
+    "rev": "9ee305a2cc29"
+  },
+  {
+    "id": "documents[his-tuesday]",
+    "field": "contentMarkdown",
+    "source": "Tuesday `2026-02-03`, the day before Helen Shaw was attacked. Her badge, then his, at the same door.\n\n| door | Helen Shaw | Colin Marsh |\n| --- | --- | --- |\n| Ward B | 11:06 | 11:08 |\n| Cafeteria | 12:05 | 12:07 |\n| Ward B | 14:37 | 14:38 |\n| Ward B | 15:02 | 15:03 |\n| Ward B | 15:59 | 16:00 |\n| Staff Room | 16:09 | 16:11 |\n| Linen Room | 16:38 | 16:40 |\n\nHe works in the `Records` room. Monday to Friday, his badge never opened it.",
+    "text": "`2026-02-03` 화요일, Helen Shaw가 습격당하기 전날. 같은 문에 Helen Shaw의 출입증, 이어서 그의 출입증이 찍혔다.\n\n| door | Helen Shaw | Colin Marsh |\n| --- | --- | --- |\n| Ward B | 11:06 | 11:08 |\n| Cafeteria | 12:05 | 12:07 |\n| Ward B | 14:37 | 14:38 |\n| Ward B | 15:02 | 15:03 |\n| Ward B | 15:59 | 16:00 |\n| Staff Room | 16:09 | 16:11 |\n| Linen Room | 16:38 | 16:40 |\n\n그의 근무지는 기록실(`Records`)이다. 월요일부터 금요일까지 그의 출입증으로 그 문을 연 적은 없다.",
+    "note": "dossier \"The Hospital Stalker\" · document `his-tuesday` — contentMarkdown",
+    "rev": "457be2893890"
+  },
+  {
+    "id": "documents[reserve-memo]",
+    "field": "title",
+    "source": "ON THE DRUG RESERVE DOOR",
+    "text": "약품 보관실 문에 붙은 메모",
+    "note": "dossier \"The Hospital Stalker\" · document `reserve-memo` — title",
+    "rev": "2049b6084d22"
+  },
+  {
+    "id": "documents[reserve-memo]",
+    "field": "contentMarkdown",
+    "source": "Badge and code.\n\nThe code is given to the 7 staff whose `role` is `Nurse`. The `Pharmacist` has his own key. He fills the `Drug Reserve` in the evening. Nobody else gets in.",
+    "text": "출입증과 비밀번호.\n\n비밀번호는 `role`이 간호사(`Nurse`)인 직원 7명에게만 부여된다. 약사(`Pharmacist`)는 전용 열쇠가 있다. 저녁에 약품 보관실(`Drug Reserve`)의 약품을 보충한다. 그 외에는 아무도 들어가지 못한다.",
+    "note": "dossier \"The Hospital Stalker\" · document `reserve-memo` — contentMarkdown",
+    "rev": "e8bc47509abb"
+  },
+  {
+    "id": "documents[the-arrest]",
+    "field": "title",
+    "source": "ARREST REPORT, 6 FEBRUARY",
+    "text": "체포 보고서, 2월6일",
+    "note": "dossier \"The Hospital Stalker\" · document `the-arrest` — title",
+    "rev": "3c116d9015fe"
+  },
+  {
+    "id": "documents[the-arrest]",
+    "field": "contentMarkdown",
+    "source": "**16:48, `Linen Room`.** Owen Clarke goes in. 2 officers are already inside.\n\n**16:50.** Colin Marsh badges in behind him and shuts the door. Arrested. No resistance.\n\n**In his coat:** the box of morphine taken from Grace Mensah on Thursday.",
+    "text": "**16:48, 린넨실(`Linen Room`).** Owen Clarke가 들어간다. 경찰 2명이 이미 안에 있다.\n\n**16:50.** Colin Marsh가 뒤따라 출입증을 찍고 들어와 문을 닫는다. 체포. 저항 없음.\n\n**외투 안:** 목요일에 Grace Mensah에게서 빼앗은 모르핀 한 상자.",
+    "note": "dossier \"The Hospital Stalker\" · document `the-arrest` — contentMarkdown",
+    "rev": "fb79659bfcf7"
+  },
+  {
+    "id": "documents[metro-0206]",
+    "field": "title",
+    "source": "Friday 6 February 2026",
+    "text": "2026년 2월 6일 금요일",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206` — title",
+    "rev": "a8951730c510"
+  },
+  {
+    "id": "documents[metro-0206-pell]",
+    "field": "title",
+    "source": "Jean Moulin Fire: The Caretaker Charged",
+    "text": "Jean Moulin 화재: 관리인 기소",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-pell` — title",
+    "rev": "b2ddec20bd02"
+  },
+  {
+    "id": "documents[metro-0206-pell]",
+    "field": "contentMarkdown",
+    "source": "Victor Pell, caretaker of College Jean Moulin, is charged with the fire of 14 October 2025. He says the money came from Okonjo. Okonjo Insurance says it has never heard of him.",
+    "text": "College Jean Moulin의 관리인 Victor Pell이 2025년 10월 14일 화재 혐의로 기소되었다. 그는 그 돈이 Okonjo에게서 나왔다고 말한다. Okonjo Insurance는 그에 대해 들어본 적도 없다고 밝혔다.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-pell` — contentMarkdown",
+    "rev": "d8bf2faabe60"
+  },
+  {
+    "id": "documents[metro-0206-m13]",
+    "field": "title",
+    "source": "M13: More Trains From May",
+    "text": "M13: 5월부터 열차 증편",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-m13` — title",
+    "rev": "0df91edcd2f2"
+  },
+  {
+    "id": "documents[metro-0206-m13]",
+    "field": "contentMarkdown",
+    "source": "From 4 May, at rush hour, an M13 train will come every 2 minutes. Now it is every 3.",
+    "text": "5월 4일부터 출퇴근 시간에 M13 열차는 2분 간격으로 온다. 지금은 3분 간격이다.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-m13` — contentMarkdown",
+    "rev": "57f93fedd6e3"
+  },
+  {
+    "id": "documents[metro-0206-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 2",
+    "text": "MUTEFONE 2",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-mutefone` — title",
+    "rev": "ecfd05534d65"
+  },
+  {
+    "id": "documents[metro-0206-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Your messages, in a code only your contact can read. No server, no copy.",
+    "text": "대화 상대만 읽는 암호 메시지. 서버도, 복사본도 없다.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-mutefone` — contentMarkdown",
+    "rev": "8736dc4636cc"
+  },
+  {
+    "id": "csvFiles[door_log]",
+    "field": "description",
+    "source": "Every badge swipe at a staff door, from Monday 2 February to Friday 6 February, 12:30. One row per badge going in, and none going out.",
+    "text": "2월2일 월요일부터 2월6일 금요일 12:30까지 직원 출입문에서 찍힌 모든 출입증 기록. 입장 시 한 행씩 기록되며, 퇴장 기록은 없다.",
+    "note": "dossier \"The Hospital Stalker\" · the `door_log` table — description",
+    "rev": "f4835409c8df"
+  },
+  {
+    "id": "csvFiles[staff_badges]",
+    "field": "description",
+    "source": "The 20 badges of the hospital staff. One row per badge: the `badge`, its `holder` and their `role`.",
+    "text": "병원 직원 출입증 20개. 출입증당 한 행: `badge`, 소지자인 `holder`, 직책인 `role`.",
+    "note": "dossier \"The Hospital Stalker\" · the `staff_badges` table — description",
+    "rev": "93979444fe39"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "title",
+    "source": "Who Came In Behind",
+    "text": "뒤따라 들어온 사람",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — title",
+    "rev": "f2676be173fd"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "instructions",
+    "source": "Monday, the `Supply Room`. Wednesday, the `Waste Room`. Thursday, the `Loading Bay`. Each time, the attacker badged in after the victim.",
+    "text": "월요일에는 비품실(`Supply Room`), 수요일에는 폐기물실(`Waste Room`), 목요일에는 하역장(`Loading Bay`). 습격범은 매번 피해자 뒤에 출입증을 찍고 들어왔다.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — instructions",
+    "rev": "171b17dbe93e"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "expectedResult",
+    "source": "Search `door_log` and find the attacker. Return their row from `staff_badges`.",
+    "text": "`door_log`를 확인해 습격범을 찾아라. `staff_badges`에서 그 사람의 행을 반환하라.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — expectedResult",
+    "rev": "75cfdf39c1fc"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `staff_badges`. The attacker's badge, name and role.",
+    "text": "`staff_badges`의 1개 행. 습격범의 출입증 번호, 이름, 직책.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — expectedShapeNote",
+    "rev": "3bd2f97be5a0"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "afterText",
+    "source": "Colin Marsh, records clerk. On Tuesday, the day before her attack, he badged after Helen Shaw 7 times.",
+    "text": "Colin Marsh, 기록 담당자(`Records Clerk`)다. Helen Shaw가 피습당하기 전날인 화요일, 녀석은 Helen Shaw의 뒤를 따라 출입증을 7번 찍고 들어갔다.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — afterText",
+    "rev": "6ab7b3fb91e0"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "afterTextNext",
+    "source": "Now the notice on the `Drug Reserve` door. It says who has the code.",
+    "text": "이제 약품 보관실(`Drug Reserve`) 문에 붙은 안내문이다. 비밀번호를 누가 갖고 있는지 적혀 있다.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — afterTextNext",
+    "rev": "c3eab133604c"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "lead",
+    "source": "The rooms are in the `door` column. Find the victim's own swipe first, then who came in over the next few minutes.",
+    "text": "각 방은 `door` 열에 있다. 먼저 피해자의 출입 기록을 찾고, 그 뒤 몇 분 사이에 누가 들어왔는지 찾아라.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — lead",
+    "rev": "25c9fc70713c"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "title",
+    "source": "The Next Name",
+    "text": "다음 이름",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — title",
+    "rev": "0b5f7d092782"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "instructions",
+    "source": "The 3 victims are each a `Nurse` in `staff_badges`. Each reported the theft and went home. Only `Nurse` staff have the `Drug Reserve` code.",
+    "text": "`staff_badges`에서 피해자 3명은 각자 간호사(`Nurse`)다. 각자 도난 신고를 하고 집으로 돌아갔다. 오직 `Nurse` 역할의 직원만이 약품 보관실(`Drug Reserve`) 비밀번호를 알고 있다.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — instructions",
+    "rev": "95d9cb3e06c5"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "expectedResult",
+    "source": "Search `door_log` and find who Colin Marsh will attack next. Return their row from `staff_badges`.",
+    "text": "`door_log`를 확인해 Colin Marsh의 다음 표적을 찾아라. `staff_badges`에서 그 사람의 행을 반환하라.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — expectedResult",
+    "rev": "22f28135a4f6"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `staff_badges`. The next victim's badge, name and role.",
+    "text": "`staff_badges`의 1개 행. 다음 표적의 출입증 번호, 이름, 직책.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — expectedShapeNote",
+    "rev": "893374befb87"
+  },
+  {
+    "id": "closing[the-code]",
+    "field": "say",
+    "source": "Only staff with the `Nurse` role have the code. Colin Marsh is a `Records Clerk`. So he let the nurses bring the morphine out, then took it from them.",
+    "text": "비밀번호는 간호사(`Nurse`) 직책인 직원만 안다. Colin Marsh는 기록 담당자(`Records Clerk`)지. 그래서 간호사들이 모르핀을 꺼내 오게 둔 다음 빼앗은 거다.",
+    "note": "dossier \"The Hospital Stalker\" · Reyes's closing, shot 1/2, said after the last stamp — say",
+    "rev": "51eb39494609"
+  },
+  {
+    "id": "closing[the-trap]",
+    "field": "say",
+    "source": "Friday afternoon, he came into the `Linen Room` behind Owen Clarke and shut the door. 2 officers were inside. They arrested him.",
+    "text": "금요일 오후, 녀석은 Owen Clarke 뒤를 따라 린넨실(`Linen Room`)로 들어와 문을 닫았다. 안에는 경찰 2명이 있었다. 경찰들이 녀석을 체포했지.",
+    "note": "dossier \"The Hospital Stalker\" · Reyes's closing, shot 2/2, said after the last stamp — say",
+    "rev": "0590c19612f6"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "3 statements: room, day, hour → `door_log` → the swipe after each victim: Colin Marsh.",
+    "text": "3건의 진술: 방, 요일, 시간 → `door_log` → 각 피해자 직후에 출입증을 찍은 인물: Colin Marsh.",
+    "note": "dossier \"The Hospital Stalker\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "47a16b770af8"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "Only `Nurse` staff have the code → `door_log`, Colin Marsh on Friday → Owen Clarke.",
+    "text": "간호사(`Nurse`) 직원만이 비밀번호를 안다 → `door_log`, 금요일의 Colin Marsh → Owen Clarke.",
+    "note": "dossier \"The Hospital Stalker\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "a1f13e7e7452"
+  }
+]

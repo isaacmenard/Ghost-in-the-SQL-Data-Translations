@@ -1,0 +1,154 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Fascicolo autonomo",
+    "note": "reel ramponeau-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "RUE RAMPONEAU",
+    "text": "RUE RAMPONEAU",
+    "note": "reel ramponeau-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "832ad82ec09a"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "5,408 ROWS · 7 COLUMNS",
+    "text": "5.408 RIGHE · 7 COLONNE",
+    "note": "reel ramponeau-prologue · the words around the figures of the validations set piece · chapter: Standalone",
+    "rev": "d8ede74474fc"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 5,404 more rows, and 1 more column",
+    "text": "… 5.404 righe e 1 colonna in più",
+    "note": "reel ramponeau-prologue · what the validations sample leaves out · chapter: Standalone",
+    "rev": "1a7dcea5b317"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel ramponeau-prologue, beat 1/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "text",
+    "source": "Friday night, rue Ramponeau, Paris. A man pushes a woman aged `71` to the floor in her entrance hall. He takes her handbag.",
+    "text": "Venerdì sera, rue Ramponeau, Parigi. Un uomo spinge a terra una donna di `71` anni nell’atrio del suo palazzo. Le prende la borsa.",
+    "note": "reel ramponeau-prologue, beat 1/5 · the line itself · speaker Detective Reyes",
+    "rev": "52f01882cce1"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel ramponeau-prologue, beat 1/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel ramponeau-prologue, beat 2/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "text",
+    "source": "We've got one thing: `the used ticket he dropped in the building's hall`.",
+    "text": "Abbiamo solo una cosa: `il biglietto usato che ha lasciato cadere nell’atrio del palazzo`.",
+    "note": "reel ramponeau-prologue, beat 2/5 · the line itself · speaker Detective Reyes",
+    "rev": "20ee5a4350de"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel ramponeau-prologue, beat 2/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R3-network",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel ramponeau-prologue, beat 3/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R3-network",
+    "field": "text",
+    "source": "Every gate in the city records the card that opens it. `7 lines, 2 months`.",
+    "text": "Ogni tornello della città registra la tessera che lo apre. `7 linee, 2 mesi`.",
+    "note": "reel ramponeau-prologue, beat 3/5 · the line itself · speaker Detective Reyes",
+    "rev": "5abda15bb118"
+  },
+  {
+    "id": "R3-network",
+    "field": "subject",
+    "source": "WHAT THE NETWORK WROTE DOWN",
+    "text": "COSA HA REGISTRATO LA RETE",
+    "note": "reel ramponeau-prologue, beat 3/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R4-book",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel ramponeau-prologue, beat 4/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R4-book",
+    "field": "text",
+    "source": "One row each time a ticket goes through a gate.",
+    "text": "Una riga ogni volta che un biglietto passa da un tornello.",
+    "note": "reel ramponeau-prologue, beat 4/5 · the line itself · speaker Detective Reyes",
+    "rev": "6faf1ba124d7"
+  },
+  {
+    "id": "R4-book",
+    "field": "subject",
+    "source": "WHAT THE NETWORK WROTE DOWN",
+    "text": "COSA HA REGISTRATO LA RETE",
+    "note": "reel ramponeau-prologue, beat 4/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel ramponeau-prologue, beat 5/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "text",
+    "source": "Ours is a paper card for 10 trips. No name on it. Start there.",
+    "text": "La nostra è una tessera di carta da 10 corse. Senza nome. Comincia da lì.",
+    "note": "reel ramponeau-prologue, beat 5/5 · the line itself · speaker Detective Reyes",
+    "rev": "44e916597bf2"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "subject",
+    "source": "WHO YOU ARE LOOKING AT",
+    "text": "CHI HAI SOTTO GLI OCCHI",
+    "note": "reel ramponeau-prologue, beat 5/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ffd11392eaf6"
+  }
+]

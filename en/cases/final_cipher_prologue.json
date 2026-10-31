@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "La Sante",
+    "note": "dossier \"La Sante\" · the dossier's own title",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "The Finale",
+    "note": "dossier \"La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "text": "PROLOGUE",
+    "note": "dossier \"La Sante\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "Before the tables: the 3 men in \"La Sante\" prison, and their telephone.",
+    "note": "dossier \"La Sante\" · the dossier's own summary",
+    "rev": "d198454fefd1"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "1 minute, no typing. Reyes shows what the 3 men who robbed the banks write from prison.",
+    "note": "dossier \"La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "30da6284bd5b"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "DECEMBER 14, 2026",
+    "note": "dossier \"La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "La Sante",
+    "note": "dossier \"La Sante\" · the gazette's headline",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Paris",
+    "note": "dossier \"La Sante\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "title",
+    "text": "Prologue",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "instructions",
+    "text": "Watch the briefing.",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

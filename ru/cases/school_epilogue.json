@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Who Paid",
+    "text": "Кто заплатил",
+    "note": "dossier \"Who Paid\" · the dossier's own title",
+    "rev": "b47e0837279f"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "Пожар в школе",
+    "note": "dossier \"Who Paid\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "EPILOGUE",
+    "text": "ЭПИЛОГ",
+    "note": "dossier \"Who Paid\" · the dossier's own partLabel",
+    "rev": "e42f50aedfc3"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "After stage 3. The chain that led to Victor Pell, what he said, and one name.",
+    "text": "После этапа 3. Цепочка, приведшая к Victor Pell, его слова и одно имя.",
+    "note": "dossier \"Who Paid\" · the dossier's own summary",
+    "rev": "247102bd845a"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes walks back through the 3 stages, then reads what Victor Pell said.",
+    "text": "1 минута, без ввода. Рейес разбирает 3 этапа, затем читает слова Victor Pell.",
+    "note": "dossier \"Who Paid\" · the dossier's own pitchMarkdown",
+    "rev": "2231f2f97b77"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 17, 2025",
+    "text": "17 ОКТЯБРЯ 2025 ГОДА",
+    "note": "dossier \"Who Paid\" · the gazette's date",
+    "rev": "1f35b463209b"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Who Paid",
+    "text": "Кто заплатил",
+    "note": "dossier \"Who Paid\" · the gazette's headline",
+    "rev": "b47e0837279f"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "Парижская служба экстренных вызовов",
+    "note": "dossier \"Who Paid\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[epilogue-watched]",
+    "field": "title",
+    "source": "Epilogue",
+    "text": "Эпилог",
+    "note": "dossier \"Who Paid\" · checkpoint 1/1 \"Epilogue\" — title",
+    "rev": "64186d3a47fa"
+  },
+  {
+    "id": "steps[epilogue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Посмотри инструктаж.",
+    "note": "dossier \"Who Paid\" · checkpoint 1/1 \"Epilogue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

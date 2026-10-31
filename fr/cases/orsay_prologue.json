@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "An Empty Case",
+    "text": "Une vitrine vide",
+    "note": "dossier \"An Empty Case\" · the dossier's own title",
+    "rev": "5c4c00447911"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Orsay Crown",
+    "text": "La couronne d’Orsay",
+    "note": "dossier \"An Empty Case\" · the dossier's own arcTitle",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "PROLOGUE",
+    "note": "dossier \"An Empty Case\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the badge log: a crown gone from the `Reserve`. Then the table that recorded every badge.",
+    "text": "Avant le registre des badges : une couronne disparue de la réserve (`Reserve`). Puis la table qui a enregistré chaque badge.",
+    "note": "dossier \"An Empty Case\" · the dossier's own summary",
+    "rev": "3130466f457d"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes names the crown, the hours and the door, and hands over the badge log.",
+    "text": "1 minute, sans rien taper. Reyes cite la couronne, les heures et la porte, et remet le registre des badges.",
+    "note": "dossier \"An Empty Case\" · the dossier's own pitchMarkdown",
+    "rev": "8989ae05d7b5"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 19, 2026",
+    "text": "19 NOVEMBRE 2026",
+    "note": "dossier \"An Empty Case\" · the gazette's date",
+    "rev": "001ce02fbaf1"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "An Empty Case",
+    "text": "Une vitrine vide",
+    "note": "dossier \"An Empty Case\" · the gazette's headline",
+    "rev": "5c4c00447911"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Musee d'Orsay",
+    "text": "Musée d’Orsay",
+    "note": "dossier \"An Empty Case\" · the gazette's subheadline",
+    "rev": "50d93856fa86"
+  },
+  {
+    "id": "steps[orsay-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Prologue",
+    "note": "dossier \"An Empty Case\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[orsay-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Regarde le briefing.",
+    "note": "dossier \"An Empty Case\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

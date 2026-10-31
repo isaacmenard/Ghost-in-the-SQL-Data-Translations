@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Who Went In",
+    "text": "谁进去了",
+    "note": "dossier \"Who Went In\" · the dossier's own title",
+    "rev": "3f79cb279a15"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "学校大火",
+    "note": "dossier \"Who Went In\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "INTERLUDE",
+    "text": "幕间",
+    "note": "dossier \"Who Went In\" · the dossier's own partLabel",
+    "rev": "8044a8fb6c29"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Between stage 1.2 and stage 1.3. The `Lodge` at 20:58, and every badge swipe of that week.",
+    "text": "阶段1.2和阶段1.3之间。20:58的校工室（`Lodge`），以及那一周每一次刷卡记录。",
+    "note": "dossier \"Who Went In\" · the dossier's own summary",
+    "rev": "201149a19feb"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "30 seconds, no typing. Reyes says what the second stage found and what to find next.",
+    "text": "30秒，不用碰键盘。雷耶斯说明第2阶段查出了什么，接下来该找什么。",
+    "note": "dossier \"Who Went In\" · the dossier's own pitchMarkdown",
+    "rev": "817b9e5ab226"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 17, 2025",
+    "text": "2025年10月17日",
+    "note": "dossier \"Who Went In\" · the gazette's date",
+    "rev": "1f35b463209b"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Who Went In",
+    "text": "谁进去了",
+    "note": "dossier \"Who Went In\" · the gazette's headline",
+    "rev": "3f79cb279a15"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "巴黎紧急呼叫中心",
+    "note": "dossier \"Who Went In\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[lodge-intro-watched]",
+    "field": "title",
+    "source": "Interlude",
+    "text": "幕间",
+    "note": "dossier \"Who Went In\" · checkpoint 1/1 \"Interlude\" — title",
+    "rev": "135741f5dc74"
+  },
+  {
+    "id": "steps[lodge-intro-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "看简报。",
+    "note": "dossier \"Who Went In\" · checkpoint 1/1 \"Interlude\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

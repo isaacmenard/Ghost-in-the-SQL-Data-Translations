@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Last Bottle",
+    "text": "Die letzte Flasche",
+    "note": "dossier \"The Last Bottle\" · the dossier's own title",
+    "rev": "95ad42b04c9f"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "Elixir V",
+    "text": "Elixir V",
+    "note": "dossier \"The Last Bottle\" · the dossier's own arcTitle",
+    "rev": "a1e9dee954fd"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "PROLOG",
+    "note": "dossier \"The Last Bottle\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the flower table: a fire, a bottle, and 3 flowers nobody can name.",
+    "text": "Vor der Blumentabelle: ein Feuer, eine Flasche und 3 Blumen, die niemand benennen kann.",
+    "note": "dossier \"The Last Bottle\" · the dossier's own summary",
+    "rev": "d5fa0f38c9e4"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows what the fire left.",
+    "text": "1 Minute, ohne Tippen. Reyes zeigt, was das Feuer übrig gelassen hat.",
+    "note": "dossier \"The Last Bottle\" · the dossier's own pitchMarkdown",
+    "rev": "405607a64893"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 23, 2026",
+    "text": "23. NOVEMBER 2026",
+    "note": "dossier \"The Last Bottle\" · the gazette's date",
+    "rev": "940382e7453a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Last Bottle",
+    "text": "Die letzte Flasche",
+    "note": "dossier \"The Last Bottle\" · the gazette's headline",
+    "rev": "95ad42b04c9f"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "3 Flowers Nobody Can Name",
+    "text": "3 Blumen, die niemand benennen kann",
+    "note": "dossier \"The Last Bottle\" · the gazette's subheadline",
+    "rev": "cbf1c8421a1c"
+  },
+  {
+    "id": "steps[elixir-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Prolog",
+    "note": "dossier \"The Last Bottle\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[elixir-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Sieh dir die Lagebesprechung an.",
+    "note": "dossier \"The Last Bottle\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

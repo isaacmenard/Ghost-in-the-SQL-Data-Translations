@@ -1,0 +1,362 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Elixir V",
+    "text": "Elixir V",
+    "note": "dossier \"Elixir V\" · the dossier's own title",
+    "rev": "a1e9dee954fd"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "Elixir V",
+    "text": "Elixir V",
+    "note": "dossier \"Elixir V\" · the dossier's own arcTitle",
+    "rev": "a1e9dee954fd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A fire killed Odile Vernet, a plant scientist, in her Paris greenhouses. Her Elixir V was 3 flowers, and nobody knows which.",
+    "text": "화재로 식물학자 Odile Vernet가 파리 온실에서 숨졌다. 그녀의 Elixir V는 꽃 3가지로 만들었고, 어떤 꽃인지 아무도 모른다.",
+    "note": "dossier \"Elixir V\" · the dossier's own summary",
+    "rev": "7efad4c6c4de"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Monday 23 November 2026. Paris, Auteuil.\n\nOdile Vernet, a plant scientist, made 1 extract, Elixir V, from 3 flowers. It was a medicine, not ready yet, and very promising. On 21 October a fire destroyed her private greenhouses. She died in it, trying to save her work. It started on the bench where her last bottle stood, so the police have the file.\n\n1 bottle is left. Find its 3 flowers.",
+    "text": "2026년 11월 23일 월요일. 파리 Auteuil.\n\n식물학자 Odile Vernet는 꽃 3가지로 추출물 1종, Elixir V를 만들었다. 아직 완성되지 않았지만 매우 유망한 약이었다. 10월 21일 화재가 그녀의 개인 온실을 태웠다. 그녀는 연구를 구하려다 온실 안에서 숨졌다. 불은 그녀의 마지막 병이 있던 작업대에서 시작되어 경찰이 사건을 맡았다.\n\n병 1개가 남았다. 그 병의 꽃 3가지를 찾아라.",
+    "note": "dossier \"Elixir V\" · the dossier's own pitchMarkdown",
+    "rev": "7ff9565dad40"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "1 table.\n\n`flowers` is every flower Odile Vernet tested, 1 row each, with its lab figures. `state` is `'fresh'` or `'dried'`. `moisture` is the share of water in a dried flower, from 0 to 1. It is empty for a fresh one.\n\nOdile Vernet never heated her greenhouses, so a flower bloomed only in its `season`. `spring` is March to May. `summer` is June to August. `autumn` is September to November. `winter` is December to February. A flower marked `ALL` is in bloom all year.\n\nYou can use one table 3 times in one query, as 3 copies: `FROM flowers AS a, flowers AS b, flowers AS c`. That puts every flower beside every flower, itself included. Write `a.common_name`, `b.common_name` and `c.common_name` to tell the copies apart.",
+    "text": "테이블 1개.\n\n`flowers`에는 Odile Vernet가 시험한 꽃이 전부 들어 있다. 꽃마다 1행이고, 실험 수치가 붙어 있다. `state`는 생화(`'fresh'`) 또는 말린 꽃(`'dried'`)이다. `moisture`는 말린 꽃에 든 수분의 비율이며, 0부터 1까지다. 생화에는 비어 있다.\n\nOdile Vernet는 온실 난방을 전혀 하지 않았으므로, 꽃은 자기 `season`에만 핀다. 봄(`spring`)은 3월부터 5월이다. 여름(`summer`)은 6월부터 8월이다. 가을(`autumn`)은 9월부터 11월이다. 겨울(`winter`)은 12월부터 2월이다. 사계절(`ALL`)로 표시된 꽃은 1년 내내 핀다.\n\n한 쿼리에서 테이블 하나를 사본 3개로, 3번 쓸 수 있다: `FROM flowers AS a, flowers AS b, flowers AS c`. 그러면 모든 꽃이 자기 자신을 포함한 모든 꽃 옆에 놓인다. 사본을 구별하려면 `a.common_name`, `b.common_name`, `c.common_name`이라고 쓴다.",
+    "note": "dossier \"Elixir V\" · the dossier's own rulesMarkdown",
+    "rev": "0e384219ec87"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which 3 flowers did Odile Vernet put in Elixir V?",
+    "text": "Odile Vernet는 Elixir V에 어떤 꽃 3가지를 넣었나?",
+    "note": "dossier \"Elixir V\" · the dossier's own openQuestion",
+    "rev": "266bb5f3da62"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "German Chamomile, Lemon Balm, True Lavender",
+    "text": "German Chamomile, Lemon Balm, True Lavender",
+    "note": "dossier \"Elixir V\" · the dossier's own verdictText",
+    "rev": "8ce53b96d600"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 23, 2026",
+    "text": "2026년 11월 23일",
+    "note": "dossier \"Elixir V\" · the gazette's date",
+    "rev": "940382e7453a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Elixir V\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Which 3 Flowers Made Elixir V?",
+    "text": "Elixir V를 만든 3가지 꽃은?",
+    "note": "dossier \"Elixir V\" · the gazette's headline",
+    "rev": "d32f51ed5d83"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Odile Vernet Dies in a Fire at Her Greenhouses",
+    "text": "Odile Vernet, 온실 화재로 사망",
+    "note": "dossier \"Elixir V\" · the gazette's subheadline",
+    "rev": "e64d7674ecde"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "On 21 October a fire destroyed Odile Vernet's private greenhouses in Auteuil, in Paris. She died in the fire, trying to save her work. The fire started on the bench where her last bottle stood. Her lab and every plant she had grown were lost. 2 pages of her notebook were found, burnt.\n\nShe had made 1 extract, Elixir V, from 3 flowers. It was a medicine, not ready yet, and very promising. The foundation that paid for her work wants to make it again. 1 bottle is left.",
+    "text": "10월21일, 화재가 파리 Auteuil에 있는 Odile Vernet의 개인 온실을 태웠다. 그녀는 연구를 구하려다 불길 속에서 숨졌다. 불은 그녀의 마지막 병이 있던 작업대에서 시작되었다. 연구실과 그녀가 기른 식물은 모두 소실되었다. 그녀의 노트 가운데 불에 탄 2쪽이 발견됐다.\n\n그녀는 꽃 3가지로 추출물 1종, Elixir V를 만들었다. 아직 완성되지 않았지만 매우 유망한 약이었다. 그녀의 연구를 후원한 재단이 이것을 다시 만들려 한다. 병 1개가 남았다.",
+    "note": "dossier \"Elixir V\" · the gazette's editorialArticle",
+    "rev": "21d4d5b54953"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"She never wrote the 3 names down. We have 1 bottle and 2 burnt pages,\" says the director of her foundation.",
+    "text": "“그녀는 이름 3개를 적어 두지 않았다. 우리에게는 병 1개와 불에 탄 2쪽이 있다.” 그녀의 재단 이사장이 말했다.",
+    "note": "dossier \"Elixir V\" · the gazette's leadQuote",
+    "rev": "c2b01de6748b"
+  },
+  {
+    "id": "documents[the-bottle]",
+    "field": "title",
+    "source": "THE BOTTLE",
+    "text": "병",
+    "note": "dossier \"Elixir V\" · document `the-bottle` — title",
+    "rev": "7187fccad696"
+  },
+  {
+    "id": "documents[the-mix]",
+    "field": "title",
+    "source": "ELIXIR V: 3 FLOWERS",
+    "text": "Elixir V: 꽃 3종",
+    "note": "dossier \"Elixir V\" · document `the-mix` — title",
+    "rev": "819bd7897cab"
+  },
+  {
+    "id": "documents[odile-notebook]",
+    "field": "title",
+    "source": "ODILE VERNET'S NOTEBOOK",
+    "text": "Odile Vernet의 노트",
+    "note": "dossier \"Elixir V\" · document `odile-notebook` — title",
+    "rev": "8302737c52d3"
+  },
+  {
+    "id": "documents[odile-notebook]",
+    "field": "contentMarkdown",
+    "source": "**5 July 2025, 14:00.** Elixir V, my only batch.\n\n2 `fresh` flowers and 1 `dried` flower, in equal parts.\n\nThis week I picked all 3 in my greenhouse while they were in bloom. The third one took 2 days to dry.\n\nThis batch meets my 3 limits.",
+    "text": "**2025년 7월 5일 14:00.** Elixir V, 나의 유일한 배치.\n\n생화(`fresh`) 2송이와 말린 꽃(`dried`) 1송이, 같은 비율.\n\n이번 주에 내 온실에서 활짝 핀 3송이를 모두 땄다. 세 번째 꽃은 2일 동안 말렸다.\n\n이 배치는 내 3가지 기준을 만족한다.",
+    "note": "dossier \"Elixir V\" · document `odile-notebook` — contentMarkdown",
+    "rev": "10b0b156e277"
+  },
+  {
+    "id": "documents[lab-report]",
+    "field": "title",
+    "source": "LAB REPORT: THE BOTTLE",
+    "text": "연구소 보고서: 병",
+    "note": "dossier \"Elixir V\" · document `lab-report` — title",
+    "rev": "8b23d90c1804"
+  },
+  {
+    "id": "documents[lab-report]",
+    "field": "contentMarkdown",
+    "source": "An independent lab tested the bottle. The batch had to meet Odile Vernet's limits. The limits are on 3 figures, `A`, `K` and `F`, from the 3 flowers.\n\n**In the formulas.** 1 and 2 are the fresh flowers, 3 is the dried one. `D` is `dpph_ic50`. `N` is `nfkb_ic50`. `P` is `phenols_100g`. `h₃` is the `moisture` of flower 3.\n\n**Why (1−h₃).** The figures of the dried flower are for its dry weight, without water. In the mix, only (1−h₃) of its weight is that dry part.\n\n**The limits.** A batch passes only if all 3 hold. `F` must be 17 or more, and 21 or less. `K` is rounded to 2 places, then compared: `ROUND(K, 2) = 29`. In `F`, use `K` as it is, not rounded.\n\n**The tests.** `A` comes from the DPPH test. `K` comes from the NF-κB test. `F` counts the phenols. `abts_ic50` is another test, and the limits do not use it.",
+    "text": "독립 연구소가 병을 검사했다. 배치는 Odile Vernet의 기준을 만족해야 했다. 기준은 꽃 3송이에서 나온 3가지 수치, `A`, `K`, `F`다.\n\n**공식에서.** 1과 2는 생화, 3은 말린 꽃이다. `D`는 `dpph_ic50`. `N`은 `nfkb_ic50`. `P`는 `phenols_100g`. `h₃`는 꽃 3의 `moisture`다.\n\n**왜 (1−h₃)인가.** 말린 꽃의 수치는 물을 뺀 건조 중량 기준이다. 혼합물 안에서 그 무게 중 (1−h₃)만 건조된 부분이다.\n\n**기준.** 3가지를 모두 만족해야 배치가 통과한다. `F`는 17 이상, 21 이하여야 한다. `K`는 소수점 2자리로 반올림한 다음 비교한다: `ROUND(K, 2) = 29`. `F`에는 반올림하지 않은 `K`를 그대로 쓴다.\n\n**검사.** `A`는 DPPH 검사에서 나온다. `K`는 NF-κB 검사에서 나온다. `F`는 페놀 양이다. `abts_ic50`은 다른 검사이고, 기준에는 쓰지 않는다.",
+    "note": "dossier \"Elixir V\" · document `lab-report` — contentMarkdown",
+    "rev": "bd2d99a85bc4"
+  },
+  {
+    "id": "documents[the-formulas]",
+    "field": "title",
+    "source": "THE FORMULAS",
+    "text": "공식",
+    "note": "dossier \"Elixir V\" · document `the-formulas` — title",
+    "rev": "5f5ccb0bcb0c"
+  },
+  {
+    "id": "documents[the-key]",
+    "field": "title",
+    "source": "THE LIMITS",
+    "text": "기준",
+    "note": "dossier \"Elixir V\" · document `the-key` — title",
+    "rev": "cd6c803ef857"
+  },
+  {
+    "id": "documents[three-times]",
+    "field": "title",
+    "source": "USE THE TABLE 3 TIMES",
+    "text": "테이블을 3번 사용하라",
+    "note": "dossier \"Elixir V\" · document `three-times` — title",
+    "rev": "27182212f5c5"
+  },
+  {
+    "id": "documents[three-times]",
+    "field": "contentMarkdown",
+    "source": "`FROM flowers AS a, flowers AS b, flowers AS c`\n\nEach flower is paired with every flower, itself included. Keep `a` and `b` `'fresh'`, `c` `'dried'`. Each mix is then on 2 rows: `a` then `b`, and `b` then `a`. When only 1 mix is left, end with `LIMIT 1`.",
+    "text": "`FROM flowers AS a, flowers AS b, flowers AS c`\n\n꽃마다 모든 꽃과 짝을 이룬다. 자기 자신도 포함이다. `a`와 `b`는 생화(`'fresh'`), `c`는 말린 꽃(`'dried'`)만 남겨라. 그러면 각 혼합물이 2행씩 나온다: `a` 다음 `b`, 그리고 `b` 다음 `a`. 혼합물이 1개만 남으면 `LIMIT 1`로 끝내라.",
+    "note": "dossier \"Elixir V\" · document `three-times` — contentMarkdown",
+    "rev": "0c2545f9bbef"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO GIVE THE ANSWER",
+    "text": "답을 내는 법",
+    "note": "dossier \"Elixir V\" · document `how-to-answer` — title",
+    "rev": "d0bb7b6a1e06"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have found the 3 flowers, type their names yourself. Put each one in single quotes, and name its column:\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a` and `flower_b` are the 2 fresh flowers, in either order. `flower_c` is the dried one. Run it, then press Verify.",
+    "text": "꽃 3송이를 찾으면 이름을 직접 입력해라. 각 이름을 작은따옴표로 감싸고, 열 이름을 붙여라.\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a`와 `flower_b`는 생화 2송이이고, 순서는 상관없다. `flower_c`는 말린 꽃이다. 실행하고 검증을 눌러라.",
+    "note": "dossier \"Elixir V\" · document `how-to-answer` — contentMarkdown",
+    "rev": "f3a1d035a982"
+  },
+  {
+    "id": "documents[metro-1123]",
+    "field": "title",
+    "source": "Monday 23 November 2026",
+    "text": "2026년 11월 23일 월요일",
+    "note": "dossier \"Elixir V\" · document `metro-1123` — title",
+    "rev": "961fe4164e8d"
+  },
+  {
+    "id": "documents[metro-1123-auteuil]",
+    "field": "title",
+    "source": "Auteuil Fire: The Insurer Is Waiting",
+    "text": "Auteuil 화재: 보험사는 관망 중",
+    "note": "dossier \"Elixir V\" · document `metro-1123-auteuil` — title",
+    "rev": "2e33142c9fb8"
+  },
+  {
+    "id": "documents[metro-1123-auteuil]",
+    "field": "contentMarkdown",
+    "source": "The cause of the fire in Odile Vernet's greenhouses is still unknown. Okonjo Insurance is handling the claim.",
+    "text": "Odile Vernet의 온실에서 발생한 화재 원인은 아직 밝혀지지 않았다. Okonjo Insurance가 보험금 청구를 처리하고 있다.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-auteuil` — contentMarkdown",
+    "rev": "8c52c07d522a"
+  },
+  {
+    "id": "documents[metro-1123-hautin]",
+    "field": "title",
+    "source": "Rue Ramponeau: Trial in the Spring",
+    "text": "Rue Ramponeau: 봄 재판",
+    "note": "dossier \"Elixir V\" · document `metro-1123-hautin` — title",
+    "rev": "9894ebe9bf7b"
+  },
+  {
+    "id": "documents[metro-1123-hautin]",
+    "field": "contentMarkdown",
+    "source": "The man arrested on 4 November will be tried in the spring for the attack.",
+    "text": "11월 4일에 체포된 남성은 습격 사건으로 봄에 재판을 받는다.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-hautin` — contentMarkdown",
+    "rev": "d3dacb000d06"
+  },
+  {
+    "id": "documents[metro-1123-orsay]",
+    "field": "title",
+    "source": "Orsay: A Man Charged Over the Crown",
+    "text": "Orsay: 왕관 관련 남성 기소",
+    "note": "dossier \"Elixir V\" · document `metro-1123-orsay` — title",
+    "rev": "9bdf28f4e421"
+  },
+  {
+    "id": "documents[metro-1123-orsay]",
+    "field": "contentMarkdown",
+    "source": "The crown was stolen on 19 November. A man has been charged. The museum says nothing more.",
+    "text": "왕관은 11월 19일에 도난당했다. 한 남성이 기소되었다. 박물관은 더 이상의 언급을 하지 않고 있다.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-orsay` — contentMarkdown",
+    "rev": "7ad1e53b5c71"
+  },
+  {
+    "id": "documents[metro-1123-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 5",
+    "text": "MUTEFONE 5",
+    "note": "dossier \"Elixir V\" · document `metro-1123-mutefone` — title",
+    "rev": "1cb2ffb4d69b"
+  },
+  {
+    "id": "documents[metro-1123-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Nobody else reads it. Not even us.",
+    "text": "다른 누구도 읽지 않는다. 우리조차도.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-mutefone` — contentMarkdown",
+    "rev": "0eaee87e1abc"
+  },
+  {
+    "id": "csvFiles[flowers]",
+    "field": "description",
+    "source": "Every flower Odile Vernet tested, 1 row each: its `state`, its `season`, and its lab figures. `moisture` is empty for a fresh flower.",
+    "text": "Odile Vernet가 검사한 모든 꽃, 꽃마다 1행: `state`, `season`, 그리고 연구소 수치. 생화는 `moisture`가 비어 있다.",
+    "note": "dossier \"Elixir V\" · the `flowers` table — description",
+    "rev": "84cb6060ba76"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "title",
+    "source": "The Elixir",
+    "text": "Elixir",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — title",
+    "rev": "76f1aaa66955"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "instructions",
+    "source": "Odile Vernet made 1 batch of Elixir V from 3 flowers, and it met her limits. The lab report and her notebook say the rest.",
+    "text": "Odile Vernet는 꽃 3송이로 Elixir V를 한 배치 만들었고, 그 배치는 그녀의 기준을 만족했다. 연구소 보고서와 그녀의 노트에 나머지가 적혀 있다.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — instructions",
+    "rev": "75f09054e299"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "expectedResult",
+    "source": "First, search `flowers` and find her mix. Then give me only the 3 names, in 1 row: `flower_a`, `flower_b` and `flower_c`.",
+    "text": "먼저 `flowers`를 뒤져서 그녀의 혼합물을 찾아라. 그다음 이름 3개만 1행으로 내라: `flower_a`, `flower_b`, `flower_c`.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — expectedResult",
+    "rev": "6073c70594b2"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "expectedShapeNote",
+    "source": "1 row: the 3 names of her mix.",
+    "text": "1행: 그녀가 섞은 꽃 이름 3개.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — expectedShapeNote",
+    "rev": "551699c4d00b"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "lead",
+    "source": "Start with the lab report, formulas and limits. More than 1 mix meets them. Then check each flower's `season`. 2 rows remain: one mix, in 2 orders. Keep 1.",
+    "text": "연구소 보고서와 공식, 기준부터 시작하라. 이를 충족하는 배합이 1개가 넘는다. 그다음 각 꽃의 `season`을 확인하라. 2개 행이 남는다: 배합 하나가 2가지 순서다. 1개만 남겨라.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — lead",
+    "rev": "5828167f6309"
+  },
+  {
+    "id": "closing[the-key]",
+    "field": "say",
+    "source": "The bottle met the limits: 3 flowers, 2 `fresh` and 1 `dried`.",
+    "text": "병이 기준을 만족했다. 꽃 3가지, 생화(`fresh`) 2종과 말린 꽃(`dried`) 1종이다.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "855b7fa867f4"
+  },
+  {
+    "id": "closing[july]",
+    "field": "say",
+    "source": "Odile Vernet made the batch on 5 July. So each flower had to be in bloom in July: `summer` or `ALL`. Only 1 mix meets the limits and the season.",
+    "text": "Odile Vernet는 7월 5일에 제조했다. 그러니 꽃마다 7월에 꽃이 피어야 했다. 여름(`summer`)이나 사계절(`ALL`). 기준치와 계절에 맞는 조합은 1개뿐이다.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "d04f68c1ffde"
+  },
+  {
+    "id": "closing[the-three]",
+    "field": "say",
+    "source": "`German Chamomile`, `Lemon Balm`, `True Lavender`. The foundation can make Elixir V again.",
+    "text": "`German Chamomile`, `Lemon Balm`, `True Lavender`. 재단은 이제 다시 Elixir V를 만들 수 있게 됐다.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "789de22a3843"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "The limits → `flowers`, 3 at a time → the mixes that meet them.",
+    "text": "기준 → `flowers`, 한 번에 3송이씩 → 기준을 만족하는 혼합물.",
+    "note": "dossier \"Elixir V\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "e67390d41016"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "Made 5 July → `flowers.season` → 1 mix: `German Chamomile`, `Lemon Balm`, `True Lavender`.",
+    "text": "7월 5일 제조 → `flowers.season` → 조합 1개: `German Chamomile`, `Lemon Balm`, `True Lavender`.",
+    "note": "dossier \"Elixir V\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "e1d0806ed1bc"
+  }
+]

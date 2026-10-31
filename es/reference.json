@@ -1,0 +1,386 @@
+[
+  {
+    "id": "SELECT … FROM",
+    "field": "what",
+    "source": "Which columns you want, and which table they come from. `*` means every column.",
+    "text": "Las columnas requeridas y la tabla de procedencia. `*` indica todas las columnas.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2960be0dd535"
+  },
+  {
+    "id": "SELECT … FROM",
+    "field": "note",
+    "source": "5 rows: the whole table.",
+    "text": "5 filas: la tabla completa.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · the caveat under it · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2fcc9982d940"
+  },
+  {
+    "id": "WHERE",
+    "field": "what",
+    "source": "Keeps only the rows this condition is true for. Text goes in single quotes, and the text inside them must match capitals exactly.",
+    "text": "Conserva solo las filas que cumplen esta condición. El texto va entre comillas simples y debe respetar exactamente las mayúsculas y minúsculas.",
+    "note": "the SQL reference card, entry `WHERE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "33ecec56da88"
+  },
+  {
+    "id": "WHERE",
+    "field": "note",
+    "source": "**Equal.** `WHERE column_1 = 'Alpha'` → 2 rows out of 5. `'alpha'`, lower case, would match nothing at all.\n\n**Not equal.** `WHERE column_1 != 'Alpha'` keeps exactly the rows the first one removed. `<>` means the same thing.",
+    "text": "**Igual.** `WHERE column_1 = 'Alpha'` → 2 filas de 5. `'alpha'`, en minúsculas, no devolvería ninguna fila.\n\n**Distinto.** `WHERE column_1 != 'Alpha'` conserva exactamente las filas que la primera descartó. `<>` significa lo mismo.",
+    "note": "the SQL reference card, entry `WHERE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "fdff95901ac1"
+  },
+  {
+    "id": "LIKE",
+    "field": "what",
+    "source": "Matches a pattern instead of a whole value. `%` stands for any number of characters, so `'%lph%'` finds `Alpha`. With `%` only at the end, the value must start with the letters before it: `'Al%'`.",
+    "text": "Busca por patrón en lugar de por valor exacto. `%` representa cualquier secuencia de caracteres; por tanto, `'%lph%'` encuentra `Alpha`. Con `%` solo al final, el valor debe empezar por las letras que lo preceden: `'Al%'`.",
+    "note": "the SQL reference card, entry `LIKE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "b0158765f741"
+  },
+  {
+    "id": "LIKE",
+    "field": "note",
+    "source": "2 rows. LIKE ignores upper and lower case, so `'%LPH%'` returns the same 2. That is the tool for a value somebody has typed 2 ways. `_` is the other pattern symbol. It matches exactly 1 character, so `'Al___'` is a 5-letter value beginning Al.",
+    "text": "2 filas. LIKE no distingue entre mayúsculas y minúsculas; por tanto, `'%LPH%'` devuelve las mismas 2. Es la herramienta adecuada ante un valor escrito de 2 formas. `_` es el otro comodín. Coincide exactamente con 1 carácter; así, `'Al___'` corresponde a un valor de 5 letras que empieza por Al.",
+    "note": "the SQL reference card, entry `LIKE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "6d6cf7401bbb"
+  },
+  {
+    "id": "AND / OR",
+    "field": "what",
+    "source": "Combines conditions. `AND` needs both to be true; `OR` needs either.",
+    "text": "Encadena condiciones. `AND` exige que se cumplan ambas; `OR`, cualquiera de ellas.",
+    "note": "the SQL reference card, entry `AND / OR` · what the clause does, in the player's terms · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "fe1b3e1cda36"
+  },
+  {
+    "id": "AND / OR",
+    "field": "note",
+    "source": "1 row. Mixing both in one filter needs brackets. That has its own entry on this card: `AND (A OR B)`.",
+    "text": "1 fila. Combinar ambas en un mismo filtro exige paréntesis. Cuenta con su propia entrada en esta ficha: `AND (A OR B)`.",
+    "note": "the SQL reference card, entry `AND / OR` · the caveat under it · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "47f8c60ad75e"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "what",
+    "source": "2 conditions where either can be true, inside one filter. `A` and `B` are the conditions you write; everything else is typed as it appears.",
+    "text": "2 condiciones donde cualquiera de las dos puede cumplirse, dentro de un mismo filtro. `A` y `B` son las condiciones que usted escribe; el resto se teclea tal como aparece.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "16f6d60c4937"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "note",
+    "source": "2 rows: the 14th, and either name. **The brackets are the whole entry.** Without them `AND` runs before `OR`, so `A AND B OR C` reads as `(A AND B) OR C`. The `OR` then splits the filter in 2 instead of offering a choice inside it. Take the brackets off the example above and it returns 3 rows instead of 2.",
+    "text": "2 filas: el día 14 y cualquiera de los nombres. **Los paréntesis constituyen la entrada entera.** Sin ellos, `AND` tiene prioridad sobre `OR`; por tanto, `A AND B OR C` se interpreta como `(A AND B) OR C`. El `OR` divide entonces el filtro en 2 en lugar de ofrecer una opción dentro de él. Si retira los paréntesis del ejemplo anterior, obtiene 3 filas en vez de 2.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "661c7768f0fa"
+  },
+  {
+    "id": "IN (…)",
+    "field": "what",
+    "source": "One column, a list of values, any of them can match. Shorter than writing `OR` between the same comparisons.",
+    "text": "Una columna, una lista de valores: sirve cualquiera de ellos. Más corto que escribir `OR` entre las mismas comparaciones.",
+    "note": "the SQL reference card, entry `IN (…)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "8734aa31e441"
+  },
+  {
+    "id": "IN (…)",
+    "field": "note",
+    "source": "4 rows: every row whose name is one of the 2 asked for. Commas between the values, brackets around the list. Each value is quoted, because the column is text.",
+    "text": "4 filas: cada fila cuyo nombre es uno de los 2 solicitados. Comas entre los valores, paréntesis alrededor de la lista. Cada valor entre comillas, porque la columna es de texto.",
+    "note": "the SQL reference card, entry `IN (…)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "c69bee4c97c6"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "what",
+    "source": "The list can be a query. The inner query returns one column. A row is kept when its value appears in that column, and `NOT IN` keeps the rest.",
+    "text": "La lista puede ser una consulta. La consulta interna devuelve una sola columna. Se conserva una fila cuando su valor figura en ella, y `NOT IN` conserva el resto.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "d844eb2a686e"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "note",
+    "source": "3 rows: the 2 names with a row after 22:00, and every row with those names. The inner query runs first, on its own. Swap `IN` for `NOT IN` and the answer is the other 2 rows.",
+    "text": "3 filas: los 2 nombres con una fila posterior a las 22:00 y todas sus filas. La consulta interior se ejecuta primero, sola. Cambie `IN` por `NOT IN` y el resultado son las otras 2 filas.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "3ab8add9c70d"
+  },
+  {
+    "id": "-- a comment",
+    "field": "what",
+    "source": "2 dashes and a space, and the rest of the line is a note to yourself. Nothing after them runs. A block between `/*` and `*/` can cross lines.",
+    "text": "2 guiones y un espacio: el resto de la línea es una nota personal. Nada tras ellos se ejecuta. Un bloque entre `/*` y `*/` puede ocupar varias líneas.",
+    "note": "the SQL reference card, entry `-- a comment` · what the clause does, in the player's terms · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "f8d89ff82246"
+  },
+  {
+    "id": "-- a comment",
+    "field": "note",
+    "source": "2 rows, the same 2 the query returns without the notes. Ignore a filter for now with `--`, or say what a query is for.",
+    "text": "2 filas, las mismas 2 que devuelve la consulta sin las notas. Ignore un filtro por ahora con `--`, o indique para qué sirve una consulta.",
+    "note": "the SQL reference card, entry `-- a comment` · the caveat under it · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "e509c57f2b93"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "what",
+    "source": "Stored as text, `'YYYY-MM-DD'` and `'HH:MM'`, so they compare like text. The bigger value is the later one. `BETWEEN` takes a range, ends included.",
+    "text": "Constan como texto, `'YYYY-MM-DD'` y `'HH:MM'`; por tanto, se comparan como texto. El valor mayor es el más tardío. `BETWEEN` admite un intervalo con extremos incluidos.",
+    "note": "the SQL reference card, entry `Dates and hours` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "7156dd88bf66"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "note",
+    "source": "3 rows.\n\n**One day.** `WHERE day = '2026-03-14'`\n\n**A range of days.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, ends included\n\n**From an hour on.** `WHERE at_time >= '23:00'`\n\n**Before an hour.** `WHERE at_time < '04:00'`\n\nBoth columns are text, so `>` and `<` read as later and earlier.",
+    "text": "3 filas.\n\n**Un día.** `WHERE day = '2026-03-14'`\n\n**Un intervalo de días.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, extremos incluidos\n\n**A partir de una hora.** `WHERE at_time >= '23:00'`\n\n**Antes de una hora.** `WHERE at_time < '04:00'`\n\nAmbas columnas son texto; por tanto, `>` y `<` se interpretan como posterior y anterior.",
+    "note": "the SQL reference card, entry `Dates and hours` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "aa423a31f683"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "what",
+    "source": "Keeps the values from one end to the other, both ends included. The 2 ends are joined by `AND`.",
+    "text": "Conserva los valores de un extremo a otro, con ambos extremos incluidos. Los 2 extremos van unidos por `AND`.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "06380d381084"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "note",
+    "source": "3 rows: the 14th and the 15th, both ends in. No brackets and no comma around the ends: `BETWEEN ('09:00', '15:00')` is refused. Hours and numbers work the same way.",
+    "text": "3 filas: los días 14 y 15, con ambos extremos incluidos. Sin paréntesis ni comas entre los extremos: `BETWEEN ('09:00', '15:00')` queda rechazado. Las horas y los números funcionan igual.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "13e9e4fe0970"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "what",
+    "source": "One row per distinct value, however many times it occurs. Answers \"which values are in this column at all\".",
+    "text": "Una fila por cada valor distinto, sin importar cuántas veces figure. Responde a la pregunta de qué valores contiene esta columna.",
+    "note": "the SQL reference card, entry `DISTINCT` · what the clause does, in the player's terms · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "1b5dcd19e256"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "note",
+    "source": "3 rows out of 5. The quickest way to see which values a column holds before you filter on it.",
+    "text": "3 filas de 5. La vía más rápida para conocer los valores de una columna antes de filtrar por ella.",
+    "note": "the SQL reference card, entry `DISTINCT` · the caveat under it · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "c902720d2524"
+  },
+  {
+    "id": "IS NULL",
+    "field": "what",
+    "source": "An empty cell holds no value at all, and nothing equals no value. Not even another empty cell. So `= NULL` never matches anything. Use `IS NULL` instead, or `IS NOT NULL`.",
+    "text": "Una casilla vacía no contiene ningún valor, y nada equivale a la ausencia de valor. Ni siquiera otra casilla vacía. Por tanto, `= NULL` nunca coincide con nada. Escriba `IS NULL` o `IS NOT NULL`.",
+    "note": "the SQL reference card, entry `IS NULL` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "f5a6e58bd67d"
+  },
+  {
+    "id": "IS NULL",
+    "field": "note",
+    "source": "5 rows: every cell in the example table is filled, and that is the point. The test is about whether there is a value, never about what it is.\n\n**Empty.** `WHERE column_2 IS NULL`\n\n**Filled.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` is wrong the same way `= NULL` is, and neither is an error. They just return nothing.",
+    "text": "5 filas: todas las casillas de la tabla de muestra están rellenas, y esa es la clave. La comprobación evalúa la presencia de un valor, nunca cuál es.\n\n**Vacía.** `WHERE column_2 IS NULL`\n\n**Rellena.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` es incorrecto del mismo modo que `= NULL`, y ninguno produce un error. Simplemente no devuelven nada.",
+    "note": "the SQL reference card, entry `IS NULL` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "0d5a51ab84f5"
+  },
+  {
+    "id": "JOIN",
+    "field": "what",
+    "source": "Puts 2 tables side by side. After `ON`, name the 2 columns that must be equal, one from each table.",
+    "text": "Pone 2 tablas una al lado de la otra. Después de `ON`, nombre las 2 columnas que deben ser iguales, una de cada tabla.",
+    "note": "the SQL reference card, entry `JOIN` · what the clause does, in the player's terms · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "f95e44717f12"
+  },
+  {
+    "id": "JOIN",
+    "field": "note",
+    "source": "4 rows out of 5. `Gamma` has no code in `demo_codes`, so it is dropped, like any row with no match.",
+    "text": "4 filas de 5. `Gamma` no tiene código en `demo_codes`, así que se descarta, como toda fila sin coincidencia.",
+    "note": "the SQL reference card, entry `JOIN` · the caveat under it · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "80d75fc7ed01"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "what",
+    "source": "Joins the values of each group into one text. The second value goes between them. `ORDER BY` inside the brackets sets their order.",
+    "text": "Une los valores de cada grupo en un solo texto. El segundo valor se coloca entre ellos. `ORDER BY` entre paréntesis fija el orden.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · what the clause does, in the player's terms · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "ddc427f75167"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "note",
+    "source": "4 rows, one per day. On the 14th, Beta comes first because its `at_time` is earlier. With `''` as the second value, nothing goes between them. One letter per row then makes a word.",
+    "text": "4 filas, una por día. El 14, Beta va primero porque su `at_time` es anterior. Con `''` como segundo valor, no se intercala nada. Una letra por fila forma entonces una palabra.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · the caveat under it · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "48b95431edd0"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "what",
+    "source": "A formula in the SELECT, on every row: `+`, `-`, `*`, `/` and brackets. No GROUP BY needed. `AS` names the new column.",
+    "text": "Una fórmula en el SELECT, en cada fila: `+`, `-`, `*`, `/` y paréntesis. No hace falta GROUP BY. `AS` da nombre a la nueva columna.",
+    "note": "the SQL reference card, entry `Calculation AS name` · what the clause does, in the player's terms · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "93f13b933793"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "note",
+    "source": "5 rows, 1 new column. `score` exists only in this result: the table does not change. A whole number divided by a whole number drops the decimals: `1/2` is `0`, `1.0/2` is `0.5`.",
+    "text": "5 filas, 1 columna nueva. `score` solo existe en este resultado: la tabla no cambia. Un número entero dividido entre un número entero pierde los decimales: `1/2` da `0`, `1.0/2` da `0.5`.",
+    "note": "the SQL reference card, entry `Calculation AS name` · the caveat under it · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "f79793d9716c"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "what",
+    "source": "Uses the same table twice, side by side: every row next to every row, itself included. Give each copy a name after `AS`, and write `a.` or `b.` before each column.",
+    "text": "Usa la misma tabla dos veces, lado a lado: cada fila junto a cada fila, incluida ella misma. Dé un nombre a cada copia después de `AS` y escriba `a.` o `b.` delante de cada columna.",
+    "note": "the SQL reference card, entry `FROM, twice` · what the clause does, in the player's terms · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "3deb31227157"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "note",
+    "source": "1 row: Alpha and Gamma, 2 + 8 = 10. `a.label < b.label` drops a box paired with itself, and keeps each pair once. Add `, demo_boxes AS c` to use the table 3 times.",
+    "text": "1 fila: Alpha y Gamma, 2 + 8 = 10. `a.label < b.label` descarta una caja emparejada consigo misma y conserva cada pareja una sola vez. Añada `, demo_boxes AS c` para usar la tabla 3 veces.",
+    "note": "the SQL reference card, entry `FROM, twice` · the caveat under it · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "277243dc493a"
+  },
+  {
+    "id": "COUNT(*)",
+    "field": "what",
+    "source": "One number: how many rows matched. Use `AS` to give it a name you can refer to later.",
+    "text": "Una cifra: el recuento de filas coincidentes. Emplee `AS` para darle un nombre que pueda referenciar después.",
+    "note": "the SQL reference card, entry `COUNT(*)` · what the clause does, in the player's terms · its example: SELECT COUNT(*) AS total FROM demo",
+    "rev": "846bd0acc804"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "what",
+    "source": "Counts each distinct value separately instead of all together: one row out per group. Include the column too, or you get numbers with no labels.",
+    "text": "Cuenta cada valor distinto por separado, no todos juntos: produce una fila por grupo. Incluya también la columna, o recibirá cifras sin etiqueta.",
+    "note": "the SQL reference card, entry `GROUP BY` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "7608b178dd01"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "note",
+    "source": "Note the order: grouped, not ranked. The biggest number is not necessarily first. That is what ORDER BY is for.",
+    "text": "Observe el orden: los grupos no vienen ordenados por tamaño. La cifra mayor no figura necesariamente en primer lugar. Para eso sirve ORDER BY.",
+    "note": "the SQL reference card, entry `GROUP BY` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "8d4a05a94caa"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "what",
+    "source": "Adds a column up instead of counting rows. What goes inside can be arithmetic, not only a column name.",
+    "text": "Suma una columna en vez de contar filas. El contenido admite operaciones aritméticas, no solo el nombre de una columna.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · what the clause does, in the player's terms · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "edee98c7809d"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "note",
+    "source": "3 rows: one per group, each the total of its own. `COUNT` says how many lines a group has. `SUM` gives their total.",
+    "text": "3 filas: una por grupo, cada una con su total propio. `COUNT` indica cuántas líneas contiene un grupo. `SUM` da su total.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · the caveat under it · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "cc4e00386a52"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "what",
+    "source": "The average of a column: its total divided by the number of rows. With `GROUP BY`, one average per group.",
+    "text": "La media de una columna: el total dividido entre el número de filas. Con `GROUP BY`, una media por grupo.",
+    "note": "the SQL reference card, entry `AVG(…)` · what the clause does, in the player's terms · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "aac9dd33929c"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "note",
+    "source": "3 rows. Alpha has 10 and 20, so 15. Put 2 groups side by side to see which one is higher.",
+    "text": "3 filas. Alpha tiene 10 y 20, así que 15. Ponga 2 grupos uno al lado del otro para ver cuál es más alto.",
+    "note": "the SQL reference card, entry `AVG(…)` · the caveat under it · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "2ea9877e9eec"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "what",
+    "source": "Counts how many *different* values a column holds, not how many rows there are. The way to count things that each wrote more than one line.",
+    "text": "Cuenta cuántos valores *distintos* contiene una columna, no cuántas filas hay. La vía para contar elementos que dejaron más de una línea.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "d14b5ca9fd0f"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "note",
+    "source": "3 rows: one per group. Compare it with `COUNT(*)`: Alpha's 2 lines fall on 2 different days, so both counts say 2. Add a second line on one of those days, and the 2 counts differ.",
+    "text": "3 filas: una por grupo. Compárelo con `COUNT(*)`: las 2 líneas de Alpha corresponden a 2 días distintos; por tanto, ambos recuentos indican 2. Añada una segunda línea en uno de esos días y ambos recuentos dejarán de coincidir.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · the caveat under it · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "76c660a3ec64"
+  },
+  {
+    "id": "HAVING",
+    "field": "what",
+    "source": "Filters the groups a GROUP BY produced, the way WHERE filters rows. WHERE runs before the grouping and cannot use a count; HAVING runs after it and can.",
+    "text": "Filtra los grupos obtenidos mediante GROUP BY, tal como WHERE filtra filas. WHERE opera antes del agrupamiento y no tiene acceso al recuento; HAVING opera después y sí lo tiene.",
+    "note": "the SQL reference card, entry `HAVING` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "5aeceafc0936"
+  },
+  {
+    "id": "HAVING",
+    "field": "note",
+    "source": "2 rows: Gamma appears once and is dropped. Use it to keep only the values that occur more often than a number you choose.",
+    "text": "2 filas: Gamma figura una vez y queda fuera. Empléelo para conservar solo los valores que aparecen más veces que el número que elija.",
+    "note": "the SQL reference card, entry `HAVING` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "1e85d3a715a6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "what",
+    "source": "The smallest and the largest value in each group. On text they read alphabetically, so on an hour they mean earliest and latest.",
+    "text": "El valor mínimo y el máximo de cada grupo. Al aplicarse sobre texto se leen por orden alfabético; por tanto, en una hora señalan la más temprana y la más tardía.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · what the clause does, in the player's terms · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "2d934b8ab3d6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "note",
+    "source": "3 rows. A group of 1 gives the same answer twice. That is correct: it happened once. Side by side, the 2 columns give each row a beginning and an end.",
+    "text": "3 filas. Un grupo de 1 da la misma respuesta dos veces. Es correcto: ocurrió una vez. En paralelo, las 2 columnas dan a cada fila un inicio y un fin.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · the caveat under it · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "1cdc71ea8307"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "what",
+    "source": "Sorts the result by a column. `ASC` is smallest first, and is what you get if you say nothing. `DESC` puts the biggest on top.",
+    "text": "Ordena el resultado según una columna. `ASC` sitúa el menor al principio y es el criterio por omisión. `DESC` coloca el mayor arriba.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "b53f83956f6b"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "note",
+    "source": "The same query with `ORDER BY column_2 ASC`, or just `ORDER BY column_2`, returns smallest first: Beta 5, then Alpha 10. You can also sort by a name you invented with `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` puts the biggest count on top.",
+    "text": "La misma consulta con `ORDER BY column_2 ASC`, o simplemente `ORDER BY column_2`, devuelve primero el valor menor: Beta 5, luego Alpha 10. También puede ordenar por un nombre asignado con `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` sitúa el recuento mayor arriba.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · the caveat under it · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "46db563808a7"
+  },
+  {
+    "id": "LIMIT",
+    "field": "what",
+    "source": "Keeps only the first N rows. It comes last: sort first, then take the top.",
+    "text": "Conserva únicamente las primeras N filas. Va al final: ordene primero y extraiga el bloque superior.",
+    "note": "the SQL reference card, entry `LIMIT` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC LIMIT 1",
+    "rev": "a89fe47141e5"
+  }
+]

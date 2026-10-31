@@ -1,0 +1,434 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "제1장",
+    "note": "reel school-epilogue · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue · the line beside the chapter head · chapter: Chapter One",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "105 ROWS · 6 COLUMNS",
+    "text": "105행 · 6열",
+    "note": "reel school-epilogue · the words around the figures of the keycard_log set piece · chapter: Chapter One",
+    "rev": "abdaf8ecc8a7"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 101 more rows, and 2 more columns",
+    "text": "… 외 101개 행, 2개 열",
+    "note": "reel school-epilogue · what the keycard_log sample leaves out · chapter: Chapter One",
+    "rev": "9e73ba7192a5"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "30 ROWS · 6 COLUMNS",
+    "text": "30행 · 6열",
+    "note": "reel school-epilogue · the second set piece (line_register) · chapter: Chapter One",
+    "rev": "fecee157f7d9"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 28 more rows, and 3 more columns",
+    "text": "… 외 28개 행, 3개 열",
+    "note": "reel school-epilogue · what the second sample leaves out · chapter: Chapter One",
+    "rev": "220bfdd4ecfa"
+  },
+  {
+    "id": "E1-call",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 1/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-call",
+    "field": "text",
+    "source": "20:58, a call from `LINE 4417`. The first witness saw flames at 21:12. That's 14 minutes after the call.",
+    "text": "20:58, `LINE 4417`에서 걸려온 전화. 최초 목격자가 불길을 본 시각은 21:12다. 전화가 오고 14분 뒤지.",
+    "note": "reel school-epilogue, beat 1/16 · the line itself · speaker Detective Reyes",
+    "rev": "6ceafeedb6f2"
+  },
+  {
+    "id": "E1-call",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 1/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E2-room",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 2/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E2-room",
+    "field": "text",
+    "source": "From 18:00 to 22:00, `LINE 4417` is the telephone in the `Lodge`. The call was made from there.",
+    "text": "18:00부터 22:00까지 `LINE 4417`은 관리실(`Lodge`)의 전화기다. 전화는 거기서 걸려왔어.",
+    "note": "reel school-epilogue, beat 2/16 · the line itself · speaker Detective Reyes",
+    "rev": "3a0138cd1d69"
+  },
+  {
+    "id": "E2-room",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 2/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-pell",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 3/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-pell",
+    "field": "text",
+    "source": "The last one into the `Lodge` before the call was Victor Pell, the caretaker. 20:44.",
+    "text": "전화가 오기 전 마지막으로 관리실(`Lodge`)에 들어간 인물은 관리인(`Caretaker`) Victor Pell이다. 20:44.",
+    "note": "reel school-epilogue, beat 3/16 · the line itself · speaker Detective Reyes",
+    "rev": "b5b214fa1bde"
+  },
+  {
+    "id": "E3-pell",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 3/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 4/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "text",
+    "source": "Ruth Abasi went into the `Lodge` at 21:05. After the call.",
+    "text": "Ruth Abasi는 21:05에 관리실(`Lodge`)로 들어갔다. 전화가 온 뒤였지.",
+    "note": "reel school-epilogue, beat 4/16 · the line itself · speaker Detective Reyes",
+    "rev": "60cbedc44628"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 4/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-said",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 5/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-said",
+    "field": "text",
+    "source": "When we asked him, he said it wasn't him. Only his usual round: the `Gym`, then the `Science Wing`.",
+    "text": "우리가 캐물었을 때, 그자는 자기가 한 짓이 아니라고 했어. 그저 평소 돌던 순찰뿐이었다고. 체육관(`Gym`), 그다음엔 과학관(`Science Wing`).",
+    "note": "reel school-epilogue, beat 5/16 · the line itself · speaker Detective Reyes",
+    "rev": "1988be42fb09"
+  },
+  {
+    "id": "E3-said",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 5/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 6/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "text",
+    "source": "No badge at the `Gym` that evening. He badged into the `Boiler Room` at 20:35. That's where the white spirit is kept.",
+    "text": "그날 저녁 체육관(`Gym`)에는 출입 기록이 없다. 그자는 20:35에 보일러실(`Boiler Room`)에 출입증을 찍었다. 시너를 보관하는 곳이다.",
+    "note": "reel school-epilogue, beat 6/16 · the line itself · speaker Detective Reyes",
+    "rev": "a5ef1cc215ff"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "어떻게 찾았는가",
+    "note": "reel school-epilogue, beat 6/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 7/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "text",
+    "source": "Victor Pell confessed. A man paid him in cash to burn the science wing.",
+    "text": "Victor Pell은 자백했다. 어떤 남자가 과학관(`Science Wing`)을 태우라며 현금을 쥐여줬다고 하더군.",
+    "note": "reel school-epilogue, beat 7/16 · the line itself · speaker Detective Reyes",
+    "rev": "cbde1bba6b52"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 7/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 8/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "text",
+    "source": "His words: \"A man came to the lodge on Monday morning. He left an envelope of cash.\"",
+    "text": "그자의 말은 이랬다. “월요일 아침에 한 남자가 관리실(`Lodge`)로 찾아왔다. 현금이 든 봉투를 두고 갔다.”",
+    "note": "reel school-epilogue, beat 8/16 · the line itself · speaker Detective Reyes",
+    "rev": "1c9e880bdf16"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 8/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 9/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "text",
+    "source": "\"There were photos of my daughter in it too. If I said no, he could hurt her.\"",
+    "text": "“그 안에는 내 딸 사진도 들어 있었다. 내가 거절하면 그놈이 그 애를 해칠 수도 있었다.”",
+    "note": "reel school-epilogue, beat 9/16 · the line itself · speaker Detective Reyes",
+    "rev": "e9e57e1f7f26"
+  },
+  {
+    "id": "E4-photos",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 9/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-job",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 10/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-job",
+    "field": "text",
+    "source": "\"Burn the science wing at night, when it's empty. Nobody gets hurt. That was what we agreed.\"",
+    "text": "“밤에 아무도 없을 때 과학관(`Science Wing`)을 태워라. 다치는 사람은 없다. 그게 우리가 합의한 거였다.”",
+    "note": "reel school-epilogue, beat 10/16 · the line itself · speaker Detective Reyes",
+    "rev": "246c46224af7"
+  },
+  {
+    "id": "E4-job",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 10/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 11/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "text",
+    "source": "\"20:35. The boiler room. I took the school's white spirit.\"",
+    "text": "“20:35. 보일러실(`Boiler Room`). 학교 시너를 가져왔다.”",
+    "note": "reel school-epilogue, beat 11/16 · the line itself · speaker Detective Reyes",
+    "rev": "c00b6d7028c5"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 11/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-call",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 12/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-call",
+    "field": "text",
+    "source": "\"I started the fire and went back to the lodge. At 20:58 I phoned the emergency line myself.\"",
+    "text": "“불을 지르고 관리실(`Lodge`)로 돌아갔다. 20:58에 내가 직접 긴급 신고 전화를 걸었다.”",
+    "note": "reel school-epilogue, beat 12/16 · the line itself · speaker Detective Reyes",
+    "rev": "79d9e0d4af27"
+  },
+  {
+    "id": "E4-call",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 12/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-why",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 13/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-why",
+    "field": "text",
+    "source": "\"I wanted it to burn. Not to kill anyone.\"",
+    "text": "“불만 지르려 했다. 사람을 죽이려던 게 아니다.”",
+    "note": "reel school-epilogue, beat 13/16 · the line itself · speaker Detective Reyes",
+    "rev": "6bca03dfbea5"
+  },
+  {
+    "id": "E4-why",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 13/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 14/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "text",
+    "source": "He doesn't know that man's name. He only knows the money came from Okonjo Insurance.",
+    "text": "그 남자의 이름은 모른다. 돈이 Okonjo Insurance에서 나왔다는 사실만 알 뿐이지.",
+    "note": "reel school-epilogue, beat 14/16 · the line itself · speaker Detective Reyes",
+    "rev": "4c139242b27a"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 14/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 15/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "text",
+    "source": "Okonjo.",
+    "text": "Okonjo.",
+    "note": "reel school-epilogue, beat 15/16 · the line itself · speaker Detective Reyes",
+    "rev": "b83f4c7c4b0c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 15/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E7-name",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel school-epilogue, beat 16/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E7-name",
+    "field": "text",
+    "source": "I know that name.",
+    "text": "아는 이름이군.",
+    "note": "reel school-epilogue, beat 16/16 · the line itself · speaker Detective Reyes",
+    "rev": "575b1ff75517"
+  },
+  {
+    "id": "E7-name",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "그가 한 말",
+    "note": "reel school-epilogue, beat 16/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  }
+]

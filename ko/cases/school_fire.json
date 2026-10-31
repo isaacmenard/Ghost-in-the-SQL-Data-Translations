@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Intro",
+    "text": "입문",
+    "note": "dossier \"Intro\" · the dossier's own title",
+    "rev": "24601bcaae6e"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A school burned on a Tuesday night. The whole district said somebody set it on fire. The Paris Emergency Switchboard sent the crime unit a year of its calls, alarms and patrols. One call came in before the first witness saw the fire.",
+    "text": "화요일 밤 학교에 불이 났다. 온 동네에 누군가 불을 질렀다는 소문이 돌았다. 파리 긴급신고센터는 1년 치 신고 전화, 경보, 순찰 기록을 강력반에 넘겼다. 신고 전화 한 통은 첫 목격자가 불길을 보기 전에 들어왔다.",
+    "note": "dossier \"Intro\" · the dossier's own summary",
+    "rev": "b09da2d3ca91"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "The science wing of College Jean Moulin burned on the evening of 14 October. Nobody was hurt. Everybody has a theory.\n\nYou have a year of the Paris Emergency Switchboard's log and 4 words of SQL.",
+    "text": "College Jean Moulin 과학관(`Science Wing`)이 10월 14일 저녁에 불탔다. 다친 사람은 없다. 저마다 추측이 무성하다.\n\n주어진 것은 파리 긴급신고센터의 1년 치 신고 기록과 SQL 키워드 4개뿐이다.",
+    "note": "dossier \"Intro\" · the dossier's own pitchMarkdown",
+    "rev": "eef3928ea309"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "One table, `dispatch_log`: a year of the Paris Emergency Switchboard's log.",
+    "text": "테이블 하나, `dispatch_log`: 파리 긴급신고센터의 1년 치 신고 기록.",
+    "note": "dossier \"Intro\" · the dossier's own rulesMarkdown",
+    "rev": "37eb104a63ae"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which call reported the school fire before the first witness saw it?",
+    "text": "첫 목격자가 불길을 보기 전에 학교 화재를 알린 신고 전화는 어느 것인가?",
+    "note": "dossier \"Intro\" · the dossier's own openQuestion",
+    "rev": "8be22eafd8aa"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "2025년 10월 15일",
+    "note": "dossier \"Intro\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "과학수사 수석기자",
+    "note": "dossier \"Intro\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Criminal Fire Destroys Science Wing at College Jean Moulin",
+    "text": "College Jean Moulin 과학관, 방화로 전소",
+    "note": "dossier \"Intro\" · the gazette's headline",
+    "rev": "9b567c5f31b0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Flames Seen From the Street at 21:12. Neighbours Insist It Was Deliberate",
+    "text": "21:12에 길거리에서 불길 목격. 이웃들은 방화라고 주장",
+    "note": "dossier \"Intro\" · the gazette's subheadline",
+    "rev": "d73761861262"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The science wing of College Jean Moulin burned last night. Nobody was hurt. A passer-by saw flames at 21:12, and the firefighters were there a minute later. By the next morning the district said somebody started it on purpose. There was a chemistry store, and no system to put out a fire.\n\nThe police have no suspects and one file. It holds a year of calls from the Paris Emergency Switchboard. Detectives have to find one night in a year of calls. Then they have to find the time of that call.",
+    "text": "어젯밤 College Jean Moulin 과학관(`Science Wing`)이 불탔다. 다친 사람은 없었다. 한 행인이 21:12에 불길을 목격했고, 1분 뒤 소방대가 도착했다. 이튿날 아침이 되자 동네에는 방화라는 소문이 돌았다. 화학약품 보관실이 있었고 화재를 진압할 설비는 없었다.\n\n경찰에는 용의자가 없고 서류철 하나뿐이다. 파리 긴급신고센터의 1년 치 신고 기록이다. 형사들은 1년 치 신고 기록에서 하룻밤을 찾아내야 한다. 그다음 그 신고의 시각을 알아내야 한다.",
+    "note": "dossier \"Intro\" · the gazette's editorialArticle",
+    "rev": "373db2f3dbdb"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"One call reached us 14 minutes before anyone on the street saw a flame.\"",
+    "text": "“거리의 행인이 불길을 처음 보기 14분 전에 이미 신고 전화 한 통이 접수되었습니다.”",
+    "note": "dossier \"Intro\" · the gazette's leadQuote",
+    "rev": "2a67c4aa556e"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "파리 긴급신고센터의 1년: 파리의 모든 신고 전화, 목격 제보, 화재 경보 패널, 순찰 및 소방차 출동 기록이 접수 일시와 함께 정리되어 있다.",
+    "note": "dossier \"Intro\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "title",
+    "source": "Open the *Archive*",
+    "text": "*보관소* 열기",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — title",
+    "rev": "4a8001986460"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "instructions",
+    "source": "The Paris Emergency Switchboard logged a year of emergency calls in Paris.",
+    "text": "파리 긴급신고센터는 시내의 1년 치 긴급 신고 전화를 기록했다.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — instructions",
+    "rev": "796bcdde51f9"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedResult",
+    "source": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
+    "text": "`SELECT * FROM dispatch_log`를 입력하고 실행을 누르라. 행이 나타나면 검증을 누르라. `SELECT *`는 모든 열을 가져오고, `FROM`은 테이블을 지정한다.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
+    "rev": "022c5c3a8f9a"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the year, with all 8 columns.",
+    "text": "그해의 모든 행, 8개 열 전부.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedShapeNote",
+    "rev": "96eec5578a93"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "afterText",
+    "source": "2,400 rows in a year. Calls, witnesses, alarms, patrols.",
+    "text": "1년에 2,400행이다. 신고, 목격 제보, 경보, 순찰.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — afterText",
+    "rev": "618ee8457308"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "title",
+    "source": "The *Night*",
+    "text": "그날 *밤*",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — title",
+    "rev": "a325233e428a"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "instructions",
+    "source": "The fire was on 14 October.",
+    "text": "화재는 10월 14일에 일어났다.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — instructions",
+    "rev": "58b4470217ab"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedResult",
+    "source": "Keep only the rows of that day, `2025-10-14`, from `dispatch_log`. `WHERE` keeps the rows where a condition is true. Write the column, `=`, then the value in single quotes.",
+    "text": "`dispatch_log`에서 그날인 `2025-10-14`의 행만 남겨라. `WHERE`는 조건이 참인 행만 남긴다. 열을 적고 `=` 뒤에 작은따옴표로 감싼 값을 적어라.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedResult",
+    "rev": "d8938759f698"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedShapeNote",
+    "source": "16 rows: everything logged that day.",
+    "text": "16개 행: 그날 기록된 모든 것.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedShapeNote",
+    "rev": "08103ab5882e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "title",
+    "source": "Too *Early*",
+    "text": "너무 *이른* 시각",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — title",
+    "rev": "70ebd44fc27e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "instructions",
+    "source": "The first witness saw the school's flames at 21:12. One call about the fire came in before that.",
+    "text": "첫 목격자가 21:12에 학교의 불길을 보았다. 그전에 화재 신고 전화가 한 통 걸려 왔다.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — instructions",
+    "rev": "ce5078b69894"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedResult",
+    "source": "Find that call in `dispatch_log` and return its row. `AND` adds a second condition to a `WHERE`.",
+    "text": "`dispatch_log`에서 그 신고 전화를 찾아 해당 행을 반환하라. `AND`는 `WHERE`에 두 번째 조건을 추가한다.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedResult",
+    "rev": "b884ce09b8f9"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedShapeNote",
+    "source": "One row: the early call.",
+    "text": "행 하나: 너무 이른 신고 전화.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedShapeNote",
+    "rev": "f47b0870a81b"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "afterText",
+    "source": "20:58. 14 minutes before the first witness saw the fire.",
+    "text": "20:58. 첫 목격자가 불길을 보기 14분 전이다.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — afterText",
+    "rev": "152ae094925a"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "21:12에 불길 목격 → `dispatch_log` → 그 이전 학교 화재 신고 한 통: 20:58, `LINE 4417`.",
+    "note": "dossier \"Intro\" · the cleared sheet's chain, step 1/1 — text",
+    "rev": "d2913b0af757"
+  }
+]

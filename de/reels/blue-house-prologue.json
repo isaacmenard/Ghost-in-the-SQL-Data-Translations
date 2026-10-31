@@ -1,0 +1,146 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Einzelfall",
+    "note": "reel blue-house-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2 BLAUE HÄUSER",
+    "note": "reel blue-house-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "1,240 ROWS · 8 COLUMNS",
+    "text": "1.240 ZEILEN · 8 SPALTEN",
+    "note": "reel blue-house-prologue · the words around the figures of the shop_sales set piece · chapter: Standalone",
+    "rev": "28e0d06447a4"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 1,238 more rows, and 3 more columns",
+    "text": "… 1.238 weitere Zeilen und 3 weitere Spalten",
+    "note": "reel blue-house-prologue · what the shop_sales sample leaves out · chapter: Standalone",
+    "rev": "7d5e6181f5c3"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "260 ROWS · 4 COLUMNS",
+    "text": "260 ZEILEN · 4 SPALTEN",
+    "note": "reel blue-house-prologue · the second set piece (loyalty_cards) · chapter: Standalone",
+    "rev": "9de878ae1321"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 258 more rows",
+    "text": "… 258 weitere Zeilen",
+    "note": "reel blue-house-prologue · what the second sample leaves out · chapter: Standalone",
+    "rev": "69b9ddb5ea91"
+  },
+  {
+    "id": "B1-houses",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel blue-house-prologue, beat 1/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-houses",
+    "field": "text",
+    "source": "These 2, and 3 more on the same street, in `Saint Fargeau`. 5 parties. Each house was blue the next morning.",
+    "text": "Diese 2 und 3 weitere in derselben Straße, in `Saint Fargeau`. 5 Partys. Jedes Haus war am nächsten Morgen blau.",
+    "note": "reel blue-house-prologue, beat 1/4 · the line itself · speaker Detective Reyes",
+    "rev": "7ac2f631aa3b"
+  },
+  {
+    "id": "B1-houses",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2 BLAUE HÄUSER",
+    "note": "reel blue-house-prologue, beat 1/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "B1-pot",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel blue-house-prologue, beat 2/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-pot",
+    "field": "text",
+    "source": "Whoever did it left this pot in a hedge. It's `Blue Paint`, brand `Brikoko`.",
+    "text": "Wer es war, hat diesen Farbtopf in einer Hecke zurückgelassen. Es ist `Blue Paint`, Marke `Brikoko`.",
+    "note": "reel blue-house-prologue, beat 2/4 · the line itself · speaker Detective Reyes",
+    "rev": "bac3a8ab5d68"
+  },
+  {
+    "id": "B1-pot",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2 BLAUE HÄUSER",
+    "note": "reel blue-house-prologue, beat 2/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "B1-shop",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel blue-house-prologue, beat 3/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-shop",
+    "field": "text",
+    "source": "Near those houses, only 1 hardware shop sells `Brikoko`. Its sales database, `shop_sales`, has every sale since April.",
+    "text": "In der Nähe dieser Häuser verkauft nur 1 Eisenwarenladen `Brikoko`. Ihre Verkaufsdatenbank, `shop_sales`, enthält jeden Verkauf seit April.",
+    "note": "reel blue-house-prologue, beat 3/4 · the line itself · speaker Detective Reyes",
+    "rev": "bc3717900140"
+  },
+  {
+    "id": "B1-shop",
+    "field": "subject",
+    "source": "THE SHOP",
+    "text": "DER LADEN",
+    "note": "reel blue-house-prologue, beat 3/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  },
+  {
+    "id": "B1-cards",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel blue-house-prologue, beat 4/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-cards",
+    "field": "text",
+    "source": "Most customers pay with a loyalty card. The card database, `loyalty_cards`, has a name and a part of town.",
+    "text": "Die meisten Kunden zahlen mit Kundenkarte. Die Kartendatenbank, `loyalty_cards`, enthält Name und Stadtteil.",
+    "note": "reel blue-house-prologue, beat 4/4 · the line itself · speaker Detective Reyes",
+    "rev": "71bab0832fe3"
+  },
+  {
+    "id": "B1-cards",
+    "field": "subject",
+    "source": "THE SHOP",
+    "text": "DER LADEN",
+    "note": "reel blue-house-prologue, beat 4/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  }
+]

@@ -1,0 +1,258 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Next Bank",
+    "text": "O Próximo Banco",
+    "note": "dossier \"The Next Bank\" · the dossier's own title",
+    "rev": "23cf7015df91"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Next Bank",
+    "text": "O Próximo Banco",
+    "note": "dossier \"The Next Bank\" · the dossier's own arcTitle",
+    "rev": "23cf7015df91"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "6 banks robbed in Paris since June, by the same 3 men. They will rob a 7th.",
+    "text": "6 bancos assaltados em Paris desde junho, pelos mesmos 3 homens. Vão assaltar o 7º.",
+    "note": "dossier \"The Next Bank\" · the dossier's own summary",
+    "rev": "7222ff95fe5e"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Monday 30 November. Paris.\n\n6 banks robbed since June, by the same 3 men. Find the 7th before they get there.",
+    "text": "Segunda-feira, 30 de novembro. Paris.\n\n6 bancos assaltados desde junho, pelos mesmos 3 homens. Encontra o 7º antes que eles cheguem lá.",
+    "note": "dossier \"The Next Bank\" · the dossier's own pitchMarkdown",
+    "rev": "1df4f9c498d8"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "1 table and 1 map.\n\n`banks` is every bank in Paris, 100 rows, one per bank. `bank_id` is the id printed beside each bank on the map. `kind` is `Vault` for a bank with a vault. It is `ATM only` for a bank with cash machines only. `vault_cash` is the cash the bank holds, or held on the day it was robbed. `status` is `Robbed` for the 6 banks the crew robbed, and `Open` for the 94 others.",
+    "text": "1 tabela e 1 mapa.\n\n`banks` lista todos os bancos de Paris, 100 linhas, uma por banco. `bank_id` é o identificador ao lado de cada banco no mapa. `kind` é `Vault` para banco com caixa-forte. É `ATM only` para banco só com caixas eletrônicos. `vault_cash` é o dinheiro em espécie que o banco tem, ou tinha no dia do assalto. `status` é `Robbed` para os 6 bancos assaltados pela quadrilha, e `Open` para os outros 94.",
+    "note": "dossier \"The Next Bank\" · the dossier's own rulesMarkdown",
+    "rev": "80343641eee6"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which bank will the crew rob next?",
+    "text": "Qual vai ser o próximo banco assaltado pela quadrilha?",
+    "note": "dossier \"The Next Bank\" · the dossier's own openQuestion",
+    "rev": "f7a521078976"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Next: Civique Mozart",
+    "text": "Próximo: Civique Mozart",
+    "note": "dossier \"The Next Bank\" · the dossier's own verdictText",
+    "rev": "1b48128525fb"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 7, 2026",
+    "text": "7 DE NOVEMBRO DE 2026",
+    "note": "dossier \"The Next Bank\" · the gazette's date",
+    "rev": "7a3c5be67383"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Next Bank\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "A 6th Bank Robbed in Paris",
+    "text": "Um 6º banco assaltado em Paris",
+    "note": "dossier \"The Next Bank\" · the gazette's headline",
+    "rev": "7c91367e25f3"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Same Crew, Same Van, 7 Minutes Inside",
+    "text": "Mesma quadrilha, mesma van, 7 minutos na agência",
+    "note": "dossier \"The Next Bank\" · the gazette's subheadline",
+    "rev": "4587133e25e9"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "3 men robbed Municipale Ternes on Friday morning. They were inside for 7 minutes and left in a white van. The police say it is the same crew as the 5 robberies before it.\n\nThe crew has taken 713,150 euros since June. Our sources say they rob the banks with the most cash.",
+    "text": "3 homens assaltaram o Municipale Ternes na manhã de sexta-feira. Ficaram 7 minutos lá dentro e fugiram em uma van branca. A polícia afirma que é a mesma quadrilha dos 5 assaltos anteriores.\n\nA quadrilha levou 713.150 euros desde junho. Segundo fontes, eles atacam os bancos com mais dinheiro em espécie.",
+    "note": "dossier \"The Next Bank\" · the gazette's editorialArticle",
+    "rev": "865f6fcc2ba5"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"A public bank is an easy bank. Everybody knows that.\"",
+    "text": "“Banco público é banco fácil. Todo mundo sabe disso.”",
+    "note": "dossier \"The Next Bank\" · the gazette's leadQuote",
+    "rev": "26596f0dcfd4"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE BANKS OF PARIS",
+    "text": "OS BANCOS DE PARIS",
+    "note": "dossier \"The Next Bank\" · document `paris-map` — title",
+    "rev": "0acb59cf253b"
+  },
+  {
+    "id": "documents[score-sheet]",
+    "field": "title",
+    "source": "HOW THE SECURITY SCORE IS CALCULATED",
+    "text": "COMO A PONTUAÇÃO DE SEGURANÇA É CALCULADA",
+    "note": "dossier \"The Next Bank\" · document `score-sheet` — title",
+    "rev": "43067685548f"
+  },
+  {
+    "id": "documents[score-sheet]",
+    "field": "contentMarkdown",
+    "source": "**From the Paris police, for every bank in Paris.** 100 points at most.\n\n**Guards:** 10 points for each guard on site in opening hours, up to 30.\n\n**Police:** 30 points if the police arrived in under 5 minutes at the last alarm test. 1 point less for each minute over 5.\n\n**Cameras:** 2 points for each camera that works, up to 20.\n\n**Time lock:** 20 points if the vault opens only at set hours. A bank with cash machines only has no vault, so no time lock.\n\nScored every January. The security score goes to the bank and to its insurer.",
+    "text": "**Da polícia de Paris, para cada banco de Paris.** 100 pontos no máximo.\n\n**Seguranças:** 10 pontos por segurança no local durante o horário de funcionamento, até 30.\n\n**Polícia:** 30 pontos se a polícia chegou em menos de 5 minutos no último teste de alarme. 1 ponto a menos por minuto além dos 5.\n\n**Câmeras:** 2 pontos por câmera que funciona, até 20.\n\n**Fechadura temporizada:** 20 pontos se a caixa-forte (`Vault`) abre só em horários programados. Banco só com caixas eletrônicos não tem caixa-forte, então sem fechadura temporizada.\n\nAvaliação todo mês de janeiro. A pontuação de segurança vai para o banco e para a seguradora dele.",
+    "note": "dossier \"The Next Bank\" · document `score-sheet` — contentMarkdown",
+    "rev": "7a7f2e6c0e60"
+  },
+  {
+    "id": "documents[one-insurer]",
+    "field": "title",
+    "source": "THE 7 BANKS, ONE INSURER",
+    "text": "OS 7 BANCOS, UMA SÓ SEGURADORA",
+    "note": "dossier \"The Next Bank\" · document `one-insurer` — title",
+    "rev": "c67e841419c9"
+  },
+  {
+    "id": "documents[one-insurer]",
+    "field": "contentMarkdown",
+    "source": "From the arrest file, Friday 4 December.\n\n**09:12, Civique Mozart.** A white van stops outside. 3 masked men walk in. Officers are already inside. 3 arrests.\n\n**Interview.** Asked about Okonjo Insurance, all 3 men stop talking.\n\n| bank | status | insurer |\n| --- | --- | --- |\n| `Rivage Passy` | `Robbed` | `Okonjo Insurance` |\n| `Municipale Vaugirard` | `Robbed` | `Okonjo Insurance` |\n| `Vernier Batignolles` | `Robbed` | `Okonjo Insurance` |\n| `Orme Lecourbe` | `Robbed` | `Okonjo Insurance` |\n| `Civique Auteuil` | `Robbed` | `Okonjo Insurance` |\n| `Municipale Ternes` | `Robbed` | `Okonjo Insurance` |\n| `Civique Mozart` | `Open` | `Okonjo Insurance` |",
+    "text": "Do dossiê da prisão, sexta, 4 de dezembro.\n\n**09:12, Civique Mozart.** Uma van branca para em frente. 3 homens mascarados entram. Os policiais já estão lá dentro. 3 prisões.\n\n**Interrogatório.** Questionados sobre a Okonjo Insurance, os 3 homens se calam.\n\n| bank | status | insurer |\n| --- | --- | --- |\n| `Rivage Passy` | `Robbed` | `Okonjo Insurance` |\n| `Municipale Vaugirard` | `Robbed` | `Okonjo Insurance` |\n| `Vernier Batignolles` | `Robbed` | `Okonjo Insurance` |\n| `Orme Lecourbe` | `Robbed` | `Okonjo Insurance` |\n| `Civique Auteuil` | `Robbed` | `Okonjo Insurance` |\n| `Municipale Ternes` | `Robbed` | `Okonjo Insurance` |\n| `Civique Mozart` | `Open` | `Okonjo Insurance` |",
+    "note": "dossier \"The Next Bank\" · document `one-insurer` — contentMarkdown",
+    "rev": "5ba52364264b"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "COMO ENVIAR UMA RESPOSTA",
+    "note": "dossier \"The Next Bank\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the bank, return its row from `banks`.\n\nFor example, if you think the answer is `Civique Choiseul`, type this:\n\n```sql\nSELECT bank, bank_id, insurer, security_score, vault_cash\nFROM banks\nWHERE bank = 'Civique Choiseul'\n```",
+    "text": "Depois de encontrar o banco, retorna a linha dele de `banks`.\n\nPor exemplo, se achar que a resposta é `Civique Choiseul`, digita isto:\n\n```sql\nSELECT bank, bank_id, insurer, security_score, vault_cash\nFROM banks\nWHERE bank = 'Civique Choiseul'\n```",
+    "note": "dossier \"The Next Bank\" · document `how-to-answer` — contentMarkdown",
+    "rev": "e4611c7a68aa"
+  },
+  {
+    "id": "csvFiles[banks]",
+    "field": "description",
+    "source": "The 100 banks of Paris, the 6 robbed ones included. One row per bank: its `bank_id` on the map, its sector, its `kind`, its insurer, its `security_score` and its cash.",
+    "text": "Os 100 bancos de Paris, incluindo os 6 assaltados. Uma linha por banco: seu `bank_id` no mapa, seu setor, seu `kind`, sua seguradora, seu `security_score` e seu dinheiro em caixa.",
+    "note": "dossier \"The Next Bank\" · the `banks` table — description",
+    "rev": "c1666efde173"
+  },
+  {
+    "id": "steps[the-next-bank]",
+    "field": "title",
+    "source": "The Next Bank",
+    "text": "O Próximo Banco",
+    "note": "dossier \"The Next Bank\" · checkpoint 1/1 \"The Next Bank\" — title",
+    "rev": "23cf7015df91"
+  },
+  {
+    "id": "steps[the-next-bank]",
+    "field": "instructions",
+    "source": "Since June, the same crew has robbed 6 banks. In `banks`, those 6 have the `status` `Robbed`, and `robbed_on` is the day.",
+    "text": "A mesma quadrilha assaltou 6 bancos desde junho. Em `banks`, os 6 têm o `status` `Robbed`, e `robbed_on` indica o dia.",
+    "note": "dossier \"The Next Bank\" · checkpoint 1/1 \"The Next Bank\" — instructions",
+    "rev": "ab58de133559"
+  },
+  {
+    "id": "steps[the-next-bank]",
+    "field": "expectedResult",
+    "source": "By looking at what they robbed before, find the bank they will rob next. Return 1 row: its `bank`, `bank_id`, `insurer`, `security_score` and `vault_cash`.",
+    "text": "Analisando o que assaltaram antes, descobre o próximo banco que vão assaltar. Retorna 1 linha: o `bank`, o `bank_id`, o `insurer`, o `security_score` e o `vault_cash`.",
+    "note": "dossier \"The Next Bank\" · checkpoint 1/1 \"The Next Bank\" — expectedResult",
+    "rev": "f08b39d1c268"
+  },
+  {
+    "id": "steps[the-next-bank]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `banks`. The next bank, its id, its insurer, its security score and its cash.",
+    "text": "1 linha de `banks`. O próximo banco, o identificador, a seguradora, a pontuação de segurança e o dinheiro em caixa.",
+    "note": "dossier \"The Next Bank\" · checkpoint 1/1 \"The Next Bank\" — expectedShapeNote",
+    "rev": "70e9c9a0cb6c"
+  },
+  {
+    "id": "steps[the-next-bank]",
+    "field": "lead",
+    "source": "Put the 6 `Robbed` banks in the order they were robbed. What do they share, and what changes each time? The map can confirm it.",
+    "text": "Coloca os 6 bancos `Robbed` na ordem dos assaltos. O que os 6 têm em comum, e o que muda a cada vez? O mapa pode confirmar.",
+    "note": "dossier \"The Next Bank\" · checkpoint 1/1 \"The Next Bank\" — lead",
+    "rev": "bcb7d19370e3"
+  },
+  {
+    "id": "closing[the-van]",
+    "field": "say",
+    "source": "Friday 4 December. A white van stopped outside Civique Mozart. 3 masked men walked in. Our officers were already inside.",
+    "text": "Sexta-feira, 4 de dezembro. Uma van branca parou na frente do Civique Mozart. 3 homens entraram, mascarados. Nossos policiais já estavam dentro do banco.",
+    "note": "dossier \"The Next Bank\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "35cd1c26b222"
+  },
+  {
+    "id": "closing[the-insurer]",
+    "field": "say",
+    "source": "All 7 have one insurer: Okonjo Insurance. Each bank's security score is sent to that insurer.",
+    "text": "Os 7 têm uma só seguradora: Okonjo Insurance. A pontuação de segurança de cada banco vai para essa seguradora.",
+    "note": "dossier \"The Next Bank\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "7e60f95bee4b"
+  },
+  {
+    "id": "closing[the-silence]",
+    "field": "say",
+    "source": "Asked about Okonjo Insurance, the 3 men all stopped talking.",
+    "text": "Perguntados sobre a Okonjo Insurance, os 3 homens pararam de falar.",
+    "note": "dossier \"The Next Bank\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "548c7cade043"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "The 6 `Robbed` banks → `GROUP BY` → 3 public, 3 private. All `Vault`, all `Okonjo Insurance`, all 110,000 or more.",
+    "text": "Os 6 bancos `Robbed` → `GROUP BY` → 3 públicos, 3 privados. Todos `Vault`, todos `Okonjo Insurance`, todos com 110.000 ou mais.",
+    "note": "dossier \"The Next Bank\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "13bb6675488b"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "`ORDER BY robbed_on` → each score 2 above the last: 20, 22, 24, 26, 28, 30.",
+    "text": "`ORDER BY robbed_on` → cada pontuação 2 pontos acima da anterior: 20, 22, 24, 26, 28, 30.",
+    "note": "dossier \"The Next Bank\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "730b03488db5"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "Next score, 32, among `Open` banks with all 3 traits → `Civique Mozart`.",
+    "text": "Próxima pontuação, 32, entre os bancos `Open` com os 3 traços → `Civique Mozart`.",
+    "note": "dossier \"The Next Bank\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "aaf6746fa2b0"
+  }
+]

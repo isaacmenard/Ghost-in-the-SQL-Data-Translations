@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "The Kit",
+    "note": "dossier \"The Kit\" · the dossier's own title",
+    "rev": "b782724af5cd"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "The Finale",
+    "note": "dossier \"The Kit\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "text": "PROLOGUE",
+    "note": "dossier \"The Kit\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "Before the tables: the shop on the crew's map, and the claims of Okonjo Insurance.",
+    "note": "dossier \"The Kit\" · the dossier's own summary",
+    "rev": "8603242ceea0"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "1 minute, no typing. Reyes shows where K's kit was ready, and the 2 brothers.",
+    "note": "dossier \"The Kit\" · the dossier's own pitchMarkdown",
+    "rev": "6dffc7a104d4"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "DECEMBER 16, 2026",
+    "note": "dossier \"The Kit\" · the gazette's date",
+    "rev": "78b24ad3ab9e"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "The Kit",
+    "note": "dossier \"The Kit\" · the gazette's headline",
+    "rev": "b782724af5cd"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Paris",
+    "note": "dossier \"The Kit\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-okonjo-prologue-watched]",
+    "field": "title",
+    "text": "Prologue",
+    "note": "dossier \"The Kit\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-okonjo-prologue-watched]",
+    "field": "instructions",
+    "text": "Watch the briefing.",
+    "note": "dossier \"The Kit\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

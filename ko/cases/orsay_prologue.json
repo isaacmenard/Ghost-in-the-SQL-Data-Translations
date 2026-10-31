@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "An Empty Case",
+    "text": "빈 진열장",
+    "note": "dossier \"An Empty Case\" · the dossier's own title",
+    "rev": "5c4c00447911"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Orsay Crown",
+    "text": "Orsay의 왕관",
+    "note": "dossier \"An Empty Case\" · the dossier's own arcTitle",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "프롤로그",
+    "note": "dossier \"An Empty Case\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the badge log: a crown gone from the `Reserve`. Then the table that recorded every badge.",
+    "text": "출입 기록에 앞서: 수장고(`Reserve`)에서 사라진 왕관. 이어 모든 출입을 기록한 테이블.",
+    "note": "dossier \"An Empty Case\" · the dossier's own summary",
+    "rev": "3130466f457d"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes names the crown, the hours and the door, and hands over the badge log.",
+    "text": "1분, 입력 없음. 레이에스가 왕관과 시간대, 문을 언급하고 출입 기록을 건넨다.",
+    "note": "dossier \"An Empty Case\" · the dossier's own pitchMarkdown",
+    "rev": "8989ae05d7b5"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 19, 2026",
+    "text": "2026년 11월 19일",
+    "note": "dossier \"An Empty Case\" · the gazette's date",
+    "rev": "001ce02fbaf1"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "An Empty Case",
+    "text": "빈 진열장",
+    "note": "dossier \"An Empty Case\" · the gazette's headline",
+    "rev": "5c4c00447911"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Musee d'Orsay",
+    "text": "Orsay 미술관",
+    "note": "dossier \"An Empty Case\" · the gazette's subheadline",
+    "rev": "50d93856fa86"
+  },
+  {
+    "id": "steps[orsay-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "프롤로그",
+    "note": "dossier \"An Empty Case\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[orsay-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "브리핑을 봐라.",
+    "note": "dossier \"An Empty Case\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Intro",
+    "text": "入门",
+    "note": "dossier \"Intro\" · the dossier's own title",
+    "rev": "24601bcaae6e"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A school burned on a Tuesday night. The whole district said somebody set it on fire. The Paris Emergency Switchboard sent the crime unit a year of its calls, alarms and patrols. One call came in before the first witness saw the fire.",
+    "text": "星期二夜里一所学校起火。整个街区都说是有人纵火。巴黎紧急呼叫中心把一整年的电话、警报和巡逻记录送到了重案组。其中有一通电话在第一位目击者发现起火前便已打来。",
+    "note": "dossier \"Intro\" · the dossier's own summary",
+    "rev": "b09da2d3ca91"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "The science wing of College Jean Moulin burned on the evening of 14 October. Nobody was hurt. Everybody has a theory.\n\nYou have a year of the Paris Emergency Switchboard's log and 4 words of SQL.",
+    "text": "College Jean Moulin的理科楼（`Science Wing`）在10月14日晚上起火。没人受伤。人人都有一套说法。\n\n你手头有巴黎紧急呼叫中心整整一年的记录，以及4个SQL关键字。",
+    "note": "dossier \"Intro\" · the dossier's own pitchMarkdown",
+    "rev": "eef3928ea309"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "One table, `dispatch_log`: a year of the Paris Emergency Switchboard's log.",
+    "text": "一张表，`dispatch_log`：巴黎紧急呼叫中心一年的记录。",
+    "note": "dossier \"Intro\" · the dossier's own rulesMarkdown",
+    "rev": "37eb104a63ae"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which call reported the school fire before the first witness saw it?",
+    "text": "哪通电话在第一位目击者发现火情之前报告了学校的火灾？",
+    "note": "dossier \"Intro\" · the dossier's own openQuestion",
+    "rev": "8be22eafd8aa"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "2025年10月15日",
+    "note": "dossier \"Intro\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "首席刑侦记者",
+    "note": "dossier \"Intro\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Criminal Fire Destroys Science Wing at College Jean Moulin",
+    "text": "蓄意纵火：College Jean Moulin理科楼遭焚毁",
+    "note": "dossier \"Intro\" · the gazette's headline",
+    "rev": "9b567c5f31b0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Flames Seen From the Street at 21:12. Neighbours Insist It Was Deliberate",
+    "text": "21:12，街头有人目击火光，邻居们坚持说是有人故意放火",
+    "note": "dossier \"Intro\" · the gazette's subheadline",
+    "rev": "d73761861262"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The science wing of College Jean Moulin burned last night. Nobody was hurt. A passer-by saw flames at 21:12, and the firefighters were there a minute later. By the next morning the district said somebody started it on purpose. There was a chemistry store, and no system to put out a fire.\n\nThe police have no suspects and one file. It holds a year of calls from the Paris Emergency Switchboard. Detectives have to find one night in a year of calls. Then they have to find the time of that call.",
+    "text": "College Jean Moulin的理科楼（`Science Wing`）昨晚起火焚毁。没人受伤。路人在21:12看到了火光，消防队一分钟后赶到了现场。到了第二天早上，街区里就传开了纵火的说法。楼里有化学品储藏室，却没有灭火系统。\n\n警方没有嫌疑人，只有一份案卷。里面是巴黎紧急呼叫中心整整一年的电话记录。警探们得在一整年的电话里找出那个夜晚。随后还得查清那通电话的具体拨打时刻。",
+    "note": "dossier \"Intro\" · the gazette's editorialArticle",
+    "rev": "373db2f3dbdb"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"One call reached us 14 minutes before anyone on the street saw a flame.\"",
+    "text": "“有一通电话打进来的时间，比街上任何人看到火光都早了14分钟。”",
+    "note": "dossier \"Intro\" · the gazette's leadQuote",
+    "rev": "2a67c4aa556e"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "巴黎紧急呼叫中心的一年：巴黎的每通电话、每次目击、每块报警面板、每次巡逻和每辆消防车，都记着日期和时间。",
+    "note": "dossier \"Intro\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "title",
+    "source": "Open the *Archive*",
+    "text": "打开*档案库*",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — title",
+    "rev": "4a8001986460"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "instructions",
+    "source": "The Paris Emergency Switchboard logged a year of emergency calls in Paris.",
+    "text": "巴黎紧急呼叫中心记下了巴黎一整年的紧急呼叫。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — instructions",
+    "rev": "796bcdde51f9"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedResult",
+    "source": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
+    "text": "输入`SELECT * FROM dispatch_log`，然后运行。查询结果出现后，按“核实”。`SELECT *`用于查询所有列，`FROM`指明目标表。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
+    "rev": "022c5c3a8f9a"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the year, with all 8 columns.",
+    "text": "全年的每一行，共8列。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedShapeNote",
+    "rev": "96eec5578a93"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "afterText",
+    "source": "2,400 rows in a year. Calls, witnesses, alarms, patrols.",
+    "text": "一年2,400行。电话、目击报告、警报、巡逻。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — afterText",
+    "rev": "618ee8457308"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "title",
+    "source": "The *Night*",
+    "text": "案发*当晚*",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — title",
+    "rev": "a325233e428a"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "instructions",
+    "source": "The fire was on 14 October.",
+    "text": "火灾发生在10月14日。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — instructions",
+    "rev": "58b4470217ab"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedResult",
+    "source": "Keep only the rows of that day, `2025-10-14`, from `dispatch_log`. `WHERE` keeps the rows where a condition is true. Write the column, `=`, then the value in single quotes.",
+    "text": "从`dispatch_log`里只保留当天`2025-10-14`的行。`WHERE`保留条件成立的行。先写列名，写上`=`，再把值写在单引号里。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedResult",
+    "rev": "d8938759f698"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedShapeNote",
+    "source": "16 rows: everything logged that day.",
+    "text": "16行：当天记录的全部。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedShapeNote",
+    "rev": "08103ab5882e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "title",
+    "source": "Too *Early*",
+    "text": "来得*太早*",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — title",
+    "rev": "70ebd44fc27e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "instructions",
+    "source": "The first witness saw the school's flames at 21:12. One call about the fire came in before that.",
+    "text": "第一位目击者在21:12看到了学校的火光。在此之前曾有一通关于火灾的电话打进来。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — instructions",
+    "rev": "ce5078b69894"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedResult",
+    "source": "Find that call in `dispatch_log` and return its row. `AND` adds a second condition to a `WHERE`.",
+    "text": "在`dispatch_log`里找出那通电话并返回它所在的行。`AND`给`WHERE`加上第二个条件。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedResult",
+    "rev": "b884ce09b8f9"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedShapeNote",
+    "source": "One row: the early call.",
+    "text": "一行：提早打来的那通电话。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedShapeNote",
+    "rev": "f47b0870a81b"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "afterText",
+    "source": "20:58. 14 minutes before the first witness saw the fire.",
+    "text": "20:58。比第一位目击者看到起火早了14分钟。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — afterText",
+    "rev": "152ae094925a"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "21:12见到火光 → `dispatch_log` → 在此之前有一通学校火警电话：20:58，`LINE 4417`。",
+    "note": "dossier \"Intro\" · the cleared sheet's chain, step 1/1 — text",
+    "rev": "d2913b0af757"
+  }
+]

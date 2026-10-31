@@ -1,0 +1,386 @@
+[
+  {
+    "id": "SELECT … FROM",
+    "field": "what",
+    "source": "Which columns you want, and which table they come from. `*` means every column.",
+    "text": "需要的列，以及出自哪张表。`*`代表所有列。",
+    "note": "the SQL reference card, entry `SELECT … FROM` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2960be0dd535"
+  },
+  {
+    "id": "SELECT … FROM",
+    "field": "note",
+    "source": "5 rows: the whole table.",
+    "text": "5行：整张表。",
+    "note": "the SQL reference card, entry `SELECT … FROM` · the caveat under it · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2fcc9982d940"
+  },
+  {
+    "id": "WHERE",
+    "field": "what",
+    "source": "Keeps only the rows this condition is true for. Text goes in single quotes, and the text inside them must match capitals exactly.",
+    "text": "只保留满足该条件的行。文本写在单引号里，其中的文本必须严格匹配大小写。",
+    "note": "the SQL reference card, entry `WHERE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "33ecec56da88"
+  },
+  {
+    "id": "WHERE",
+    "field": "note",
+    "source": "**Equal.** `WHERE column_1 = 'Alpha'` → 2 rows out of 5. `'alpha'`, lower case, would match nothing at all.\n\n**Not equal.** `WHERE column_1 != 'Alpha'` keeps exactly the rows the first one removed. `<>` means the same thing.",
+    "text": "**等于。** `WHERE column_1 = 'Alpha'` → 5行里占2行。小写的`'alpha'`什么也对不上。\n\n**不等于。** `WHERE column_1 != 'Alpha'`正好保留前一条筛掉的那些行。`<>`也是这个意思。",
+    "note": "the SQL reference card, entry `WHERE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "fdff95901ac1"
+  },
+  {
+    "id": "LIKE",
+    "field": "what",
+    "source": "Matches a pattern instead of a whole value. `%` stands for any number of characters, so `'%lph%'` finds `Alpha`. With `%` only at the end, the value must start with the letters before it: `'Al%'`.",
+    "text": "按模式匹配，而不是匹配完整的值。`%`代表任意数量的字符，所以`'%lph%'`能找出`Alpha`。`%`只放在末尾时，值必须以它前面的字母开头：`'Al%'`。",
+    "note": "the SQL reference card, entry `LIKE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "b0158765f741"
+  },
+  {
+    "id": "LIKE",
+    "field": "note",
+    "source": "2 rows. LIKE ignores upper and lower case, so `'%LPH%'` returns the same 2. That is the tool for a value somebody has typed 2 ways. `_` is the other pattern symbol. It matches exactly 1 character, so `'Al___'` is a 5-letter value beginning Al.",
+    "text": "2行。LIKE不分大小写，所以`'%LPH%'`同样查出这2行。如果有人把同一个值敲出2种写法，用它正合适。`_`是另一个通配符。它只匹配1个字符，所以`'Al___'`代表以Al开头的5个字母的值。",
+    "note": "the SQL reference card, entry `LIKE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "6d6cf7401bbb"
+  },
+  {
+    "id": "AND / OR",
+    "field": "what",
+    "source": "Combines conditions. `AND` needs both to be true; `OR` needs either.",
+    "text": "把条件串起来。`AND`要求两项都满足；`OR`只要求满足其中一项。",
+    "note": "the SQL reference card, entry `AND / OR` · what the clause does, in the player's terms · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "fe1b3e1cda36"
+  },
+  {
+    "id": "AND / OR",
+    "field": "note",
+    "source": "1 row. Mixing both in one filter needs brackets. That has its own entry on this card: `AND (A OR B)`.",
+    "text": "1行。在一个过滤条件里混用两者需要加括号。速查卡上有专门的一条：`AND (A OR B)`。",
+    "note": "the SQL reference card, entry `AND / OR` · the caveat under it · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "47f8c60ad75e"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "what",
+    "source": "2 conditions where either can be true, inside one filter. `A` and `B` are the conditions you write; everything else is typed as it appears.",
+    "text": "在一个过滤条件里，2项条件满足其一即可。`A`和`B`是你写的条件；其余内容照样敲。",
+    "note": "the SQL reference card, entry `AND (A OR B)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "16f6d60c4937"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "note",
+    "source": "2 rows: the 14th, and either name. **The brackets are the whole entry.** Without them `AND` runs before `OR`, so `A AND B OR C` reads as `(A AND B) OR C`. The `OR` then splits the filter in 2 instead of offering a choice inside it. Take the brackets off the example above and it returns 3 rows instead of 2.",
+    "text": "2行：14日，以及其中一个名字。**括号是整条规则的核心**。不加括号，`AND`比`OR`结合得更紧，`A AND B OR C`就按`(A AND B) OR C`来解。这时`OR`把过滤条件劈成两半，而不是在条件内部二选一。去掉上例中的括号，结果就会从2行变成3行。",
+    "note": "the SQL reference card, entry `AND (A OR B)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "661c7768f0fa"
+  },
+  {
+    "id": "IN (…)",
+    "field": "what",
+    "source": "One column, a list of values, any of them can match. Shorter than writing `OR` between the same comparisons.",
+    "text": "一列，一串值，对上其中任意一个就行。比在每次比较之间重复写`OR`更简短。",
+    "note": "the SQL reference card, entry `IN (…)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "8734aa31e441"
+  },
+  {
+    "id": "IN (…)",
+    "field": "note",
+    "source": "4 rows: every row whose name is one of the 2 asked for. Commas between the values, brackets around the list. Each value is quoted, because the column is text.",
+    "text": "4行：名字符合所查2个名字之一的每一行。值与值之间加逗号，整个列表加括号。每个值都要加引号，因为这一列是文本。",
+    "note": "the SQL reference card, entry `IN (…)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "c69bee4c97c6"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "what",
+    "source": "The list can be a query. The inner query returns one column. A row is kept when its value appears in that column, and `NOT IN` keeps the rest.",
+    "text": "列表也可以是一条查询。内层查询只返回一列。只要值在里面出现，该行就会保留，`NOT IN`则保留其余各行。",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "d844eb2a686e"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "note",
+    "source": "3 rows: the 2 names with a row after 22:00, and every row with those names. The inner query runs first, on its own. Swap `IN` for `NOT IN` and the answer is the other 2 rows.",
+    "text": "3行：22:00之后有记录的2个名字，以及属于他们的全部行。内层查询先单独运行。把`IN`换成`NOT IN`，结果就是剩下的2行。",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "3ab8add9c70d"
+  },
+  {
+    "id": "-- a comment",
+    "field": "what",
+    "source": "2 dashes and a space, and the rest of the line is a note to yourself. Nothing after them runs. A block between `/*` and `*/` can cross lines.",
+    "text": "2个短横加一个空格，这一行剩下的部分就是自己的备注。其后的内容全不运行。夹在`/*`与`*/`之间的块可以跨行。",
+    "note": "the SQL reference card, entry `-- a comment` · what the clause does, in the player's terms · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "f8d89ff82246"
+  },
+  {
+    "id": "-- a comment",
+    "field": "note",
+    "source": "2 rows, the same 2 the query returns without the notes. Ignore a filter for now with `--`, or say what a query is for.",
+    "text": "2行，跟不加备注时查出来的2行完全相同。暂时用`--`忽略某个过滤条件，或者说明查询的用途。",
+    "note": "the SQL reference card, entry `-- a comment` · the caveat under it · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "e509c57f2b93"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "what",
+    "source": "Stored as text, `'YYYY-MM-DD'` and `'HH:MM'`, so they compare like text. The bigger value is the later one. `BETWEEN` takes a range, ends included.",
+    "text": "以文本形式存储为`'YYYY-MM-DD'`和`'HH:MM'`，所以按文本来比。值越大代表时间越晚。`BETWEEN`接受一个范围，包含两端。",
+    "note": "the SQL reference card, entry `Dates and hours` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "7156dd88bf66"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "note",
+    "source": "3 rows.\n\n**One day.** `WHERE day = '2026-03-14'`\n\n**A range of days.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, ends included\n\n**From an hour on.** `WHERE at_time >= '23:00'`\n\n**Before an hour.** `WHERE at_time < '04:00'`\n\nBoth columns are text, so `>` and `<` read as later and earlier.",
+    "text": "3行。\n\n**单日。** `WHERE day = '2026-03-14'`\n\n**连续数日。** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`，包含两端\n\n**从某个时间起。** `WHERE at_time >= '23:00'`\n\n**某个时间之前。** `WHERE at_time < '04:00'`\n\n两列都是文本，所以`>`和`<`表示更晚和更早。",
+    "note": "the SQL reference card, entry `Dates and hours` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "aa423a31f683"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "what",
+    "source": "Keeps the values from one end to the other, both ends included. The 2 ends are joined by `AND`.",
+    "text": "保留从一个端点到另一个端点的值，包含端点本身。2个端点用`AND`连接。",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "06380d381084"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "note",
+    "source": "3 rows: the 14th and the 15th, both ends in. No brackets and no comma around the ends: `BETWEEN ('09:00', '15:00')` is refused. Hours and numbers work the same way.",
+    "text": "3行：14日和15日，包含两端。两端不用括号，也不用逗号：`BETWEEN ('09:00', '15:00')`通不过。时间和数字用法相同。",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "13e9e4fe0970"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "what",
+    "source": "One row per distinct value, however many times it occurs. Answers \"which values are in this column at all\".",
+    "text": "不管出现多少次，每个不重复的值各占一行。回答的是“这一列里到底有哪些值”。",
+    "note": "the SQL reference card, entry `DISTINCT` · what the clause does, in the player's terms · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "1b5dcd19e256"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "note",
+    "source": "3 rows out of 5. The quickest way to see which values a column holds before you filter on it.",
+    "text": "5行里出3行。在过滤某列之前，这是摸清该列有哪些值最快的办法。",
+    "note": "the SQL reference card, entry `DISTINCT` · the caveat under it · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "c902720d2524"
+  },
+  {
+    "id": "IS NULL",
+    "field": "what",
+    "source": "An empty cell holds no value at all, and nothing equals no value. Not even another empty cell. So `= NULL` never matches anything. Use `IS NULL` instead, or `IS NOT NULL`.",
+    "text": "空白单元格里没有任何值，而没有任何东西等于无值。连另一个空白单元格也不行。因此`= NULL`永远对不上任何东西。改用`IS NULL`或者`IS NOT NULL`。",
+    "note": "the SQL reference card, entry `IS NULL` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "f5a6e58bd67d"
+  },
+  {
+    "id": "IS NULL",
+    "field": "note",
+    "source": "5 rows: every cell in the example table is filled, and that is the point. The test is about whether there is a value, never about what it is.\n\n**Empty.** `WHERE column_2 IS NULL`\n\n**Filled.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` is wrong the same way `= NULL` is, and neither is an error. They just return nothing.",
+    "text": "5行：示例表里的每个单元格都填了值，要害就在这儿。检验的是有没有值，从来不是值到底是什么。\n\n**空白。** `WHERE column_2 IS NULL`\n\n**有值。** `WHERE column_2 IS NOT NULL`\n\n`!= NULL`和`= NULL`错法一样，两者都不算语法错误。它们只是什么也查不到。",
+    "note": "the SQL reference card, entry `IS NULL` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "0d5a51ab84f5"
+  },
+  {
+    "id": "JOIN",
+    "field": "what",
+    "source": "Puts 2 tables side by side. After `ON`, name the 2 columns that must be equal, one from each table.",
+    "text": "把2张表并排放在一起。在`ON`后面写出必须相等的2列，每张表各一列。",
+    "note": "the SQL reference card, entry `JOIN` · what the clause does, in the player's terms · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "f95e44717f12"
+  },
+  {
+    "id": "JOIN",
+    "field": "note",
+    "source": "4 rows out of 5. `Gamma` has no code in `demo_codes`, so it is dropped, like any row with no match.",
+    "text": "5行中的4行。`Gamma`在`demo_codes`里没有代码，所以这一行去掉了。没有配对的行都是这样。",
+    "note": "the SQL reference card, entry `JOIN` · the caveat under it · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "80d75fc7ed01"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "what",
+    "source": "Joins the values of each group into one text. The second value goes between them. `ORDER BY` inside the brackets sets their order.",
+    "text": "把每组的值连成一段文本。第二个值放在它们中间。括号里的`ORDER BY`决定它们的顺序。",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · what the clause does, in the player's terms · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "ddc427f75167"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "note",
+    "source": "4 rows, one per day. On the 14th, Beta comes first because its `at_time` is earlier. With `''` as the second value, nothing goes between them. One letter per row then makes a word.",
+    "text": "4行，每天一行。14日，Beta排在最前面，因为它的`at_time`更早。第二个值用`''`，中间就什么都不放。每行一个字母就拼成一个单词。",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · the caveat under it · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "48b95431edd0"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "what",
+    "source": "A formula in the SELECT, on every row: `+`, `-`, `*`, `/` and brackets. No GROUP BY needed. `AS` names the new column.",
+    "text": "SELECT里的一个公式，每一行都算：`+`、`-`、`*`、`/`和括号。不用GROUP BY。`AS`给新列起名。",
+    "note": "the SQL reference card, entry `Calculation AS name` · what the clause does, in the player's terms · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "93f13b933793"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "note",
+    "source": "5 rows, 1 new column. `score` exists only in this result: the table does not change. A whole number divided by a whole number drops the decimals: `1/2` is `0`, `1.0/2` is `0.5`.",
+    "text": "5行，多1列。`score`只存在于这个结果里：表本身不变。整数除以整数会丢掉小数：`1/2`是`0`，`1.0/2`是`0.5`。",
+    "note": "the SQL reference card, entry `Calculation AS name` · the caveat under it · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "f79793d9716c"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "what",
+    "source": "Uses the same table twice, side by side: every row next to every row, itself included. Give each copy a name after `AS`, and write `a.` or `b.` before each column.",
+    "text": "同一张表用两次，并排放：每一行挨着每一行，包括它自己。在`AS`后面给每份副本起个名，每列前面写上`a.`或`b.`。",
+    "note": "the SQL reference card, entry `FROM, twice` · what the clause does, in the player's terms · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "3deb31227157"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "note",
+    "source": "1 row: Alpha and Gamma, 2 + 8 = 10. `a.label < b.label` drops a box paired with itself, and keeps each pair once. Add `, demo_boxes AS c` to use the table 3 times.",
+    "text": "1行：Alpha和Gamma，2 + 8 = 10。`a.label < b.label`去掉箱子跟自己配成的对，每一对只留一次。加上`, demo_boxes AS c`，这张表就用3次。",
+    "note": "the SQL reference card, entry `FROM, twice` · the caveat under it · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "277243dc493a"
+  },
+  {
+    "id": "COUNT(*)",
+    "field": "what",
+    "source": "One number: how many rows matched. Use `AS` to give it a name you can refer to later.",
+    "text": "一个数字：查到了多少行。用`AS`给它起个名字，后面还能引用它。",
+    "note": "the SQL reference card, entry `COUNT(*)` · what the clause does, in the player's terms · its example: SELECT COUNT(*) AS total FROM demo",
+    "rev": "846bd0acc804"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "what",
+    "source": "Counts each distinct value separately instead of all together: one row out per group. Include the column too, or you get numbers with no labels.",
+    "text": "把每个不重复的值分开数，而不是合在一起数：每组出一行。记得把那一列也一并查出来，否则出来的数字没有标签。",
+    "note": "the SQL reference card, entry `GROUP BY` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "7608b178dd01"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "note",
+    "source": "Note the order: grouped, not ranked. The biggest number is not necessarily first. That is what ORDER BY is for.",
+    "text": "留意这里的顺序：只是分了组，没有排高低。最大的数字未必排在最前面。排序用ORDER BY。",
+    "note": "the SQL reference card, entry `GROUP BY` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "8d4a05a94caa"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "what",
+    "source": "Adds a column up instead of counting rows. What goes inside can be arithmetic, not only a column name.",
+    "text": "把整列加总，而不是数行数。里面可以写算式，不光能填列名。",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · what the clause does, in the player's terms · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "edee98c7809d"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "note",
+    "source": "3 rows: one per group, each the total of its own. `COUNT` says how many lines a group has. `SUM` gives their total.",
+    "text": "3行：每组一行，各报各的总数。`COUNT`说的是一组有多少行。`SUM`给出的则是它们的总和。",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · the caveat under it · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "cc4e00386a52"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "what",
+    "source": "The average of a column: its total divided by the number of rows. With `GROUP BY`, one average per group.",
+    "text": "列的平均值：总和除以行数。配合`GROUP BY`，每组一个平均值。",
+    "note": "the SQL reference card, entry `AVG(…)` · what the clause does, in the player's terms · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "aac9dd33929c"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "note",
+    "source": "3 rows. Alpha has 10 and 20, so 15. Put 2 groups side by side to see which one is higher.",
+    "text": "3行。Alpha有10和20，所以是15。把2组并排，看哪组更高。",
+    "note": "the SQL reference card, entry `AVG(…)` · the caveat under it · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "2ea9877e9eec"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "what",
+    "source": "Counts how many *different* values a column holds, not how many rows there are. The way to count things that each wrote more than one line.",
+    "text": "数的是某一列里有多少个*不同*的值，而不是有多少行。如果每个统计对象都记了不止一行，就该这么数。",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "d14b5ca9fd0f"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "note",
+    "source": "3 rows: one per group. Compare it with `COUNT(*)`: Alpha's 2 lines fall on 2 different days, so both counts say 2. Add a second line on one of those days, and the 2 counts differ.",
+    "text": "3行：每组一行。跟`COUNT(*)`比一下：Alpha的2行记录分在2个不同的日子，所以两边数出来的都是2。要是往其中一天再加一行，2个计数就对不上了。",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · the caveat under it · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "76c660a3ec64"
+  },
+  {
+    "id": "HAVING",
+    "field": "what",
+    "source": "Filters the groups a GROUP BY produced, the way WHERE filters rows. WHERE runs before the grouping and cannot use a count; HAVING runs after it and can.",
+    "text": "过滤GROUP BY出来的分组，就像WHERE过滤单行一样。WHERE在分组之前运行，用不了计数；HAVING在分组之后运行，可以用。",
+    "note": "the SQL reference card, entry `HAVING` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "5aeceafc0936"
+  },
+  {
+    "id": "HAVING",
+    "field": "note",
+    "source": "2 rows: Gamma appears once and is dropped. Use it to keep only the values that occur more often than a number you choose.",
+    "text": "2行：Gamma只出现了一次，直接剔除。用它只保留出现次数超过指定数字的值。",
+    "note": "the SQL reference card, entry `HAVING` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "1e85d3a715a6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "what",
+    "source": "The smallest and the largest value in each group. On text they read alphabetically, so on an hour they mean earliest and latest.",
+    "text": "每组里的最小值和最大值。放在文本上按字母顺序看，所以放在时间上就代表最早和最晚。",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · what the clause does, in the player's terms · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "2d934b8ab3d6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "note",
+    "source": "3 rows. A group of 1 gives the same answer twice. That is correct: it happened once. Side by side, the 2 columns give each row a beginning and an end.",
+    "text": "3行。只有1条记录的组会把同一个答案报两次。没错：事情只发生过一次。2列并排，给每行标出了头尾。",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · the caveat under it · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "1cdc71ea8307"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "what",
+    "source": "Sorts the result by a column. `ASC` is smallest first, and is what you get if you say nothing. `DESC` puts the biggest on top.",
+    "text": "按某一列对结果排序。`ASC`把最小的排在最前头，不写就默认是它。`DESC`把最大的排在顶上。",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "b53f83956f6b"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "note",
+    "source": "The same query with `ORDER BY column_2 ASC`, or just `ORDER BY column_2`, returns smallest first: Beta 5, then Alpha 10. You can also sort by a name you invented with `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` puts the biggest count on top.",
+    "text": "同一条查询写成`ORDER BY column_2 ASC`，或者干脆只写`ORDER BY column_2`，查出来的结果都是最小的在前：先是Beta 5，然后是Alpha 10。也可以按自己用`AS`起的名字排序：`SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC`会把最大的计数排在最前头。",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · the caveat under it · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "46db563808a7"
+  },
+  {
+    "id": "LIMIT",
+    "field": "what",
+    "source": "Keeps only the first N rows. It comes last: sort first, then take the top.",
+    "text": "只保留前N行。写在最后面：先排好序，再取最前面的。",
+    "note": "the SQL reference card, entry `LIMIT` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC LIMIT 1",
+    "rev": "a89fe47141e5"
+  }
+]

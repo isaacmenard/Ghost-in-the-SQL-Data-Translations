@@ -1,0 +1,106 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "Kapitel eins",
+    "note": "reel school-lodge-intro · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "WHERE IT CAME FROM",
+    "text": "WOHER ES KAM",
+    "note": "reel school-lodge-intro · the line beside the chapter head · chapter: Chapter One",
+    "rev": "f44d6298d938"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "105 ROWS · 6 COLUMNS",
+    "text": "105 ZEILEN · 6 SPALTEN",
+    "note": "reel school-lodge-intro · the words around the figures of the keycard_log set piece · chapter: Chapter One",
+    "rev": "abdaf8ecc8a7"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 103 more rows, and 2 more columns",
+    "text": "… 103 weitere Zeilen und 2 weitere Spalten",
+    "note": "reel school-lodge-intro · what the keycard_log sample leaves out · chapter: Chapter One",
+    "rev": "b1474e3da4c8"
+  },
+  {
+    "id": "K1-room",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel school-lodge-intro, beat 1/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "K1-room",
+    "field": "text",
+    "source": "So it was the `Lodge`. Somebody was in it at 20:58.",
+    "text": "Die Hausmeisterloge (`Lodge`) also. Um 20:58 war jemand drin.",
+    "note": "reel school-lodge-intro, beat 1/3 · the line itself · speaker Detective Reyes",
+    "rev": "d20415476d38"
+  },
+  {
+    "id": "K1-room",
+    "field": "subject",
+    "source": "WHERE IT CAME FROM",
+    "text": "WOHER ES KAM",
+    "note": "reel school-lodge-intro, beat 1/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "f44d6298d938"
+  },
+  {
+    "id": "K1-doors",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel school-lodge-intro, beat 2/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "K1-doors",
+    "field": "text",
+    "source": "There's a badge reader on every door. The school sent us every swipe since Monday.",
+    "text": "An jeder Tür hängt ein Ausweisleser. Die Schule hat uns jede Ausweisbuchung seit Montag geschickt.",
+    "note": "reel school-lodge-intro, beat 2/3 · the line itself · speaker Detective Reyes",
+    "rev": "9722d8928323"
+  },
+  {
+    "id": "K1-doors",
+    "field": "subject",
+    "source": "WHERE IT CAME FROM",
+    "text": "WOHER ES KAM",
+    "note": "reel school-lodge-intro, beat 2/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "f44d6298d938"
+  },
+  {
+    "id": "K1-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel school-lodge-intro, beat 3/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "K1-handoff",
+    "field": "text",
+    "source": "Find who was in there. A name, and the time they went in.",
+    "text": "Finde raus, wer drin war. Einen Namen und die Uhrzeit, zu der er reinging.",
+    "note": "reel school-lodge-intro, beat 3/3 · the line itself · speaker Detective Reyes",
+    "rev": "e42900a0a6f2"
+  },
+  {
+    "id": "K1-handoff",
+    "field": "subject",
+    "source": "WHAT TO DO NEXT",
+    "text": "WAS ALS NÄCHSTES ZU TUN IST",
+    "note": "reel school-lodge-intro, beat 3/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9cdf97745e26"
+  }
+]

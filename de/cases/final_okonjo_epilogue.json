@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Last Meeting",
+    "text": "Das letzte Treffen",
+    "note": "dossier \"The Last Meeting\" · the dossier's own title",
+    "rev": "ac204103d9d0"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "Das Finale",
+    "note": "dossier \"The Last Meeting\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "EPILOGUE",
+    "text": "EPILOG",
+    "note": "dossier \"The Last Meeting\" · the dossier's own partLabel",
+    "rev": "e42f50aedfc3"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "After the file: what Dele Okonjo told his brother, and the meeting he set.",
+    "text": "Nach der Akte: was Dele Okonjo seinem Bruder erzählte und das Treffen, das er ansetzte.",
+    "note": "dossier \"The Last Meeting\" · the dossier's own summary",
+    "rev": "ae2c9cfa7439"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes closes the finale.",
+    "text": "1 Minute, ohne Tippen. Reyes schließt das Finale ab.",
+    "note": "dossier \"The Last Meeting\" · the dossier's own pitchMarkdown",
+    "rev": "9621d69cc5e1"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 16, 2026",
+    "text": "16. DEZEMBER 2026",
+    "note": "dossier \"The Last Meeting\" · the gazette's date",
+    "rev": "78b24ad3ab9e"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Last Meeting",
+    "text": "Das letzte Treffen",
+    "note": "dossier \"The Last Meeting\" · the gazette's headline",
+    "rev": "ac204103d9d0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "Paris",
+    "note": "dossier \"The Last Meeting\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-okonjo-epilogue-watched]",
+    "field": "title",
+    "source": "Epilogue",
+    "text": "Epilog",
+    "note": "dossier \"The Last Meeting\" · checkpoint 1/1 \"Epilogue\" — title",
+    "rev": "64186d3a47fa"
+  },
+  {
+    "id": "steps[final-okonjo-epilogue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Sieh dir die Lagebesprechung an.",
+    "note": "dossier \"The Last Meeting\" · checkpoint 1/1 \"Epilogue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

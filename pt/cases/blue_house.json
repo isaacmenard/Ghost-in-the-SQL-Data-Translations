@@ -1,0 +1,370 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Blue Houses",
+    "text": "As Casas Azuis",
+    "note": "dossier \"The Blue Houses\" · the dossier's own title",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Blue Houses",
+    "text": "As Casas Azuis",
+    "note": "dossier \"The Blue Houses\" · the dossier's own arcTitle",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "5 houses on Villa Godin, in `Saint Fargeau`, painted blue in the night. Each one after a party. 1 pot was left behind.",
+    "text": "5 casas na Villa Godin, em `Saint Fargeau`, pintadas de azul durante a noite. Cada uma depois de uma festa. 1 lata ficou para trás.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own summary",
+    "rev": "79d9415c6014"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Wednesday 1 July. Villa Godin, Paris.\n\n5 houses painted blue since April. 1 pot in a hedge.",
+    "text": "Quarta-feira, 1º de julho. Villa Godin, Paris.\n\n5 casas pintadas de azul desde abril. 1 lata em uma cerca viva.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own pitchMarkdown",
+    "rev": "9688c516caf4"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables.\n\n`shop_sales` is every sale at the neighbourhood hardware shop, April to June. It is the only shop near the street that sells `Brikoko`. One row per sale. `card` is the loyalty card the customer paid with, and is empty when they had none.\n\n`loyalty_cards` is the list of cards. One row per `card`: who holds it, and the part of town they live in.",
+    "text": "2 tabelas.\n\n`shop_sales` contém cada venda da loja de ferragens do bairro, de abril a junho. É a única loja perto da rua que vende `Brikoko`. Uma linha por venda. `card` é o cartão de fidelidade usado pelo cliente, e fica vazio se ele não tinha nenhum.\n\n`loyalty_cards` é a lista de cartões. Uma linha por `card`: quem é o titular e o bairro onde mora.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own rulesMarkdown",
+    "rev": "4306baec1d9d"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who painted the 5 houses on Villa Godin blue?",
+    "text": "Quem pintou de azul as 5 casas na Villa Godin?",
+    "note": "dossier \"The Blue Houses\" · the dossier's own openQuestion",
+    "rev": "3263bd8a55fe"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Miles Greaves",
+    "text": "Miles Greaves",
+    "note": "dossier \"The Blue Houses\" · the dossier's own verdictText",
+    "rev": "4f3d36038e6c"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "JULY 1, 2026",
+    "text": "1º DE JULHO DE 2026",
+    "note": "dossier \"The Blue Houses\" · the gazette's date",
+    "rev": "c62e5cae9e61"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Blue Houses\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "A 5th House Painted Blue on Villa Godin",
+    "text": "Uma 5ª casa pintada de azul na Villa Godin",
+    "note": "dossier \"The Blue Houses\" · the gazette's headline",
+    "rev": "f82074368171"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Every Owner Had a Party the Night Before",
+    "text": "Cada dono deu uma festa na noite anterior",
+    "note": "dossier \"The Blue Houses\" · the gazette's subheadline",
+    "rev": "97291185a152"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "Jess Harlow woke up on Sunday to a blue house at 12 Villa Godin, Paris. 2 weeks earlier, the same happened to Tom Fairley's house, at number 4. Since April, 3 other houses on the same street were painted before them.\n\nEach owner had a party on the Saturday night. Nobody saw who did it. A pot of paint was found in Jess Harlow's hedge.",
+    "text": "No domingo, Jess Harlow acordou com a casa pintada de azul no número 12 da Villa Godin, em Paris. 2 semanas antes, aconteceu o mesmo com a casa de Tom Fairley, no número 4. Desde abril, outras 3 casas na mesma rua foram pintadas antes delas.\n\nCada proprietário deu uma festa na noite de sábado. Ninguém viu quem fez isso. Uma lata de tinta foi encontrada na cerca viva de Jess Harlow.",
+    "note": "dossier \"The Blue Houses\" · the gazette's editorialArticle",
+    "rev": "f84f6b3dbec7"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"The last guests left at midnight. At 6 in the morning, the house was blue.\"",
+    "text": "“Os últimos convidados saíram à meia-noite. Às 6 da manhã, a casa estava azul.”",
+    "note": "dossier \"The Blue Houses\" · the gazette's leadQuote",
+    "rev": "d22d61cd7299"
+  },
+  {
+    "id": "documents[the-houses]",
+    "field": "title",
+    "source": "2 OF THE 5 HOUSES",
+    "text": "2 DAS 5 CASAS",
+    "note": "dossier \"The Blue Houses\" · document `the-houses` — title",
+    "rev": "e77272562acd"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "title",
+    "source": "EVIDENCE TAG",
+    "text": "ETIQUETA DE PROVA",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — title",
+    "rev": "056de9129af3"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "contentMarkdown",
+    "source": "**Found:** Sunday 28 June, 06:10, in the hedge of 12 `Villa Godin`.\n\n**Object:** 1 pot of `Blue Paint`, with its stick.\n\n**Brand on the label:** `Brikoko`.\n\n**Price sticker on the lid:** the hardware shop's, dated June 2026.",
+    "text": "**Encontrado:** domingo, 28 de junho, 06:10, na cerca viva do número 12 da `Villa Godin`.\n\n**Objeto:** 1 lata de `Blue Paint`, com a vareta de mexer.\n\n**Marca no rótulo:** `Brikoko`.\n\n**Etiqueta de preço na tampa:** da loja de ferragens, datada de junho de 2026.",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — contentMarkdown",
+    "rev": "19952d2589a3"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "title",
+    "source": "THE 5 HOUSES",
+    "text": "AS 5 CASAS",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — title",
+    "rev": "1fc8ad46c224"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "contentMarkdown",
+    "source": "All 5 are on Villa Godin, in `Saint Fargeau`.\n\nPainted at night, one at a time, after each party. Since April.",
+    "text": "Todas as 5 ficam na Villa Godin, em `Saint Fargeau`.\n\nPintadas à noite, uma de cada vez, depois de cada festa. Desde abril.",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — contentMarkdown",
+    "rev": "7c51669e5b59"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "title",
+    "source": "THE NEIGHBOUR AT NUMBER 9",
+    "text": "O VIZINHO DO NÚMERO 9",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — title",
+    "rev": "f7eee49bdd33"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "contentMarkdown",
+    "source": "Night of 27 June, about 03:00.\n\n\"A man came out of number 12's garden with a ladder. His hands were blue. No car. He walked away along the street. I think he lives around here, but I couldn't say where.\"",
+    "text": "Noite de 27 de junho, por volta das 03:00.\n\n“Um homem saiu do jardim do número 12 com uma escada. Tinha as mãos azuis. Sem carro. Foi embora a pé pela rua. Acho que mora por aqui, mas não sei dizer onde.”",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — contentMarkdown",
+    "rev": "b13cb71f849a"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "COMO ENVIAR UMA RESPOSTA",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the card, return its row from `loyalty_cards`.\n\nFor example, if you think the answer is card `LC-0001`, type this:\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "text": "Depois de encontrar o cartão, retorna a linha dele de `loyalty_cards`.\n\nPor exemplo, se você acha que a resposta é o cartão `LC-0001`, digita isto:\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — contentMarkdown",
+    "rev": "16ab4de8d129"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "title",
+    "source": "MILES GREAVES'S FLAT, 2 JULY",
+    "text": "O APARTAMENTO DE MILES GREAVES, 2 DE JULHO",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — title",
+    "rev": "3fbdd3b93d91"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "contentMarkdown",
+    "source": "**In the cellar:** 2 pots of `Brikoko` `Blue Paint`, with the same June price sticker.\n\n**On a shelf:** a pair of gardening gloves, stiff with blue paint.\n\nHe says the parties on Villa Godin were too loud.",
+    "text": "**No porão:** 2 latas de `Brikoko` `Blue Paint`, com a mesma etiqueta de preço de junho.\n\n**Em uma prateleira:** um par de luvas de jardinagem, endurecidas de tinta azul.\n\nEle diz que as festas na Villa Godin faziam barulho demais.",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — contentMarkdown",
+    "rev": "64787a4f0ea7"
+  },
+  {
+    "id": "documents[metro-0701]",
+    "field": "title",
+    "source": "Wednesday 1 July 2026",
+    "text": "Quarta, 1º de julho de 2026",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701` — title",
+    "rev": "c77097286629"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "title",
+    "source": "Paris Insurance Fair: 3 Days, 40 Insurers",
+    "text": "Feira de Seguros de Paris: 3 dias, 40 seguradoras",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — title",
+    "rev": "a66e37de2fd3"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "contentMarkdown",
+    "source": "The fair closes today at Porte de Versailles, after 3 days. The City of Paris will choose the insurer of its schools in the autumn.\n\n*Dele Okonjo, for the City of Paris, with his brother Samuel Okonjo, head of Okonjo Insurance.*",
+    "text": "A feira termina hoje na Porte de Versailles, depois de 3 dias. A prefeitura de Paris vai escolher a seguradora das escolas no outono.\n\n*Dele Okonjo, pela prefeitura de Paris, com o irmão Samuel Okonjo, diretor da Okonjo Insurance.*",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — contentMarkdown",
+    "rev": "c4c3e89b27be"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "title",
+    "source": "Jean Moulin Fire: Trial in 2027",
+    "text": "Incêndio no Jean Moulin: Julgamento em 2027",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — title",
+    "rev": "fd3a721c2911"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "contentMarkdown",
+    "source": "Victor Pell will be tried in 2027 for the fire at College Jean Moulin. The school opens again in September.",
+    "text": "Victor Pell será julgado em 2027 pelo incêndio no College Jean Moulin. A escola reabre em setembro.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — contentMarkdown",
+    "rev": "6d208cd72375"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "title",
+    "source": "Hopital Lamarck: Trial in the Autumn",
+    "text": "Hopital Lamarck: Julgamento no outono",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — title",
+    "rev": "3f5f88f20c3d"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "contentMarkdown",
+    "source": "The man charged in February with the hospital attacks will be tried in the autumn.",
+    "text": "O homem acusado em fevereiro pelos ataques ao hospital será julgado no outono.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — contentMarkdown",
+    "rev": "2a77354c6d25"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 3",
+    "text": "MUTEFONE 3",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — title",
+    "rev": "727afd541743"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Write it. Only they can read it.",
+    "text": "Escreve. Só quem recebe pode ler.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — contentMarkdown",
+    "rev": "8e3c692b752d"
+  },
+  {
+    "id": "csvFiles[shop_sales]",
+    "field": "description",
+    "source": "Every sale at the neighbourhood hardware shop, 1 April to 30 June. One row per sale, with the `card` the customer paid with.",
+    "text": "Todas as vendas na loja de ferragens do bairro, de 1º de abril a 30 de junho. Uma linha por venda, com o `card` usado no pagamento.",
+    "note": "dossier \"The Blue Houses\" · the `shop_sales` table — description",
+    "rev": "52cb7bade1b7"
+  },
+  {
+    "id": "csvFiles[loyalty_cards]",
+    "field": "description",
+    "source": "The 260 loyalty cards of the shop. One row per card: the `card`, its `holder`, the `house` number and the `neighbourhood` they live in.",
+    "text": "Os 260 cartões de fidelidade da loja. Uma linha por cartão: o `card`, o `holder`, o número da casa (`house`) e o bairro de moradia (`neighbourhood`).",
+    "note": "dossier \"The Blue Houses\" · the `loyalty_cards` table — description",
+    "rev": "3cb246d2311b"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "title",
+    "source": "Who Painted",
+    "text": "Quem pintou",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — title",
+    "rev": "e688bbb017e4"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "instructions",
+    "source": "Since April, somebody has painted 5 houses blue, each one at night. A pot was left behind at the last house.",
+    "text": "Desde abril, alguém pintou 5 casas de azul, cada uma à noite. Uma lata de tinta foi deixada para trás na última casa.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — instructions",
+    "rev": "31ec853c4eea"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedResult",
+    "source": "Find who painted them, with `shop_sales` and `loyalty_cards`. Return their row from `loyalty_cards`.",
+    "text": "Descobre quem pintou com `shop_sales` e `loyalty_cards`. Devolve a linha da pessoa em `loyalty_cards`.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedResult",
+    "rev": "85d3f3b18b38"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `loyalty_cards`. The card, name and part of town of the painter.",
+    "text": "1 linha de `loyalty_cards`. O cartão, o nome e o bairro de quem pintou.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedShapeNote",
+    "rev": "bb4268f33f7d"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "lead",
+    "source": "Look in `shop_sales` for the paint on the evidence tag, brand included. Then keep the neighbourhood of the 5 houses.",
+    "text": "Procura em `shop_sales` a tinta da etiqueta de prova, marca incluída. Depois mantém o bairro das 5 casas.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — lead",
+    "rev": "b8d562c05f25"
+  },
+  {
+    "id": "closing[his-quarter]",
+    "field": "say",
+    "source": "Miles Greaves. `Saint Fargeau` is on his card, like the 5 houses.",
+    "text": "Miles Greaves. O cartão dele está registrado em `Saint Fargeau`, como as 5 casas.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "7fa9baf67965"
+  },
+  {
+    "id": "closing[the-walk]",
+    "field": "say",
+    "source": "The neighbour saw a man leave on foot, with blue hands. He thinks the man lives nearby.",
+    "text": "O vizinho viu um homem sair a pé, com as mãos azuis. Acha que o homem mora perto.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "1df2fbf08ec8"
+  },
+  {
+    "id": "closing[the-visit]",
+    "field": "say",
+    "source": "In his cellar: 2 pots of that same blue, and gloves stiff with it. He says the parties on Villa Godin were too loud.",
+    "text": "No porão dele: 2 latas desse mesmo azul e luvas duras de tinta. Ele diz que as festas na Villa Godin faziam barulho demais.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "3f16ddf5e550"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "The evidence tag: `Brikoko`, sold in June → `shop_sales` → 2 cards.",
+    "text": "A etiqueta de prova: `Brikoko`, vendido em junho → `shop_sales` → 2 cartões.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "53d592d74c83"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "On foot, may live nearby → `loyalty_cards` → 1 of the 2 in `Saint Fargeau`.",
+    "text": "A pé, pode morar perto → `loyalty_cards` → 1 dos 2 em `Saint Fargeau`.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "1e4609433e9d"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`LC-0147` → Miles Greaves.",
+    "text": "`LC-0147` → Miles Greaves.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "dd7131b4b05d"
+  }
+]

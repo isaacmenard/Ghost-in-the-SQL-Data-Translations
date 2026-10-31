@@ -1,0 +1,386 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Hospital Stalker",
+    "text": "Lo stalker dell’ospedale",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own title",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Hospital Stalker",
+    "text": "Lo stalker dell’ospedale",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own arcTitle",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "3 staff attacked in one week, each alone in a room at the back. Every staff door keeps a record of the badges that opened it.",
+    "text": "3 membri del personale aggrediti in una settimana, ciascuno da solo in una stanza in fondo. Ogni porta del personale registra i badge che l’hanno aperta.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own summary",
+    "rev": "184f91021651"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Friday 6 February, 12:30. Hopital Lamarck.\n\n3 staff attacked from behind in 4 days. Each had just taken a box of morphine from the `Drug Reserve`. He took it.",
+    "text": "Venerdì 6 febbraio, 12:30. Hopital Lamarck.\n\n3 membri del personale aggrediti alle spalle in 4 giorni. Ciascuno aveva appena preso una scatola di morfina dal deposito farmaci (`Drug Reserve`). Gliel’ha portata via lui.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own pitchMarkdown",
+    "rev": "cd18680a980c"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables.\n\n`door_log` is every badge swipe at a staff door, Monday to Friday. One row per badge going in. The `door` is the name on the plan.\n\n`staff_badges` is the list of badges: who holds each one, and their `role`.",
+    "text": "2 tabelle.\n\n`door_log` registra ogni passaggio di badge a una porta del personale, dal lunedì al venerdì. Una riga per ogni ingresso con badge. La colonna `door` indica il nome sulla pianta.\n\n`staff_badges` elenca i badge: il titolare di ciascuno e il suo `role`.",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own rulesMarkdown",
+    "rev": "123cb58a81ac"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who attacked 3 of the staff, and who will he attack next?",
+    "text": "Chi ha aggredito 3 membri del personale, e chi sarà la prossima vittima?",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own openQuestion",
+    "rev": "cb9035d61190"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Colin Marsh. Next: Owen Clarke",
+    "text": "Colin Marsh. Prossimo: Owen Clarke",
+    "note": "dossier \"The Hospital Stalker\" · the dossier's own verdictText",
+    "rev": "643283228c91"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "FEBRUARY 6, 2026",
+    "text": "6 FEBBRAIO 2026",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's date",
+    "rev": "b65c0893ec58"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Third Nurse Attacked at Hopital Lamarck",
+    "text": "Aggredita una terza infermiera all’Hopital Lamarck",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's headline",
+    "rev": "26b36b004f75"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Morphine Stolen From 3 Staff",
+    "text": "Morfina rubata a 3 membri del personale",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's subheadline",
+    "rev": "679a249cbc79"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "3 members of staff at Hopital Lamarck were attacked this week. Each was alone in a room at the back of the building. None of them saw the attacker.\n\nEach one had just taken morphine from the hospital's Drug Reserve. The attacker took it. Every staff door in the building reads a badge.",
+    "text": "3 membri del personale dell’Hopital Lamarck sono stati aggrediti questa settimana. Ciascuno era da solo in una stanza in fondo all’edificio. Nessuno ha visto l’aggressore.\n\nCiascuno aveva appena preso morfina dal deposito farmaci (`Drug Reserve`) dell’ospedale. L’aggressore gliel’ha portata via. Ogni porta del personale nell’edificio legge un badge.",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's editorialArticle",
+    "rev": "292ad136cc39"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"He came in behind me. I never saw his face.\"",
+    "text": "«È entrato alle mie spalle. Non ho mai visto la sua faccia.»",
+    "note": "dossier \"The Hospital Stalker\" · the gazette's leadQuote",
+    "rev": "0930adc961b3"
+  },
+  {
+    "id": "documents[the-plan]",
+    "field": "title",
+    "source": "THE FLOOR",
+    "text": "LA PIANTA DEL PIANO",
+    "note": "dossier \"The Hospital Stalker\" · document `the-plan` — title",
+    "rev": "79fd65468faf"
+  },
+  {
+    "id": "documents[statements]",
+    "field": "title",
+    "source": "THE 3 STATEMENTS",
+    "text": "LE 3 DEPOSIZIONI",
+    "note": "dossier \"The Hospital Stalker\" · document `statements` — title",
+    "rev": "481c062fec1b"
+  },
+  {
+    "id": "documents[statements]",
+    "field": "contentMarkdown",
+    "source": "**Amira Saleh, Monday `2026-02-02`.** Around 15:30 I took morphine from the `Drug Reserve`. Then I went into the `Supply Room` alone. A few minutes later I heard the badge reader, and the door opened behind me. A hand over my mouth. \"The box,\" he said, and took it. I never saw his face, and I did not recognise his voice. I reported it. All that day, somebody was behind me.\n\n**Helen Shaw, Wednesday `2026-02-04`.** Around 11:10 I took morphine from the `Drug Reserve`. Then I took a bag to the `Waste Room`. I heard the badge reader, and somebody came in after me. He pushed me into the wall and took the box. He took only the box. My bag and my telephone stayed on the floor. I never saw his face, and I did not recognise his voice. I reported it. All that day, somebody was behind me.\n\n**Grace Mensah, Thursday `2026-02-05`.** Just before 16:00, I took morphine from the `Drug Reserve`. Then the `Loading Bay`. The shutter to the street was down: it is closed from 10:00 in the morning. The badge reader, the door, then his arm. He took the box. I never saw his face or recognised his voice. I reported it. All that day, somebody was behind me.",
+    "text": "**Amira Saleh, lunedì `2026-02-02`.** Verso le 15:30 ho preso morfina dal deposito farmaci (`Drug Reserve`). Poi sono entrata da sola nel magazzino forniture (`Supply Room`). Pochi minuti dopo ho sentito il lettore del badge, e la porta si è aperta alle mie spalle. Una mano sulla bocca. «La scatola», ha detto, e l’ha presa. Non ho mai visto la sua faccia e non ho riconosciuto la sua voce. Ho segnalato il furto. Per tutto quel giorno, qualcuno è stato dietro di me.\n\n**Helen Shaw, mercoledì `2026-02-04`.** Verso le 11:10 ho preso morfina dal deposito farmaci (`Drug Reserve`). Poi ho portato un sacco nel locale rifiuti (`Waste Room`). Ho sentito il lettore del badge, e qualcuno è entrato dietro di me. Mi ha spinta contro il muro e ha preso la scatola. Ha preso solo la scatola. La mia borsa e il mio telefono sono rimasti a terra. Non ho mai visto la sua faccia e non ho riconosciuto la sua voce. Ho segnalato il furto. Per tutto quel giorno, qualcuno è stato dietro di me.\n\n**Grace Mensah, giovedì `2026-02-05`.** Poco prima delle 16:00, ho preso morfina dal deposito farmaci (`Drug Reserve`). Poi la banchina di carico (`Loading Bay`). La saracinesca sulla strada era abbassata: è chiusa dalle 10:00 del mattino. Il lettore del badge, la porta, poi il suo braccio. Ha preso la scatola. Non ho mai visto la sua faccia né ho riconosciuto la sua voce. Ho segnalato il furto. Per tutto quel giorno, qualcuno è stato dietro di me.",
+    "note": "dossier \"The Hospital Stalker\" · document `statements` — contentMarkdown",
+    "rev": "3ebf64d9c5ae"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "COME INVIARE UNA RISPOSTA",
+    "note": "dossier \"The Hospital Stalker\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the name, return that person's row from `staff_badges`.\n\nFor example, if you think the answer is Amira Saleh, type this:\n\n```sql\nSELECT *\nFROM staff_badges\nWHERE holder = 'Amira Saleh'\n```",
+    "text": "Una volta ottenuto il nome, restituisci la riga di quella persona da `staff_badges`.\n\nPer esempio, se pensi che la risposta sia Amira Saleh, scrivi così:\n\n```sql\nSELECT *\nFROM staff_badges\nWHERE holder = 'Amira Saleh'\n```",
+    "note": "dossier \"The Hospital Stalker\" · document `how-to-answer` — contentMarkdown",
+    "rev": "62cb0603016b"
+  },
+  {
+    "id": "documents[his-tuesday]",
+    "field": "title",
+    "source": "COLIN MARSH, TUESDAY",
+    "text": "COLIN MARSH, MARTEDÌ",
+    "note": "dossier \"The Hospital Stalker\" · document `his-tuesday` — title",
+    "rev": "9ee305a2cc29"
+  },
+  {
+    "id": "documents[his-tuesday]",
+    "field": "contentMarkdown",
+    "source": "Tuesday `2026-02-03`, the day before Helen Shaw was attacked. Her badge, then his, at the same door.\n\n| door | Helen Shaw | Colin Marsh |\n| --- | --- | --- |\n| Ward B | 11:06 | 11:08 |\n| Cafeteria | 12:05 | 12:07 |\n| Ward B | 14:37 | 14:38 |\n| Ward B | 15:02 | 15:03 |\n| Ward B | 15:59 | 16:00 |\n| Staff Room | 16:09 | 16:11 |\n| Linen Room | 16:38 | 16:40 |\n\nHe works in the `Records` room. Monday to Friday, his badge never opened it.",
+    "text": "Martedì `2026-02-03`, il giorno prima dell’aggressione a Helen Shaw. Il badge di lei, poi quello di lui, alla stessa porta.\n\n| door | Helen Shaw | Colin Marsh |\n| --- | --- | --- |\n| Ward B | 11:06 | 11:08 |\n| Cafeteria | 12:05 | 12:07 |\n| Ward B | 14:37 | 14:38 |\n| Ward B | 15:02 | 15:03 |\n| Ward B | 15:59 | 16:00 |\n| Staff Room | 16:09 | 16:11 |\n| Linen Room | 16:38 | 16:40 |\n\nLavora nella stanza degli archivi (`Records`). Dal lunedì al venerdì, il suo badge non l’ha mai aperta.",
+    "note": "dossier \"The Hospital Stalker\" · document `his-tuesday` — contentMarkdown",
+    "rev": "457be2893890"
+  },
+  {
+    "id": "documents[reserve-memo]",
+    "field": "title",
+    "source": "ON THE DRUG RESERVE DOOR",
+    "text": "SULLA PORTA DEL DEPOSITO FARMACI",
+    "note": "dossier \"The Hospital Stalker\" · document `reserve-memo` — title",
+    "rev": "2049b6084d22"
+  },
+  {
+    "id": "documents[reserve-memo]",
+    "field": "contentMarkdown",
+    "source": "Badge and code.\n\nThe code is given to the 7 staff whose `role` is `Nurse`. The `Pharmacist` has his own key. He fills the `Drug Reserve` in the evening. Nobody else gets in.",
+    "text": "Badge e codice.\n\nIl codice è affidato ai 7 membri del personale il cui `role` è `Nurse`. Il farmacista (`Pharmacist`) ha la sua chiave. Rifornisce la `Drug Reserve` la sera. Nessun altro entra.",
+    "note": "dossier \"The Hospital Stalker\" · document `reserve-memo` — contentMarkdown",
+    "rev": "e8bc47509abb"
+  },
+  {
+    "id": "documents[the-arrest]",
+    "field": "title",
+    "source": "ARREST REPORT, 6 FEBRUARY",
+    "text": "VERBALE DI ARRESTO, 6 FEBBRAIO",
+    "note": "dossier \"The Hospital Stalker\" · document `the-arrest` — title",
+    "rev": "3c116d9015fe"
+  },
+  {
+    "id": "documents[the-arrest]",
+    "field": "contentMarkdown",
+    "source": "**16:48, `Linen Room`.** Owen Clarke goes in. 2 officers are already inside.\n\n**16:50.** Colin Marsh badges in behind him and shuts the door. Arrested. No resistance.\n\n**In his coat:** the box of morphine taken from Grace Mensah on Thursday.",
+    "text": "**16:48, `Linen Room`.** Owen Clarke entra. 2 agenti sono già all’interno.\n\n**16:50.** Colin Marsh passa il badge dietro di lui e chiude la porta. Arrestato. Nessuna resistenza.\n\n**Nel cappotto:** la scatola di morfina presa a Grace Mensah giovedì.",
+    "note": "dossier \"The Hospital Stalker\" · document `the-arrest` — contentMarkdown",
+    "rev": "fb79659bfcf7"
+  },
+  {
+    "id": "documents[metro-0206]",
+    "field": "title",
+    "source": "Friday 6 February 2026",
+    "text": "Venerdì 6 febbraio 2026",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206` — title",
+    "rev": "a8951730c510"
+  },
+  {
+    "id": "documents[metro-0206-pell]",
+    "field": "title",
+    "source": "Jean Moulin Fire: The Caretaker Charged",
+    "text": "Incendio al Jean Moulin: il custode incriminato",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-pell` — title",
+    "rev": "b2ddec20bd02"
+  },
+  {
+    "id": "documents[metro-0206-pell]",
+    "field": "contentMarkdown",
+    "source": "Victor Pell, caretaker of College Jean Moulin, is charged with the fire of 14 October 2025. He says the money came from Okonjo. Okonjo Insurance says it has never heard of him.",
+    "text": "Victor Pell, custode del College Jean Moulin, è accusato dell’incendio del 14 ottobre 2025. Sostiene che il denaro provenisse da Okonjo. Okonjo Insurance afferma di non aver mai sentito parlare di lui.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-pell` — contentMarkdown",
+    "rev": "d8bf2faabe60"
+  },
+  {
+    "id": "documents[metro-0206-m13]",
+    "field": "title",
+    "source": "M13: More Trains From May",
+    "text": "M13: più treni da maggio",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-m13` — title",
+    "rev": "0df91edcd2f2"
+  },
+  {
+    "id": "documents[metro-0206-m13]",
+    "field": "contentMarkdown",
+    "source": "From 4 May, at rush hour, an M13 train will come every 2 minutes. Now it is every 3.",
+    "text": "Dal 4 maggio, nelle ore di punta, passerà un treno della M13 ogni 2 minuti. Attualmente ne passa uno ogni 3.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-m13` — contentMarkdown",
+    "rev": "57f93fedd6e3"
+  },
+  {
+    "id": "documents[metro-0206-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 2",
+    "text": "MUTEFONE 2",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-mutefone` — title",
+    "rev": "ecfd05534d65"
+  },
+  {
+    "id": "documents[metro-0206-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Your messages, in a code only your contact can read. No server, no copy.",
+    "text": "I tuoi messaggi, in un codice che solo il tuo contatto può leggere. Nessun server, nessuna copia.",
+    "note": "dossier \"The Hospital Stalker\" · document `metro-0206-mutefone` — contentMarkdown",
+    "rev": "8736dc4636cc"
+  },
+  {
+    "id": "csvFiles[door_log]",
+    "field": "description",
+    "source": "Every badge swipe at a staff door, from Monday 2 February to Friday 6 February, 12:30. One row per badge going in, and none going out.",
+    "text": "Ogni passaggio di badge a una porta per il personale, da lunedì 2 febbraio a venerdì 6 febbraio, 12:30. Una riga per ogni ingresso, nessuna per le uscite.",
+    "note": "dossier \"The Hospital Stalker\" · the `door_log` table — description",
+    "rev": "f4835409c8df"
+  },
+  {
+    "id": "csvFiles[staff_badges]",
+    "field": "description",
+    "source": "The 20 badges of the hospital staff. One row per badge: the `badge`, its `holder` and their `role`.",
+    "text": "I 20 badge del personale ospedaliero. Una riga per badge: il `badge`, il relativo `holder` e il suo `role`.",
+    "note": "dossier \"The Hospital Stalker\" · the `staff_badges` table — description",
+    "rev": "93979444fe39"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "title",
+    "source": "Who Came In Behind",
+    "text": "Chi è entrato subito dopo",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — title",
+    "rev": "f2676be173fd"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "instructions",
+    "source": "Monday, the `Supply Room`. Wednesday, the `Waste Room`. Thursday, the `Loading Bay`. Each time, the attacker badged in after the victim.",
+    "text": "Lunedì, la `Supply Room`. Mercoledì, la `Waste Room`. Giovedì, la `Loading Bay`. Ogni volta l’aggressore ha passato il badge dopo la vittima.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — instructions",
+    "rev": "171b17dbe93e"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "expectedResult",
+    "source": "Search `door_log` and find the attacker. Return their row from `staff_badges`.",
+    "text": "Cerca in `door_log` e trova l’aggressore. Restituisci la sua riga da `staff_badges`.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — expectedResult",
+    "rev": "75cfdf39c1fc"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `staff_badges`. The attacker's badge, name and role.",
+    "text": "1 riga di `staff_badges`. Il badge, il nome e il ruolo dell’aggressore.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — expectedShapeNote",
+    "rev": "3bd2f97be5a0"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "afterText",
+    "source": "Colin Marsh, records clerk. On Tuesday, the day before her attack, he badged after Helen Shaw 7 times.",
+    "text": "Colin Marsh, archivista (`Records Clerk`). Martedì, il giorno prima dell’aggressione, ha passato il badge dietro a Helen Shaw 7 volte.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — afterText",
+    "rev": "6ab7b3fb91e0"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "afterTextNext",
+    "source": "Now the notice on the `Drug Reserve` door. It says who has the code.",
+    "text": "Ora l’avviso sulla porta del deposito farmaci (`Drug Reserve`). Dice chi ha il codice.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — afterTextNext",
+    "rev": "c3eab133604c"
+  },
+  {
+    "id": "steps[came-in-behind]",
+    "field": "lead",
+    "source": "The rooms are in the `door` column. Find the victim's own swipe first, then who came in over the next few minutes.",
+    "text": "Le stanze sono nella colonna `door`. Trova prima il passaggio di badge della vittima, poi chi è entrato nei minuti successivi.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 1/2 \"Who Came In Behind\" — lead",
+    "rev": "25c9fc70713c"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "title",
+    "source": "The Next Name",
+    "text": "Il nome successivo",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — title",
+    "rev": "0b5f7d092782"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "instructions",
+    "source": "The 3 victims are each a `Nurse` in `staff_badges`. Each reported the theft and went home. Only `Nurse` staff have the `Drug Reserve` code.",
+    "text": "Le 3 vittime sono ciascuna `Nurse` in `staff_badges`. Ciascuna ha segnalato il furto ed è tornata a casa. Solo il personale `Nurse` ha il codice della `Drug Reserve`.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — instructions",
+    "rev": "95d9cb3e06c5"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "expectedResult",
+    "source": "Search `door_log` and find who Colin Marsh will attack next. Return their row from `staff_badges`.",
+    "text": "Cerca in `door_log` e trova la prossima vittima di Colin Marsh. Restituisci la sua riga da `staff_badges`.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — expectedResult",
+    "rev": "22f28135a4f6"
+  },
+  {
+    "id": "steps[the-next-name]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `staff_badges`. The next victim's badge, name and role.",
+    "text": "1 riga di `staff_badges`. Il badge, il nome e il ruolo della prossima vittima.",
+    "note": "dossier \"The Hospital Stalker\" · checkpoint 2/2 \"The Next Name\" — expectedShapeNote",
+    "rev": "893374befb87"
+  },
+  {
+    "id": "closing[the-code]",
+    "field": "say",
+    "source": "Only staff with the `Nurse` role have the code. Colin Marsh is a `Records Clerk`. So he let the nurses bring the morphine out, then took it from them.",
+    "text": "Solo il personale con il ruolo `Nurse` ha il codice. Colin Marsh è un `Records Clerk`. Così lasciava che le infermiere portassero fuori la morfina, poi gliela prendeva.",
+    "note": "dossier \"The Hospital Stalker\" · Reyes's closing, shot 1/2, said after the last stamp — say",
+    "rev": "51eb39494609"
+  },
+  {
+    "id": "closing[the-trap]",
+    "field": "say",
+    "source": "Friday afternoon, he came into the `Linen Room` behind Owen Clarke and shut the door. 2 officers were inside. They arrested him.",
+    "text": "Venerdì pomeriggio è entrato nella `Linen Room` dietro Owen Clarke e ha chiuso la porta. 2 agenti erano all’interno. L’hanno arrestato.",
+    "note": "dossier \"The Hospital Stalker\" · Reyes's closing, shot 2/2, said after the last stamp — say",
+    "rev": "0590c19612f6"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "3 statements: room, day, hour → `door_log` → the swipe after each victim: Colin Marsh.",
+    "text": "3 deposizioni: stanza, giorno, ora → `door_log` → il passaggio subito dopo ogni vittima: Colin Marsh.",
+    "note": "dossier \"The Hospital Stalker\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "47a16b770af8"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "Only `Nurse` staff have the code → `door_log`, Colin Marsh on Friday → Owen Clarke.",
+    "text": "Solo il personale `Nurse` ha il codice → `door_log`, Colin Marsh il venerdì → Owen Clarke.",
+    "note": "dossier \"The Hospital Stalker\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "a1f13e7e7452"
+  }
+]

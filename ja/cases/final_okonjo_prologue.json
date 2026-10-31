@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Kit",
+    "text": "道具一式",
+    "note": "dossier \"The Kit\" · the dossier's own title",
+    "rev": "b782724af5cd"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "終幕",
+    "note": "dossier \"The Kit\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "プロローグ",
+    "note": "dossier \"The Kit\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the tables: the shop on the crew's map, and the claims of Okonjo Insurance.",
+    "text": "テーブルの確認前に。犯行グループの地図にあった店と、オコンジョ保険会社への保険金請求。",
+    "note": "dossier \"The Kit\" · the dossier's own summary",
+    "rev": "8603242ceea0"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows where K's kit was ready, and the 2 brothers.",
+    "text": "1分、入力なし。レイエスがKの道具の調達場所と、2人の兄弟を示す。",
+    "note": "dossier \"The Kit\" · the dossier's own pitchMarkdown",
+    "rev": "6dffc7a104d4"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 16, 2026",
+    "text": "2026年12月16日",
+    "note": "dossier \"The Kit\" · the gazette's date",
+    "rev": "78b24ad3ab9e"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Kit",
+    "text": "道具一式",
+    "note": "dossier \"The Kit\" · the gazette's headline",
+    "rev": "b782724af5cd"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "パリ",
+    "note": "dossier \"The Kit\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-okonjo-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "プロローグ",
+    "note": "dossier \"The Kit\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-okonjo-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "ブリーフィングを見ろ。",
+    "note": "dossier \"The Kit\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

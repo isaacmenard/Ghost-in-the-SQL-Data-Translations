@@ -1,0 +1,380 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "text": "Chapter One",
+    "note": "reel school-epilogue · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue · the line beside the chapter head · chapter: Chapter One",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "text": "105 ROWS · 6 COLUMNS",
+    "note": "reel school-epilogue · the words around the figures of the keycard_log set piece · chapter: Chapter One",
+    "rev": "abdaf8ecc8a7"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "text": "… 101 more rows, and 2 more columns",
+    "note": "reel school-epilogue · what the keycard_log sample leaves out · chapter: Chapter One",
+    "rev": "9e73ba7192a5"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "text": "30 ROWS · 6 COLUMNS",
+    "note": "reel school-epilogue · the second set piece (line_register) · chapter: Chapter One",
+    "rev": "fecee157f7d9"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "text": "… 28 more rows, and 3 more columns",
+    "note": "reel school-epilogue · what the second sample leaves out · chapter: Chapter One",
+    "rev": "220bfdd4ecfa"
+  },
+  {
+    "id": "E1-call",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 1/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-call",
+    "field": "text",
+    "text": "20:58, a call from `LINE 4417`. The first witness saw flames at 21:12. That's 14 minutes after the call.",
+    "note": "reel school-epilogue, beat 1/16 · the line itself · speaker Detective Reyes",
+    "rev": "6ceafeedb6f2"
+  },
+  {
+    "id": "E1-call",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 1/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E2-room",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 2/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E2-room",
+    "field": "text",
+    "text": "From 18:00 to 22:00, `LINE 4417` is the telephone in the `Lodge`. The call was made from there.",
+    "note": "reel school-epilogue, beat 2/16 · the line itself · speaker Detective Reyes",
+    "rev": "3a0138cd1d69"
+  },
+  {
+    "id": "E2-room",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 2/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-pell",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 3/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-pell",
+    "field": "text",
+    "text": "The last one into the `Lodge` before the call was Victor Pell, the caretaker. 20:44.",
+    "note": "reel school-epilogue, beat 3/16 · the line itself · speaker Detective Reyes",
+    "rev": "b5b214fa1bde"
+  },
+  {
+    "id": "E3-pell",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 3/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 4/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "text",
+    "text": "Ruth Abasi went into the `Lodge` at 21:05. After the call.",
+    "note": "reel school-epilogue, beat 4/16 · the line itself · speaker Detective Reyes",
+    "rev": "60cbedc44628"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 4/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-said",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 5/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-said",
+    "field": "text",
+    "text": "When we asked him, he said it wasn't him. Only his usual round: the `Gym`, then the `Science Wing`.",
+    "note": "reel school-epilogue, beat 5/16 · the line itself · speaker Detective Reyes",
+    "rev": "1988be42fb09"
+  },
+  {
+    "id": "E3-said",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 5/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 6/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "text",
+    "text": "No badge at the `Gym` that evening. He badged into the `Boiler Room` at 20:35. That's where the white spirit is kept.",
+    "note": "reel school-epilogue, beat 6/16 · the line itself · speaker Detective Reyes",
+    "rev": "a5ef1cc215ff"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "subject",
+    "text": "HOW IT WAS FOUND",
+    "note": "reel school-epilogue, beat 6/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 7/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "text",
+    "text": "Victor Pell confessed. A man paid him in cash to burn the science wing.",
+    "note": "reel school-epilogue, beat 7/16 · the line itself · speaker Detective Reyes",
+    "rev": "cbde1bba6b52"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 7/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 8/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "text",
+    "text": "His words: \"A man came to the lodge on Monday morning. He left an envelope of cash.\"",
+    "note": "reel school-epilogue, beat 8/16 · the line itself · speaker Detective Reyes",
+    "rev": "1c9e880bdf16"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 8/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 9/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "text",
+    "text": "\"There were photos of my daughter in it too. If I said no, he could hurt her.\"",
+    "note": "reel school-epilogue, beat 9/16 · the line itself · speaker Detective Reyes",
+    "rev": "e9e57e1f7f26"
+  },
+  {
+    "id": "E4-photos",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 9/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-job",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 10/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-job",
+    "field": "text",
+    "text": "\"Burn the science wing at night, when it's empty. Nobody gets hurt. That was what we agreed.\"",
+    "note": "reel school-epilogue, beat 10/16 · the line itself · speaker Detective Reyes",
+    "rev": "246c46224af7"
+  },
+  {
+    "id": "E4-job",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 10/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 11/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "text",
+    "text": "\"20:35. The boiler room. I took the school's white spirit.\"",
+    "note": "reel school-epilogue, beat 11/16 · the line itself · speaker Detective Reyes",
+    "rev": "c00b6d7028c5"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 11/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-call",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 12/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-call",
+    "field": "text",
+    "text": "\"I started the fire and went back to the lodge. At 20:58 I phoned the emergency line myself.\"",
+    "note": "reel school-epilogue, beat 12/16 · the line itself · speaker Detective Reyes",
+    "rev": "79d9e0d4af27"
+  },
+  {
+    "id": "E4-call",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 12/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-why",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 13/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-why",
+    "field": "text",
+    "text": "\"I wanted it to burn. Not to kill anyone.\"",
+    "note": "reel school-epilogue, beat 13/16 · the line itself · speaker Detective Reyes",
+    "rev": "6bca03dfbea5"
+  },
+  {
+    "id": "E4-why",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 13/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 14/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "text",
+    "text": "He doesn't know that man's name. He only knows the money came from Okonjo Insurance.",
+    "note": "reel school-epilogue, beat 14/16 · the line itself · speaker Detective Reyes",
+    "rev": "4c139242b27a"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 14/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 15/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "text",
+    "text": "Okonjo.",
+    "note": "reel school-epilogue, beat 15/16 · the line itself · speaker Detective Reyes",
+    "rev": "b83f4c7c4b0c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 15/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E7-name",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel school-epilogue, beat 16/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E7-name",
+    "field": "text",
+    "text": "I know that name.",
+    "note": "reel school-epilogue, beat 16/16 · the line itself · speaker Detective Reyes",
+    "rev": "575b1ff75517"
+  },
+  {
+    "id": "E7-name",
+    "field": "subject",
+    "text": "WHAT HE SAID",
+    "note": "reel school-epilogue, beat 16/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  }
+]

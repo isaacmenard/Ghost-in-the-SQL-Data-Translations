@@ -1,0 +1,370 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Blue Houses",
+    "text": "파란 집들",
+    "note": "dossier \"The Blue Houses\" · the dossier's own title",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Blue Houses",
+    "text": "파란 집들",
+    "note": "dossier \"The Blue Houses\" · the dossier's own arcTitle",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "5 houses on Villa Godin, in `Saint Fargeau`, painted blue in the night. Each one after a party. 1 pot was left behind.",
+    "text": "`Saint Fargeau`의 Villa Godin에 있는 집 5채가 밤사이 파랗게 칠해졌다. 모두 파티가 끝난 뒤였다. 통 1개가 남아 있었다.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own summary",
+    "rev": "79d9415c6014"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Wednesday 1 July. Villa Godin, Paris.\n\n5 houses painted blue since April. 1 pot in a hedge.",
+    "text": "7월 1일 수요일. Villa Godin, 파리.\n\n4월부터 집 5채가 파랗게 칠해졌다. 생울타리에 페인트통 1개.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own pitchMarkdown",
+    "rev": "9688c516caf4"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables.\n\n`shop_sales` is every sale at the neighbourhood hardware shop, April to June. It is the only shop near the street that sells `Brikoko`. One row per sale. `card` is the loyalty card the customer paid with, and is empty when they had none.\n\n`loyalty_cards` is the list of cards. One row per `card`: who holds it, and the part of town they live in.",
+    "text": "테이블 2개.\n\n`shop_sales`는 4월부터 6월까지 동네 철물점에서 일어난 모든 판매 내역이다. 이 거리 근처에서 `Brikoko`를 파는 유일한 가게다. 판매 한 건당 한 행이다. 카드(`card`)는 손님이 결제할 때 사용한 회원 카드이며, 카드가 없었으면 비어 있다.\n\n`loyalty_cards`는 카드 목록이다. 각 `card`당 한 행이며, 명의자와 거주 지역이 담겨 있다.",
+    "note": "dossier \"The Blue Houses\" · the dossier's own rulesMarkdown",
+    "rev": "4306baec1d9d"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who painted the 5 houses on Villa Godin blue?",
+    "text": "Villa Godin의 집 5채를 파랗게 칠한 자는 누구인가?",
+    "note": "dossier \"The Blue Houses\" · the dossier's own openQuestion",
+    "rev": "3263bd8a55fe"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Miles Greaves",
+    "text": "Miles Greaves",
+    "note": "dossier \"The Blue Houses\" · the dossier's own verdictText",
+    "rev": "4f3d36038e6c"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "JULY 1, 2026",
+    "text": "2026년 7월 1일",
+    "note": "dossier \"The Blue Houses\" · the gazette's date",
+    "rev": "c62e5cae9e61"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Blue Houses\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "A 5th House Painted Blue on Villa Godin",
+    "text": "Villa Godin에서 5번째 집 파랗게 칠해져",
+    "note": "dossier \"The Blue Houses\" · the gazette's headline",
+    "rev": "f82074368171"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Every Owner Had a Party the Night Before",
+    "text": "집주인 모두 전날 밤 파티를 열었다",
+    "note": "dossier \"The Blue Houses\" · the gazette's subheadline",
+    "rev": "97291185a152"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "Jess Harlow woke up on Sunday to a blue house at 12 Villa Godin, Paris. 2 weeks earlier, the same happened to Tom Fairley's house, at number 4. Since April, 3 other houses on the same street were painted before them.\n\nEach owner had a party on the Saturday night. Nobody saw who did it. A pot of paint was found in Jess Harlow's hedge.",
+    "text": "일요일 아침, 파리 Villa Godin 12번지의 Jess Harlow는 자기 집이 파랗게 칠해진 것을 발견했다. 2주 전에는 4번지의 Tom Fairley 집도 마찬가지였다. 4월부터 그보다 앞서 같은 거리의 집 3채가 칠해졌다.\n\n집주인 모두 토요일 밤에 파티를 열었다. 누가 했는지 본 사람은 아무도 없었다. Jess Harlow의 생울타리에서 페인트통 하나가 발견되었다.",
+    "note": "dossier \"The Blue Houses\" · the gazette's editorialArticle",
+    "rev": "f84f6b3dbec7"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"The last guests left at midnight. At 6 in the morning, the house was blue.\"",
+    "text": "“마지막 손님이 자정에 떠났다. 아침 6시에 보니 집이 파랗게 변해 있었다.”",
+    "note": "dossier \"The Blue Houses\" · the gazette's leadQuote",
+    "rev": "d22d61cd7299"
+  },
+  {
+    "id": "documents[the-houses]",
+    "field": "title",
+    "source": "2 OF THE 5 HOUSES",
+    "text": "집 5채 중 2채",
+    "note": "dossier \"The Blue Houses\" · document `the-houses` — title",
+    "rev": "e77272562acd"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "title",
+    "source": "EVIDENCE TAG",
+    "text": "증거물 태그",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — title",
+    "rev": "056de9129af3"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "contentMarkdown",
+    "source": "**Found:** Sunday 28 June, 06:10, in the hedge of 12 `Villa Godin`.\n\n**Object:** 1 pot of `Blue Paint`, with its stick.\n\n**Brand on the label:** `Brikoko`.\n\n**Price sticker on the lid:** the hardware shop's, dated June 2026.",
+    "text": "**발견:** 6월 28일 일요일 06:10, 12 `Villa Godin` 생울타리.\n\n**증거품:** 파란 페인트(`Blue Paint`) 통 1개, 막대 포함.\n\n**라벨의 상표:** `Brikoko`.\n\n**뚜껑의 가격표:** 철물점 것, 2026년 6월 날짜.",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — contentMarkdown",
+    "rev": "19952d2589a3"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "title",
+    "source": "THE 5 HOUSES",
+    "text": "5채의 집",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — title",
+    "rev": "1fc8ad46c224"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "contentMarkdown",
+    "source": "All 5 are on Villa Godin, in `Saint Fargeau`.\n\nPainted at night, one at a time, after each party. Since April.",
+    "text": "5곳 모두 `Saint Fargeau`의 Villa Godin에 있다.\n\n밤에 파티가 끝날 때마다 하나씩 칠했다. 4월부터다.",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — contentMarkdown",
+    "rev": "7c51669e5b59"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "title",
+    "source": "THE NEIGHBOUR AT NUMBER 9",
+    "text": "9번지 이웃",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — title",
+    "rev": "f7eee49bdd33"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "contentMarkdown",
+    "source": "Night of 27 June, about 03:00.\n\n\"A man came out of number 12's garden with a ladder. His hands were blue. No car. He walked away along the street. I think he lives around here, but I couldn't say where.\"",
+    "text": "6월 27일 밤, 03:00경.\n\n“한 남자가 사다리를 들고 12번지 정원에서 나왔다. 손이 파란색이었다. 차는 없었다. 길을 따라 걸어갔다. 이 동네에 사는 것 같은데 어디인지는 모르겠다.”",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — contentMarkdown",
+    "rev": "b13cb71f849a"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "답변 제출 방법",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the card, return its row from `loyalty_cards`.\n\nFor example, if you think the answer is card `LC-0001`, type this:\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "text": "카드를 확보했다면 `loyalty_cards`에서 그 행을 조회하라.\n\n예를 들어 답이 `LC-0001` 카드라고 생각한다면 이렇게 입력하라:\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — contentMarkdown",
+    "rev": "16ab4de8d129"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "title",
+    "source": "MILES GREAVES'S FLAT, 2 JULY",
+    "text": "Miles Greaves의 집, 7월 2일",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — title",
+    "rev": "3fbdd3b93d91"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "contentMarkdown",
+    "source": "**In the cellar:** 2 pots of `Brikoko` `Blue Paint`, with the same June price sticker.\n\n**On a shelf:** a pair of gardening gloves, stiff with blue paint.\n\nHe says the parties on Villa Godin were too loud.",
+    "text": "**지하실:** 같은 6월 가격표 스티커가 붙은 `Brikoko` 파란 페인트(`Blue Paint`) 2통.\n\n**선반 위:** 파란 페인트로 뻣뻣해진 원예용 장갑 한 켤레.\n\n그는 Villa Godin의 파티들이 너무 시끄러웠다고 말한다.",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — contentMarkdown",
+    "rev": "64787a4f0ea7"
+  },
+  {
+    "id": "documents[metro-0701]",
+    "field": "title",
+    "source": "Wednesday 1 July 2026",
+    "text": "2026년 7월 1일 수요일",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701` — title",
+    "rev": "c77097286629"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "title",
+    "source": "Paris Insurance Fair: 3 Days, 40 Insurers",
+    "text": "파리 보험 박람회: 3일간 40개 보험사 참가",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — title",
+    "rev": "a66e37de2fd3"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "contentMarkdown",
+    "source": "The fair closes today at Porte de Versailles, after 3 days. The City of Paris will choose the insurer of its schools in the autumn.\n\n*Dele Okonjo, for the City of Paris, with his brother Samuel Okonjo, head of Okonjo Insurance.*",
+    "text": "Porte de Versailles에서 3일 동안 열린 박람회가 오늘 폐막한다. 파리시는 가을에 학교 보험사를 선정한다.\n\n*파리시 대표 Dele Okonjo와 Okonjo Insurance 대표이자 그의 형제인 Samuel Okonjo.*",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — contentMarkdown",
+    "rev": "c4c3e89b27be"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "title",
+    "source": "Jean Moulin Fire: Trial in 2027",
+    "text": "Jean Moulin 화재: 2027년 재판",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — title",
+    "rev": "fd3a721c2911"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "contentMarkdown",
+    "source": "Victor Pell will be tried in 2027 for the fire at College Jean Moulin. The school opens again in September.",
+    "text": "Victor Pell은 College Jean Moulin 화재 사건으로 2027년에 재판을 받는다. 학교는 9월에 다시 문을 연다.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — contentMarkdown",
+    "rev": "6d208cd72375"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "title",
+    "source": "Hopital Lamarck: Trial in the Autumn",
+    "text": "Hopital Lamarck: 가을 재판",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — title",
+    "rev": "3f5f88f20c3d"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "contentMarkdown",
+    "source": "The man charged in February with the hospital attacks will be tried in the autumn.",
+    "text": "2월에 병원 습격 혐의로 기소된 남성은 가을에 재판을 받는다.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — contentMarkdown",
+    "rev": "2a77354c6d25"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 3",
+    "text": "MUTEFONE 3",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — title",
+    "rev": "727afd541743"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Write it. Only they can read it.",
+    "text": "작성하라. 오직 상대만 읽는다.",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — contentMarkdown",
+    "rev": "8e3c692b752d"
+  },
+  {
+    "id": "csvFiles[shop_sales]",
+    "field": "description",
+    "source": "Every sale at the neighbourhood hardware shop, 1 April to 30 June. One row per sale, with the `card` the customer paid with.",
+    "text": "동네 철물점에서 4월 1일부터 6월 30일까지 일어난 모든 판매. 판매 한 건당 한 행이며, 손님이 결제한 카드 `card`가 담겨 있다.",
+    "note": "dossier \"The Blue Houses\" · the `shop_sales` table — description",
+    "rev": "52cb7bade1b7"
+  },
+  {
+    "id": "csvFiles[loyalty_cards]",
+    "field": "description",
+    "source": "The 260 loyalty cards of the shop. One row per card: the `card`, its `holder`, the `house` number and the `neighbourhood` they live in.",
+    "text": "가게의 회원 카드 260장. 카드 한 장당 한 행이며, 카드 `card`, 명의자 `holder`, 사는 곳의 `house` 번호와 `neighbourhood`가 담겨 있다.",
+    "note": "dossier \"The Blue Houses\" · the `loyalty_cards` table — description",
+    "rev": "3cb246d2311b"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "title",
+    "source": "Who Painted",
+    "text": "누가 칠했나",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — title",
+    "rev": "e688bbb017e4"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "instructions",
+    "source": "Since April, somebody has painted 5 houses blue, each one at night. A pot was left behind at the last house.",
+    "text": "4월부터 누군가 집 5채를 매번 밤에 파랗게 칠했다. 마지막 집에는 페인트통 하나가 남아 있었다.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — instructions",
+    "rev": "31ec853c4eea"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedResult",
+    "source": "Find who painted them, with `shop_sales` and `loyalty_cards`. Return their row from `loyalty_cards`.",
+    "text": "`shop_sales`와 `loyalty_cards`로 집을 칠한 사람을 찾아라. `loyalty_cards`에서 그 사람의 행을 반환하라.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedResult",
+    "rev": "85d3f3b18b38"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `loyalty_cards`. The card, name and part of town of the painter.",
+    "text": "`loyalty_cards`의 1행. 페인트를 칠한 사람의 카드, 이름, 거주 지역.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedShapeNote",
+    "rev": "bb4268f33f7d"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "lead",
+    "source": "Look in `shop_sales` for the paint on the evidence tag, brand included. Then keep the neighbourhood of the 5 houses.",
+    "text": "`shop_sales`에서 브랜드까지 포함해 증거물 태그에 적힌 페인트를 찾아라. 그다음 집 5채가 있는 동네만 남겨라.",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — lead",
+    "rev": "b8d562c05f25"
+  },
+  {
+    "id": "closing[his-quarter]",
+    "field": "say",
+    "source": "Miles Greaves. `Saint Fargeau` is on his card, like the 5 houses.",
+    "text": "Miles Greaves. 그 5채의 집들과 마찬가지로 이자 카드에도 `Saint Fargeau`가 적혀 있더군.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "7fa9baf67965"
+  },
+  {
+    "id": "closing[the-walk]",
+    "field": "say",
+    "source": "The neighbour saw a man leave on foot, with blue hands. He thinks the man lives nearby.",
+    "text": "이웃 말로는 손이 파란 놈이 걸어서 떠났다더군. 근처에 사는 놈 같다고 했어.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "1df2fbf08ec8"
+  },
+  {
+    "id": "closing[the-visit]",
+    "field": "say",
+    "source": "In his cellar: 2 pots of that same blue, and gloves stiff with it. He says the parties on Villa Godin were too loud.",
+    "text": "지하실에서 그 파란 페인트 2통과 페인트로 뻣뻣해진 장갑이 나왔다. Villa Godin에서 열리는 파티들이 너무 시끄러웠다고 하더군.",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "3f16ddf5e550"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "The evidence tag: `Brikoko`, sold in June → `shop_sales` → 2 cards.",
+    "text": "증거물 태그: `Brikoko`, 6월 판매 → `shop_sales` → 카드 2장.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "53d592d74c83"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "On foot, may live nearby → `loyalty_cards` → 1 of the 2 in `Saint Fargeau`.",
+    "text": "도보 이동, 인근 거주 추정 → `loyalty_cards` → 2명 중 1명이 `Saint Fargeau`에 거주.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "1e4609433e9d"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`LC-0147` → Miles Greaves.",
+    "text": "`LC-0147` → Miles Greaves.",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "dd7131b4b05d"
+  }
+]

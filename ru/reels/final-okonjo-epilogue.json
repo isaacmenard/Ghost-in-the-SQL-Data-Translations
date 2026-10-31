@@ -1,0 +1,226 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Отдельное дело",
+    "note": "reel final-okonjo-epilogue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "БРАТ",
+    "note": "reel final-okonjo-epilogue · the line beside the chapter head · chapter: Standalone",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "362 ROWS · 6 COLUMNS",
+    "text": "362 СТРОКИ · 6 СТОЛБЦОВ",
+    "note": "reel final-okonjo-epilogue · the words around the figures of the fair_badges set piece · chapter: Standalone",
+    "rev": "1caeff4f6f73"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 360 more rows",
+    "text": "… ещё 360 строк",
+    "note": "reel final-okonjo-epilogue · what the fair_badges sample leaves out · chapter: Standalone",
+    "rev": "e9d04aa74e4b"
+  },
+  {
+    "id": "X1-lie",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-lie",
+    "field": "text",
+    "source": "His brother asked him who was doing this. He said: not me, I'm with you.",
+    "text": "Брат спросил его, кто за этим стоит. Тот ответил: «Не я, я с тобой».",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "a66c2415d692"
+  },
+  {
+    "id": "X1-lie",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "БРАТ",
+    "note": "reel final-okonjo-epilogue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "text",
+    "source": "The same day, he told Vigie his brother suspected nothing.",
+    "text": "В тот же день он сообщил Vigie, что брат ничего не подозревает.",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "5cef378f0b06"
+  },
+  {
+    "id": "X1-same-day",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "БРАТ",
+    "note": "reel final-okonjo-epilogue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-why",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-why",
+    "field": "text",
+    "source": "Vigie paid him for every claim. He works in the office that picks the City's insurer.",
+    "text": "Vigie платила ему за каждую выплату. Он работает в управлении, которое выбирает страховщика города.",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "8d51cf97c8d2"
+  },
+  {
+    "id": "X1-why",
+    "field": "subject",
+    "source": "THE BROTHER",
+    "text": "БРАТ",
+    "note": "reel final-okonjo-epilogue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ff6486dc2687"
+  },
+  {
+    "id": "X1-name",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-name",
+    "field": "text",
+    "source": "At the fair, Vigie gave him a second name. Kevin Germon.",
+    "text": "На выставке Vigie дала ему второе имя. Kevin Germon.",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "d0808fecb219"
+  },
+  {
+    "id": "X1-name",
+    "field": "subject",
+    "source": "THE SECOND NAME",
+    "text": "ВТОРОЕ ИМЯ",
+    "note": "reel final-okonjo-epilogue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9d6e052efd66"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "text",
+    "source": "6 days after his arrest. 22 December, 11:00, `Room B`. The meeting on his telephone.",
+    "text": "Через 6 дней после ареста. 22 декабря, 11:00, переговорная (`Room B`). Встреча в телефоне.",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "99fd939960a2"
+  },
+  {
+    "id": "X1-meeting",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "ПОСЛЕДНЯЯ ВСТРЕЧА",
+    "note": "reel final-okonjo-epilogue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "text",
+    "source": "We went in with his badge. Bertrand Lacombe was waiting.",
+    "text": "Мы вошли по его бейджу. Bertrand Lacombe уже ждал.",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "3e7654c7b52e"
+  },
+  {
+    "id": "X1-arrest",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "ПОСЛЕДНЯЯ ВСТРЕЧА",
+    "note": "reel final-okonjo-epilogue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-confess",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-confess",
+    "field": "text",
+    "source": "We arrested Bertrand Lacombe. He admits it. He paid to make Okonjo Insurance fail.",
+    "text": "Мы арестовали Bertrand Lacombe. Он признаётся. Он платил, чтобы потопить Okonjo Insurance.",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "94d4c13b074c"
+  },
+  {
+    "id": "X1-confess",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "ПОСЛЕДНЯЯ ВСТРЕЧА",
+    "note": "reel final-okonjo-epilogue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  },
+  {
+    "id": "X1-end",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "X1-end",
+    "field": "text",
+    "source": "From the school fire to the van. One file. Closed.",
+    "text": "От пожара в школе до фургона. Одно дело. Закрыто.",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "87b853669b0b"
+  },
+  {
+    "id": "X1-end",
+    "field": "subject",
+    "source": "THE LAST MEETING",
+    "text": "ПОСЛЕДНЯЯ ВСТРЕЧА",
+    "note": "reel final-okonjo-epilogue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "be3bffcb82c2"
+  }
+]

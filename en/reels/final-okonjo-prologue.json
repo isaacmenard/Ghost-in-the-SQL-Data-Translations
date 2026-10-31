@@ -1,0 +1,198 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "text": "Standalone",
+    "note": "reel final-okonjo-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "text": "THE KIT",
+    "note": "reel final-okonjo-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "1e9f23d68b25"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "text": "37 ROWS · 5 COLUMNS",
+    "note": "reel final-okonjo-prologue · the words around the figures of the crew_messages set piece · chapter: Standalone",
+    "rev": "e42051063362"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "text": "… 33 more rows",
+    "note": "reel final-okonjo-prologue · what the crew_messages sample leaves out · chapter: Standalone",
+    "rev": "e70385c7e73e"
+  },
+  {
+    "id": "O1-two",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-two",
+    "field": "text",
+    "text": "2 days before each robbery, K sent the crew 2 messages.",
+    "note": "reel final-okonjo-prologue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "9f832b1bfe1f"
+  },
+  {
+    "id": "O1-two",
+    "field": "subject",
+    "text": "THE KIT",
+    "note": "reel final-okonjo-prologue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e9f23d68b25"
+  },
+  {
+    "id": "O1-kit",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-kit",
+    "field": "text",
+    "text": "First the kit. Then the meeting.",
+    "note": "reel final-okonjo-prologue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "48415cf33fe0"
+  },
+  {
+    "id": "O1-kit",
+    "field": "subject",
+    "text": "THE KIT",
+    "note": "reel final-okonjo-prologue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e9f23d68b25"
+  },
+  {
+    "id": "O1-shop",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-shop",
+    "field": "text",
+    "text": "There's one pin in the kit's square on their map. A Brikoko shop, at Ledru-Rollin metro.",
+    "note": "reel final-okonjo-prologue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "2b69fe399497"
+  },
+  {
+    "id": "O1-shop",
+    "field": "subject",
+    "text": "THE SHOP",
+    "note": "reel final-okonjo-prologue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  },
+  {
+    "id": "O1-sales",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-sales",
+    "field": "text",
+    "text": "So I asked Brikoko for its sales, with the loyalty cards. And the metro for its exits.",
+    "note": "reel final-okonjo-prologue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "35e0bc36d706"
+  },
+  {
+    "id": "O1-sales",
+    "field": "subject",
+    "text": "THE SHOP",
+    "note": "reel final-okonjo-prologue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  },
+  {
+    "id": "O1-okonjo",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-okonjo",
+    "field": "text",
+    "text": "After each meeting K set, a company Okonjo Insurance protected was robbed or burned.",
+    "note": "reel final-okonjo-prologue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "d75857bfc2e7"
+  },
+  {
+    "id": "O1-okonjo",
+    "field": "subject",
+    "text": "OKONJO",
+    "note": "reel final-okonjo-prologue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9a5ad87cad0c"
+  },
+  {
+    "id": "O1-claims",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-claims",
+    "field": "text",
+    "text": "Their claims. On your board. Every bank, the school, the greenhouses: Okonjo Insurance paid the claim on each one.",
+    "note": "reel final-okonjo-prologue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "06c739677304"
+  },
+  {
+    "id": "O1-claims",
+    "field": "subject",
+    "text": "OKONJO",
+    "note": "reel final-okonjo-prologue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9a5ad87cad0c"
+  },
+  {
+    "id": "O1-brothers",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-brothers",
+    "field": "text",
+    "text": "The paper printed this photo on 1 July. Samuel Okonjo runs Okonjo Insurance. Dele Okonjo is his brother.",
+    "note": "reel final-okonjo-prologue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "a20e70433a54"
+  },
+  {
+    "id": "O1-brothers",
+    "field": "subject",
+    "text": "OKONJO",
+    "note": "reel final-okonjo-prologue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9a5ad87cad0c"
+  },
+  {
+    "id": "O1-order",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-okonjo-prologue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-order",
+    "field": "text",
+    "text": "Somebody carried that kit. Find him.",
+    "note": "reel final-okonjo-prologue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "cfd268822107"
+  },
+  {
+    "id": "O1-order",
+    "field": "subject",
+    "text": "THE KIT",
+    "note": "reel final-okonjo-prologue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e9f23d68b25"
+  }
+]

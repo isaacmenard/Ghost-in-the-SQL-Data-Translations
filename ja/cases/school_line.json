@@ -1,0 +1,242 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "JOIN",
+    "text": "結合",
+    "note": "dossier \"JOIN\" · the dossier's own title",
+    "rev": "a9e153ee4bba"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "`LINE 4417` reported the school fire 14 minutes before the first witness saw it. The telephone company's register lists the room each line's telephone is in.",
+    "text": "`LINE 4417`は、最初の目撃の14分前に学校の火災を通報した。電話会社の加入者名簿には、各回線の電話機がある部屋が載っている。",
+    "note": "dossier \"JOIN\" · the dossier's own summary",
+    "rev": "ce6c84142009"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "A call reached the Paris Emergency Switchboard at 20:58 from `LINE 4417`. The first witness saw the fire at 21:12.\n\n`LINE 4417` is on the telephone company's bills.",
+    "text": "20:58、パリ緊急通報センターに`LINE 4417`から通報が入った。最初の目撃者が火災を見たのは21:12だった。\n\n`LINE 4417`は電話会社の請求書に載っている。",
+    "note": "dossier \"JOIN\" · the dossier's own pitchMarkdown",
+    "rev": "b94ae081fef5"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables, `dispatch_log` and `line_register`.",
+    "text": "テーブル2つ、`dispatch_log`と`line_register`。",
+    "note": "dossier \"JOIN\" · the dossier's own rulesMarkdown",
+    "rev": "7d8a59ab81f5"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "From which room of the school was the 20:58 call on `LINE 4417` made?",
+    "text": "20:58の`LINE 4417`からの通報は、学校のどの部屋からだったのか。",
+    "note": "dossier \"JOIN\" · the dossier's own openQuestion",
+    "rev": "b6c3b915afe7"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 16, 2025",
+    "text": "2025年10月16日",
+    "note": "dossier \"JOIN\" · the gazette's date",
+    "rev": "64c7845dbafb"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "科学捜査担当主任記者",
+    "note": "dossier \"JOIN\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "School Fire Call Came Before Any Witness, Police Confirm",
+    "text": "学校の火災通報は最初の目撃よりも前、警察が確認",
+    "note": "dossier \"JOIN\" · the gazette's headline",
+    "rev": "44a2bbc65338"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Detectives Trace a Single Line to rue Curial",
+    "text": "刑事、rue Curialの1本の回線を特定",
+    "note": "dossier \"JOIN\" · the gazette's subheadline",
+    "rev": "dc5bed2fee79"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "A call about the school fire reached the Paris Emergency Switchboard at 20:58. The first witness saw flames 14 minutes later.\n\nThe call came from `LINE 4417`. The line is on the telephone company's bills, at the school's own address, 12 rue Curial. Detectives want to know which room the call was made from.",
+    "text": "学校の火災に関する通報が、20:58にパリ緊急通報センターへ届いた。最初の目撃者が炎を目にしたのは、その14分後だった。\n\n通報は`LINE 4417`からだった。その回線は学校の住所（12 rue Curial）で、電話会社の請求書に記載されている。刑事が知りたいのは、どの部屋から通報されたかだ。",
+    "note": "dossier \"JOIN\" · the gazette's editorialArticle",
+    "rev": "01695dde199a"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"That call came 14 minutes before any witness.\"",
+    "text": "「あの通報は最初の目撃よりも14分早かった」",
+    "note": "dossier \"JOIN\" · the gazette's leadQuote",
+    "rev": "01ab9fddb58c"
+  },
+  {
+    "id": "csvFiles[line_register]",
+    "field": "description",
+    "source": "Every telephone line the telephone company bills: the subscriber, the room its telephone is in and at which hours, the street and the district. A `Flat` is where a caretaker lives on site.",
+    "text": "電話会社が請求を行うすべての電話回線。加入者、電話が置かれている部屋と利用時間帯、通りと地区。住居（`Flat`）は敷地内にある用務員（`Caretaker`）の住まい。",
+    "note": "dossier \"JOIN\" · the `line_register` table — description",
+    "rev": "d1d43a3365c6"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "パリ緊急通報センターの1年。パリのすべての通報、目撃情報、警報盤、巡回、消防車が、記録された日付と時刻とともに記載されている。",
+    "note": "dossier \"JOIN\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "title",
+    "source": "The *Register*",
+    "text": "*加入者名簿*",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — title",
+    "rev": "77e36607e75d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "instructions",
+    "source": "Somebody pays a bill for `LINE 4417`. The telephone company lists every line it bills in `line_register`.",
+    "text": "`LINE 4417`には請求先が存在する。電話会社は請求対象の全回線を`line_register`に記載している。",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — instructions",
+    "rev": "940eb8039a3d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedResult",
+    "source": "Instead of `*`, name the columns you want, separated by a comma. From `line_register`, show only the columns `line` and `subscriber`.",
+    "text": "`*`の代わりに、必要な列名をカンマで区切って書け。`line_register`から、列`line`と`subscriber`だけを表示しろ。",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedResult",
+    "rev": "2ab0cef3dc3a"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the register: 30 rows, 2 columns.",
+    "text": "加入者名簿の全行。30行、2列。",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedShapeNote",
+    "rev": "18f7ff3c5d59"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "title",
+    "source": "Join the *Two*",
+    "text": "*2つ*を結合",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — title",
+    "rev": "a0116fba9d00"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "instructions",
+    "source": "Both tables hold the line number: `source` in `dispatch_log`, `line` in `line_register`. In the register, `hours` says when the line's telephone is in that room.",
+    "text": "どちらのテーブルにも回線番号がある。`dispatch_log`の`source`と、`line_register`の`line`だ。加入者名簿の`hours`は、その回線の電話がいつその部屋にあるかを示している。",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — instructions",
+    "rev": "f8df19f998a7"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedResult",
+    "source": "Start from the calls, `FROM dispatch_log`. Then add `JOIN line_register ON source = line`: each call from a line in the register gets that line's room. Keep the calls of `2025-10-14`. Show only the time, the line, the room and its hours.",
+    "text": "`FROM dispatch_log`で通報から始めろ。そこに`JOIN line_register ON source = line`を追加しろ。加入者名簿にある回線からの各通報にその回線の部屋がつく。`2025-10-14`の通報だけを残せ。時刻、回線、部屋、その使用時間だけを表示しろ。",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedResult",
+    "rev": "340e0a684a68"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedShapeNote",
+    "source": "9 rows: the calls of that day from a billed line.",
+    "text": "9行。請求対象の回線から発信された、その日の通報。",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedShapeNote",
+    "rev": "e69981f8cc17"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "afterText",
+    "source": "9 rows. A call with no line in the register isn't in the result. The 20:58 call appears 3 times: `LINE 4417` has 3 rooms.",
+    "text": "9行。加入者名簿に回線のない通報は結果に出ない。20:58の通報が3回出ている。`LINE 4417`に部屋が3つあるからだ。",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — afterText",
+    "rev": "84595d6da798"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "title",
+    "source": "Which *Room*",
+    "text": "どの*部屋*",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — title",
+    "rev": "37ea3a02953e"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "instructions",
+    "source": "The early call came from `LINE 4417` at 20:58.",
+    "text": "例の早い通報は20:58、`LINE 4417`からのものだった。",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — instructions",
+    "rev": "6dd29d687cff"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedResult",
+    "source": "Join `dispatch_log` and `line_register` again. Which room was the call made from? Keep only that row, and only the columns `room` and `at_time`.",
+    "text": "`dispatch_log`と`line_register`をもう一度結合しろ。通報はどの部屋からだったのか。その1行だけを残し、列`room`と`at_time`だけを表示しろ。",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedResult",
+    "rev": "2e9ec45dfe5c"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedShapeNote",
+    "source": "One row: the room and the time.",
+    "text": "1行。部屋と時刻。",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedShapeNote",
+    "rev": "64dcb4d28e92"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "afterText",
+    "source": "The `Lodge`. At 20:58, that line was the `Lodge` telephone.",
+    "text": "用務員室（`Lodge`）だ。20:58の時点で、その回線は用務員室の電話だった。",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — afterText",
+    "rev": "654ad1975a9b"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "lead",
+    "source": "`LINE 4417` has more than one row in `line_register`. Check each one against the day and the hour of the call.",
+    "text": "`LINE 4417`は`line_register`に複数の行がある。それぞれ通報の日時と照らし合わせろ。",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — lead",
+    "rev": "c615cf41d7f5"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "21:12に炎を目撃 → `dispatch_log` → それ以前の学校火災の通報は1件のみ：20:58、`LINE 4417`。",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "d2913b0af757"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "20:58 is between 18:00 and 22:00 → `line_register` → then `LINE 4417` is the `Lodge`.",
+    "text": "20:58は18:00から22:00の間 → `line_register` → したがって`LINE 4417`は用務員室（`Lodge`）。",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "c148cb65f478"
+  }
+]

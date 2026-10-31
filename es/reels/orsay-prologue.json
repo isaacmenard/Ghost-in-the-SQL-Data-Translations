@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Independiente",
+    "note": "reel orsay-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "3,329 ROWS · 5 COLUMNS",
+    "text": "3 329 FILAS · 5 COLUMNAS",
+    "note": "reel orsay-prologue · the words around the figures of the badge_passages set piece · chapter: Standalone",
+    "rev": "aaff54c08e0c"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 3,327 more rows",
+    "text": "… 3 327 filas más",
+    "note": "reel orsay-prologue · what the badge_passages sample leaves out · chapter: Standalone",
+    "rev": "52baca33965b"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "224 ROWS · 4 COLUMNS",
+    "text": "224 FILAS · 4 COLUMNAS",
+    "note": "reel orsay-prologue · the second set piece (badge_holders) · chapter: Standalone",
+    "rev": "e3c613e5eff4"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 222 more rows",
+    "text": "… 222 filas más",
+    "note": "reel orsay-prologue · what the second sample leaves out · chapter: Standalone",
+    "rev": "76c2546c978b"
+  },
+  {
+    "id": "O1-crown",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 1/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-crown",
+    "field": "text",
+    "source": "Musee d'Orsay, Thursday. The exhibition opens tonight at 20:00, with a crown on show.",
+    "text": "Musee d'Orsay, jueves. La exposición abre esta noche a las 20:00, con una corona expuesta.",
+    "note": "reel orsay-prologue, beat 1/7 · the line itself · speaker Detective Reyes",
+    "rev": "2b9cec2e0597"
+  },
+  {
+    "id": "O1-crown",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue, beat 1/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-locked",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 2/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-locked",
+    "field": "text",
+    "source": "17:30, it was locked in its case, in the `Reserve`.",
+    "text": "17:30, estaba bajo llave en su vitrina, en la reserva (`Reserve`).",
+    "note": "reel orsay-prologue, beat 2/7 · the line itself · speaker Detective Reyes",
+    "rev": "415603b03f32"
+  },
+  {
+    "id": "O1-locked",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue, beat 2/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-empty",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 3/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-empty",
+    "field": "text",
+    "source": "18:40, a guard went to fetch it. Empty.",
+    "text": "18:40, un vigilante (`Security Guard`) fue a buscarla. Vacía.",
+    "note": "reel orsay-prologue, beat 3/7 · the line itself · speaker Detective Reyes",
+    "rev": "b972a3620fa5"
+  },
+  {
+    "id": "O1-empty",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue, beat 3/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-door",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 4/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-door",
+    "field": "text",
+    "source": "The `Reserve` door wasn't forced. Staff badges only.",
+    "text": "Nadie forzó la puerta de la reserva (`Reserve`). Solo tarjetas del personal.",
+    "note": "reel orsay-prologue, beat 4/7 · the line itself · speaker Detective Reyes",
+    "rev": "06258a864afe"
+  },
+  {
+    "id": "O1-door",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue, beat 4/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-sick",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 5/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-sick",
+    "field": "text",
+    "source": "Etienne Vasseur, the registrar, ate a late lunch. Food poisoning, right after the first bite. Nobody else was sick.",
+    "text": "Etienne Vasseur, el registrador (`Registrar`), comió tarde. Intoxicación alimentaria, desde el primer bocado. Nadie más enfermó.",
+    "note": "reel orsay-prologue, beat 5/7 · the line itself · speaker Detective Reyes",
+    "rev": "f50bcbaa90eb"
+  },
+  {
+    "id": "O1-sick",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "LA CORONA",
+    "note": "reel orsay-prologue, beat 5/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-log",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 6/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-log",
+    "field": "text",
+    "source": "Every door in the museum reads a badge, going in and going out. `badge_passages` holds every swipe.",
+    "text": "Cada puerta del museo lee las tarjetas, al entrar y al salir. `badge_passages` guarda cada registro.",
+    "note": "reel orsay-prologue, beat 6/7 · the line itself · speaker Detective Reyes",
+    "rev": "29781d1c8ce9"
+  },
+  {
+    "id": "O1-log",
+    "field": "subject",
+    "source": "THE BADGES",
+    "text": "LAS TARJETAS",
+    "note": "reel orsay-prologue, beat 6/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ae0092f0db83"
+  },
+  {
+    "id": "O1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel orsay-prologue, beat 7/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-order",
+    "field": "text",
+    "source": "`badge_holders` says whose badge is whose. Find the badge that opened the `Reserve`, then whose badge it was.",
+    "text": "`badge_holders` dice de quién es cada tarjeta. Encuentra la tarjeta que abrió la reserva (`Reserve`) y luego de quién era.",
+    "note": "reel orsay-prologue, beat 7/7 · the line itself · speaker Detective Reyes",
+    "rev": "d7e403765e7f"
+  },
+  {
+    "id": "O1-order",
+    "field": "subject",
+    "source": "THE BADGES",
+    "text": "LAS TARJETAS",
+    "note": "reel orsay-prologue, beat 7/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ae0092f0db83"
+  }
+]

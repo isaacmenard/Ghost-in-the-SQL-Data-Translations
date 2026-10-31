@@ -1,0 +1,226 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Enquête indépendante",
+    "note": "reel elixir-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "52 ROWS · 13 COLUMNS",
+    "text": "52 LIGNES · 13 COLONNES",
+    "note": "reel elixir-prologue · the words around the figures of the flowers set piece · chapter: Standalone",
+    "rev": "6813c0b9e547"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 50 more rows, and 5 more columns",
+    "text": "… 50 lignes et 5 colonnes de plus",
+    "note": "reel elixir-prologue · what the flowers sample leaves out · chapter: Standalone",
+    "rev": "d38671b6f5e8"
+  },
+  {
+    "id": "E1-fire",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-fire",
+    "field": "text",
+    "source": "October 2026, Paris. A fire destroyed the private greenhouses of Odile Vernet, in Auteuil. She was a plant scientist.",
+    "text": "Octobre 2026, Paris. Un incendie a détruit les serres privées d’Odile Vernet, à Auteuil. Elle était botaniste.",
+    "note": "reel elixir-prologue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "0d77aff6b5f8"
+  },
+  {
+    "id": "E1-fire",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-died",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-died",
+    "field": "text",
+    "source": "She died in the fire, trying to save her work.",
+    "text": "Elle est morte dans l’incendie, en essayant de sauver son travail.",
+    "note": "reel elixir-prologue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "bc66a5d05b25"
+  },
+  {
+    "id": "E1-died",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "text",
+    "source": "Her work was Elixir V, a medicine. It wasn't ready yet, but it was very promising.",
+    "text": "Son travail, c’était l’Elixir V, un médicament. Pas encore prêt, mais très prometteur.",
+    "note": "reel elixir-prologue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "f2d47e4ad04e"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-mix",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-mix",
+    "field": "text",
+    "source": "She mixed 3 flowers in equal parts: 2 `fresh`, 1 `dried`.",
+    "text": "Elle a mélangé 3 fleurs à parts égales : 2 fraîches (`fresh`), 1 séchée (`dried`).",
+    "note": "reel elixir-prologue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "224ab4d07db9"
+  },
+  {
+    "id": "E1-mix",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-lost",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-lost",
+    "field": "text",
+    "source": "Which 3 flowers? Nobody knows.",
+    "text": "Quelles sont ces 3 fleurs ? Personne ne sait.",
+    "note": "reel elixir-prologue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "1d832ad99554"
+  },
+  {
+    "id": "E1-lost",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-left",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-left",
+    "field": "text",
+    "source": "What's left: this bottle. A lab tested it for us.",
+    "text": "Ce qui reste : ce flacon. Un labo l’a analysé pour nous.",
+    "note": "reel elixir-prologue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "dbefa7e7ffc2"
+  },
+  {
+    "id": "E1-left",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "SES SERRES, AUTEUIL",
+    "note": "reel elixir-prologue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-table",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-table",
+    "field": "text",
+    "source": "The fire started on the bench where the bottle stood, so it's evidence. Her foundation sent us every flower she tested: `flowers`.",
+    "text": "Le feu est parti de l’établi où se trouvait le flacon, alors c’est une pièce à conviction. Sa fondation nous a envoyé chaque fleur qu’elle a testée : `flowers`.",
+    "note": "reel elixir-prologue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "02792b8b7385"
+  },
+  {
+    "id": "E1-table",
+    "field": "subject",
+    "source": "HER FLOWERS",
+    "text": "SES FLEURS",
+    "note": "reel elixir-prologue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6e1d76854ea8"
+  },
+  {
+    "id": "E1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspecteur Reyes",
+    "note": "reel elixir-prologue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-order",
+    "field": "text",
+    "source": "1 row per flower, with its lab figures. Find the 3 she used. Her work's too important to lose.",
+    "text": "1 ligne par fleur, avec ses mesures de labo. Trouve les 3 fleurs qu’elle a utilisées. Son travail est trop important pour qu’on le perde.",
+    "note": "reel elixir-prologue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "831e7ac475af"
+  },
+  {
+    "id": "E1-order",
+    "field": "subject",
+    "source": "HER FLOWERS",
+    "text": "SES FLEURS",
+    "note": "reel elixir-prologue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6e1d76854ea8"
+  }
+]

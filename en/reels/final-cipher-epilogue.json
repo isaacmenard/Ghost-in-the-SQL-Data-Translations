@@ -1,0 +1,135 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "text": "Standalone",
+    "note": "reel final-cipher-epilogue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel final-cipher-epilogue · the line beside the chapter head · chapter: Standalone",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "text": "483 ROWS · 6 COLUMNS",
+    "note": "reel final-cipher-epilogue · the words around the figures of the mutefone_codes set piece · chapter: Standalone",
+    "rev": "28e1c132d7be"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "text": "… 481 more rows",
+    "note": "reel final-cipher-epilogue · what the mutefone_codes sample leaves out · chapter: Standalone",
+    "rev": "77b8bc70e671"
+  },
+  {
+    "id": "E1-route",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-cipher-epilogue, beat 1/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-route",
+    "field": "text",
+    "text": "3 banks on the van's route. A false alarm at each, 5 minutes apart.",
+    "note": "reel final-cipher-epilogue, beat 1/5 · the line itself · speaker Detective Reyes",
+    "rev": "abb256feb42f"
+  },
+  {
+    "id": "E1-route",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel final-cipher-epilogue, beat 1/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-cipher-epilogue, beat 2/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "text",
+    "text": "Every police car runs to the banks. The van reaches the Tribunal alone.",
+    "note": "reel final-cipher-epilogue, beat 2/5 · the line itself · speaker Detective Reyes",
+    "rev": "8792e3636b9c"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel final-cipher-epilogue, beat 2/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-warn",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-cipher-epilogue, beat 3/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-warn",
+    "field": "text",
+    "text": "Not this time. I'm warning the banks and the police now.",
+    "note": "reel final-cipher-epilogue, beat 3/5 · the line itself · speaker Detective Reyes",
+    "rev": "9569d06b1abb"
+  },
+  {
+    "id": "E1-warn",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel final-cipher-epilogue, beat 3/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-letter",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-cipher-epilogue, beat 4/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-letter",
+    "field": "text",
+    "text": "K is still only a letter.",
+    "note": "reel final-cipher-epilogue, beat 4/5 · the line itself · speaker Detective Reyes",
+    "rev": "9a2635042e65"
+  },
+  {
+    "id": "E1-letter",
+    "field": "subject",
+    "text": "K",
+    "note": "reel final-cipher-epilogue, beat 4/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "86be9a55762d"
+  },
+  {
+    "id": "E1-name",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel final-cipher-epilogue, beat 5/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-name",
+    "field": "text",
+    "text": "No name. No arrest. You've got everything you need. Find out who K is.",
+    "note": "reel final-cipher-epilogue, beat 5/5 · the line itself · speaker Detective Reyes",
+    "rev": "c362ddb97061"
+  },
+  {
+    "id": "E1-name",
+    "field": "subject",
+    "text": "K",
+    "note": "reel final-cipher-epilogue, beat 5/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "86be9a55762d"
+  }
+]

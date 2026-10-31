@@ -1,0 +1,146 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "独立案件",
+    "note": "reel blue-house-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2栋蓝房子",
+    "note": "reel blue-house-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "1,240 ROWS · 8 COLUMNS",
+    "text": "1,240行·8列",
+    "note": "reel blue-house-prologue · the words around the figures of the shop_sales set piece · chapter: Standalone",
+    "rev": "28e0d06447a4"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 1,238 more rows, and 3 more columns",
+    "text": "…还有1,238行和3列",
+    "note": "reel blue-house-prologue · what the shop_sales sample leaves out · chapter: Standalone",
+    "rev": "7d5e6181f5c3"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "260 ROWS · 4 COLUMNS",
+    "text": "260行·4列",
+    "note": "reel blue-house-prologue · the second set piece (loyalty_cards) · chapter: Standalone",
+    "rev": "9de878ae1321"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 258 more rows",
+    "text": "…还有258行",
+    "note": "reel blue-house-prologue · what the second sample leaves out · chapter: Standalone",
+    "rev": "69b9ddb5ea91"
+  },
+  {
+    "id": "B1-houses",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel blue-house-prologue, beat 1/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-houses",
+    "field": "text",
+    "source": "These 2, and 3 more on the same street, in `Saint Fargeau`. 5 parties. Each house was blue the next morning.",
+    "text": "就是这2栋，同一条街上还有3栋，都在`Saint Fargeau`。5场派对。第二天早上每栋都变成了蓝色。",
+    "note": "reel blue-house-prologue, beat 1/4 · the line itself · speaker Detective Reyes",
+    "rev": "7ac2f631aa3b"
+  },
+  {
+    "id": "B1-houses",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2栋蓝房子",
+    "note": "reel blue-house-prologue, beat 1/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "B1-pot",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel blue-house-prologue, beat 2/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-pot",
+    "field": "text",
+    "source": "Whoever did it left this pot in a hedge. It's `Blue Paint`, brand `Brikoko`.",
+    "text": "干这事的人在树篱里留了这只罐子。是蓝色油漆（`Blue Paint`），牌子是`Brikoko`。",
+    "note": "reel blue-house-prologue, beat 2/4 · the line itself · speaker Detective Reyes",
+    "rev": "bac3a8ab5d68"
+  },
+  {
+    "id": "B1-pot",
+    "field": "subject",
+    "source": "2 BLUE HOUSES",
+    "text": "2栋蓝房子",
+    "note": "reel blue-house-prologue, beat 2/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "edf0d3d3ba12"
+  },
+  {
+    "id": "B1-shop",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel blue-house-prologue, beat 3/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-shop",
+    "field": "text",
+    "source": "Near those houses, only 1 hardware shop sells `Brikoko`. Its sales database, `shop_sales`, has every sale since April.",
+    "text": "那些房子附近只有1家五金店卖`Brikoko`。它的销售数据库`shop_sales`里记着4月以来的每笔销售记录。",
+    "note": "reel blue-house-prologue, beat 3/4 · the line itself · speaker Detective Reyes",
+    "rev": "bc3717900140"
+  },
+  {
+    "id": "B1-shop",
+    "field": "subject",
+    "source": "THE SHOP",
+    "text": "商店",
+    "note": "reel blue-house-prologue, beat 3/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  },
+  {
+    "id": "B1-cards",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel blue-house-prologue, beat 4/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-cards",
+    "field": "text",
+    "source": "Most customers pay with a loyalty card. The card database, `loyalty_cards`, has a name and a part of town.",
+    "text": "大部分顾客都用会员卡结账。会员卡数据库`loyalty_cards`里记着姓名和街区。",
+    "note": "reel blue-house-prologue, beat 4/4 · the line itself · speaker Detective Reyes",
+    "rev": "71bab0832fe3"
+  },
+  {
+    "id": "B1-cards",
+    "field": "subject",
+    "source": "THE SHOP",
+    "text": "商店",
+    "note": "reel blue-house-prologue, beat 4/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "2dfbc3eef4a6"
+  }
+]

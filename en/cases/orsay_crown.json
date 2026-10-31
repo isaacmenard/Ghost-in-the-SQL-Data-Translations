@@ -1,0 +1,289 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "The Orsay Crown",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own title",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "The Orsay Crown",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own arcTitle",
+    "rev": "5403d597b07d"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "A crown gone from the `Reserve` on the evening of the ceremony. Every door in the museum keeps a record of the badges that opened it.",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own summary",
+    "rev": "6357123eac5b"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "Thursday 19 November, 19:00. Musee d'Orsay.\n\nThe crown for the opening tonight is gone from the `Reserve`. The ceremony is at 20:00.\n\nEvery door in the building reads a badge.",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own pitchMarkdown",
+    "rev": "744f30270240"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "text": "3 tables.\n\n`badge_passages` is every swipe of the day, `'in'` and `'out'`, until 19:00. The `room` is the name on the plan.\n\n`badge_holders` says whose badge is whose.\n\n`museum_rooms` says who may open each room.",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own rulesMarkdown",
+    "rev": "197365fc6d92"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "text": "Who stole the crown?",
+    "note": "dossier \"The Orsay Crown\" · the dossier's own openQuestion",
+    "rev": "1e2764847c11"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "NOVEMBER 20, 2026",
+    "note": "dossier \"The Orsay Crown\" · the gazette's date",
+    "rev": "688ec119edfe"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"The Orsay Crown\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Crown Stolen From Orsay Hours Before Its Unveiling",
+    "note": "dossier \"The Orsay Crown\" · the gazette's headline",
+    "rev": "c871d368b18d"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Ceremony Held Beside an Empty Case",
+    "note": "dossier \"The Orsay Crown\" · the gazette's subheadline",
+    "rev": "e2cf73aca835"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "text": "The crown was to open the exhibition at 20:00. At 18:40 a guard went to fetch it from the reserve and found its case empty. Only a staff badge opens the reserve. The museum logged 3,329 badge swipes that day.",
+    "note": "dossier \"The Orsay Crown\" · the gazette's editorialArticle",
+    "rev": "00b1f74ebaca"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "text": "Nobody forced that door. It was opened with a badge.",
+    "note": "dossier \"The Orsay Crown\" · the gazette's leadQuote",
+    "rev": "a802c13e27de"
+  },
+  {
+    "id": "documents[the-plan]",
+    "field": "title",
+    "text": "GROUND FLOOR",
+    "note": "dossier \"The Orsay Crown\" · document `the-plan` — title",
+    "rev": "3dffe1fe5b71"
+  },
+  {
+    "id": "documents[the-timetable]",
+    "field": "title",
+    "text": "THE RESERVE, THURSDAY",
+    "note": "dossier \"The Orsay Crown\" · document `the-timetable` — title",
+    "rev": "39d05e012423"
+  },
+  {
+    "id": "documents[the-timetable]",
+    "field": "contentMarkdown",
+    "text": "17:30. The crown is locked in its case in the `Reserve`. Claire Fontanel has just left the room.\n\n18:40. A guard goes to fetch it. The case is empty.\n\n20:00. The ceremony.",
+    "note": "dossier \"The Orsay Crown\" · document `the-timetable` — contentMarkdown",
+    "rev": "84dfa1b47eb2"
+  },
+  {
+    "id": "documents[vasseur-statement]",
+    "field": "title",
+    "text": "ETIENNE VASSEUR, REGISTRAR",
+    "note": "dossier \"The Orsay Crown\" · document `vasseur-statement` — title",
+    "rev": "e7890976390a"
+  },
+  {
+    "id": "documents[vasseur-statement]",
+    "field": "contentMarkdown",
+    "text": "Fine all day. He missed lunch. At 16:48 he took the meal kept for him in the `Kitchen` fridge. He worked in the `Staff Room` and did not eat it until about 17:25. He was ill after the first bite: food poisoning. Nobody else on the staff was ill. In the `Restrooms` from 17:30 until 19:00.\n\nThe badge was clipped to his jacket. It was gone when he came out.",
+    "note": "dossier \"The Orsay Crown\" · document `vasseur-statement` — contentMarkdown",
+    "rev": "7f10a5bef447"
+  },
+  {
+    "id": "documents[the-badge]",
+    "field": "title",
+    "text": "FOUND AT THE RESERVE DOOR, 18:40",
+    "note": "dossier \"The Orsay Crown\" · document `the-badge` — title",
+    "rev": "ef94d5f9d3d8"
+  },
+  {
+    "id": "documents[the-badge]",
+    "field": "contentMarkdown",
+    "text": "On the corridor floor, outside the `Reserve` door: a staff badge.\n\n`B-0218`. Etienne Vasseur, Registrar.\n\nThe `Reserve` door read it at 17:55, going in, and at 18:01, going out.",
+    "note": "dossier \"The Orsay Crown\" · document `the-badge` — contentMarkdown",
+    "rev": "aa697e527234"
+  },
+  {
+    "id": "documents[his-badge]",
+    "field": "title",
+    "text": "THE RESTROOMS DOOR, THURSDAY",
+    "note": "dossier \"The Orsay Crown\" · document `his-badge` — title",
+    "rev": "81fcc16837a7"
+  },
+  {
+    "id": "documents[his-badge]",
+    "field": "contentMarkdown",
+    "text": "| badge | in | out |\n| --- | --- | --- |\n| `B-0218`, Etienne Vasseur | 17:31 | 17:38 |\n| `B-0109`, Hugo Delorme | 17:33 | none |\n\nAfter that, `B-0109` opens the `Kitchen` at 18:03 and leaves by the `Main Entrance` at 18:10.",
+    "note": "dossier \"The Orsay Crown\" · document `his-badge` — contentMarkdown",
+    "rev": "f0f104548545"
+  },
+  {
+    "id": "csvFiles[badge_passages]",
+    "field": "description",
+    "text": "Every badge swipe on Thursday, from 07:25 until the log was pulled at 19:00. One row per swipe, `'in'` or `'out'` of one room.",
+    "note": "dossier \"The Orsay Crown\" · the `badge_passages` table — description",
+    "rev": "740cae7f0c61"
+  },
+  {
+    "id": "csvFiles[badge_holders]",
+    "field": "description",
+    "text": "Every badge issued that day. The staff with their job, the public as `'Visitor'`.",
+    "note": "dossier \"The Orsay Crown\" · the `badge_holders` table — description",
+    "rev": "2b1af0abc663"
+  },
+  {
+    "id": "csvFiles[museum_rooms]",
+    "field": "description",
+    "text": "The 10 rooms on the plan. `access` says whether any badge opens the door, or only a staff badge.",
+    "note": "dossier \"The Orsay Crown\" · the `museum_rooms` table — description",
+    "rev": "5376ca900664"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "title",
+    "text": "The Reserve Door",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — title",
+    "rev": "f37d9536b81c"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "instructions",
+    "text": "At 17:30 the crown was locked in the `Reserve`. At 18:40 a guard went to fetch it, and the case was empty.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — instructions",
+    "rev": "1bdb190ebc5b"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "expectedResult",
+    "text": "Find the badge used to steal the crown from the `'Reserve'`. Search `badge_passages`, and give the row of that badge in `badge_holders`.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — expectedResult",
+    "rev": "5a6daa4abc2e"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "expectedShapeNote",
+    "text": "1 row. The badge that opened the `Reserve`.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — expectedShapeNote",
+    "rev": "b58cd4e3efd7"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "afterText",
+    "text": "Between Claire Fontanel leaving and 18:40, only 1 badge opened the `Reserve`: Etienne Vasseur's. We found it outside the door. He's been sick in the `Restrooms` since 17:30. Somebody took his badge. Find out who.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — afterText",
+    "rev": "2a0a20b1b960"
+  },
+  {
+    "id": "steps[the-reserve-door]",
+    "field": "lead",
+    "text": "You need a badge to enter the `Reserve`. Check which badges went in.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 1/2 \"The Reserve Door\" — lead",
+    "rev": "1dc599c65857"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "title",
+    "text": "The Thief",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — title",
+    "rev": "d2714ca0722d"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "instructions",
+    "text": "Food poisoning made Etienne Vasseur sick after the first bite. Nobody else was ill. From 17:30 to 19:00 he was in the `Restrooms`.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — instructions",
+    "rev": "03606d65defc"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "expectedResult",
+    "text": "When he came out, his badge was gone. Every door reads badges both ways. Who took the badge, and the crown? Search `badge_passages`, and give the row of that person in `badge_holders`.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — expectedResult",
+    "rev": "c6dcb13acca5"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "expectedShapeNote",
+    "text": "1 row. The badge of the person who took it.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — expectedShapeNote",
+    "rev": "98d2257ac964"
+  },
+  {
+    "id": "steps[the-thief]",
+    "field": "lead",
+    "text": "Check who went into the `Restrooms` at the same time as Etienne Vasseur. That person may also have poisoned his meal. Check the `Kitchen` too.",
+    "note": "dossier \"The Orsay Crown\" · checkpoint 2/2 \"The Thief\" — lead",
+    "rev": "1353e0e6ffc7"
+  },
+  {
+    "id": "closing[his-statement]",
+    "field": "say",
+    "text": "Etienne Vasseur was sick from 17:30, in the `Restrooms`. His badge was on his jacket. When he came out, it was gone.",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "c45ed21f085c"
+  },
+  {
+    "id": "closing[the-restrooms]",
+    "field": "say",
+    "text": "Hugo Delorme went into the `Restrooms` after Etienne Vasseur. He never badged out of that door with his own badge. Etienne Vasseur's badge went out at 17:38, while Etienne Vasseur was still inside.",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "679dfc2f894b"
+  },
+  {
+    "id": "closing[the-reserve]",
+    "field": "say",
+    "text": "Etienne Vasseur's badge went into the `Reserve` at 17:55 and out at 18:01. Then it was left outside the door. Etienne Vasseur was still in the `Restrooms`.",
+    "note": "dossier \"The Orsay Crown\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "a8a44695e5ea"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "text": "One badge opened the `Reserve` between 17:30 and 18:40 → `badge_passages` → `B-0218`, Etienne Vasseur's.",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "06039397e9d4"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "text": "`Restrooms` after Etienne Vasseur → `badge_passages` → one badge never came out → `B-0109`.",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "8d6120b3a0f3"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "text": "`B-0109` → `badge_holders` → Hugo Delorme, `Visitor`.",
+    "note": "dossier \"The Orsay Crown\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "535b7d667bf0"
+  }
+]

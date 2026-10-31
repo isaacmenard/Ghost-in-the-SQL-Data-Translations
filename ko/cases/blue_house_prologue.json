@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Blue on Sunday",
+    "text": "일요일의 푸른빛",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own title",
+    "rev": "385b51aa09e2"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Blue Houses",
+    "text": "파란 집들",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own arcTitle",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "프롤로그",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the shop's sales: 5 houses painted blue, and 1 pot.",
+    "text": "가게 판매 기록에 앞서: 파랗게 칠해진 집 5채와 페인트통 1개.",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own summary",
+    "rev": "6d176f51ddca"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows 2 of the 5 houses, and the pot.",
+    "text": "1분, 입력 없음. 레이에스가 집 5채 중 2채와 페인트통을 보여 준다.",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own pitchMarkdown",
+    "rev": "31582509e5b6"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "JULY 1, 2026",
+    "text": "2026년 7월 1일",
+    "note": "dossier \"Blue on Sunday\" · the gazette's date",
+    "rev": "c62e5cae9e61"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Blue on Sunday",
+    "text": "일요일의 푸른빛",
+    "note": "dossier \"Blue on Sunday\" · the gazette's headline",
+    "rev": "385b51aa09e2"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "5 Houses on One Street",
+    "text": "한 거리의 집 5채",
+    "note": "dossier \"Blue on Sunday\" · the gazette's subheadline",
+    "rev": "e9c9cc6bd5f4"
+  },
+  {
+    "id": "steps[blue-house-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "프롤로그",
+    "note": "dossier \"Blue on Sunday\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[blue-house-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "브리핑을 봐라.",
+    "note": "dossier \"Blue on Sunday\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

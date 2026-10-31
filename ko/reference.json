@@ -1,0 +1,386 @@
+[
+  {
+    "id": "SELECT … FROM",
+    "field": "what",
+    "source": "Which columns you want, and which table they come from. `*` means every column.",
+    "text": "가져올 열과 그 열이 속한 테이블. `*`는 모든 열을 뜻한다.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2960be0dd535"
+  },
+  {
+    "id": "SELECT … FROM",
+    "field": "note",
+    "source": "5 rows: the whole table.",
+    "text": "5개 행: 테이블 전체.",
+    "note": "the SQL reference card, entry `SELECT … FROM` · the caveat under it · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2fcc9982d940"
+  },
+  {
+    "id": "WHERE",
+    "field": "what",
+    "source": "Keeps only the rows this condition is true for. Text goes in single quotes, and the text inside them must match capitals exactly.",
+    "text": "이 조건을 만족하는 행만 남긴다. 텍스트는 작은따옴표로 감싸며 대소문자를 정확히 일치시켜야 한다.",
+    "note": "the SQL reference card, entry `WHERE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "33ecec56da88"
+  },
+  {
+    "id": "WHERE",
+    "field": "note",
+    "source": "**Equal.** `WHERE column_1 = 'Alpha'` → 2 rows out of 5. `'alpha'`, lower case, would match nothing at all.\n\n**Not equal.** `WHERE column_1 != 'Alpha'` keeps exactly the rows the first one removed. `<>` means the same thing.",
+    "text": "**같음.** `WHERE column_1 = 'Alpha'` → 5개 행 중 2개 행. 소문자 `'alpha'`는 아무것도 찾지 못한다.\n\n**같지 않음.** `WHERE column_1 != 'Alpha'`는 앞선 조건이 제외한 행만 정확히 남긴다. `<>`도 같은 뜻이다.",
+    "note": "the SQL reference card, entry `WHERE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "fdff95901ac1"
+  },
+  {
+    "id": "LIKE",
+    "field": "what",
+    "source": "Matches a pattern instead of a whole value. `%` stands for any number of characters, so `'%lph%'` finds `Alpha`. With `%` only at the end, the value must start with the letters before it: `'Al%'`.",
+    "text": "값 전체 대신 패턴과 일치하는 대상을 찾는다. `%`는 글자 수에 상관없는 문자열을 뜻하므로 `'%lph%'`는 `Alpha`를 찾는다. 끝에만 `%`가 붙으면 앞의 글자로 시작하는 값이어야 한다: `'Al%'`.",
+    "note": "the SQL reference card, entry `LIKE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "b0158765f741"
+  },
+  {
+    "id": "LIKE",
+    "field": "note",
+    "source": "2 rows. LIKE ignores upper and lower case, so `'%LPH%'` returns the same 2. That is the tool for a value somebody has typed 2 ways. `_` is the other pattern symbol. It matches exactly 1 character, so `'Al___'` is a 5-letter value beginning Al.",
+    "text": "2개 행. LIKE는 대소문자를 구분하지 않으므로 `'%LPH%'`도 똑같이 2개 행을 반환한다. 누군가 2가지 방식으로 입력한 값에는 이 방식을 쓴다. `_`는 또 다른 패턴 기호다. 정확히 1글자와 일치하므로 `'Al___'`은 Al로 시작하는 5글자 값이다.",
+    "note": "the SQL reference card, entry `LIKE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "6d6cf7401bbb"
+  },
+  {
+    "id": "AND / OR",
+    "field": "what",
+    "source": "Combines conditions. `AND` needs both to be true; `OR` needs either.",
+    "text": "조건들을 연결한다. `AND`는 둘 다 참이어야 하고 `OR`는 둘 중 하나만 참이면 된다.",
+    "note": "the SQL reference card, entry `AND / OR` · what the clause does, in the player's terms · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "fe1b3e1cda36"
+  },
+  {
+    "id": "AND / OR",
+    "field": "note",
+    "source": "1 row. Mixing both in one filter needs brackets. That has its own entry on this card: `AND (A OR B)`.",
+    "text": "1개 행. 한 필터에 둘을 섞어 쓸 때는 괄호가 필요하다. 이 카드에 `AND (A OR B)` 항목으로 따로 나와 있다.",
+    "note": "the SQL reference card, entry `AND / OR` · the caveat under it · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "47f8c60ad75e"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "what",
+    "source": "2 conditions where either can be true, inside one filter. `A` and `B` are the conditions you write; everything else is typed as it appears.",
+    "text": "한 필터 안에서 둘 중 어느 쪽이든 충족하면 되는 2개 조건. `A`와 `B`는 직접 작성하는 조건이며, 나머지는 표시된 그대로 입력한다.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "16f6d60c4937"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "note",
+    "source": "2 rows: the 14th, and either name. **The brackets are the whole entry.** Without them `AND` runs before `OR`, so `A AND B OR C` reads as `(A AND B) OR C`. The `OR` then splits the filter in 2 instead of offering a choice inside it. Take the brackets off the example above and it returns 3 rows instead of 2.",
+    "text": "2개 행: 14일, 그리고 두 이름 중 하나. **괄호가 이 항목의 핵심이다.** 괄호가 없으면 `AND`가 `OR`보다 먼저 묶여 `A AND B OR C`를 `(A AND B) OR C`로 해석한다. 그러면 `OR`가 필터 내부에서 선택지를 주는 대신 필터를 둘로 쪼개 버린다. 위 예시에서 괄호를 없애면 2개 행 대신 3개 행이 반환된다.",
+    "note": "the SQL reference card, entry `AND (A OR B)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "661c7768f0fa"
+  },
+  {
+    "id": "IN (…)",
+    "field": "what",
+    "source": "One column, a list of values, any of them can match. Shorter than writing `OR` between the same comparisons.",
+    "text": "열 하나, 값 목록, 그중 어느 것이든 해당한다. 같은 비교 사이에 `OR`를 쓰는 것보다 짧다.",
+    "note": "the SQL reference card, entry `IN (…)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "8734aa31e441"
+  },
+  {
+    "id": "IN (…)",
+    "field": "note",
+    "source": "4 rows: every row whose name is one of the 2 asked for. Commas between the values, brackets around the list. Each value is quoted, because the column is text.",
+    "text": "4개 행: 요청한 2개 중 하나와 이름이 일치하는 모든 행. 값 사이에는 쉼표, 목록 양옆에는 괄호. 열이 텍스트이므로 각 값은 따옴표로 감싼다.",
+    "note": "the SQL reference card, entry `IN (…)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "c69bee4c97c6"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "what",
+    "source": "The list can be a query. The inner query returns one column. A row is kept when its value appears in that column, and `NOT IN` keeps the rest.",
+    "text": "목록은 쿼리여도 된다. 내부 쿼리는 열 하나를 반환한다. 그 열에 값이 나타나는 행만 남고, `NOT IN`은 나머지를 남긴다.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "d844eb2a686e"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "note",
+    "source": "3 rows: the 2 names with a row after 22:00, and every row with those names. The inner query runs first, on its own. Swap `IN` for `NOT IN` and the answer is the other 2 rows.",
+    "text": "3개 행: 22:00 이후 행이 있는 2개 이름과 그 이름의 모든 행. 내부 쿼리가 먼저 단독으로 실행된다. `IN`을 `NOT IN`으로 바꾸면 답은 나머지 2개 행이다.",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "3ab8add9c70d"
+  },
+  {
+    "id": "-- a comment",
+    "field": "what",
+    "source": "2 dashes and a space, and the rest of the line is a note to yourself. Nothing after them runs. A block between `/*` and `*/` can cross lines.",
+    "text": "대시 2개와 공백 한 칸을 넣으면 줄의 나머지는 메모가 된다. 그 뒤로는 아무것도 실행되지 않는다. `/*`와 `*/` 사이의 블록은 여러 줄에 걸쳐도 된다.",
+    "note": "the SQL reference card, entry `-- a comment` · what the clause does, in the player's terms · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "f8d89ff82246"
+  },
+  {
+    "id": "-- a comment",
+    "field": "note",
+    "source": "2 rows, the same 2 the query returns without the notes. Ignore a filter for now with `--`, or say what a query is for.",
+    "text": "2개 행, 메모 없이 쿼리가 반환하는 2개 행과 동일하다. `--`로 필터를 당분간 무시하거나 쿼리의 목적을 적어 둘 때 쓴다.",
+    "note": "the SQL reference card, entry `-- a comment` · the caveat under it · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "e509c57f2b93"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "what",
+    "source": "Stored as text, `'YYYY-MM-DD'` and `'HH:MM'`, so they compare like text. The bigger value is the later one. `BETWEEN` takes a range, ends included.",
+    "text": "`'YYYY-MM-DD'`와 `'HH:MM'` 형식의 텍스트로 저장되므로 텍스트처럼 비교한다. 더 큰 값이 더 나중이다. `BETWEEN`은 양 끝값을 포함한 범위를 지정한다.",
+    "note": "the SQL reference card, entry `Dates and hours` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "7156dd88bf66"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "note",
+    "source": "3 rows.\n\n**One day.** `WHERE day = '2026-03-14'`\n\n**A range of days.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, ends included\n\n**From an hour on.** `WHERE at_time >= '23:00'`\n\n**Before an hour.** `WHERE at_time < '04:00'`\n\nBoth columns are text, so `>` and `<` read as later and earlier.",
+    "text": "3개 행.\n\n**단 하루.** `WHERE day = '2026-03-14'`\n\n**날짜 범위.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, 양 끝 포함\n\n**특정 시각 이후.** `WHERE at_time >= '23:00'`\n\n**특정 시각 이전.** `WHERE at_time < '04:00'`\n\n두 열 모두 텍스트이므로 `>`는 더 나중, `<`는 더 이른 시각을 뜻한다.",
+    "note": "the SQL reference card, entry `Dates and hours` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "aa423a31f683"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "what",
+    "source": "Keeps the values from one end to the other, both ends included. The 2 ends are joined by `AND`.",
+    "text": "한쪽 끝에서 다른 쪽 끝까지의 값을 남기며, 양 끝 값을 모두 포함한다. 양 끝 값 2개는 `AND`로 연결한다.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "06380d381084"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "note",
+    "source": "3 rows: the 14th and the 15th, both ends in. No brackets and no comma around the ends: `BETWEEN ('09:00', '15:00')` is refused. Hours and numbers work the same way.",
+    "text": "3개 행: 14일과 15일, 양 끝 값 포함. 양 끝 값 주위에 괄호나 쉼표 없음: `BETWEEN ('09:00', '15:00')`은 거부된다. 시간과 숫자도 같은 방식으로 작동한다.",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "13e9e4fe0970"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "what",
+    "source": "One row per distinct value, however many times it occurs. Answers \"which values are in this column at all\".",
+    "text": "몇 번이 나오든 고유한 값마다 행 하나씩 남긴다. “이 열에 어떤 값들이 들어 있는가”에 답한다.",
+    "note": "the SQL reference card, entry `DISTINCT` · what the clause does, in the player's terms · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "1b5dcd19e256"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "note",
+    "source": "3 rows out of 5. The quickest way to see which values a column holds before you filter on it.",
+    "text": "5개 행 중 3개 행. 필터를 걸기 전에 열에 어떤 값들이 있는지 파악하는 가장 빠른 방법이다.",
+    "note": "the SQL reference card, entry `DISTINCT` · the caveat under it · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "c902720d2524"
+  },
+  {
+    "id": "IS NULL",
+    "field": "what",
+    "source": "An empty cell holds no value at all, and nothing equals no value. Not even another empty cell. So `= NULL` never matches anything. Use `IS NULL` instead, or `IS NOT NULL`.",
+    "text": "빈 칸에는 아무 값도 없으며, 어떤 값도 빈 값과 같지 않다. 다른 빈 칸도 마찬가지다. 따라서 `= NULL`은 아무것도 찾아내지 못한다. 대신 `IS NULL`이나 `IS NOT NULL`을 쓴다.",
+    "note": "the SQL reference card, entry `IS NULL` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "f5a6e58bd67d"
+  },
+  {
+    "id": "IS NULL",
+    "field": "note",
+    "source": "5 rows: every cell in the example table is filled, and that is the point. The test is about whether there is a value, never about what it is.\n\n**Empty.** `WHERE column_2 IS NULL`\n\n**Filled.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` is wrong the same way `= NULL` is, and neither is an error. They just return nothing.",
+    "text": "5개 행: 예시 테이블의 모든 칸이 채워져 있으며, 바로 그 점을 보여 준다. 값이 무엇인지가 아니라 값이 있는지만 검사한다.\n\n**비어 있음.** `WHERE column_2 IS NULL`\n\n**채워져 있음.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL`도 `= NULL`과 똑같이 잘못되었지만 오류가 발생하지는 않는다. 그저 아무것도 반환하지 않는다.",
+    "note": "the SQL reference card, entry `IS NULL` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "0d5a51ab84f5"
+  },
+  {
+    "id": "JOIN",
+    "field": "what",
+    "source": "Puts 2 tables side by side. After `ON`, name the 2 columns that must be equal, one from each table.",
+    "text": "테이블 2개를 나란히 놓는다. `ON` 뒤에는 값이 같아야 하는 열 2개를 테이블마다 하나씩 적는다.",
+    "note": "the SQL reference card, entry `JOIN` · what the clause does, in the player's terms · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "f95e44717f12"
+  },
+  {
+    "id": "JOIN",
+    "field": "note",
+    "source": "4 rows out of 5. `Gamma` has no code in `demo_codes`, so it is dropped, like any row with no match.",
+    "text": "5개 행 중 4개 행. `Gamma`는 `demo_codes`에 코드가 없어 제외된다. 일치하는 항목이 없는 행은 모두 그렇다.",
+    "note": "the SQL reference card, entry `JOIN` · the caveat under it · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "80d75fc7ed01"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "what",
+    "source": "Joins the values of each group into one text. The second value goes between them. `ORDER BY` inside the brackets sets their order.",
+    "text": "각 그룹의 값을 하나의 텍스트로 합친다. 두 번째 값은 그 사이에 들어간다. 괄호 안의 `ORDER BY`로 순서를 정한다.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · what the clause does, in the player's terms · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "ddc427f75167"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "note",
+    "source": "4 rows, one per day. On the 14th, Beta comes first because its `at_time` is earlier. With `''` as the second value, nothing goes between them. One letter per row then makes a word.",
+    "text": "4개 행, 하루에 하나씩이다. 14일에는 `at_time`이 더 이른 Beta가 먼저 나온다. 두 번째 값으로 `''`를 넣으면 사이에 아무것도 들어가지 않는다. 행마다 한 글자씩 모여 단어가 된다.",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · the caveat under it · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "48b95431edd0"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "what",
+    "source": "A formula in the SELECT, on every row: `+`, `-`, `*`, `/` and brackets. No GROUP BY needed. `AS` names the new column.",
+    "text": "SELECT 안에 쓰는 공식으로, 모든 행에 적용된다: `+`, `-`, `*`, `/`와 괄호. GROUP BY는 필요 없다. `AS`는 새 열에 이름을 붙인다.",
+    "note": "the SQL reference card, entry `Calculation AS name` · what the clause does, in the player's terms · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "93f13b933793"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "note",
+    "source": "5 rows, 1 new column. `score` exists only in this result: the table does not change. A whole number divided by a whole number drops the decimals: `1/2` is `0`, `1.0/2` is `0.5`.",
+    "text": "5개 행, 새 열 1개. `score`는 이 결과에만 있다: 테이블은 바뀌지 않는다. 정수를 정수로 나누면 소수점 아래가 버려진다: `1/2`는 `0`, `1.0/2`는 `0.5`다.",
+    "note": "the SQL reference card, entry `Calculation AS name` · the caveat under it · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "f79793d9716c"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "what",
+    "source": "Uses the same table twice, side by side: every row next to every row, itself included. Give each copy a name after `AS`, and write `a.` or `b.` before each column.",
+    "text": "같은 테이블을 나란히 2번 쓴다: 모든 행이 자기 자신을 포함한 모든 행과 짝을 이룬다. 사본마다 `AS` 뒤에 이름을 붙이고, 각 열 앞에 `a.` 또는 `b.`를 쓴다.",
+    "note": "the SQL reference card, entry `FROM, twice` · what the clause does, in the player's terms · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "3deb31227157"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "note",
+    "source": "1 row: Alpha and Gamma, 2 + 8 = 10. `a.label < b.label` drops a box paired with itself, and keeps each pair once. Add `, demo_boxes AS c` to use the table 3 times.",
+    "text": "1개 행: Alpha와 Gamma, 2 + 8 = 10. `a.label < b.label`은 자기 자신과 짝지은 상자를 빼고, 각 쌍을 한 번만 남긴다. `, demo_boxes AS c`를 더하면 테이블을 3번 쓴다.",
+    "note": "the SQL reference card, entry `FROM, twice` · the caveat under it · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "277243dc493a"
+  },
+  {
+    "id": "COUNT(*)",
+    "field": "what",
+    "source": "One number: how many rows matched. Use `AS` to give it a name you can refer to later.",
+    "text": "숫자 하나: 조건에 일치한 행 개수다. 나중에 가리킬 이름을 `AS`로 지정한다.",
+    "note": "the SQL reference card, entry `COUNT(*)` · what the clause does, in the player's terms · its example: SELECT COUNT(*) AS total FROM demo",
+    "rev": "846bd0acc804"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "what",
+    "source": "Counts each distinct value separately instead of all together: one row out per group. Include the column too, or you get numbers with no labels.",
+    "text": "한꺼번에 세지 않고 고유한 값마다 따로 센다. 그룹당 1개 행을 반환한다. 해당 열도 함께 적지 않으면 이름표 없는 숫자만 받는다.",
+    "note": "the SQL reference card, entry `GROUP BY` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "7608b178dd01"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "note",
+    "source": "Note the order: grouped, not ranked. The biggest number is not necessarily first. That is what ORDER BY is for.",
+    "text": "순서에 주목하라. 묶였을 뿐 순위를 매긴 것이 아니다. 가장 큰 숫자가 반드시 맨 위에 오지는 않는다. 그럴 때 ORDER BY를 쓴다.",
+    "note": "the SQL reference card, entry `GROUP BY` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "8d4a05a94caa"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "what",
+    "source": "Adds a column up instead of counting rows. What goes inside can be arithmetic, not only a column name.",
+    "text": "행 개수를 세는 대신 열의 값을 모두 더한다. 괄호 안에는 열 이름뿐 아니라 계산식을 넣어도 된다.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · what the clause does, in the player's terms · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "edee98c7809d"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "note",
+    "source": "3 rows: one per group, each the total of its own. `COUNT` says how many lines a group has. `SUM` gives their total.",
+    "text": "3개 행: 그룹마다 하나씩, 각 그룹의 합계다. `COUNT`는 그룹에 속한 행 수를 알려 주고, `SUM`은 그 합계를 알려 준다.",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · the caveat under it · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "cc4e00386a52"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "what",
+    "source": "The average of a column: its total divided by the number of rows. With `GROUP BY`, one average per group.",
+    "text": "열의 평균: 총합을 행 수로 나눈 값. `GROUP BY`를 쓰면 그룹마다 평균 하나.",
+    "note": "the SQL reference card, entry `AVG(…)` · what the clause does, in the player's terms · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "aac9dd33929c"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "note",
+    "source": "3 rows. Alpha has 10 and 20, so 15. Put 2 groups side by side to see which one is higher.",
+    "text": "3개 행. Alpha에 10과 20이 있으므로 15. 2개 그룹을 나란히 놓으면 어느 쪽이 더 높은지 보인다.",
+    "note": "the SQL reference card, entry `AVG(…)` · the caveat under it · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "2ea9877e9eec"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "what",
+    "source": "Counts how many *different* values a column holds, not how many rows there are. The way to count things that each wrote more than one line.",
+    "text": "전체 행 개수가 아니라 열에 담긴 *서로 다른* 값의 개수를 센다. 항목 하나가 여러 줄을 남겼을 때 대상을 세는 방법이다.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "d14b5ca9fd0f"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "note",
+    "source": "3 rows: one per group. Compare it with `COUNT(*)`: Alpha's 2 lines fall on 2 different days, so both counts say 2. Add a second line on one of those days, and the 2 counts differ.",
+    "text": "3개 행: 그룹마다 하나씩. `COUNT(*)`와 비교해 보면 된다. Alpha의 2개 행은 서로 다른 2개 날짜에 걸쳐 있어 두 집계 모두 2를 가리킨다. 그 날짜 중 하루에 행 하나를 더 넣으면 2개 집계 결과가 서로 달라진다.",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · the caveat under it · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "76c660a3ec64"
+  },
+  {
+    "id": "HAVING",
+    "field": "what",
+    "source": "Filters the groups a GROUP BY produced, the way WHERE filters rows. WHERE runs before the grouping and cannot use a count; HAVING runs after it and can.",
+    "text": "`WHERE`가 행을 걸러 내듯 `GROUP BY`가 생성한 그룹을 걸러 낸다. `WHERE`는 그룹화 전에 실행되어 개수를 사용할 수 없지만, `HAVING`은 그룹화 후에 실행되어 개수를 사용할 수 있다.",
+    "note": "the SQL reference card, entry `HAVING` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "5aeceafc0936"
+  },
+  {
+    "id": "HAVING",
+    "field": "note",
+    "source": "2 rows: Gamma appears once and is dropped. Use it to keep only the values that occur more often than a number you choose.",
+    "text": "2개 행: Gamma는 1번만 나타나 제외된다. 직접 정한 횟수보다 더 자주 나타나는 값만 남길 때 쓴다.",
+    "note": "the SQL reference card, entry `HAVING` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "1e85d3a715a6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "what",
+    "source": "The smallest and the largest value in each group. On text they read alphabetically, so on an hour they mean earliest and latest.",
+    "text": "각 그룹의 최솟값과 최댓값. 텍스트에서는 사전순으로 정렬되므로 시각 데이터에서는 가장 이른 시각과 가장 늦은 시각을 뜻한다.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · what the clause does, in the player's terms · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "2d934b8ab3d6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "note",
+    "source": "3 rows. A group of 1 gives the same answer twice. That is correct: it happened once. Side by side, the 2 columns give each row a beginning and an end.",
+    "text": "3개 행. 1개 항목으로 이루어진 그룹은 같은 결과를 두 번 낸다. 맞는 결과다. 1번만 일어났기 때문이다. 2개 열을 나란히 놓으면 각 행의 시작과 끝이 드러난다.",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · the caveat under it · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "1cdc71ea8307"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "what",
+    "source": "Sorts the result by a column. `ASC` is smallest first, and is what you get if you say nothing. `DESC` puts the biggest on top.",
+    "text": "특정 열을 기준으로 결과를 정렬한다. `ASC`는 가장 작은 값을 먼저 두며, 아무것도 적지 않았을 때의 기본값이다. `DESC`는 가장 큰 값을 맨 위에 놓는다.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "b53f83956f6b"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "note",
+    "source": "The same query with `ORDER BY column_2 ASC`, or just `ORDER BY column_2`, returns smallest first: Beta 5, then Alpha 10. You can also sort by a name you invented with `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` puts the biggest count on top.",
+    "text": "동일한 쿼리에 `ORDER BY column_2 ASC`나 단순히 `ORDER BY column_2`를 지정하면 작은 값이 먼저 반환된다. Beta 5, 다음으로 Alpha 10 순이다. `AS`로 새로 붙인 이름을 기준으로 정렬해도 된다. `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC`는 가장 큰 집계 결과를 맨 위에 놓는다.",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · the caveat under it · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "46db563808a7"
+  },
+  {
+    "id": "LIMIT",
+    "field": "what",
+    "source": "Keeps only the first N rows. It comes last: sort first, then take the top.",
+    "text": "처음 N개 행만 남긴다. 맨 마지막에 위치한다. 먼저 정렬한 뒤 맨 위에서부터 가져온다.",
+    "note": "the SQL reference card, entry `LIMIT` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC LIMIT 1",
+    "rev": "a89fe47141e5"
+  }
+]

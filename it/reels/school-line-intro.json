@@ -1,0 +1,106 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "Capitolo primo",
+    "note": "reel school-line-intro · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "WHAT WE HAVE",
+    "text": "I DATI",
+    "note": "reel school-line-intro · the line beside the chapter head · chapter: Chapter One",
+    "rev": "1e4db91a6818"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "30 ROWS · 6 COLUMNS",
+    "text": "30 RIGHE · 6 COLONNE",
+    "note": "reel school-line-intro · the words around the figures of the line_register set piece · chapter: Chapter One",
+    "rev": "fecee157f7d9"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 28 more rows, and 2 more columns",
+    "text": "… altre 28 righe e altre 2 colonne",
+    "note": "reel school-line-intro · what the line_register sample leaves out · chapter: Chapter One",
+    "rev": "ae0be294d435"
+  },
+  {
+    "id": "L1-call",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-line-intro, beat 1/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "L1-call",
+    "field": "text",
+    "source": "LINE 4417. I can't send a police car to a line number.",
+    "text": "LINE 4417. Non posso mandare una volante a un numero di linea.",
+    "note": "reel school-line-intro, beat 1/3 · the line itself · speaker Detective Reyes",
+    "rev": "c3c6a1fb36fa"
+  },
+  {
+    "id": "L1-call",
+    "field": "subject",
+    "source": "WHAT WE HAVE",
+    "text": "I DATI",
+    "note": "reel school-line-intro, beat 1/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e4db91a6818"
+  },
+  {
+    "id": "L1-register",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-line-intro, beat 2/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "L1-register",
+    "field": "text",
+    "source": "The telephone company sent us its register. Every line it bills, and the room its telephone is in.",
+    "text": "La compagnia telefonica ci ha mandato il registro. Ogni linea fatturata, e la stanza dov’è il telefono.",
+    "note": "reel school-line-intro, beat 2/3 · the line itself · speaker Detective Reyes",
+    "rev": "6107ecfad4f1"
+  },
+  {
+    "id": "L1-register",
+    "field": "subject",
+    "source": "WHAT WE HAVE",
+    "text": "I DATI",
+    "note": "reel school-line-intro, beat 2/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e4db91a6818"
+  },
+  {
+    "id": "L1-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-line-intro, beat 3/3 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "L1-handoff",
+    "field": "text",
+    "source": "Match the register to the calls. I want the room each call was made from.",
+    "text": "Incrocia il registro con le chiamate. Voglio la stanza da cui è partita ogni chiamata.",
+    "note": "reel school-line-intro, beat 3/3 · the line itself · speaker Detective Reyes",
+    "rev": "9f3636987c2a"
+  },
+  {
+    "id": "L1-handoff",
+    "field": "subject",
+    "source": "WHAT TO DO NEXT",
+    "text": "COSA FARE ADESSO",
+    "note": "reel school-line-intro, beat 3/3 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9cdf97745e26"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "Intro",
+    "note": "dossier \"Intro\" · the dossier's own title",
+    "rev": "24601bcaae6e"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "A school burned on a Tuesday night. The whole district said somebody set it on fire. The Paris Emergency Switchboard sent the crime unit a year of its calls, alarms and patrols. One call came in before the first witness saw the fire.",
+    "note": "dossier \"Intro\" · the dossier's own summary",
+    "rev": "b09da2d3ca91"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "The science wing of College Jean Moulin burned on the evening of 14 October. Nobody was hurt. Everybody has a theory.\n\nYou have a year of the Paris Emergency Switchboard's log and 4 words of SQL.",
+    "note": "dossier \"Intro\" · the dossier's own pitchMarkdown",
+    "rev": "eef3928ea309"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "text": "One table, `dispatch_log`: a year of the Paris Emergency Switchboard's log.",
+    "note": "dossier \"Intro\" · the dossier's own rulesMarkdown",
+    "rev": "37eb104a63ae"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "text": "Which call reported the school fire before the first witness saw it?",
+    "note": "dossier \"Intro\" · the dossier's own openQuestion",
+    "rev": "8be22eafd8aa"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "OCTOBER 15, 2025",
+    "note": "dossier \"Intro\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "text": "Chief Forensics Reporter",
+    "note": "dossier \"Intro\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Criminal Fire Destroys Science Wing at College Jean Moulin",
+    "note": "dossier \"Intro\" · the gazette's headline",
+    "rev": "9b567c5f31b0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Flames Seen From the Street at 21:12. Neighbours Insist It Was Deliberate",
+    "note": "dossier \"Intro\" · the gazette's subheadline",
+    "rev": "d73761861262"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "text": "The science wing of College Jean Moulin burned last night. Nobody was hurt. A passer-by saw flames at 21:12, and the firefighters were there a minute later. By the next morning the district said somebody started it on purpose. There was a chemistry store, and no system to put out a fire.\n\nThe police have no suspects and one file. It holds a year of calls from the Paris Emergency Switchboard. Detectives have to find one night in a year of calls. Then they have to find the time of that call.",
+    "note": "dossier \"Intro\" · the gazette's editorialArticle",
+    "rev": "373db2f3dbdb"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "text": "\"One call reached us 14 minutes before anyone on the street saw a flame.\"",
+    "note": "dossier \"Intro\" · the gazette's leadQuote",
+    "rev": "2a67c4aa556e"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "text": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "note": "dossier \"Intro\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "title",
+    "text": "Open the *Archive*",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — title",
+    "rev": "4a8001986460"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "instructions",
+    "text": "The Paris Emergency Switchboard logged a year of emergency calls in Paris.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — instructions",
+    "rev": "796bcdde51f9"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedResult",
+    "text": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
+    "rev": "022c5c3a8f9a"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedShapeNote",
+    "text": "Every row of the year, with all 8 columns.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedShapeNote",
+    "rev": "96eec5578a93"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "afterText",
+    "text": "2,400 rows in a year. Calls, witnesses, alarms, patrols.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — afterText",
+    "rev": "618ee8457308"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "title",
+    "text": "The *Night*",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — title",
+    "rev": "a325233e428a"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "instructions",
+    "text": "The fire was on 14 October.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — instructions",
+    "rev": "58b4470217ab"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedResult",
+    "text": "Keep only the rows of that day, `2025-10-14`, from `dispatch_log`. `WHERE` keeps the rows where a condition is true. Write the column, `=`, then the value in single quotes.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedResult",
+    "rev": "d8938759f698"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedShapeNote",
+    "text": "16 rows: everything logged that day.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedShapeNote",
+    "rev": "08103ab5882e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "title",
+    "text": "Too *Early*",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — title",
+    "rev": "70ebd44fc27e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "instructions",
+    "text": "The first witness saw the school's flames at 21:12. One call about the fire came in before that.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — instructions",
+    "rev": "ce5078b69894"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedResult",
+    "text": "Find that call in `dispatch_log` and return its row. `AND` adds a second condition to a `WHERE`.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedResult",
+    "rev": "b884ce09b8f9"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedShapeNote",
+    "text": "One row: the early call.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedShapeNote",
+    "rev": "f47b0870a81b"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "afterText",
+    "text": "20:58. 14 minutes before the first witness saw the fire.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — afterText",
+    "rev": "152ae094925a"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "text": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "note": "dossier \"Intro\" · the cleared sheet's chain, step 1/1 — text",
+    "rev": "d2913b0af757"
+  }
+]

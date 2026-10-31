@@ -1,0 +1,394 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Letters From La Sante",
+    "text": "Cartas de La Santé",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own title",
+    "rev": "c31dedd753c4"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "O desfecho",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The 3 men who robbed the banks are in \"La Sante\" prison. They write to somebody outside, and their telephone can be read now.",
+    "text": "Os 3 homens que roubaram os bancos estão na prisão de “La Santé”. Eles escrevem para alguém de fora, e o telefone deles pode ser lido agora.",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own summary",
+    "rev": "328401e72f6f"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Monday 14 December. \"La Sante\" prison, Paris.\n\nThe 3 men who robbed the banks write to somebody outside. Read what they say.",
+    "text": "Segunda, 14 de dezembro. Prisão de “La Santé”, Paris.\n\nOs 3 homens que roubaram os bancos escrevem para alguém de fora. Lê o que eles dizem.",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "d911f0442e05"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables, 1 map and 1 telephone.\n\n`mutefone_codes` holds every message of the crew's telephone, coded, one row per code. `leaked_key` is the V2 key leaked online this morning. It turns a code into a letter.",
+    "text": "2 tabelas, 1 mapa e 1 telefone.\n\n`mutefone_codes` guarda todas as mensagens do telefone do bando, codificadas, 1 linha por código. `leaked_key` é a chave V2 vazada na internet esta manhã. Ela transforma cada código em uma letra.",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own rulesMarkdown",
+    "rev": "6de2bd2fa1ec"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "What has K planned for the van tomorrow, and when?",
+    "text": "O que K planejou para o furgão amanhã, e quando?",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own openQuestion",
+    "rev": "f338e3cb3a8d"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "False alarms at 3 banks on the van's route, then the Tribunal at 06:50",
+    "text": "Alarmes falsos em 3 bancos na rota do furgão, depois o Tribunal às 06:50",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own verdictText",
+    "rev": "2fdd606a41e9"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "14 DE DEZEMBRO DE 2026",
+    "note": "dossier \"Letters From La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Letters From La Sante\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Telephone Nobody Could Read Can Now Be Read",
+    "text": "O telefone que ninguém conseguia ler agora pode ser lido",
+    "note": "dossier \"Letters From La Sante\" · the gazette's headline",
+    "rev": "27989caa59f8"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "How the Mutefone Codes Its Messages Is Posted Online",
+    "text": "Como o Mutefone codifica as mensagens é publicado na internet",
+    "note": "dossier \"Letters From La Sante\" · the gazette's subheadline",
+    "rev": "2d71858fb93b"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "This morning, the way the Mutefone codes its secret messages was posted online. It covers versions 1 to 4. The key of version 2 was posted with it. Anybody can now read a V2.\n\nMutefone says version 5 is safe.",
+    "text": "Esta manhã, o modo como o Mutefone codifica as mensagens secretas foi publicado na internet. Cobre as versões 1 a 4. A chave da versão 2 foi publicada junto. Qualquer pessoa agora consegue ler um V2.\n\nA Mutefone afirma que a versão 5 é segura.",
+    "note": "dossier \"Letters From La Sante\" · the gazette's editorialArticle",
+    "rev": "0ae3937ad882"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Version 6 is out today. This time, nobody reads it.\"",
+    "text": "“A versão 6 sai hoje. Desta vez, ninguém lê.”",
+    "note": "dossier \"Letters From La Sante\" · the gazette's leadQuote",
+    "rev": "bdc164a2c386"
+  },
+  {
+    "id": "documents[metro-1214]",
+    "field": "title",
+    "source": "Monday 14 December 2026",
+    "text": "Segunda, 14 de dezembro de 2026",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214` — title",
+    "rev": "60c0c1f0d592"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "title",
+    "source": "Vigie Assurances Nearly Bigger Than Okonjo",
+    "text": "Vigie Assurances prestes a ultrapassar Okonjo",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — title",
+    "rev": "0823474c446b"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "contentMarkdown",
+    "source": "Vigie Assurances is about to become the biggest insurer in Paris. This autumn it won a run of contracts for the City's buildings. Okonjo Insurance, the biggest for years, is in serious trouble. It could go bankrupt.",
+    "text": "A Vigie Assurances está prestes a se tornar a maior seguradora de Paris. Neste outono, venceu uma sequência de contratos para os prédios da cidade. A Okonjo Insurance, a maior durante anos, enfrenta sérios problemas. Pode falir.",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — contentMarkdown",
+    "rev": "3710aa8ed622"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "title",
+    "source": "New Year: The Metro Runs All Night",
+    "text": "Ano Novo: o metrô funciona a noite toda",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — title",
+    "rev": "937dc5be2eaa"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "contentMarkdown",
+    "source": "On 31 December, the M13 runs all night.",
+    "text": "Em 31 de dezembro, a linha M13 circula a noite toda.",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — contentMarkdown",
+    "rev": "eb725e5a9368"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 6",
+    "text": "MUTEFONE 6",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — title",
+    "rev": "1468fc7a5782"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "contentMarkdown",
+    "source": "This time, nobody reads it.",
+    "text": "Desta vez, ninguém lê.",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — contentMarkdown",
+    "rev": "f0a511690398"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "title",
+    "source": "FROM THE HEAD GUARD, WING D",
+    "text": "DO CHEFE DA GUARDA, ALA D",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — title",
+    "rev": "4677a9a97ed6"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "contentMarkdown",
+    "source": "**\"La Sante\" prison, 13 December.** The 3 men came in on 5 December. They are held in wing D. Their cells are `D214`, `D215` and `D216`. They do not speak to us. On Tuesday 15 December, a van takes them to the Tribunal for their hearing.\n\n**They have a telephone.** It was hidden in cell `D216`, a Mutefone V2. We found it on 6 December and put it back. That way, we read what they send. Every message on it is coded. The messages are in `mutefone_codes`.",
+    "text": "**Prisão “La Sante”, 13 de dezembro.** Os 3 homens chegaram em 5 de dezembro. Estão detidos na ala D. As celas deles são `D214`, `D215` e `D216`. Não falam conosco. Na terça, 15 de dezembro, um furgão leva os 3 ao Tribunal para a audiência.\n\n**Eles têm um telefone.** Estava escondido na cela `D216`, um Mutefone V2. Encontramos o aparelho em 6 de dezembro e colocamos de volta. Desse jeito, lemos o que eles enviam. Todas as mensagens nele estão codificadas. As mensagens estão em `mutefone_codes`.",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — contentMarkdown",
+    "rev": "f239c15e2283"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "title",
+    "source": "POSTED ONLINE, MONDAY 14 DECEMBER",
+    "text": "Publicado na internet, segunda, 14 de dezembro",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — title",
+    "rev": "afe6f77a30f2"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "contentMarkdown",
+    "source": "**Mutefone says nobody can read its messages. here is how it codes them, v1 to v4.**\n\nevery letter and every number becomes a code from 10 to 99. a space is `/`, and `/` has its own code. the codes go out in the order of the message.\n\nthe key of v2 is posted with this, as `leaked_key`. 1 code = 1 letter.\n\nnow anybody can read a V2 (and they called that secret lol)",
+    "text": "**O Mutefone diz que ninguém consegue ler as mensagens dele. aqui está como ele codifica, v1 a v4.**\n\nCada letra e cada número vira um código de 10 a 99. Um espaço vira `/`, e `/` também tem um código. Os códigos saem na ordem da mensagem.\n\nA chave da v2 vai junto, como `leaked_key`. 1 código = 1 letra.\n\nAgora qualquer pessoa consegue ler uma V2 (e chamavam isso de segredo lol)",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — contentMarkdown",
+    "rev": "340fc2f34d0d"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "title",
+    "source": "MUTEFONE V2, QUICK START",
+    "text": "MUTEFONE V2, GUIA RÁPIDO",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — title",
+    "rev": "a4d15896dc41"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "contentMarkdown",
+    "source": "**What you say stays between you.**\n\n### Secret messages\n\nYour Mutefone codes every message before it leaves, and reads it back when it arrives. Nobody else can read it, not even us.",
+    "text": "**O que você fala fica entre vocês.**\n\n### Mensagens secretas\n\nO Mutefone codifica cada mensagem antes de sair e lê de volta quando ela chega. Ninguém mais consegue ler, nem mesmo nós.",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — contentMarkdown",
+    "rev": "ada8ec1ce64e"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "title",
+    "source": "GROUP_CONCAT",
+    "text": "GROUP_CONCAT",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — title",
+    "rev": "131d68f7c809"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "contentMarkdown",
+    "source": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)` puts the values of a group side by side, in the order of `at_time`.\n\nIn `demo`, on 14 March, `Alpha` is at 23:40 and `Beta` at 02:05. It gives `BetaAlpha`.",
+    "text": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)` coloca os valores de um grupo lado a lado, na ordem de `at_time`.\n\nEm `demo`, no dia 14 de março, `Alpha` está às 23:40 e `Beta` às 02:05. Dá `BetaAlpha`.",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — contentMarkdown",
+    "rev": "c506a89abdfa"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE CREW'S MAP",
+    "text": "O mapa da equipe",
+    "note": "dossier \"Letters From La Sante\" · document `paris-map` — title",
+    "rev": "3543463c381b"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "title",
+    "source": "FOUND TODAY",
+    "text": "Encontrado hoje",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — title",
+    "rev": "779f0df7e653"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "contentMarkdown",
+    "source": "This map was found today in one of the cells.",
+    "text": "Este mapa foi encontrado hoje em uma das celas.",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — contentMarkdown",
+    "rev": "9ceb9e8e8657"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "title",
+    "source": "THE CREW'S 7 BANKS",
+    "text": "Os 7 bancos da equipe",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — title",
+    "rev": "861c39fdeecc"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "contentMarkdown",
+    "source": "**From the bank file.** 6 robberies since June. On 4 December, the 3 men were caught at the 7th bank.\n\n| day | bank |\n| --- | --- |\n| 5 June | Rivage Passy |\n| 10 July | Municipale Vaugirard |\n| 7 August | Vernier Batignolles |\n| 11 September | Orme Lecourbe |\n| 9 October | Civique Auteuil |\n| 6 November | Municipale Ternes |\n| 4 December | Civique Mozart, the attempt |",
+    "text": "**Do dossiê dos bancos.** 6 roubos desde junho. Em 4 de dezembro, os 3 homens foram pegos no 7º banco.\n\n| dia | banco |\n| --- | --- |\n| 5 de junho | Rivage Passy |\n| 10 de julho | Municipale Vaugirard |\n| 7 de agosto | Vernier Batignolles |\n| 11 de setembro | Orme Lecourbe |\n| 9 de outubro | Civique Auteuil |\n| 6 de novembro | Municipale Ternes |\n| 4 de dezembro | Civique Mozart, a tentativa |",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — contentMarkdown",
+    "rev": "ed39b6783784"
+  },
+  {
+    "id": "csvFiles[mutefone_codes]",
+    "field": "description",
+    "source": "Every message of the crew's telephone, one row per code: the message, the day, the contact, `In` or `Out`, the place of the code in the message, and the code, `num`.",
+    "text": "Cada mensagem do telefone da equipe, uma linha por código: a mensagem, o dia, o contato, `In` ou `Out`, a posição do código na mensagem e o código, `num`.",
+    "note": "dossier \"Letters From La Sante\" · the `mutefone_codes` table — description",
+    "rev": "424652450dc3"
+  },
+  {
+    "id": "csvFiles[leaked_key]",
+    "field": "description",
+    "source": "The Mutefone V2 key, leaked online this morning: each code, `num`, and the `symbol` it stands for.",
+    "text": "A chave do Mutefone V2, vazada na internet esta manhã: cada código, `num`, e o `symbol` que ele representa.",
+    "note": "dossier \"Letters From La Sante\" · the `leaked_key` table — description",
+    "rev": "54e8d4b5dd45"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "title",
+    "source": "The Grid",
+    "text": "A grade",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — title",
+    "rev": "24227e8d4bf4"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "instructions",
+    "source": "Every message on the telephone is in `mutefone_codes`, one row per code. `leaked_key` turns each code into its letter.",
+    "text": "Todas as mensagens no telefone estão em `mutefone_codes`, 1 linha por código. `leaked_key` transforma cada código na respectiva letra.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — instructions",
+    "rev": "21cb5cbc46ef"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedResult",
+    "source": "Read the messages in plain text. Keep only the contact the crew planned its robberies with. Return 1 row per message, with its `sent_on`, `contact`, `direction` and `message`.",
+    "text": "Lê as mensagens em texto simples. Mantém apenas o contato com quem o bando planejou os roubos. Retorna 1 linha por mensagem, com `sent_on`, `contact`, `direction` e `message`.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedResult",
+    "rev": "8d926b7f912a"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedShapeNote",
+    "source": "1 row per message with that contact, in plain text.",
+    "text": "1 linha por mensagem com esse contato, em texto simples.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedShapeNote",
+    "rev": "36df766ce96d"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "afterText",
+    "source": "K. The evening before each robbery: first the kit, then a meeting.",
+    "text": "K. Na véspera de cada assalto: primeiro o material, depois um encontro.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — afterText",
+    "rev": "89a0dd9a8019"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "lead",
+    "source": "Join `leaked_key` to the crew's Mutefone to read it. Then keep only the messages of their boss.",
+    "text": "Junta `leaked_key` ao Mutefone do bando para ler. Depois, deixa só as mensagens do chefe deles.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — lead",
+    "rev": "20ef8992ba2c"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "title",
+    "source": "Tomorrow",
+    "text": "Amanhã",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — title",
+    "rev": "456a73bbcefb"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "instructions",
+    "source": "Today is Monday 14 December. The crew's map is on the board. K's messages are in `mutefone_codes`, read with `leaked_key`.",
+    "text": "Hoje é segunda, 14 de dezembro. O mapa do bando está no quadro. As mensagens de K estão em `mutefone_codes`, lidas com `leaked_key`.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — instructions",
+    "rev": "9264156c1432"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedResult",
+    "source": "Keep only the messages where K sets tomorrow's plan. Return their `message`, 1 row each, from the earliest hour to the latest.",
+    "text": "Mantém apenas as mensagens em que K define o plano de amanhã. Retorna a `message`, 1 linha por mensagem, da hora mais cedo à mais tarde.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedResult",
+    "rev": "425bafdc9703"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedShapeNote",
+    "source": "1 row per step of tomorrow's plan, in order.",
+    "text": "1 linha por etapa do plano de amanhã, em ordem.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedShapeNote",
+    "rev": "704e4c8ec955"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "afterText",
+    "source": "3 false alarms on the van's route, 5 minutes apart. Then the van at the Tribunal.",
+    "text": "3 alarmes falsos no trajeto do furgão, com 5 minutos de intervalo. Depois o furgão no Tribunal.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — afterText",
+    "rev": "cf4aaeb808d0"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "lead",
+    "source": "Read what K sent after the crew gave him the hearing day. Many meeting plans. I am afraid one is for the van tomorrow.",
+    "text": "O bando passou para K o dia da audiência. Lê o que K mandou depois disso. Muitos planos de encontro. Receio que um seja para o furgão de amanhã.",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — lead",
+    "rev": "cd45823a5ebe"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "`mutefone_codes` → `JOIN leaked_key` → K's squares on the map match the robbed banks. Each one the evening before.",
+    "text": "`mutefone_codes` → `JOIN leaked_key` → as casas de K no mapa batem com os bancos assaltados. Cada uma na véspera.",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "efc37096a694"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "After `TRIBUNAL/20261215`, K's messages dated `20261215` → the van's route. `C4` to `C1`, 06:35 to 06:50.",
+    "text": "Depois de `TRIBUNAL/20261215`, as mensagens de K com data `20261215` → o trajeto do furgão. De `C4` a `C1`, das 06:35 às 06:50.",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "51a72232db13"
+  }
+]

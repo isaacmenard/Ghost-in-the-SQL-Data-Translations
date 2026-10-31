@@ -1,0 +1,386 @@
+[
+  {
+    "id": "SELECT … FROM",
+    "field": "what",
+    "source": "Which columns you want, and which table they come from. `*` means every column.",
+    "text": "必要な列と、その取得元となるテーブル。`*`はすべての列を意味します。",
+    "note": "the SQL reference card, entry `SELECT … FROM` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2960be0dd535"
+  },
+  {
+    "id": "SELECT … FROM",
+    "field": "note",
+    "source": "5 rows: the whole table.",
+    "text": "5行。テーブル全体。",
+    "note": "the SQL reference card, entry `SELECT … FROM` · the caveat under it · its example: SELECT column_1, column_2 FROM demo",
+    "rev": "2fcc9982d940"
+  },
+  {
+    "id": "WHERE",
+    "field": "what",
+    "source": "Keeps only the rows this condition is true for. Text goes in single quotes, and the text inside them must match capitals exactly.",
+    "text": "この条件を満たす行のみを残します。文字列はシングルクォートで囲みます。クォート内は大文字と小文字が区別されます。",
+    "note": "the SQL reference card, entry `WHERE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "33ecec56da88"
+  },
+  {
+    "id": "WHERE",
+    "field": "note",
+    "source": "**Equal.** `WHERE column_1 = 'Alpha'` → 2 rows out of 5. `'alpha'`, lower case, would match nothing at all.\n\n**Not equal.** `WHERE column_1 != 'Alpha'` keeps exactly the rows the first one removed. `<>` means the same thing.",
+    "text": "**等しい。** `WHERE column_1 = 'Alpha'` → 5行中2行。小文字の`'alpha'`では1行も一致しません。\n\n**等しくない。** `WHERE column_1 != 'Alpha'`は、上の例で除かれた行を過不足なく残します。`<>`も同じ意味です。",
+    "note": "the SQL reference card, entry `WHERE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 = 'Alpha'",
+    "rev": "fdff95901ac1"
+  },
+  {
+    "id": "LIKE",
+    "field": "what",
+    "source": "Matches a pattern instead of a whole value. `%` stands for any number of characters, so `'%lph%'` finds `Alpha`. With `%` only at the end, the value must start with the letters before it: `'Al%'`.",
+    "text": "値全体ではなくパターンと照合します。`%`は任意の文字列を表すため、`'%lph%'`は`Alpha`に一致します。末尾だけに`%`を置くと、その前の文字で始まる値だけが一致します（`'Al%'`）。",
+    "note": "the SQL reference card, entry `LIKE` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "b0158765f741"
+  },
+  {
+    "id": "LIKE",
+    "field": "note",
+    "source": "2 rows. LIKE ignores upper and lower case, so `'%LPH%'` returns the same 2. That is the tool for a value somebody has typed 2 ways. `_` is the other pattern symbol. It matches exactly 1 character, so `'Al___'` is a 5-letter value beginning Al.",
+    "text": "2行。`LIKE`は大文字と小文字を区別しないため、`'%LPH%'`でも同じ2行が返されます。入力表記が2通りある値には、これが役立ちます。もう一つのワイルドカードが`_`です。正確に1文字と一致するため、`'Al___'`はAlで始まる5文字の値になります。",
+    "note": "the SQL reference card, entry `LIKE` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 LIKE '%lph%'",
+    "rev": "6d6cf7401bbb"
+  },
+  {
+    "id": "AND / OR",
+    "field": "what",
+    "source": "Combines conditions. `AND` needs both to be true; `OR` needs either.",
+    "text": "条件をつなぎます。`AND`は両方が真であることを、`OR`は少なくとも一方が真であることを求めます。",
+    "note": "the SQL reference card, entry `AND / OR` · what the clause does, in the player's terms · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "fe1b3e1cda36"
+  },
+  {
+    "id": "AND / OR",
+    "field": "note",
+    "source": "1 row. Mixing both in one filter needs brackets. That has its own entry on this card: `AND (A OR B)`.",
+    "text": "1行。一つの絞り込みでこの2つを組み合わせるには、括弧が必要です。このカードに個別の項目があります：`AND (A OR B)`",
+    "note": "the SQL reference card, entry `AND / OR` · the caveat under it · its example: SELECT column_1, at_time FROM demo WHERE column_1 = 'Alpha' AND at_time < '12:00'",
+    "rev": "47f8c60ad75e"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "what",
+    "source": "2 conditions where either can be true, inside one filter. `A` and `B` are the conditions you write; everything else is typed as it appears.",
+    "text": "一つの絞り込みの中で、少なくとも一方が真であればよい2つの条件。`A`と`B`は記述する条件であり、それ以外は表示されているとおりに入力します。",
+    "note": "the SQL reference card, entry `AND (A OR B)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "16f6d60c4937"
+  },
+  {
+    "id": "AND (A OR B)",
+    "field": "note",
+    "source": "2 rows: the 14th, and either name. **The brackets are the whole entry.** Without them `AND` runs before `OR`, so `A AND B OR C` reads as `(A AND B) OR C`. The `OR` then splits the filter in 2 instead of offering a choice inside it. Take the brackets off the example above and it returns 3 rows instead of 2.",
+    "text": "2行。14日のデータで、名前はいずれか一方。**括弧こそがこの項目のすべてです**。括弧がない場合、`AND`は`OR`よりも強く結びつくため、`A AND B OR C`は`(A AND B) OR C`と解釈されます。これにより、`OR`は条件内で選択肢を提示するのではなく、絞り込みを2つに分断してしまいます。上記の例から括弧を外すと、2行ではなく3行が返されます。",
+    "note": "the SQL reference card, entry `AND (A OR B)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE day = '2026-03-14' AND (column_1 = 'Alpha' OR column…",
+    "rev": "661c7768f0fa"
+  },
+  {
+    "id": "IN (…)",
+    "field": "what",
+    "source": "One column, a list of values, any of them can match. Shorter than writing `OR` between the same comparisons.",
+    "text": "1つの列を値の並びと照らし合わせ、そのどれかに一致する行を残します。同じ比較を`OR`でつなぐより短く書けます。",
+    "note": "the SQL reference card, entry `IN (…)` · what the clause does, in the player's terms · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "8734aa31e441"
+  },
+  {
+    "id": "IN (…)",
+    "field": "note",
+    "source": "4 rows: every row whose name is one of the 2 asked for. Commas between the values, brackets around the list. Each value is quoted, because the column is text.",
+    "text": "4行。名前が指定した2つのどちらかである行すべてです。値の間にはカンマを置き、並び全体を括弧で囲みます。列が文字列なので、各値を引用符で囲みます。",
+    "note": "the SQL reference card, entry `IN (…)` · the caveat under it · its example: SELECT column_1, day FROM demo WHERE column_1 IN ('Alpha', 'Beta')",
+    "rev": "c69bee4c97c6"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "what",
+    "source": "The list can be a query. The inner query returns one column. A row is kept when its value appears in that column, and `NOT IN` keeps the rest.",
+    "text": "リストはクエリにできます。内側のクエリは1列を返します。その列に値が現れる行が残り、`NOT IN`はそれ以外を残します。",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "d844eb2a686e"
+  },
+  {
+    "id": "IN (SELECT …)",
+    "field": "note",
+    "source": "3 rows: the 2 names with a row after 22:00, and every row with those names. The inner query runs first, on its own. Swap `IN` for `NOT IN` and the answer is the other 2 rows.",
+    "text": "3行。22:00より後の行がある2つの名前と、その名前のすべての行。内側のクエリがまず単独で実行されます。`IN`を`NOT IN`に置き換えると、結果は他の2行になります。",
+    "note": "the SQL reference card, entry `IN (SELECT …)` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_1 IN ( SELECT column_1 FROM demo W…",
+    "rev": "3ab8add9c70d"
+  },
+  {
+    "id": "-- a comment",
+    "field": "what",
+    "source": "2 dashes and a space, and the rest of the line is a note to yourself. Nothing after them runs. A block between `/*` and `*/` can cross lines.",
+    "text": "2つのダッシュとスペースを置くと、行の残りは自分用のメモになります。それ以降は実行されません。`/*`と`*/`の間のブロックは複数行にまたがれます。",
+    "note": "the SQL reference card, entry `-- a comment` · what the clause does, in the player's terms · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "f8d89ff82246"
+  },
+  {
+    "id": "-- a comment",
+    "field": "note",
+    "source": "2 rows, the same 2 the query returns without the notes. Ignore a filter for now with `--`, or say what a query is for.",
+    "text": "2行。メモがなくてもクエリが返すのと同じ2行。今は`--`でフィルターを無効にしておくか、クエリの目的を書き留めるのに使います。",
+    "note": "the SQL reference card, entry `-- a comment` · the caveat under it · its example: -- everything Alpha did SELECT column_1, day FROM demo WHERE column_1 = 'Alpha' -- in q…",
+    "rev": "e509c57f2b93"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "what",
+    "source": "Stored as text, `'YYYY-MM-DD'` and `'HH:MM'`, so they compare like text. The bigger value is the later one. `BETWEEN` takes a range, ends included.",
+    "text": "`'YYYY-MM-DD'`や`'HH:MM'`のように文字列として格納されているため、文字列として比較されます。値が大きいほど後の日時になります。`BETWEEN`は範囲を指定し、両端の値も含みます。",
+    "note": "the SQL reference card, entry `Dates and hours` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "7156dd88bf66"
+  },
+  {
+    "id": "Dates and hours",
+    "field": "note",
+    "source": "3 rows.\n\n**One day.** `WHERE day = '2026-03-14'`\n\n**A range of days.** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`, ends included\n\n**From an hour on.** `WHERE at_time >= '23:00'`\n\n**Before an hour.** `WHERE at_time < '04:00'`\n\nBoth columns are text, so `>` and `<` read as later and earlier.",
+    "text": "3行。\n\n**特定の日。** `WHERE day = '2026-03-14'`\n\n**連続する複数日。** `WHERE day BETWEEN '2026-03-14' AND '2026-03-15'`、両端を含みます\n\n**指定時刻以降。** `WHERE at_time >= '23:00'`\n\n**指定時刻より前。** `WHERE at_time < '04:00'`\n\nどちらの列も文字列であるため、`>`はより遅い日時、`<`はより早い日時として扱われます。",
+    "note": "the SQL reference card, entry `Dates and hours` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "aa423a31f683"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "what",
+    "source": "Keeps the values from one end to the other, both ends included. The 2 ends are joined by `AND`.",
+    "text": "一方の端から他方の端まで、両端を含めて値を残します。2つの端は`AND`でつなぎます。",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · what the clause does, in the player's terms · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "06380d381084"
+  },
+  {
+    "id": "BETWEEN … AND …",
+    "field": "note",
+    "source": "3 rows: the 14th and the 15th, both ends in. No brackets and no comma around the ends: `BETWEEN ('09:00', '15:00')` is refused. Hours and numbers work the same way.",
+    "text": "3行。14日と15日、両端を含みます。端の前後に括弧やカンマは使いません。`BETWEEN ('09:00', '15:00')`はエラーになります。時刻や数値も同じです。",
+    "note": "the SQL reference card, entry `BETWEEN … AND …` · the caveat under it · its example: SELECT day, at_time FROM demo WHERE day BETWEEN '2026-03-14' AND '2026-03-15'",
+    "rev": "13e9e4fe0970"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "what",
+    "source": "One row per distinct value, however many times it occurs. Answers \"which values are in this column at all\".",
+    "text": "出現回数にかかわらず、一意の値ごとに1行を返します。「この列にはそもそもどのような値が存在するのか」という問いに答えます。",
+    "note": "the SQL reference card, entry `DISTINCT` · what the clause does, in the player's terms · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "1b5dcd19e256"
+  },
+  {
+    "id": "DISTINCT",
+    "field": "note",
+    "source": "3 rows out of 5. The quickest way to see which values a column holds before you filter on it.",
+    "text": "5行中3行。絞り込みを行う前に、その列に含まれる値の一覧を把握する最短の方法です。",
+    "note": "the SQL reference card, entry `DISTINCT` · the caveat under it · its example: SELECT DISTINCT column_1 FROM demo",
+    "rev": "c902720d2524"
+  },
+  {
+    "id": "IS NULL",
+    "field": "what",
+    "source": "An empty cell holds no value at all, and nothing equals no value. Not even another empty cell. So `= NULL` never matches anything. Use `IS NULL` instead, or `IS NOT NULL`.",
+    "text": "空のセルには値が一切入っていません。値がないものは、何とも等しくなりません。別の空のセルとも等しくありません。そのため`= NULL`は何にも一致しません。代わりに`IS NULL`や`IS NOT NULL`で調べます。",
+    "note": "the SQL reference card, entry `IS NULL` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "f5a6e58bd67d"
+  },
+  {
+    "id": "IS NULL",
+    "field": "note",
+    "source": "5 rows: every cell in the example table is filled, and that is the point. The test is about whether there is a value, never about what it is.\n\n**Empty.** `WHERE column_2 IS NULL`\n\n**Filled.** `WHERE column_2 IS NOT NULL`\n\n`!= NULL` is wrong the same way `= NULL` is, and neither is an error. They just return nothing.",
+    "text": "5行。例のテーブルではすべてのセルが埋まっており、それこそが要点です。判定しているのは値が存在するかどうかであり、値の内容ではありません。\n\n**空。** `WHERE column_2 IS NULL`\n\n**値あり。** `WHERE column_2 IS NOT NULL`\n\n`!= NULL`も`= NULL`と同じく誤りですが、エラーにはなりません。単に何も返されません。",
+    "note": "the SQL reference card, entry `IS NULL` · the caveat under it · its example: SELECT column_1, column_2 FROM demo WHERE column_2 IS NOT NULL",
+    "rev": "0d5a51ab84f5"
+  },
+  {
+    "id": "JOIN",
+    "field": "what",
+    "source": "Puts 2 tables side by side. After `ON`, name the 2 columns that must be equal, one from each table.",
+    "text": "2つのテーブルを横に並べます。`ON`の後に、一致すべき2つの列を、各テーブルから1つずつ書きます。",
+    "note": "the SQL reference card, entry `JOIN` · what the clause does, in the player's terms · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "f95e44717f12"
+  },
+  {
+    "id": "JOIN",
+    "field": "note",
+    "source": "4 rows out of 5. `Gamma` has no code in `demo_codes`, so it is dropped, like any row with no match.",
+    "text": "5行中4行。`Gamma`は`demo_codes`にコードがないので除外されます。対応する行がなければ、どの行も同じように除外されます。",
+    "note": "the SQL reference card, entry `JOIN` · the caveat under it · its example: SELECT column_1, code, at_time FROM demo JOIN demo_codes ON column_1 = label",
+    "rev": "80d75fc7ed01"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "what",
+    "source": "Joins the values of each group into one text. The second value goes between them. `ORDER BY` inside the brackets sets their order.",
+    "text": "各グループの値を結合して1つのテキストにします。2つ目の値はその間に入ります。括弧内の`ORDER BY`で並び順を指定します。",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · what the clause does, in the player's terms · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "ddc427f75167"
+  },
+  {
+    "id": "GROUP_CONCAT(…)",
+    "field": "note",
+    "source": "4 rows, one per day. On the 14th, Beta comes first because its `at_time` is earlier. With `''` as the second value, nothing goes between them. One letter per row then makes a word.",
+    "text": "4行。1日に1行です。14日は、`at_time`が早いためBetaが先頭になります。2つ目の値を`''`にすると、間には何も入りません。1行に1文字なら、単語になります。",
+    "note": "the SQL reference card, entry `GROUP_CONCAT(…)` · the caveat under it · its example: SELECT day, GROUP_CONCAT(column_1, '+' ORDER BY at_time) AS names FROM demo GROUP BY day",
+    "rev": "48b95431edd0"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "what",
+    "source": "A formula in the SELECT, on every row: `+`, `-`, `*`, `/` and brackets. No GROUP BY needed. `AS` names the new column.",
+    "text": "SELECTの中で、すべての行に対して計算する式です。`+`、`-`、`*`、`/`と括弧が使えます。GROUP BYは不要です。`AS`で新しい列に名前を付けます。",
+    "note": "the SQL reference card, entry `Calculation AS name` · what the clause does, in the player's terms · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "93f13b933793"
+  },
+  {
+    "id": "Calculation AS name",
+    "field": "note",
+    "source": "5 rows, 1 new column. `score` exists only in this result: the table does not change. A whole number divided by a whole number drops the decimals: `1/2` is `0`, `1.0/2` is `0.5`.",
+    "text": "5行、新しい列が1つ。`score`はこの結果の中にだけあり、テーブルは変わりません。整数を整数で割ると、小数点以下が切り捨てられます。`1/2`は`0`、`1.0/2`は`0.5`です。",
+    "note": "the SQL reference card, entry `Calculation AS name` · the caveat under it · its example: SELECT column_1, column_2, column_2 * 2 + 1 AS score FROM demo",
+    "rev": "f79793d9716c"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "what",
+    "source": "Uses the same table twice, side by side: every row next to every row, itself included. Give each copy a name after `AS`, and write `a.` or `b.` before each column.",
+    "text": "同じテーブルを2回、横に並べて使います。すべての行が、自分自身も含めたすべての行と並びます。`AS`の後でそれぞれのコピーに名前を付け、各列の前に`a.`か`b.`を書きます。",
+    "note": "the SQL reference card, entry `FROM, twice` · what the clause does, in the player's terms · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "3deb31227157"
+  },
+  {
+    "id": "FROM, twice",
+    "field": "note",
+    "source": "1 row: Alpha and Gamma, 2 + 8 = 10. `a.label < b.label` drops a box paired with itself, and keeps each pair once. Add `, demo_boxes AS c` to use the table 3 times.",
+    "text": "1行。AlphaとGamma、2 + 8 = 10。`a.label < b.label`は自分自身と組んだ箱を除き、各組を1回だけ残します。`, demo_boxes AS c`を加えると、テーブルを3回使えます。",
+    "note": "the SQL reference card, entry `FROM, twice` · the caveat under it · its example: SELECT a.label AS first, b.label AS second FROM demo_boxes AS a, demo_boxes AS b WHERE a.…",
+    "rev": "277243dc493a"
+  },
+  {
+    "id": "COUNT(*)",
+    "field": "what",
+    "source": "One number: how many rows matched. Use `AS` to give it a name you can refer to later.",
+    "text": "一致した行数を示す単一の数値。後から参照できるように、`AS`で名前を付けます。",
+    "note": "the SQL reference card, entry `COUNT(*)` · what the clause does, in the player's terms · its example: SELECT COUNT(*) AS total FROM demo",
+    "rev": "846bd0acc804"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "what",
+    "source": "Counts each distinct value separately instead of all together: one row out per group. Include the column too, or you get numbers with no labels.",
+    "text": "全体をまとめて数えるのではなく、一意の値ごとに個別に集計し、グループごとに1行を出力します。その列も合わせて指定しないと、ラベルのない数値だけが返されます。",
+    "note": "the SQL reference card, entry `GROUP BY` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "7608b178dd01"
+  },
+  {
+    "id": "GROUP BY",
+    "field": "note",
+    "source": "Note the order: grouped, not ranked. The biggest number is not necessarily first. That is what ORDER BY is for.",
+    "text": "並び順はグループ化されたものであり、順位順ではありません。最大の数値が先頭に来るとは限りません。そのためにORDER BYを使います。",
+    "note": "the SQL reference card, entry `GROUP BY` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1",
+    "rev": "8d4a05a94caa"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "what",
+    "source": "Adds a column up instead of counting rows. What goes inside can be arithmetic, not only a column name.",
+    "text": "行数を数えるのではなく、列の値を合計します。内側には列名だけでなく、計算式も指定できます。",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · what the clause does, in the player's terms · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "edee98c7809d"
+  },
+  {
+    "id": "SUM(…) and arithmetic",
+    "field": "note",
+    "source": "3 rows: one per group, each the total of its own. `COUNT` says how many lines a group has. `SUM` gives their total.",
+    "text": "3行。グループごとに1行で、各グループの合計値を示します。`COUNT`はグループ内の行数を示し、`SUM`はその合計値を示します。",
+    "note": "the SQL reference card, entry `SUM(…) and arithmetic` · the caveat under it · its example: SELECT column_1, SUM(column_2) AS total FROM demo GROUP BY column_1",
+    "rev": "cc4e00386a52"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "what",
+    "source": "The average of a column: its total divided by the number of rows. With `GROUP BY`, one average per group.",
+    "text": "列の平均。合計を行数で割った値です。`GROUP BY`を使うと、グループごとに1つの平均になります。",
+    "note": "the SQL reference card, entry `AVG(…)` · what the clause does, in the player's terms · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "aac9dd33929c"
+  },
+  {
+    "id": "AVG(…)",
+    "field": "note",
+    "source": "3 rows. Alpha has 10 and 20, so 15. Put 2 groups side by side to see which one is higher.",
+    "text": "3行。Alphaが10と20なら、15です。2つのグループを並べて、どちらが高いか見比べます。",
+    "note": "the SQL reference card, entry `AVG(…)` · the caveat under it · its example: SELECT column_1, AVG(column_2) AS average FROM demo GROUP BY column_1",
+    "rev": "2ea9877e9eec"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "what",
+    "source": "Counts how many *different* values a column holds, not how many rows there are. The way to count things that each wrote more than one line.",
+    "text": "行数ではなく、列に含まれる*異なる*値の数を集計します。それぞれが複数の行に記録されている対象を数える際に使います。",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "d14b5ca9fd0f"
+  },
+  {
+    "id": "COUNT(DISTINCT …)",
+    "field": "note",
+    "source": "3 rows: one per group. Compare it with `COUNT(*)`: Alpha's 2 lines fall on 2 different days, so both counts say 2. Add a second line on one of those days, and the 2 counts differ.",
+    "text": "3行。グループごとに1行。`COUNT(*)`と比較すると、Alphaの2行は異なる2日に記録されているため、どちらの集計結果も2になります。その日のいずれかに2行目が追加されると、2つの集計結果は一致しなくなります。",
+    "note": "the SQL reference card, entry `COUNT(DISTINCT …)` · the caveat under it · its example: SELECT column_1, COUNT(DISTINCT day) AS days FROM demo GROUP BY column_1",
+    "rev": "76c660a3ec64"
+  },
+  {
+    "id": "HAVING",
+    "field": "what",
+    "source": "Filters the groups a GROUP BY produced, the way WHERE filters rows. WHERE runs before the grouping and cannot use a count; HAVING runs after it and can.",
+    "text": "WHEREが行を絞り込むように、GROUP BYで生成されたグループを絞り込みます。WHEREはグループ化の前に実行されるため集計値を参照できませんが、HAVINGはグループ化の後に実行されるため参照できます。",
+    "note": "the SQL reference card, entry `HAVING` · what the clause does, in the player's terms · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "5aeceafc0936"
+  },
+  {
+    "id": "HAVING",
+    "field": "note",
+    "source": "2 rows: Gamma appears once and is dropped. Use it to keep only the values that occur more often than a number you choose.",
+    "text": "2行。Gammaは1回しか現れないため除外されます。指定した回数より多く現れる値だけを残すのに使います。",
+    "note": "the SQL reference card, entry `HAVING` · the caveat under it · its example: SELECT column_1, COUNT(*) AS rows_in_group FROM demo GROUP BY column_1 HAVING COUNT(*) > 1",
+    "rev": "1e85d3a715a6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "what",
+    "source": "The smallest and the largest value in each group. On text they read alphabetically, so on an hour they mean earliest and latest.",
+    "text": "各グループの最小値と最大値。文字列の場合はアルファベット順に比較されるため、時刻であれば最も早い時刻と最も遅い時刻を意味します。",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · what the clause does, in the player's terms · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "2d934b8ab3d6"
+  },
+  {
+    "id": "MIN(…) and MAX(…)",
+    "field": "note",
+    "source": "3 rows. A group of 1 gives the same answer twice. That is correct: it happened once. Side by side, the 2 columns give each row a beginning and an end.",
+    "text": "3行。1件のみのグループでは、同じ値が2回返されます。これで合っています。1回しか起きなかったということです。この2つの列が並ぶことで、各行に始まりと終わりが与えられます。",
+    "note": "the SQL reference card, entry `MIN(…) and MAX(…)` · the caveat under it · its example: SELECT column_1, MIN(at_time) AS first_seen, MAX(at_time) AS last_seen FROM demo GROUP BY…",
+    "rev": "1cdc71ea8307"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "what",
+    "source": "Sorts the result by a column. `ASC` is smallest first, and is what you get if you say nothing. `DESC` puts the biggest on top.",
+    "text": "指定した列で結果を並べ替えます。`ASC`は値が小さい順になり、指定を省略した場合はこれが適用されます。`DESC`は最大の値を先頭に配置します。",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "b53f83956f6b"
+  },
+  {
+    "id": "ORDER BY … ASC / DESC",
+    "field": "note",
+    "source": "The same query with `ORDER BY column_2 ASC`, or just `ORDER BY column_2`, returns smallest first: Beta 5, then Alpha 10. You can also sort by a name you invented with `AS`: `SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC` puts the biggest count on top.",
+    "text": "同じクエリに`ORDER BY column_2 ASC`、または単に`ORDER BY column_2`を指定すると、小さい順に返されます。Betaの5、次にAlphaの10となります。`AS`で定義した別名でも並べ替えられます。`SELECT column_1, COUNT(*) AS n … GROUP BY column_1 ORDER BY n DESC`とすると、集計値が最も大きいものが先頭に配置されます。",
+    "note": "the SQL reference card, entry `ORDER BY … ASC / DESC` · the caveat under it · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC",
+    "rev": "46db563808a7"
+  },
+  {
+    "id": "LIMIT",
+    "field": "what",
+    "source": "Keeps only the first N rows. It comes last: sort first, then take the top.",
+    "text": "先頭のN行のみを残します。末尾に記述します。先に並べ替えてから、上位を取得します。",
+    "note": "the SQL reference card, entry `LIMIT` · what the clause does, in the player's terms · its example: SELECT column_1, column_2 FROM demo ORDER BY column_2 DESC LIMIT 1",
+    "rev": "a89fe47141e5"
+  }
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "text": "Standalone",
+    "note": "reel banks-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "text": "6 BANKS",
+    "note": "reel banks-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "text": "100 ROWS · 10 COLUMNS",
+    "note": "reel banks-prologue · the words around the figures of the banks set piece · chapter: Standalone",
+    "rev": "5bdf01e9a41f"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "text": "… 98 more rows, and 4 more columns",
+    "note": "reel banks-prologue · what the banks sample leaves out · chapter: Standalone",
+    "rev": "2f3ebe74ad4e"
+  },
+  {
+    "id": "B1-six",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-six",
+    "field": "text",
+    "text": "6 banks robbed in Paris since June. It's the same 3 men every time.",
+    "note": "reel banks-prologue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "0bddb6af01cb"
+  },
+  {
+    "id": "B1-six",
+    "field": "subject",
+    "text": "6 BANKS",
+    "note": "reel banks-prologue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "B1-van",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-van",
+    "field": "text",
+    "text": "A white van. 7 minutes inside each bank.",
+    "note": "reel banks-prologue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "d78ab5eb1ed1"
+  },
+  {
+    "id": "B1-van",
+    "field": "subject",
+    "text": "6 BANKS",
+    "note": "reel banks-prologue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "B1-map",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-map",
+    "field": "text",
+    "text": "Every bank in Paris, with its `bank_id` beside it.",
+    "note": "reel banks-prologue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "7e78b1442aae"
+  },
+  {
+    "id": "B1-map",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel banks-prologue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "text",
+    "text": "The crossed rings. That's the 6 they robbed.",
+    "note": "reel banks-prologue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "be34eb422277"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "subject",
+    "text": "THE MAP",
+    "note": "reel banks-prologue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "B1-table",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-table",
+    "field": "text",
+    "text": "The `banks` database has all 100 banks in Paris. The 6 robbed banks are in there too.",
+    "note": "reel banks-prologue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "7fac068f37ab"
+  },
+  {
+    "id": "B1-table",
+    "field": "subject",
+    "text": "EVERY BANK IN PARIS",
+    "note": "reel banks-prologue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-group",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-group",
+    "field": "text",
+    "text": "Using `GROUP BY`, you'll get 1 row per sector, public or private.",
+    "note": "reel banks-prologue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "6efcec645ffd"
+  },
+  {
+    "id": "B1-group",
+    "field": "subject",
+    "text": "EVERY BANK IN PARIS",
+    "note": "reel banks-prologue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-calc",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-calc",
+    "field": "text",
+    "text": "Add `AVG` or `COUNT`, and you get 1 figure per sector.",
+    "note": "reel banks-prologue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "a73e9e722ab9"
+  },
+  {
+    "id": "B1-calc",
+    "field": "subject",
+    "text": "EVERY BANK IN PARIS",
+    "note": "reel banks-prologue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-order",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel banks-prologue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-order",
+    "field": "text",
+    "text": "Find their pattern. Then find which bank they'll rob this Friday.",
+    "note": "reel banks-prologue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "2e0790195ea2"
+  },
+  {
+    "id": "B1-order",
+    "field": "subject",
+    "text": "EVERY BANK IN PARIS",
+    "note": "reel banks-prologue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  }
+]

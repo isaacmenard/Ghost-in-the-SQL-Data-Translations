@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Intro",
+    "text": "導入",
+    "note": "dossier \"Intro\" · the dossier's own title",
+    "rev": "24601bcaae6e"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A school burned on a Tuesday night. The whole district said somebody set it on fire. The Paris Emergency Switchboard sent the crime unit a year of its calls, alarms and patrols. One call came in before the first witness saw the fire.",
+    "text": "火曜の夜に学校が燃えた。地区中が放火だと言った。パリ緊急通報センターは捜査課に、1年分の通報、警報、巡回の記録を送った。最初の目撃者が炎を目にする前に、1件の通報が入った。",
+    "note": "dossier \"Intro\" · the dossier's own summary",
+    "rev": "b09da2d3ca91"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "The science wing of College Jean Moulin burned on the evening of 14 October. Nobody was hurt. Everybody has a theory.\n\nYou have a year of the Paris Emergency Switchboard's log and 4 words of SQL.",
+    "text": "10月14日の夜、College Jean Moulinの理科棟（`Science Wing`）が炎上した。負傷者はいない。誰もが持論を口にしている。\n\n手元にあるのは、パリ緊急通報センターの1年分の通報記録と、4語のSQLだ。",
+    "note": "dossier \"Intro\" · the dossier's own pitchMarkdown",
+    "rev": "eef3928ea309"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "One table, `dispatch_log`: a year of the Paris Emergency Switchboard's log.",
+    "text": "テーブル1つ、`dispatch_log`。パリ緊急通報センターの1年分の通報記録。",
+    "note": "dossier \"Intro\" · the dossier's own rulesMarkdown",
+    "rev": "37eb104a63ae"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which call reported the school fire before the first witness saw it?",
+    "text": "最初の目撃者が炎を目にする前に、学校の火災を知らせたのはどの通報か。",
+    "note": "dossier \"Intro\" · the dossier's own openQuestion",
+    "rev": "8be22eafd8aa"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "2025年10月15日",
+    "note": "dossier \"Intro\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "科学捜査担当主任記者",
+    "note": "dossier \"Intro\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Criminal Fire Destroys Science Wing at College Jean Moulin",
+    "text": "College Jean Moulinの理科棟、放火で全焼",
+    "note": "dossier \"Intro\" · the gazette's headline",
+    "rev": "9b567c5f31b0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Flames Seen From the Street at 21:12. Neighbours Insist It Was Deliberate",
+    "text": "21:12、通りから炎を確認。近隣住民は放火を主張",
+    "note": "dossier \"Intro\" · the gazette's subheadline",
+    "rev": "d73761861262"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The science wing of College Jean Moulin burned last night. Nobody was hurt. A passer-by saw flames at 21:12, and the firefighters were there a minute later. By the next morning the district said somebody started it on purpose. There was a chemistry store, and no system to put out a fire.\n\nThe police have no suspects and one file. It holds a year of calls from the Paris Emergency Switchboard. Detectives have to find one night in a year of calls. Then they have to find the time of that call.",
+    "text": "昨夜、College Jean Moulinの理科棟（`Science Wing`）が燃えた。負傷者は出なかった。通行人が21:12に炎を目撃し、消防隊はその1分後に到着した。翌朝には地区で放火の噂が立っていた。化学薬品の保管室があったが、消火設備は一切なかった。\n\n警察に容疑者はなく、ファイルが1つあるだけだ。パリ緊急通報センターの1年分の通報が入っている。刑事たちは1年分の通報の中から、その一夜を特定しなければならない。そのうえで、その通報の時刻を突き止めなければならない。",
+    "note": "dossier \"Intro\" · the gazette's editorialArticle",
+    "rev": "373db2f3dbdb"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"One call reached us 14 minutes before anyone on the street saw a flame.\"",
+    "text": "「通りにいた誰かが炎を目にする14分も前に、こちらに1件の通報が入っていた」",
+    "note": "dossier \"Intro\" · the gazette's leadQuote",
+    "rev": "2a67c4aa556e"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "パリ緊急通報センターの1年。パリのすべての通報、目撃情報、警報盤、巡回、消防車が、記録された日付と時刻とともに記載されている。",
+    "note": "dossier \"Intro\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "title",
+    "source": "Open the *Archive*",
+    "text": "*アーカイブ*を開く",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — title",
+    "rev": "4a8001986460"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "instructions",
+    "source": "The Paris Emergency Switchboard logged a year of emergency calls in Paris.",
+    "text": "パリ緊急通報センターには、市内の緊急通報が1年分記録されている。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — instructions",
+    "rev": "796bcdde51f9"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedResult",
+    "source": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
+    "text": "`SELECT * FROM dispatch_log`と入力して「実行」を押す。行が表示されたら「検証」を押す。`SELECT *`はすべての列を取得し、`FROM`はテーブルを指定する。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
+    "rev": "022c5c3a8f9a"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the year, with all 8 columns.",
+    "text": "8列すべてを含む、その年の全行。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedShapeNote",
+    "rev": "96eec5578a93"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "afterText",
+    "source": "2,400 rows in a year. Calls, witnesses, alarms, patrols.",
+    "text": "1年で2,400行。通報、目撃証言、警報、巡回だ。",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — afterText",
+    "rev": "618ee8457308"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "title",
+    "source": "The *Night*",
+    "text": "その*夜*",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — title",
+    "rev": "a325233e428a"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "instructions",
+    "source": "The fire was on 14 October.",
+    "text": "出火は10月14日だった。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — instructions",
+    "rev": "58b4470217ab"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedResult",
+    "source": "Keep only the rows of that day, `2025-10-14`, from `dispatch_log`. `WHERE` keeps the rows where a condition is true. Write the column, `=`, then the value in single quotes.",
+    "text": "`dispatch_log`からその日（`2025-10-14`）の行だけを残す。`WHERE`は条件が真となる行を残す。列、`=`、シングルクォートで囲んだ値の順に記述する。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedResult",
+    "rev": "d8938759f698"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedShapeNote",
+    "source": "16 rows: everything logged that day.",
+    "text": "16行。その日に記録されたすべて。",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedShapeNote",
+    "rev": "08103ab5882e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "title",
+    "source": "Too *Early*",
+    "text": "*早すぎる*",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — title",
+    "rev": "70ebd44fc27e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "instructions",
+    "source": "The first witness saw the school's flames at 21:12. One call about the fire came in before that.",
+    "text": "最初の目撃者が学校の炎を見たのは21:12だった。それより前に火災の通報が1件入っていた。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — instructions",
+    "rev": "ce5078b69894"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedResult",
+    "source": "Find that call in `dispatch_log` and return its row. `AND` adds a second condition to a `WHERE`.",
+    "text": "`dispatch_log`からその通報を探し、その行を取得する。`AND`は`WHERE`に2つ目の条件を追加する。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedResult",
+    "rev": "b884ce09b8f9"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedShapeNote",
+    "source": "One row: the early call.",
+    "text": "1行。早すぎた通報。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedShapeNote",
+    "rev": "f47b0870a81b"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "afterText",
+    "source": "20:58. 14 minutes before the first witness saw the fire.",
+    "text": "20:58。最初の目撃者が炎を目にする14分前だ。",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — afterText",
+    "rev": "152ae094925a"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "21:12に炎を目撃 → `dispatch_log` → それ以前の学校火災の通報は1件のみ：20:58、`LINE 4417`。",
+    "note": "dossier \"Intro\" · the cleared sheet's chain, step 1/1 — text",
+    "rev": "d2913b0af757"
+  }
+]

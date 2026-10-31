@@ -1,0 +1,226 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Отдельное дело",
+    "note": "reel elixir-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "52 ROWS · 13 COLUMNS",
+    "text": "52 СТРОКИ · 13 СТОЛБЦОВ",
+    "note": "reel elixir-prologue · the words around the figures of the flowers set piece · chapter: Standalone",
+    "rev": "6813c0b9e547"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 50 more rows, and 5 more columns",
+    "text": "… ещё 50 строк и 5 столбцов",
+    "note": "reel elixir-prologue · what the flowers sample leaves out · chapter: Standalone",
+    "rev": "d38671b6f5e8"
+  },
+  {
+    "id": "E1-fire",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-fire",
+    "field": "text",
+    "source": "October 2026, Paris. A fire destroyed the private greenhouses of Odile Vernet, in Auteuil. She was a plant scientist.",
+    "text": "Октябрь 2026 года, Париж. Пожар уничтожил частные теплицы Odile Vernet в Auteuil. Она была ботаником.",
+    "note": "reel elixir-prologue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "0d77aff6b5f8"
+  },
+  {
+    "id": "E1-fire",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-died",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-died",
+    "field": "text",
+    "source": "She died in the fire, trying to save her work.",
+    "text": "Она погибла при пожаре, пытаясь спасти свои труды.",
+    "note": "reel elixir-prologue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "bc66a5d05b25"
+  },
+  {
+    "id": "E1-died",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "text",
+    "source": "Her work was Elixir V, a medicine. It wasn't ready yet, but it was very promising.",
+    "text": "Её разработкой был Elixir V, лекарство. Оно ещё не было готово, но подавало большие надежды.",
+    "note": "reel elixir-prologue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "f2d47e4ad04e"
+  },
+  {
+    "id": "E1-elixir",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-mix",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-mix",
+    "field": "text",
+    "source": "She mixed 3 flowers in equal parts: 2 `fresh`, 1 `dried`.",
+    "text": "Она смешала 3 цветка поровну: 2 свежих (`fresh`), 1 сушёный (`dried`).",
+    "note": "reel elixir-prologue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "224ab4d07db9"
+  },
+  {
+    "id": "E1-mix",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-lost",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-lost",
+    "field": "text",
+    "source": "Which 3 flowers? Nobody knows.",
+    "text": "Какие 3 цветка? Никто не знает.",
+    "note": "reel elixir-prologue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "1d832ad99554"
+  },
+  {
+    "id": "E1-lost",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-left",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-left",
+    "field": "text",
+    "source": "What's left: this bottle. A lab tested it for us.",
+    "text": "Что осталось: этот флакон. Лаборатория проверила его для нас.",
+    "note": "reel elixir-prologue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "dbefa7e7ffc2"
+  },
+  {
+    "id": "E1-left",
+    "field": "subject",
+    "source": "HER GREENHOUSES, AUTEUIL",
+    "text": "ЕЁ ТЕПЛИЦЫ, AUTEUIL",
+    "note": "reel elixir-prologue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "76c6b77108bc"
+  },
+  {
+    "id": "E1-table",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-table",
+    "field": "text",
+    "source": "The fire started on the bench where the bottle stood, so it's evidence. Her foundation sent us every flower she tested: `flowers`.",
+    "text": "Пожар начался на рабочем столе, где стоял флакон, так что это улика. Её фонд прислал нам каждый цветок, который она проверяла: `flowers`.",
+    "note": "reel elixir-prologue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "02792b8b7385"
+  },
+  {
+    "id": "E1-table",
+    "field": "subject",
+    "source": "HER FLOWERS",
+    "text": "ЕЁ ЦВЕТЫ",
+    "note": "reel elixir-prologue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6e1d76854ea8"
+  },
+  {
+    "id": "E1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Детектив Рейес",
+    "note": "reel elixir-prologue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-order",
+    "field": "text",
+    "source": "1 row per flower, with its lab figures. Find the 3 she used. Her work's too important to lose.",
+    "text": "1 строка на цветок, с его лабораторными показателями. Найди 3 цветка, которые она использовала. Её труды нельзя потерять, они слишком важны.",
+    "note": "reel elixir-prologue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "831e7ac475af"
+  },
+  {
+    "id": "E1-order",
+    "field": "subject",
+    "source": "HER FLOWERS",
+    "text": "ЕЁ ЦВЕТЫ",
+    "note": "reel elixir-prologue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6e1d76854ea8"
+  }
+]

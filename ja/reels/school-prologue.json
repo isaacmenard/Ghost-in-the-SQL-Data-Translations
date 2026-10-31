@@ -1,0 +1,130 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "第1章",
+    "note": "reel school-prologue · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "何が起きたか",
+    "note": "reel school-prologue · the line beside the chapter head · chapter: Chapter One",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "2,400 ROWS · 8 COLUMNS",
+    "text": "2,400行・8列",
+    "note": "reel school-prologue · the words around the figures of the dispatch_log set piece · chapter: Chapter One",
+    "rev": "ac30d03e8a8b"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 2,398 more rows, and 3 more columns",
+    "text": "…残り2,398行、残り3列",
+    "note": "reel school-prologue · what the dispatch_log sample leaves out · chapter: Chapter One",
+    "rev": "0862e0491f53"
+  },
+  {
+    "id": "S1-fire",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "レイエス刑事",
+    "note": "reel school-prologue, beat 1/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-fire",
+    "field": "text",
+    "source": "14 October. The science wing of College Jean Moulin burned down.",
+    "text": "10月14日。College Jean Moulinの理科棟（`Science Wing`）が燃えた。",
+    "note": "reel school-prologue, beat 1/4 · the line itself · speaker Detective Reyes",
+    "rev": "c8512005446e"
+  },
+  {
+    "id": "S1-fire",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "何が起きたか",
+    "note": "reel school-prologue, beat 1/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-unit",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "レイエス刑事",
+    "note": "reel school-prologue, beat 2/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-unit",
+    "field": "text",
+    "source": "We're the crime unit, at La Défense. The city sends us its records.",
+    "text": "ラ・デファンスの捜査課だ。街の記録はすべてここに集まる。",
+    "note": "reel school-prologue, beat 2/4 · the line itself · speaker Detective Reyes",
+    "rev": "55bb10fc0a48"
+  },
+  {
+    "id": "S1-unit",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "何が起きたか",
+    "note": "reel school-prologue, beat 2/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-room",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "レイエス刑事",
+    "note": "reel school-prologue, beat 3/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-room",
+    "field": "text",
+    "source": "Everything the switchboard passed on to us is a row in that database. A whole year.",
+    "text": "パリ緊急通報センターから回ってきた記録はすべて、あのデータベースに1行ずつ入っている。丸1年分だ。",
+    "note": "reel school-prologue, beat 3/4 · the line itself · speaker Detective Reyes",
+    "rev": "bd38de9404db"
+  },
+  {
+    "id": "S1-room",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "何が起きたか",
+    "note": "reel school-prologue, beat 3/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "レイエス刑事",
+    "note": "reel school-prologue, beat 4/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "text",
+    "source": "One of those calls came in before the first witness saw the fire. Find it.",
+    "text": "その記録の中に、最初の目撃者が炎を目にする前に入った通報が1件ある。見つけろ。",
+    "note": "reel school-prologue, beat 4/4 · the line itself · speaker Detective Reyes",
+    "rev": "f3982930976f"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "subject",
+    "source": "WHAT TO DO NEXT",
+    "text": "次にすべきこと",
+    "note": "reel school-prologue, beat 4/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9cdf97745e26"
+  }
+]

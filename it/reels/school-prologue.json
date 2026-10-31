@@ -1,0 +1,130 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "Capitolo primo",
+    "note": "reel school-prologue · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel school-prologue · the line beside the chapter head · chapter: Chapter One",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "2,400 ROWS · 8 COLUMNS",
+    "text": "2.400 RIGHE · 8 COLONNE",
+    "note": "reel school-prologue · the words around the figures of the dispatch_log set piece · chapter: Chapter One",
+    "rev": "ac30d03e8a8b"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 2,398 more rows, and 3 more columns",
+    "text": "… altre 2.398 righe e altre 3 colonne",
+    "note": "reel school-prologue · what the dispatch_log sample leaves out · chapter: Chapter One",
+    "rev": "0862e0491f53"
+  },
+  {
+    "id": "S1-fire",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-prologue, beat 1/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-fire",
+    "field": "text",
+    "source": "14 October. The science wing of College Jean Moulin burned down.",
+    "text": "14 ottobre. L’ala scientifica (`Science Wing`) del College Jean Moulin è andata a fuoco.",
+    "note": "reel school-prologue, beat 1/4 · the line itself · speaker Detective Reyes",
+    "rev": "c8512005446e"
+  },
+  {
+    "id": "S1-fire",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel school-prologue, beat 1/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-unit",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-prologue, beat 2/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-unit",
+    "field": "text",
+    "source": "We're the crime unit, at La Défense. The city sends us its records.",
+    "text": "Siamo la squadra anticrimine, a La Défense. La città ci gira tutto quello che registra.",
+    "note": "reel school-prologue, beat 2/4 · the line itself · speaker Detective Reyes",
+    "rev": "55bb10fc0a48"
+  },
+  {
+    "id": "S1-unit",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel school-prologue, beat 2/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-room",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-prologue, beat 3/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-room",
+    "field": "text",
+    "source": "Everything the switchboard passed on to us is a row in that database. A whole year.",
+    "text": "Tutto quello che il centralino ci ha passato è una riga di quel database. Un anno intero.",
+    "note": "reel school-prologue, beat 3/4 · the line itself · speaker Detective Reyes",
+    "rev": "bd38de9404db"
+  },
+  {
+    "id": "S1-room",
+    "field": "subject",
+    "source": "WHAT HAPPENED",
+    "text": "I FATTI",
+    "note": "reel school-prologue, beat 3/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "reel school-prologue, beat 4/4 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "text",
+    "source": "One of those calls came in before the first witness saw the fire. Find it.",
+    "text": "Una di quelle chiamate è arrivata prima che il primo testimone vedesse l’incendio. Trovala.",
+    "note": "reel school-prologue, beat 4/4 · the line itself · speaker Detective Reyes",
+    "rev": "f3982930976f"
+  },
+  {
+    "id": "S1-handoff",
+    "field": "subject",
+    "source": "WHAT TO DO NEXT",
+    "text": "COSA FARE ADESSO",
+    "note": "reel school-prologue, beat 4/4 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "9cdf97745e26"
+  }
+]

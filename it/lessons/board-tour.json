@@ -1,0 +1,146 @@
+[
+  {
+    "id": "C1-envelope",
+    "field": "goal",
+    "source": "Open the case mail.",
+    "text": "Apri la posta del fascicolo.",
+    "note": "lesson board-tour, beat 1/11 · difficulty 1",
+    "rev": "dd88c9329a30"
+  },
+  {
+    "id": "C1-envelope",
+    "field": "coach",
+    "source": "Everything we have is in the case mail. Open it.",
+    "text": "Tutto quello che abbiamo è nella posta del fascicolo. Aprila.",
+    "note": "lesson board-tour, beat 1/11 · difficulty 1 · goal: Open the case mail.",
+    "rev": "f80661209459"
+  },
+  {
+    "id": "C2-dealt",
+    "field": "goal",
+    "source": "Your board.",
+    "text": "La tua bacheca.",
+    "note": "lesson board-tour, beat 2/11",
+    "rev": "cad5f748bb84"
+  },
+  {
+    "id": "C3-name-it",
+    "field": "goal",
+    "source": "What came out of the envelope.",
+    "text": "Quello che è uscito dalla busta.",
+    "note": "lesson board-tour, beat 3/11",
+    "rev": "c96a11c51036"
+  },
+  {
+    "id": "C4-pan",
+    "field": "goal",
+    "source": "Look around the board.",
+    "text": "Guardati intorno sulla bacheca.",
+    "note": "lesson board-tour, beat 4/11 · difficulty 3",
+    "rev": "69b867a38e50"
+  },
+  {
+    "id": "C4-pan",
+    "field": "coach",
+    "source": "Hold `Space` and drag. The board is wider than the screen.",
+    "text": "Tieni premuto `Space` e trascina. La bacheca è più larga dello schermo.",
+    "note": "lesson board-tour, beat 4/11 · difficulty 3 · goal: Look around the board.",
+    "rev": "3952178b248a"
+  },
+  {
+    "id": "C5-zoom",
+    "field": "goal",
+    "source": "Zoom in and out.",
+    "text": "Ingrandisci e rimpicciolisci.",
+    "note": "lesson board-tour, beat 5/11 · difficulty 2",
+    "rev": "ccc0347b824a"
+  },
+  {
+    "id": "C5-zoom",
+    "field": "coach",
+    "source": "Hold `Ctrl` and scroll. On a trackpad, pinch.",
+    "text": "Tieni premuto `Ctrl` e scorri. Sul trackpad, pizzica.",
+    "note": "lesson board-tour, beat 5/11 · difficulty 2 · goal: Zoom in and out.",
+    "rev": "1bbc4d1a3705"
+  },
+  {
+    "id": "C6-settle",
+    "field": "goal",
+    "source": "This is your board. You can reach all of it.",
+    "text": "Questa è la tua bacheca. Puoi raggiungerne ogni angolo.",
+    "note": "lesson board-tour, beat 6/11",
+    "rev": "50703f5ae669"
+  },
+  {
+    "id": "C7-brief",
+    "field": "goal",
+    "source": "The briefing.",
+    "text": "Il briefing.",
+    "note": "lesson board-tour, beat 7/11",
+    "rev": "0e009cc7ea76"
+  },
+  {
+    "id": "C8-header",
+    "field": "goal",
+    "source": "The checkpoints, and where you are in them.",
+    "text": "I checkpoint, e a che punto sei.",
+    "note": "lesson board-tour, beat 8/11 · speaker Detective Reyes",
+    "rev": "bcf73fd82ede"
+  },
+  {
+    "id": "C8-header",
+    "field": "sayName",
+    "source": "Detective Reyes",
+    "text": "Ispettore Reyes",
+    "note": "lesson board-tour, beat 8/11 · speaker Detective Reyes · goal: The checkpoints, and where you are in them.",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "C8-header",
+    "field": "say",
+    "source": "Every checkpoint on this file, up here.",
+    "text": "Tutti i checkpoint di questo fascicolo, quassù.",
+    "note": "lesson board-tour, beat 8/11 · speaker Detective Reyes · goal: The checkpoints, and where you are in them.",
+    "rev": "21755d40ade4"
+  },
+  {
+    "id": "C9-dossier",
+    "field": "goal",
+    "source": "The case file.",
+    "text": "Il fascicolo.",
+    "note": "lesson board-tour, beat 9/11",
+    "rev": "37d364e7e7e2"
+  },
+  {
+    "id": "C9-dossier",
+    "field": "coach",
+    "source": "Every checkpoint, and the one you are on. The same brief you read in the window.",
+    "text": "Ogni checkpoint, e quello in cui ti trovi. Lo stesso briefing che leggi nella finestra.",
+    "note": "lesson board-tour, beat 9/11 · goal: The case file.",
+    "rev": "73661418045a"
+  },
+  {
+    "id": "C11-console",
+    "field": "goal",
+    "source": "The query desk.",
+    "text": "Il banco delle query.",
+    "note": "lesson board-tour, beat 10/11",
+    "rev": "cd8c4b945b46"
+  },
+  {
+    "id": "C12-fit",
+    "field": "goal",
+    "source": "Frame the whole board.",
+    "text": "Inquadra tutta la bacheca.",
+    "note": "lesson board-tour, beat 11/11 · difficulty 1",
+    "rev": "c4284db4cb9c"
+  },
+  {
+    "id": "C12-fit",
+    "field": "coach",
+    "source": "Your board holds more papers now. This shows the whole board.",
+    "text": "Ora ci sono più carte sulla bacheca. Questo la mostra tutta.",
+    "note": "lesson board-tour, beat 11/11 · difficulty 1 · goal: Frame the whole board.",
+    "rev": "0d46225c23ab"
+  }
+]

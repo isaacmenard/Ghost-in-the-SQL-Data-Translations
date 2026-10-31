@@ -1,0 +1,154 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "단편",
+    "note": "reel final-cipher-epilogue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "지도",
+    "note": "reel final-cipher-epilogue · the line beside the chapter head · chapter: Standalone",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "483 ROWS · 6 COLUMNS",
+    "text": "483행 · 6열",
+    "note": "reel final-cipher-epilogue · the words around the figures of the mutefone_codes set piece · chapter: Standalone",
+    "rev": "28e1c132d7be"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 481 more rows",
+    "text": "… 나머지 481개 행",
+    "note": "reel final-cipher-epilogue · what the mutefone_codes sample leaves out · chapter: Standalone",
+    "rev": "77b8bc70e671"
+  },
+  {
+    "id": "E1-route",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-cipher-epilogue, beat 1/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-route",
+    "field": "text",
+    "source": "3 banks on the van's route. A false alarm at each, 5 minutes apart.",
+    "text": "호송차 경로에 있는 은행 3곳. 5분 간격으로 각각 허위 경보.",
+    "note": "reel final-cipher-epilogue, beat 1/5 · the line itself · speaker Detective Reyes",
+    "rev": "abb256feb42f"
+  },
+  {
+    "id": "E1-route",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "지도",
+    "note": "reel final-cipher-epilogue, beat 1/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-cipher-epilogue, beat 2/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "text",
+    "source": "Every police car runs to the banks. The van reaches the Tribunal alone.",
+    "text": "모든 경찰차가 은행으로 달려간다. 호송차는 혼자 법원에 도착한다.",
+    "note": "reel final-cipher-epilogue, beat 2/5 · the line itself · speaker Detective Reyes",
+    "rev": "8792e3636b9c"
+  },
+  {
+    "id": "E1-chaos",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "지도",
+    "note": "reel final-cipher-epilogue, beat 2/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-warn",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-cipher-epilogue, beat 3/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-warn",
+    "field": "text",
+    "source": "Not this time. I'm warning the banks and the police now.",
+    "text": "이번엔 안 된다. 지금 은행과 경찰에 알린다.",
+    "note": "reel final-cipher-epilogue, beat 3/5 · the line itself · speaker Detective Reyes",
+    "rev": "9569d06b1abb"
+  },
+  {
+    "id": "E1-warn",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "지도",
+    "note": "reel final-cipher-epilogue, beat 3/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "E1-letter",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-cipher-epilogue, beat 4/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-letter",
+    "field": "text",
+    "source": "K is still only a letter.",
+    "text": "K는 아직 글자 하나일 뿐이다.",
+    "note": "reel final-cipher-epilogue, beat 4/5 · the line itself · speaker Detective Reyes",
+    "rev": "9a2635042e65"
+  },
+  {
+    "id": "E1-letter",
+    "field": "subject",
+    "source": "K",
+    "text": "K",
+    "note": "reel final-cipher-epilogue, beat 4/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "86be9a55762d"
+  },
+  {
+    "id": "E1-name",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel final-cipher-epilogue, beat 5/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-name",
+    "field": "text",
+    "source": "No name. No arrest. You've got everything you need. Find out who K is.",
+    "text": "이름도 없다. 체포도 없다. 필요한 건 다 있다. K가 누구인지 알아내라.",
+    "note": "reel final-cipher-epilogue, beat 5/5 · the line itself · speaker Detective Reyes",
+    "rev": "c362ddb97061"
+  },
+  {
+    "id": "E1-name",
+    "field": "subject",
+    "source": "K",
+    "text": "K",
+    "note": "reel final-cipher-epilogue, beat 5/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "86be9a55762d"
+  }
+]

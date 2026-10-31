@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "One Year, One Table",
+    "text": "Один год, одна таблица",
+    "note": "dossier \"One Year, One Table\" · the dossier's own title",
+    "rev": "fbe5634771da"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "Пожар в школе",
+    "note": "dossier \"One Year, One Table\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "ПРОЛОГ",
+    "note": "dossier \"One Year, One Table\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the first case: the fire, and the table of every emergency in Paris.",
+    "text": "Перед первым делом: пожар и таблица всех экстренных происшествий в Париже.",
+    "note": "dossier \"One Year, One Table\" · the dossier's own summary",
+    "rev": "334b49e62b00"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "30 seconds, no typing. Reyes names the fire and the table.",
+    "text": "30 секунд, вводить ничего не нужно. Рейес расскажет о пожаре и таблице.",
+    "note": "dossier \"One Year, One Table\" · the dossier's own pitchMarkdown",
+    "rev": "75bf639ce343"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "15 ОКТЯБРЯ 2025 ГОДА",
+    "note": "dossier \"One Year, One Table\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "One Year, One Table",
+    "text": "Один год, одна таблица",
+    "note": "dossier \"One Year, One Table\" · the gazette's headline",
+    "rev": "fbe5634771da"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "Парижская служба экстренных вызовов",
+    "note": "dossier \"One Year, One Table\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Пролог",
+    "note": "dossier \"One Year, One Table\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Посмотри инструктаж.",
+    "note": "dossier \"One Year, One Table\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

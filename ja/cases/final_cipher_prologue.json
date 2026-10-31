@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "La Sante",
+    "text": "ラ・サンテ",
+    "note": "dossier \"La Sante\" · the dossier's own title",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "終幕",
+    "note": "dossier \"La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "プロローグ",
+    "note": "dossier \"La Sante\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the tables: the 3 men in \"La Sante\" prison, and their telephone.",
+    "text": "表に向かう前に。「ラ・サンテ」刑務所の3人の男と、その電話。",
+    "note": "dossier \"La Sante\" · the dossier's own summary",
+    "rev": "d198454fefd1"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows what the 3 men who robbed the banks write from prison.",
+    "text": "1分、入力なし。銀行を襲った男3人が刑務所から何を書いているか、レイエスが示す。",
+    "note": "dossier \"La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "30da6284bd5b"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "2026年12月14日",
+    "note": "dossier \"La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "La Sante",
+    "text": "ラ・サンテ",
+    "note": "dossier \"La Sante\" · the gazette's headline",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "パリ",
+    "note": "dossier \"La Sante\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "プロローグ",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "ブリーフィングを見ろ。",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

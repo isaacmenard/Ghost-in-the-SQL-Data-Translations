@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "La Sante",
+    "text": "La Sante",
+    "note": "dossier \"La Sante\" · the dossier's own title",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "Das Finale",
+    "note": "dossier \"La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "PROLOG",
+    "note": "dossier \"La Sante\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the tables: the 3 men in \"La Sante\" prison, and their telephone.",
+    "text": "Vor den Tabellen: die 3 Männer im Gefängnis „La Sante“ und ihr Telefon.",
+    "note": "dossier \"La Sante\" · the dossier's own summary",
+    "rev": "d198454fefd1"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows what the 3 men who robbed the banks write from prison.",
+    "text": "1 Minute, ohne Tippen. Reyes zeigt, was die 3 Männer, die die Banken überfallen haben, aus dem Gefängnis schreiben.",
+    "note": "dossier \"La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "30da6284bd5b"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "14. DEZEMBER 2026",
+    "note": "dossier \"La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "La Sante",
+    "text": "La Sante",
+    "note": "dossier \"La Sante\" · the gazette's headline",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "Paris",
+    "note": "dossier \"La Sante\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Prolog",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Sieh dir die Lagebesprechung an.",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

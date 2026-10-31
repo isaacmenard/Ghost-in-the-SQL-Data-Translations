@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Tomorrow, 06:50",
+    "text": "내일, 06:50",
+    "note": "dossier \"Tomorrow, 06:50\" · the dossier's own title",
+    "rev": "d736911a4b12"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "피날레",
+    "note": "dossier \"Tomorrow, 06:50\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "EPILOGUE",
+    "text": "에필로그",
+    "note": "dossier \"Tomorrow, 06:50\" · the dossier's own partLabel",
+    "rev": "e42f50aedfc3"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "After the file: 3 false alarms, the van, and the letter K.",
+    "text": "사건철 다음: 3번의 허위 경보, 호송차, 그리고 글자 K.",
+    "note": "dossier \"Tomorrow, 06:50\" · the dossier's own summary",
+    "rev": "a4a7e20f095b"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes reads the 3 other squares, and says what is left to find.",
+    "text": "1분, 입력 없음. 레이에스가 나머지 3개 칸을 읽고 무엇을 더 찾아야 하는지 말한다.",
+    "note": "dossier \"Tomorrow, 06:50\" · the dossier's own pitchMarkdown",
+    "rev": "a9b4398e1524"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "2026년 12월 14일",
+    "note": "dossier \"Tomorrow, 06:50\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Tomorrow, 06:50",
+    "text": "내일, 06:50",
+    "note": "dossier \"Tomorrow, 06:50\" · the gazette's headline",
+    "rev": "d736911a4b12"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "파리",
+    "note": "dossier \"Tomorrow, 06:50\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-cipher-epilogue-watched]",
+    "field": "title",
+    "source": "Epilogue",
+    "text": "에필로그",
+    "note": "dossier \"Tomorrow, 06:50\" · checkpoint 1/1 \"Epilogue\" — title",
+    "rev": "64186d3a47fa"
+  },
+  {
+    "id": "steps[final-cipher-epilogue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "브리핑을 봐라.",
+    "note": "dossier \"Tomorrow, 06:50\" · checkpoint 1/1 \"Epilogue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

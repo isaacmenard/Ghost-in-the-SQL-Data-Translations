@@ -1,0 +1,212 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "JOIN",
+    "note": "dossier \"JOIN\" · the dossier's own title",
+    "rev": "a9e153ee4bba"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "`LINE 4417` reported the school fire 14 minutes before the first witness saw it. The telephone company's register lists the room each line's telephone is in.",
+    "note": "dossier \"JOIN\" · the dossier's own summary",
+    "rev": "ce6c84142009"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "A call reached the Paris Emergency Switchboard at 20:58 from `LINE 4417`. The first witness saw the fire at 21:12.\n\n`LINE 4417` is on the telephone company's bills.",
+    "note": "dossier \"JOIN\" · the dossier's own pitchMarkdown",
+    "rev": "b94ae081fef5"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "text": "2 tables, `dispatch_log` and `line_register`.",
+    "note": "dossier \"JOIN\" · the dossier's own rulesMarkdown",
+    "rev": "7d8a59ab81f5"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "text": "From which room of the school was the 20:58 call on `LINE 4417` made?",
+    "note": "dossier \"JOIN\" · the dossier's own openQuestion",
+    "rev": "b6c3b915afe7"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "OCTOBER 16, 2025",
+    "note": "dossier \"JOIN\" · the gazette's date",
+    "rev": "64c7845dbafb"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "text": "Chief Forensics Reporter",
+    "note": "dossier \"JOIN\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "School Fire Call Came Before Any Witness, Police Confirm",
+    "note": "dossier \"JOIN\" · the gazette's headline",
+    "rev": "44a2bbc65338"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Detectives Trace a Single Line to rue Curial",
+    "note": "dossier \"JOIN\" · the gazette's subheadline",
+    "rev": "dc5bed2fee79"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "text": "A call about the school fire reached the Paris Emergency Switchboard at 20:58. The first witness saw flames 14 minutes later.\n\nThe call came from `LINE 4417`. The line is on the telephone company's bills, at the school's own address, 12 rue Curial. Detectives want to know which room the call was made from.",
+    "note": "dossier \"JOIN\" · the gazette's editorialArticle",
+    "rev": "01695dde199a"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "text": "\"That call came 14 minutes before any witness.\"",
+    "note": "dossier \"JOIN\" · the gazette's leadQuote",
+    "rev": "01ab9fddb58c"
+  },
+  {
+    "id": "csvFiles[line_register]",
+    "field": "description",
+    "text": "Every telephone line the telephone company bills: the subscriber, the room its telephone is in and at which hours, the street and the district. A `Flat` is where a caretaker lives on site.",
+    "note": "dossier \"JOIN\" · the `line_register` table — description",
+    "rev": "d1d43a3365c6"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "text": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "note": "dossier \"JOIN\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "title",
+    "text": "The *Register*",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — title",
+    "rev": "77e36607e75d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "instructions",
+    "text": "Somebody pays a bill for `LINE 4417`. The telephone company lists every line it bills in `line_register`.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — instructions",
+    "rev": "940eb8039a3d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedResult",
+    "text": "Instead of `*`, name the columns you want, separated by a comma. From `line_register`, show only the columns `line` and `subscriber`.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedResult",
+    "rev": "2ab0cef3dc3a"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedShapeNote",
+    "text": "Every row of the register: 30 rows, 2 columns.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedShapeNote",
+    "rev": "18f7ff3c5d59"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "title",
+    "text": "Join the *Two*",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — title",
+    "rev": "a0116fba9d00"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "instructions",
+    "text": "Both tables hold the line number: `source` in `dispatch_log`, `line` in `line_register`. In the register, `hours` says when the line's telephone is in that room.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — instructions",
+    "rev": "f8df19f998a7"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedResult",
+    "text": "Start from the calls, `FROM dispatch_log`. Then add `JOIN line_register ON source = line`: each call from a line in the register gets that line's room. Keep the calls of `2025-10-14`. Show only the time, the line, the room and its hours.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedResult",
+    "rev": "340e0a684a68"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedShapeNote",
+    "text": "9 rows: the calls of that day from a billed line.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedShapeNote",
+    "rev": "e69981f8cc17"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "afterText",
+    "text": "9 rows. A call with no line in the register isn't in the result. The 20:58 call appears 3 times: `LINE 4417` has 3 rooms.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — afterText",
+    "rev": "84595d6da798"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "title",
+    "text": "Which *Room*",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — title",
+    "rev": "37ea3a02953e"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "instructions",
+    "text": "The early call came from `LINE 4417` at 20:58.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — instructions",
+    "rev": "6dd29d687cff"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedResult",
+    "text": "Join `dispatch_log` and `line_register` again. Which room was the call made from? Keep only that row, and only the columns `room` and `at_time`.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedResult",
+    "rev": "2e9ec45dfe5c"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedShapeNote",
+    "text": "One row: the room and the time.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedShapeNote",
+    "rev": "64dcb4d28e92"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "afterText",
+    "text": "The `Lodge`. At 20:58, that line was the `Lodge` telephone.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — afterText",
+    "rev": "654ad1975a9b"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "lead",
+    "text": "`LINE 4417` has more than one row in `line_register`. Check each one against the day and the hour of the call.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — lead",
+    "rev": "c615cf41d7f5"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "text": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "d2913b0af757"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "text": "20:58 is between 18:00 and 22:00 → `line_register` → then `LINE 4417` is the `Lodge`.",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "c148cb65f478"
+  }
+]

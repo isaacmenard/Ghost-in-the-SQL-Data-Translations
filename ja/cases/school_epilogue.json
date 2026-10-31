@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Who Paid",
+    "text": "誰が払ったか",
+    "note": "dossier \"Who Paid\" · the dossier's own title",
+    "rev": "b47e0837279f"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "学校火災",
+    "note": "dossier \"Who Paid\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "EPILOGUE",
+    "text": "エピローグ",
+    "note": "dossier \"Who Paid\" · the dossier's own partLabel",
+    "rev": "e42f50aedfc3"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "After stage 3. The chain that led to Victor Pell, what he said, and one name.",
+    "text": "ステージ3の完了後。Victor Pellへと至る連鎖、その供述、そしてひとつの名前。",
+    "note": "dossier \"Who Paid\" · the dossier's own summary",
+    "rev": "247102bd845a"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes walks back through the 3 stages, then reads what Victor Pell said.",
+    "text": "1分、入力なし。レイエスが3つのステージを振り返り、Victor Pellの供述を読み上げる。",
+    "note": "dossier \"Who Paid\" · the dossier's own pitchMarkdown",
+    "rev": "2231f2f97b77"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 17, 2025",
+    "text": "2025年10月17日",
+    "note": "dossier \"Who Paid\" · the gazette's date",
+    "rev": "1f35b463209b"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Who Paid",
+    "text": "誰が払ったか",
+    "note": "dossier \"Who Paid\" · the gazette's headline",
+    "rev": "b47e0837279f"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "パリ緊急通報センター",
+    "note": "dossier \"Who Paid\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[epilogue-watched]",
+    "field": "title",
+    "source": "Epilogue",
+    "text": "エピローグ",
+    "note": "dossier \"Who Paid\" · checkpoint 1/1 \"Epilogue\" — title",
+    "rev": "64186d3a47fa"
+  },
+  {
+    "id": "steps[epilogue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "ブリーフィングを見ろ。",
+    "note": "dossier \"Who Paid\" · checkpoint 1/1 \"Epilogue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "V1-desk",
+    "field": "goal",
+    "source": "Your desk.",
+    "text": "네 책상이다.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes",
+    "rev": "5b31a74d1f48"
+  },
+  {
+    "id": "V1-desk",
+    "field": "sayName",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "V1-desk",
+    "field": "say",
+    "source": "Welcome to your desk. I'll show you where everything is, then leave you to work.",
+    "text": "네 책상에 온 걸 환영한다. 어디에 뭐가 있는지 보여주고, 일은 네게 맡기겠다.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "5b0a408e73a7"
+  },
+  {
+    "id": "V2-editor",
+    "field": "goal",
+    "source": "The query goes in the query desk.",
+    "text": "질의는 쿼리 데스크에 쓴다.",
+    "note": "lesson dev-orientation, beat 2/5",
+    "rev": "76de1b9c68a6"
+  },
+  {
+    "id": "V2-editor",
+    "field": "coach",
+    "source": "You write the query here. It is SQL, and it is read-only. `SELECT`, nothing else.",
+    "text": "질의는 여기에 쓴다. SQL이고, 읽기 전용이다. `SELECT`, 그뿐이다.",
+    "note": "lesson dev-orientation, beat 2/5 · goal: The query goes in the query desk.",
+    "rev": "9ff58f4a3788"
+  },
+  {
+    "id": "V3-run",
+    "field": "goal",
+    "source": "Run executes the query.",
+    "text": "“실행”으로 질의를 실행한다.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1",
+    "rev": "16fe35bd8fca"
+  },
+  {
+    "id": "V3-run",
+    "field": "coach",
+    "source": "Run executes the query. Run it as many times as you like. The rows come back underneath.",
+    "text": "실행하면 질의가 돌아간다. 행은 아래에 나온다. 몇 번이든 좋다.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1 · goal: Run executes the query.",
+    "rev": "56df8a2b0ee3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "goal",
+    "source": "Verify submits your answer.",
+    "text": "“검증”으로 네 답을 제출한다.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1",
+    "rev": "5434a8503dd3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "coach",
+    "source": "Verify sends those rows in as your answer. It reads the rows you brought back and nothing else.",
+    "text": "검증은 그 행들을 네 답으로 보낸다. 보는 건 행이지, 네가 쓴 질의가 아니다.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1 · goal: Verify submits your answer.",
+    "rev": "89c0a5cefad3"
+  },
+  {
+    "id": "V5-card",
+    "field": "goal",
+    "source": "The card lists every clause.",
+    "text": "카드에 절이 다 적혀 있다.",
+    "note": "lesson dev-orientation, beat 5/5",
+    "rev": "9b07bfefd2da"
+  },
+  {
+    "id": "V5-card",
+    "field": "coach",
+    "source": "The card lists every clause the game asks for, and the tables. That is everything.",
+    "text": "카드에는 게임이 요구하는 절이 다 있다. 테이블도 있다. 그게 전부다.",
+    "note": "lesson dev-orientation, beat 5/5 · goal: The card lists every clause.",
+    "rev": "cbf9ac49ff27"
+  }
+]

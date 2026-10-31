@@ -1,0 +1,394 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Letters From La Sante",
+    "text": "ラ・サンテからの手紙",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own title",
+    "rev": "c31dedd753c4"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "終幕",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The 3 men who robbed the banks are in \"La Sante\" prison. They write to somebody outside, and their telephone can be read now.",
+    "text": "銀行を襲った男3人は「ラ・サンテ」刑務所にいる。今も外の誰かと連絡を取り合っているが、その電話は今や読める。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own summary",
+    "rev": "328401e72f6f"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Monday 14 December. \"La Sante\" prison, Paris.\n\nThe 3 men who robbed the banks write to somebody outside. Read what they say.",
+    "text": "12月14日月曜日。パリ、「ラ・サンテ」刑務所。\n\n銀行を襲った男3人は今も外の誰かと連絡を取り合っている。何を話しているか読め。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "d911f0442e05"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables, 1 map and 1 telephone.\n\n`mutefone_codes` holds every message of the crew's telephone, coded, one row per code. `leaked_key` is the V2 key leaked online this morning. It turns a code into a letter.",
+    "text": "テーブル2つ、地図1枚、電話1台。\n\n`mutefone_codes`には一味の電話の全メッセージが暗号化されて格納されており、コードごとに1行となっている。`leaked_key`は今朝ネット上に流出したV2のキーだ。コードを文字に変換する。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own rulesMarkdown",
+    "rev": "6de2bd2fa1ec"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "What has K planned for the van tomorrow, and when?",
+    "text": "Kは明日、護送車に対して何を、何時に計画しているのか？",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own openQuestion",
+    "rev": "f338e3cb3a8d"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "False alarms at 3 banks on the van's route, then the Tribunal at 06:50",
+    "text": "護送車のルート上にある銀行3行で誤警報、その後06:50に裁判所",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own verdictText",
+    "rev": "2fdd606a41e9"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "2026年12月14日",
+    "note": "dossier \"Letters From La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Letters From La Sante\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Telephone Nobody Could Read Can Now Be Read",
+    "text": "誰にも読めなかった電話、ついに解読",
+    "note": "dossier \"Letters From La Sante\" · the gazette's headline",
+    "rev": "27989caa59f8"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "How the Mutefone Codes Its Messages Is Posted Online",
+    "text": "Mutefoneがメッセージを暗号化する仕組み、ネット上に公開",
+    "note": "dossier \"Letters From La Sante\" · the gazette's subheadline",
+    "rev": "2d71858fb93b"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "This morning, the way the Mutefone codes its secret messages was posted online. It covers versions 1 to 4. The key of version 2 was posted with it. Anybody can now read a V2.\n\nMutefone says version 5 is safe.",
+    "text": "今朝、Mutefoneが秘密メッセージを暗号化する仕組みがネット上に公開された。バージョン1から4までが対象だ。バージョン2のキーも併せて公開された。これで誰でもV2を読める。\n\nMutefone側はバージョン5なら安全だと主張している。",
+    "note": "dossier \"Letters From La Sante\" · the gazette's editorialArticle",
+    "rev": "0ae3937ad882"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Version 6 is out today. This time, nobody reads it.\"",
+    "text": "「バージョン6が本日発売。今度こそ誰にも読ませない。」",
+    "note": "dossier \"Letters From La Sante\" · the gazette's leadQuote",
+    "rev": "bdc164a2c386"
+  },
+  {
+    "id": "documents[metro-1214]",
+    "field": "title",
+    "source": "Monday 14 December 2026",
+    "text": "2026年12月14日月曜日",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214` — title",
+    "rev": "60c0c1f0d592"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "title",
+    "source": "Vigie Assurances Nearly Bigger Than Okonjo",
+    "text": "Vigie Assurances、Okonjoを抜く勢い",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — title",
+    "rev": "0823474c446b"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "contentMarkdown",
+    "source": "Vigie Assurances is about to become the biggest insurer in Paris. This autumn it won a run of contracts for the City's buildings. Okonjo Insurance, the biggest for years, is in serious trouble. It could go bankrupt.",
+    "text": "Vigie Assurancesはパリ最大の保険会社になろうとしている。この秋、市の建物に関する契約を立て続けに獲得した。長年最大手だったOkonjo Insuranceは深刻な苦境に立たされており、破産のおそれがある。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — contentMarkdown",
+    "rev": "3710aa8ed622"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "title",
+    "source": "New Year: The Metro Runs All Night",
+    "text": "新年：メトロは終夜運行",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — title",
+    "rev": "937dc5be2eaa"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "contentMarkdown",
+    "source": "On 31 December, the M13 runs all night.",
+    "text": "12月31日、M13は終夜運行する。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — contentMarkdown",
+    "rev": "eb725e5a9368"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 6",
+    "text": "MUTEFONE 6",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — title",
+    "rev": "1468fc7a5782"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "contentMarkdown",
+    "source": "This time, nobody reads it.",
+    "text": "今度こそ、誰にも読ませない。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — contentMarkdown",
+    "rev": "f0a511690398"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "title",
+    "source": "FROM THE HEAD GUARD, WING D",
+    "text": "D棟看守長より",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — title",
+    "rev": "4677a9a97ed6"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "contentMarkdown",
+    "source": "**\"La Sante\" prison, 13 December.** The 3 men came in on 5 December. They are held in wing D. Their cells are `D214`, `D215` and `D216`. They do not speak to us. On Tuesday 15 December, a van takes them to the Tribunal for their hearing.\n\n**They have a telephone.** It was hidden in cell `D216`, a Mutefone V2. We found it on 6 December and put it back. That way, we read what they send. Every message on it is coded. The messages are in `mutefone_codes`.",
+    "text": "**「ラ・サンテ」刑務所、12月13日。** 男3人は12月5日に収監された。3人はD棟に収容されている。独房は`D214`、`D215`、`D216`だ。3人は一切口を割らない。12月15日火曜日、審問のため護送車で裁判所へ移送される。\n\n**電話を所持している。** 独房`D216`にMutefone V2が隠されていた。12月6日にこれを発見し、元の場所に戻した。そうやって送信内容を確認している。メッセージはすべて暗号化されている。通信内容は`mutefone_codes`に入っている。",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — contentMarkdown",
+    "rev": "f239c15e2283"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "title",
+    "source": "POSTED ONLINE, MONDAY 14 DECEMBER",
+    "text": "オンライン公開、12月14日月曜日",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — title",
+    "rev": "afe6f77a30f2"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "contentMarkdown",
+    "source": "**Mutefone says nobody can read its messages. here is how it codes them, v1 to v4.**\n\nevery letter and every number becomes a code from 10 to 99. a space is `/`, and `/` has its own code. the codes go out in the order of the message.\n\nthe key of v2 is posted with this, as `leaked_key`. 1 code = 1 letter.\n\nnow anybody can read a V2 (and they called that secret lol)",
+    "text": "**Mutefoneは誰もメッセージを読めないと言っている。暗号化の仕組みはこうだ。v1からv4。**\n\nすべての文字と数字は10から99のコードになる。空白は`/`になり、`/`にもコードがある。コードはメッセージの順序通りに送信される。\n\nv2のキーも一緒に公開した。`leaked_key`だ。1コードにつき1文字。\n\nこれがあれば、誰でもV2を読める（あれで秘密のつもりらしい笑）。",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — contentMarkdown",
+    "rev": "340fc2f34d0d"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "title",
+    "source": "MUTEFONE V2, QUICK START",
+    "text": "MUTEFONE V2、クイックスタート",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — title",
+    "rev": "a4d15896dc41"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "contentMarkdown",
+    "source": "**What you say stays between you.**\n\n### Secret messages\n\nYour Mutefone codes every message before it leaves, and reads it back when it arrives. Nobody else can read it, not even us.",
+    "text": "**交わした言葉は、2人だけのもの。**\n\n### 暗号メッセージ\n\nMutefoneは送信前にすべてのメッセージを暗号化し、受信時に復号する。我々を含め、他の誰にも読むことはできない。",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — contentMarkdown",
+    "rev": "ada8ec1ce64e"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "title",
+    "source": "GROUP_CONCAT",
+    "text": "GROUP_CONCAT",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — title",
+    "rev": "131d68f7c809"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "contentMarkdown",
+    "source": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)` puts the values of a group side by side, in the order of `at_time`.\n\nIn `demo`, on 14 March, `Alpha` is at 23:40 and `Beta` at 02:05. It gives `BetaAlpha`.",
+    "text": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)`は、グループの値を`at_time`の順で横に並べる。\n\n`demo`では、3月14日に23:40の`Alpha`と02:05の`Beta`がある。`BetaAlpha`が得られる。",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — contentMarkdown",
+    "rev": "c506a89abdfa"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE CREW'S MAP",
+    "text": "一味の地図",
+    "note": "dossier \"Letters From La Sante\" · document `paris-map` — title",
+    "rev": "3543463c381b"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "title",
+    "source": "FOUND TODAY",
+    "text": "本日発見",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — title",
+    "rev": "779f0df7e653"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "contentMarkdown",
+    "source": "This map was found today in one of the cells.",
+    "text": "この地図は本日、ある独房から発見された。",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — contentMarkdown",
+    "rev": "9ceb9e8e8657"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "title",
+    "source": "THE CREW'S 7 BANKS",
+    "text": "一味の7つの銀行",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — title",
+    "rev": "861c39fdeecc"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "contentMarkdown",
+    "source": "**From the bank file.** 6 robberies since June. On 4 December, the 3 men were caught at the 7th bank.\n\n| day | bank |\n| --- | --- |\n| 5 June | Rivage Passy |\n| 10 July | Municipale Vaugirard |\n| 7 August | Vernier Batignolles |\n| 11 September | Orme Lecourbe |\n| 9 October | Civique Auteuil |\n| 6 November | Municipale Ternes |\n| 4 December | Civique Mozart, the attempt |",
+    "text": "**銀行の事件ファイルより。** 6月以降で6件の強盗が発生。12月4日、男3人が7件目の銀行で捕まった。\n\n| 日付 | 銀行 |\n| --- | --- |\n| 6月5日 | Rivage Passy |\n| 7月10日 | Municipale Vaugirard |\n| 8月7日 | Vernier Batignolles |\n| 9月11日 | Orme Lecourbe |\n| 10月9日 | Civique Auteuil |\n| 11月6日 | Municipale Ternes |\n| 12月4日 | Civique Mozart、未遂 |",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — contentMarkdown",
+    "rev": "ed39b6783784"
+  },
+  {
+    "id": "csvFiles[mutefone_codes]",
+    "field": "description",
+    "source": "Every message of the crew's telephone, one row per code: the message, the day, the contact, `In` or `Out`, the place of the code in the message, and the code, `num`.",
+    "text": "一味の電話の全メッセージ。コードごとに1行：メッセージ、日付、連絡先、受信（`In`）または送信（`Out`）、メッセージ内のコードの位置、コードの`num`。",
+    "note": "dossier \"Letters From La Sante\" · the `mutefone_codes` table — description",
+    "rev": "424652450dc3"
+  },
+  {
+    "id": "csvFiles[leaked_key]",
+    "field": "description",
+    "source": "The Mutefone V2 key, leaked online this morning: each code, `num`, and the `symbol` it stands for.",
+    "text": "今朝オンラインに流出したMutefone V2のキー。各コードの`num`と、それが表す`symbol`。",
+    "note": "dossier \"Letters From La Sante\" · the `leaked_key` table — description",
+    "rev": "54e8d4b5dd45"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "title",
+    "source": "The Grid",
+    "text": "グリッド",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — title",
+    "rev": "24227e8d4bf4"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "instructions",
+    "source": "Every message on the telephone is in `mutefone_codes`, one row per code. `leaked_key` turns each code into its letter.",
+    "text": "電話の全メッセージは`mutefone_codes`に入っており、コードごとに1行を占める。`leaked_key`は各コードを文字に変換する。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — instructions",
+    "rev": "21cb5cbc46ef"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedResult",
+    "source": "Read the messages in plain text. Keep only the contact the crew planned its robberies with. Return 1 row per message, with its `sent_on`, `contact`, `direction` and `message`.",
+    "text": "メッセージを平文で確認しろ。一味が強盗を計画した連絡先のみを残せ。メッセージごとに1行、その`sent_on`、`contact`、`direction`、`message`を返せ。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedResult",
+    "rev": "8d926b7f912a"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedShapeNote",
+    "source": "1 row per message with that contact, in plain text.",
+    "text": "その連絡先とのメッセージごとに1行、平文で。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedShapeNote",
+    "rev": "36df766ce96d"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "afterText",
+    "source": "K. The evening before each robbery: first the kit, then a meeting.",
+    "text": "K。強盗の前夜は毎回、まず道具、それから密会だ。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — afterText",
+    "rev": "89a0dd9a8019"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "lead",
+    "source": "Join `leaked_key` to the crew's Mutefone to read it. Then keep only the messages of their boss.",
+    "text": "`leaked_key`を一味のMutefoneに結合して読め。それからボスのメッセージだけを残せ。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — lead",
+    "rev": "20ef8992ba2c"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "title",
+    "source": "Tomorrow",
+    "text": "明日",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — title",
+    "rev": "456a73bbcefb"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "instructions",
+    "source": "Today is Monday 14 December. The crew's map is on the board. K's messages are in `mutefone_codes`, read with `leaked_key`.",
+    "text": "今日は12月14日月曜日だ。一味の地図はボードにある。Kのメッセージは`mutefone_codes`に入っており、`leaked_key`で確認する。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — instructions",
+    "rev": "9264156c1432"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedResult",
+    "source": "Keep only the messages where K sets tomorrow's plan. Return their `message`, 1 row each, from the earliest hour to the latest.",
+    "text": "Kが明日の計画を取り決めているメッセージのみを残せ。メッセージごとに1行、最も早い時間から最も遅い時間の順にその`message`を返せ。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedResult",
+    "rev": "425bafdc9703"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedShapeNote",
+    "source": "1 row per step of tomorrow's plan, in order.",
+    "text": "明日の計画の段階ごとに1行、発生順に。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedShapeNote",
+    "rev": "704e4c8ec955"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "afterText",
+    "source": "3 false alarms on the van's route, 5 minutes apart. Then the van at the Tribunal.",
+    "text": "護送車のルート上に5分間隔で3件の誤報。それから護送車が裁判所に着く。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — afterText",
+    "rev": "cf4aaeb808d0"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "lead",
+    "source": "Read what K sent after the crew gave him the hearing day. Many meeting plans. I am afraid one is for the van tomorrow.",
+    "text": "一味が審理の日を伝えた。その後にKが送ったものを読め。会合の計画が多い。そのうち1つは明日の護送車を狙っているはずだ。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — lead",
+    "rev": "cd45823a5ebe"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "`mutefone_codes` → `JOIN leaked_key` → K's squares on the map match the robbed banks. Each one the evening before.",
+    "text": "`mutefone_codes` → `JOIN leaked_key` → 地図上のKのマスが、襲われた銀行と一致する。どれも前日の夜。",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "efc37096a694"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "After `TRIBUNAL/20261215`, K's messages dated `20261215` → the van's route. `C4` to `C1`, 06:35 to 06:50.",
+    "text": "`TRIBUNAL/20261215`の後、日付が`20261215`のKのメッセージ → 護送車のルート。`C4`から`C1`、06:35から06:50。",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "51a72232db13"
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Einzelfall",
+    "note": "reel final-cipher-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "LA SANTE",
+    "text": "LA SANTÉ",
+    "note": "reel final-cipher-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "6d4fc7829b13"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "483 ROWS · 6 COLUMNS",
+    "text": "483 ZEILEN · 6 SPALTEN",
+    "note": "reel final-cipher-prologue · the words around the figures of the mutefone_codes set piece · chapter: Standalone",
+    "rev": "28e1c132d7be"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 481 more rows",
+    "text": "… 481 weitere Zeilen",
+    "note": "reel final-cipher-prologue · what the mutefone_codes sample leaves out · chapter: Standalone",
+    "rev": "77b8bc70e671"
+  },
+  {
+    "id": "F1-prison",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 1/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-prison",
+    "field": "text",
+    "source": "\"La Sante\" prison. The 3 men who robbed the banks have been here since 5 December.",
+    "text": "Gefängnis „La Santé“. Die 3 Männer, die die Banken überfallen haben, sind seit dem 5. Dezember hier.",
+    "note": "reel final-cipher-prologue, beat 1/9 · the line itself · speaker Detective Reyes",
+    "rev": "6cde3c0655a3"
+  },
+  {
+    "id": "F1-prison",
+    "field": "subject",
+    "source": "LA SANTE",
+    "text": "LA SANTÉ",
+    "note": "reel final-cipher-prologue, beat 1/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6d4fc7829b13"
+  },
+  {
+    "id": "F1-silent",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 2/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-silent",
+    "field": "text",
+    "source": "They won't talk.",
+    "text": "Sie reden nicht.",
+    "note": "reel final-cipher-prologue, beat 2/9 · the line itself · speaker Detective Reyes",
+    "rev": "4e6f671106a4"
+  },
+  {
+    "id": "F1-silent",
+    "field": "subject",
+    "source": "LA SANTE",
+    "text": "LA SANTÉ",
+    "note": "reel final-cipher-prologue, beat 2/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "6d4fc7829b13"
+  },
+  {
+    "id": "F1-phone",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 3/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-phone",
+    "field": "text",
+    "source": "But they had a Mutefone hidden in their cell. A guard found it on 6 December.",
+    "text": "Aber sie hatten ein Mutefone in ihrer Zelle versteckt. Ein Wärter hat es am 6. Dezember gefunden.",
+    "note": "reel final-cipher-prologue, beat 3/9 · the line itself · speaker Detective Reyes",
+    "rev": "200421cfb5db"
+  },
+  {
+    "id": "F1-phone",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 3/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-left",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 4/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-left",
+    "field": "text",
+    "source": "We put it back. Now we read everything they send.",
+    "text": "Wir haben es zurückgelegt. Jetzt lesen wir alles, was sie senden.",
+    "note": "reel final-cipher-prologue, beat 4/9 · the line itself · speaker Detective Reyes",
+    "rev": "7aa38bb3ad5c"
+  },
+  {
+    "id": "F1-left",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 4/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-codes",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 5/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-codes",
+    "field": "text",
+    "source": "All coded. One number for each letter.",
+    "text": "Alles codiert. Eine Zahl für jeden Buchstaben.",
+    "note": "reel final-cipher-prologue, beat 5/9 · the line itself · speaker Detective Reyes",
+    "rev": "c3feb2030e3a"
+  },
+  {
+    "id": "F1-codes",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 5/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-leak",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 6/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-leak",
+    "field": "text",
+    "source": "But this morning, somebody leaked online how those codes work.",
+    "text": "Aber heute Morgen hat jemand im Netz durchsickern lassen, wie diese Codes funktionieren.",
+    "note": "reel final-cipher-prologue, beat 6/9 · the line itself · speaker Detective Reyes",
+    "rev": "fe3c18e88431"
+  },
+  {
+    "id": "F1-leak",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 6/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-k",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 7/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-k",
+    "field": "text",
+    "source": "Most of the messages are with one contact.",
+    "text": "Die meisten Nachrichten gehen an denselben Kontakt.",
+    "note": "reel final-cipher-prologue, beat 7/9 · the line itself · speaker Detective Reyes",
+    "rev": "1ccbab1768b2"
+  },
+  {
+    "id": "F1-k",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 7/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-map",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 8/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-map",
+    "field": "text",
+    "source": "And a guard found this map in their cell today.",
+    "text": "Und heute hat ein Wärter diese Karte in ihrer Zelle gefunden.",
+    "note": "reel final-cipher-prologue, beat 8/9 · the line itself · speaker Detective Reyes",
+    "rev": "fbc2e2fb924d"
+  },
+  {
+    "id": "F1-map",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 8/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  },
+  {
+    "id": "F1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "reel final-cipher-prologue, beat 9/9 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "F1-order",
+    "field": "text",
+    "source": "They're planning something. Find out what.",
+    "text": "Sie planen etwas. Finde heraus, was.",
+    "note": "reel final-cipher-prologue, beat 9/9 · the line itself · speaker Detective Reyes",
+    "rev": "cffdd647bab8"
+  },
+  {
+    "id": "F1-order",
+    "field": "subject",
+    "source": "THE CELL",
+    "text": "DIE ZELLE",
+    "note": "reel final-cipher-prologue, beat 9/9 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "c2176dcc201d"
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Who Is K?",
+    "text": "Кто такой К?",
+    "note": "dossier \"Who Is K?\" · the dossier's own title",
+    "rev": "4198822814de"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "Финал",
+    "note": "dossier \"Who Is K?\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The day after the van. K had the crew's kit ready at a shop, paid on a company card. Find who carried it. Then find who pays K.",
+    "text": "Наутро после фургона. K готовил снаряжение банды в магазине и платил корпоративной картой. Найди, кто его забирал. Потом найди, кто платит K.",
+    "note": "dossier \"Who Is K?\" · the dossier's own summary",
+    "rev": "ca5065e88514"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Wednesday 16 December. Paris.\n\nThe van reached the Tribunal. K is still a letter. Give him a name.",
+    "text": "Среда, 16 декабря. Париж.\n\nФургон доехал до Трибунала. K всё ещё только буква. Дай ему имя.",
+    "note": "dossier \"Who Is K?\" · the dossier's own pitchMarkdown",
+    "rev": "c7e2871ff64f"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "8 tables, 1 map and 1 telephone.\n\n`crew_messages` holds the crew's messages with K, already in plain text. `brikoko_sales` and `brikoko_cards` are the shop's sales and its loyalty cards.\n\n`metro_validations` holds the Navigo exits at 14 stations: the shop's, each claim's, and 4 more. `navigo_cards` says whose Navigo it is.\n\n`dele_phone_v4`, `leaked_key` and `fair_badges` are for later in the file. `fair_badges` is the badge log of the June fair.",
+    "text": "8 таблиц, 1 карта и 1 телефон.\n\n`crew_messages` хранит переписку банды с K, уже расшифрованную. `brikoko_sales` и `brikoko_cards` — продажи магазина и его карты лояльности.\n\n`metro_validations` хранит выходы по картам Navigo на 14 станциях: у магазина, у каждого страхового случая и ещё на 4. `navigo_cards` говорит, чья это карта Navigo.\n\n`dele_phone_v4`, `leaked_key` и `fair_badges` понадобятся позже. `fair_badges` — журнал бейджей июньской выставки.",
+    "note": "dossier \"Who Is K?\" · the dossier's own rulesMarkdown",
+    "rev": "5230cb04779b"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who is K, and who pays him?",
+    "text": "Кто такой K и кто ему платит?",
+    "note": "dossier \"Who Is K?\" · the dossier's own openQuestion",
+    "rev": "9030d58d4eb2"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "K is Dele Okonjo, and Bertrand Lacombe of Vigie pays him",
+    "text": "K — это Деле Оконджо, а платит ему Bertrand Lacombe из Vigie",
+    "note": "dossier \"Who Is K?\" · the dossier's own verdictText",
+    "rev": "1d3beb5d4dca"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 16, 2026",
+    "text": "16 ДЕКАБРЯ 2026 ГОДА",
+    "note": "dossier \"Who Is K?\" · the gazette's date",
+    "rev": "78b24ad3ab9e"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Who Is K?\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Prison Van Reaches the Court",
+    "text": "Тюремный фургон прибыл к зданию суда",
+    "note": "dossier \"Who Is K?\" · the gazette's headline",
+    "rev": "b34a2d3be04b"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "3 False Alarms, and the Police Were Already There",
+    "text": "3 ложные тревоги, и полиция уже была на месте",
+    "note": "dossier \"Who Is K?\" · the gazette's subheadline",
+    "rev": "515fadd45288"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "On Tuesday from 06:35, 3 banks on the van's route raised an alarm, 5 minutes apart. Police officers were already inside each of them. The van reached the Tribunal at 06:50.\n\nThe man who planned it signs his messages with one letter, K.",
+    "text": "Во вторник с 06:35 в 3 банках на пути фургона сработала сигнализация, с разницей в 5 минут. В каждом из них уже были полицейские. Фургон доехал до Трибунала в 06:50.\n\nЧеловек, который это задумал, подписывает сообщения одной буквой: K.",
+    "note": "dossier \"Who Is K?\" · the gazette's editorialArticle",
+    "rev": "82f73d0feb48"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Nobody ran to the banks. We were already there.\"",
+    "text": "«Никто не побежал к банкам. Мы уже были там».",
+    "note": "dossier \"Who Is K?\" · the gazette's leadQuote",
+    "rev": "c5e9b53fdcd8"
+  },
+  {
+    "id": "documents[metro-1216]",
+    "field": "title",
+    "source": "Wednesday 16 December 2026",
+    "text": "Среда, 16 декабря 2026 года",
+    "note": "dossier \"Who Is K?\" · document `metro-1216` — title",
+    "rev": "e2e4dedc0f21"
+  },
+  {
+    "id": "documents[metro-1216-city]",
+    "field": "title",
+    "source": "The City Picks Its Insurer in January",
+    "text": "Мэрия выберет страховщика в январе",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-city` — title",
+    "rev": "8e4847fcf8e2"
+  },
+  {
+    "id": "documents[metro-1216-city]",
+    "field": "contentMarkdown",
+    "source": "In January, the City of Paris picks the insurer of all its buildings. Its buildings office makes the choice. Vigie Assurances is the favourite. Okonjo Insurance, hit by a year of claims, could go bankrupt.",
+    "text": "В январе мэрия Парижа выбирает страховщика для всех своих зданий. Решение принимает её отдел зданий. Фаворит — Vigie Assurances. Okonjo Insurance после года страховых случаев может обанкротиться.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-city` — contentMarkdown",
+    "rev": "35bc6b49d9fe"
+  },
+  {
+    "id": "documents[metro-1216-samuel]",
+    "field": "title",
+    "source": "Samuel Okonjo: \"Somebody Wants Our Company to Fail\"",
+    "text": "Самюэль Оконджо: «Нашу компанию хотят разорить»",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-samuel` — title",
+    "rev": "683dfeba22e2"
+  },
+  {
+    "id": "documents[metro-1216-samuel]",
+    "field": "contentMarkdown",
+    "source": "Samuel Okonjo, head of Okonjo Insurance, spoke for the first time yesterday. \"7 banks, 2 fires, 1 insurer. Somebody wants our company to fail.\"",
+    "text": "Самюэль Оконджо, глава Okonjo Insurance, вчера впервые заговорил. «7 банков, 2 пожара, 1 страховщик. Кто-то хочет, чтобы наша компания рухнула»",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-samuel` — contentMarkdown",
+    "rev": "84f76c9b8fcc"
+  },
+  {
+    "id": "documents[metro-1216-fair]",
+    "field": "title",
+    "source": "Paris Public Insurance Day: Next Week",
+    "text": "День государственного страхования в Париже: на следующей неделе",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-fair` — title",
+    "rev": "fa9ca4a6ae59"
+  },
+  {
+    "id": "documents[metro-1216-fair]",
+    "field": "contentMarkdown",
+    "source": "On 22 and 23 December, the City's buyers meet the insurance companies at Porte de Versailles. Vigie Assurances comes with its 2 directors, Helene Marsac and Bertrand Lacombe.",
+    "text": "22 и 23 декабря закупщики мэрии встречаются со страховыми компаниями у Porte de Versailles. Vigie Assurances приезжает с 2 директорами, Helene Marsac и Bertrand Lacombe.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-fair` — contentMarkdown",
+    "rev": "305bf0e607bc"
+  },
+  {
+    "id": "documents[metro-1216-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 6",
+    "text": "MUTEFONE 6",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-mutefone` — title",
+    "rev": "1468fc7a5782"
+  },
+  {
+    "id": "documents[metro-1216-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Your own number, inside every code.",
+    "text": "Твой собственный номер внутри каждого кода.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-mutefone` — contentMarkdown",
+    "rev": "fc495d2ff309"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE CREW'S MAP",
+    "text": "Карта банды",
+    "note": "dossier \"Who Is K?\" · document `paris-map` — title",
+    "rev": "3543463c381b"
+  },
+  {
+    "id": "documents[network-plan]",
+    "field": "title",
+    "source": "METRO MAP",
+    "text": "СХЕМА МЕТРО",
+    "note": "dossier \"Who Is K?\" · document `network-plan` — title",
+    "rev": "0c70e3586d23"
+  },
+  {
+    "id": "documents[okonjo-claims]",
+    "field": "title",
+    "source": "OKONJO INSURANCE: THE CLAIMS",
+    "text": "СТРАХОВАЯ КОМПАНИЯ ОКОНДЖО: СТРАХОВЫЕ СЛУЧАИ",
+    "note": "dossier \"Who Is K?\" · document `okonjo-claims` — title",
+    "rev": "20759bff5c3b"
+  },
+  {
+    "id": "documents[okonjo-claims]",
+    "field": "contentMarkdown",
+    "source": "**Every closed file where Okonjo Insurance is the insurer.** Beside each, the nearest metro station.\n\n| day | what | metro |\n| --- | --- | --- |\n| 14 October 2025 | College Jean Moulin, the fire | `Crimee` |\n| 5 June | Rivage Passy, robbed | `Passy` |\n| 10 July | Municipale Vaugirard, robbed | `Vaugirard` |\n| 7 August | Vernier Batignolles, robbed | `Rome` |\n| 11 September | Orme Lecourbe, robbed | `Sevres-Lecourbe` |\n| 9 October | Civique Auteuil, robbed | `Michel-Ange-Auteuil` |\n| 21 October | The Auteuil greenhouses, the fire | `Michel-Ange-Molitor` |\n| 6 November | Municipale Ternes, robbed | `Ternes` |\n| 4 December | Civique Mozart, the attempt | `Jasmin` |",
+    "text": "**Все закрытые дела, где страховщик — Okonjo Insurance.** Рядом с каждым — ближайшая станция метро.\n\n| день | что | метро |\n| --- | --- | --- |\n| 14 октября 2025 | College Jean Moulin, пожар | `Crimee` |\n| 5 июня | Rivage Passy, ограбление | `Passy` |\n| 10 июля | Municipale Vaugirard, ограбление | `Vaugirard` |\n| 7 августа | Vernier Batignolles, ограбление | `Rome` |\n| 11 сентября | Orme Lecourbe, ограбление | `Sevres-Lecourbe` |\n| 9 октября | Civique Auteuil, ограбление | `Michel-Ange-Auteuil` |\n| 21 октября | Оранжереи Отёя, пожар | `Michel-Ange-Molitor` |\n| 6 ноября | Municipale Ternes, ограбление | `Ternes` |\n| 4 декабря | Civique Mozart, попытка | `Jasmin` |",
+    "note": "dossier \"Who Is K?\" · document `okonjo-claims` — contentMarkdown",
+    "rev": "7935d265f1dd"
+  },
+  {
+    "id": "documents[fair-cutting]",
+    "field": "title",
+    "source": "FROM THE PAPER, 1 JULY 2026",
+    "text": "ИЗ ГАЗЕТЫ, 1 ИЮЛЯ 2026 ГОДА",
+    "note": "dossier \"Who Is K?\" · document `fair-cutting` — title",
+    "rev": "d43b9ca5146e"
+  },
+  {
+    "id": "documents[fair-cutting]",
+    "field": "contentMarkdown",
+    "source": "**Paris Insurance Fair: 3 Days, 40 Insurers.** The fair closes today at Porte de Versailles. It opened on 29 June.\n\n*Dele Okonjo, for the City of Paris, with his brother Samuel Okonjo, head of Okonjo Insurance.*",
+    "text": "**Страховая выставка Парижа: 3 дня, 40 страховщиков.** Выставка сегодня закрывается у Porte de Versailles. Она открылась 29 июня.\n\n*Деле Оконджо от мэрии Парижа с братом Самюэлем Оконджо, главой Okonjo Insurance.*",
+    "note": "dossier \"Who Is K?\" · document `fair-cutting` — contentMarkdown",
+    "rev": "c647c2a95192"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "title",
+    "source": "SEARCH OF DELE OKONJO'S FLAT",
+    "text": "ОБЫСК В КВАРТИРЕ ДЕЛЕ ОКОНДЖО",
+    "note": "dossier \"Who Is K?\" · document `the-search` — title",
+    "rev": "f7bfaed17a81"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "contentMarkdown",
+    "source": "**12 Rue de Reuilly, 4th floor. Wednesday 16 December 2026, 18:40.**\n\nDele Okonjo was arrested at home, once his name was known. In his flat:\n\n| what | how many |\n| --- | --- |\n| `Crowbar`, Brikoko label | 3 |\n| `Rope`, Brikoko label | 4 |\n| `Tape`, Brikoko label | 5 |\n| `Gloves`, Brikoko label | 4 pairs |\n| cash, in 50-euro notes, in a sports bag | 60,000 euros |\n| a Mutefone V4 | 1 |\n| a badge for the Paris Public Insurance Day: `Dele Okonjo`, `City of Paris` | 1 |\n| a badge for the same day: `Kevin Germon`, `Vigie Assurances` | 1 |\n| a badge kept from the June fair: `F-101`, `Dele Okonjo`, `City of Paris` | 1 |\n| a badge kept from the June fair: `F-131`, `Kevin Germon`, `Vigie Assurances` | 1 |\n\nThe messages on the telephone are in `dele_phone_v4`.\n\nDele Okonjo answered no question.",
+    "text": "**12 Rue de Reuilly, 4-й этаж. Среда, 16 декабря 2026, 18:40.**\n\nДеле Оконджо арестовали дома, как только узнали его имя. В квартире:\n\n| что | сколько |\n| --- | --- |\n| `Crowbar`, этикетка Brikoko | 3 |\n| `Rope`, этикетка Brikoko | 4 |\n| `Tape`, этикетка Brikoko | 5 |\n| `Gloves`, этикетка Brikoko | 4 пары |\n| наличные, купюрами по 50 евро, в спортивной сумке | 60 000 евро |\n| Mutefone V4 | 1 |\n| бейдж на Paris Public Insurance Day: `Dele Okonjo`, `City of Paris` | 1 |\n| бейдж на тот же день: `Kevin Germon`, `Vigie Assurances` | 1 |\n| бейдж, оставшийся с июньской выставки: `F-101`, `Dele Okonjo`, `City of Paris` | 1 |\n| бейдж, оставшийся с июньской выставки: `F-131`, `Kevin Germon`, `Vigie Assurances` | 1 |\n\nСообщения с телефона — в `dele_phone_v4`.\n\nДеле Оконджо не ответил ни на один вопрос.",
+    "note": "dossier \"Who Is K?\" · document `the-search` — contentMarkdown",
+    "rev": "2b461c0af101"
+  },
+  {
+    "id": "documents[fair-plan]",
+    "field": "title",
+    "source": "PARIS INSURANCE FAIR: THE FLOOR",
+    "text": "ПАРИЖСКАЯ СТРАХОВАЯ ВЫСТАВКА: ПЛАН ЭТАЖА",
+    "note": "dossier \"Who Is K?\" · document `fair-plan` — title",
+    "rev": "9da853490ab9"
+  },
+  {
+    "id": "documents[fair-plan]",
+    "field": "contentMarkdown",
+    "source": "**The floor of the June fair.**\n\nEvery door has a badge reader. The names are those of `fair_badges`. `Room A`, `Room B` and `Room C` are closed meeting rooms.",
+    "text": "**План июньской выставки.**\n\nУ каждой двери есть считыватель бейджей. Названия — как в `fair_badges`. Переговорные A (`Room A`), B (`Room B`) и C (`Room C`) закрыты.",
+    "note": "dossier \"Who Is K?\" · document `fair-plan` — contentMarkdown",
+    "rev": "409e28304855"
+  },
+  {
+    "id": "documents[the-leak-v4]",
+    "field": "title",
+    "source": "POSTED ONLINE, MONDAY 14 DECEMBER",
+    "text": "Опубликовано в сети, понедельник, 14 декабря",
+    "note": "dossier \"Who Is K?\" · document `the-leak-v4` — title",
+    "rev": "afe6f77a30f2"
+  },
+  {
+    "id": "documents[the-leak-v4]",
+    "field": "contentMarkdown",
+    "source": "**part 2: the v4.**\n\nv4 uses the v2 key from `leaked_key`, with 2 changes:\n\n1. it adds 5 to every code. so a v4 code can go past 99.\n2. it sends the message backwards. the last letter is `pos` 1.\n\nthe update also codes again every message already on the telephone, the old ones too.\n\nthat's it (and they called that a security update lol)",
+    "text": "**часть 2: v4.**\n\nv4 берёт ключ v2 из `leaked_key`, с 2 изменениями:\n\n1. она прибавляет 5 к каждому коду. так что код v4 может быть больше 99.\n2. она отправляет сообщение задом наперёд. последняя буква — это `pos` 1.\n\nобновление ещё и перекодирует все сообщения, которые уже лежат в телефоне, старые тоже.\n\nвот и всё (и они назвали это обновлением безопасности lol)",
+    "note": "dossier \"Who Is K?\" · document `the-leak-v4` — contentMarkdown",
+    "rev": "212ab1778f5b"
+  },
+  {
+    "id": "csvFiles[crew_messages]",
+    "field": "description",
+    "source": "The crew's telephone, decoded: every message, the day, the contact, `In` or `Out`, and the `message`.",
+    "text": "Расшифрованный телефон банды: каждое сообщение, день, контакт, входящее (`In`) или исходящее (`Out`), а также `message`.",
+    "note": "dossier \"Who Is K?\" · the `crew_messages` table — description",
+    "rev": "e17f5f5d9524"
+  },
+  {
+    "id": "csvFiles[brikoko_sales]",
+    "field": "description",
+    "source": "The sales of the Brikoko shop on the crew's map, June to December 2026: the day, the time, the item, how many, the price, and the loyalty `card` if one was used.",
+    "text": "Продажи магазина Brikoko с карты банды с июня по декабрь 2026 года: день, время, товар, количество, цена и карта лояльности `card`, если её использовали.",
+    "note": "dossier \"Who Is K?\" · the `brikoko_sales` table — description",
+    "rev": "48082b3499d5"
+  },
+  {
+    "id": "csvFiles[brikoko_cards]",
+    "field": "description",
+    "source": "Brikoko's loyalty cards: the `card`, its `holder` and an `address`.",
+    "text": "Карты лояльности Brikoko: номер `card`, владелец `holder` и адрес `address`.",
+    "note": "dossier \"Who Is K?\" · the `brikoko_cards` table — description",
+    "rev": "139853b354de"
+  },
+  {
+    "id": "csvFiles[metro_validations]",
+    "field": "description",
+    "source": "Every Navigo exit from June to December 2026, at 14 stations. They are the shop's, each claim's, and 4 more.",
+    "text": "Все выходы по картам Navigo с июня по декабрь 2026 года на 14 станциях. Это станция у магазина, станции каждого страхового случая и ещё 4 станции.",
+    "note": "dossier \"Who Is K?\" · the `metro_validations` table — description",
+    "rev": "ce446c533fc8"
+  },
+  {
+    "id": "csvFiles[navigo_cards]",
+    "field": "description",
+    "source": "Who holds each Navigo: `card_id`, `holder_last`, `holder_first`.",
+    "text": "Владелец каждой карты Navigo: `card_id`, `holder_last`, `holder_first`.",
+    "note": "dossier \"Who Is K?\" · the `navigo_cards` table — description",
+    "rev": "e940e693b738"
+  },
+  {
+    "id": "csvFiles[dele_phone_v4]",
+    "field": "description",
+    "source": "Dele Okonjo's Mutefone V4, coded, one row per code: the message, the day, the contact, the direction, the place of the code, and the code, `num`.",
+    "text": "Зашифрованный телефон Mutefone V4 Деле Оконджо, по одной строке на код: сообщение, день, контакт, направление, позиция кода и сам код, `num`.",
+    "note": "dossier \"Who Is K?\" · the `dele_phone_v4` table — description",
+    "rev": "a80c422dac5b"
+  },
+  {
+    "id": "csvFiles[leaked_key]",
+    "field": "description",
+    "source": "The Mutefone V2 key, leaked online on 14 December: each code, `num`, and the `symbol` it stands for.",
+    "text": "Ключ к Mutefone V2, утекший в сеть 14 декабря: каждый код, `num`, и символ, который он обозначает, `symbol`.",
+    "note": "dossier \"Who Is K?\" · the `leaked_key` table — description",
+    "rev": "a9e60b12469a"
+  },
+  {
+    "id": "csvFiles[fair_badges]",
+    "field": "description",
+    "source": "The badge log of the Paris Insurance Fair, 29 June to 1 July 2026: the badge, its holder, the company, the door, the day and the time.",
+    "text": "Журнал пропусков Парижской страховой выставки с 29 июня по 1 июля 2026 года: пропуск, его владелец, компания, дверь, день и время.",
+    "note": "dossier \"Who Is K?\" · the `fair_badges` table — description",
+    "rev": "42919343146b"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "title",
+    "source": "18:00, the Shop",
+    "text": "18:00, магазин",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — title",
+    "rev": "b8e1878e539a"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "instructions",
+    "source": "The evening before each robbery, K had the kit ready at the shop by 18:00. A company card paid each time. `metro_validations` holds the Navigo exits.",
+    "text": "Накануне каждого ограбления K готовил снаряжение в магазине к 18:00. Каждый раз платила корпоративная карта. `metro_validations` хранит выходы по картам Navigo.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — instructions",
+    "rev": "756f1be55bf9"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "expectedResult",
+    "source": "Find the man who carried the kit. Return his row of `navigo_cards`.",
+    "text": "Найди человека, который забирал снаряжение. Верни его строку из `navigo_cards`.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — expectedResult",
+    "rev": "b8fda5e6fb6c"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "expectedShapeNote",
+    "source": "1 row: his Navigo and his name.",
+    "text": "1 строка: его Navigo и его имя.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — expectedShapeNote",
+    "rev": "2f2ef1105e84"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterText",
+    "source": "Dele Okonjo. Samuel Okonjo's brother. We arrested him at home this evening.",
+    "text": "Деле Оконджо. Брат Самюэля Оконджо. Мы арестовали его дома сегодня вечером.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterText",
+    "rev": "c25565df5c70"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterTextNext",
+    "source": "We found the shop's tools at his home. 60,000 euros in cash. A Mutefone V4. And 4 fair badges.",
+    "text": "Мы нашли инструменты из магазина у него дома. 60 000 евро наличными. Mutefone V4. И 4 бейджа с выставки.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterTextNext",
+    "rev": "a416a529ac22"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterTextThen",
+    "source": "2 badges for next week, 2 kept from the June fair. That fair sent us its badge log. He won't talk. Find who paid him, and why.",
+    "text": "2 бейджа на следующую неделю, 2 оставшихся с июньской выставки. Эта выставка прислала нам журнал бейджей. Он молчит. Найди, кто ему платил и зачем.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterTextThen",
+    "rev": "6a884c58aa76"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "lead",
+    "source": "Check the Brikoko sales first. Then look in the metro for the one person who was there at every incident.",
+    "text": "Сначала проверь продажи Brikoko. Затем найди в метро того единственного человека, который был на каждом происшествии.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — lead",
+    "rev": "3bd20b3e799f"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "title",
+    "source": "Who Runs Kevin Germon?",
+    "text": "Кто руководит Kevin Germon?",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — title",
+    "rev": "91d76933c93f"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "instructions",
+    "source": "Dele Okonjo says nothing about the 60,000 euros. 4 fair badges were in his flat. His telephone is in `dele_phone_v4`.",
+    "text": "Деле Оконджо молчит о 60 000 евро. У него в квартире было 4 бейджа с выставок. Его телефон — в `dele_phone_v4`.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — instructions",
+    "rev": "ca9aa8d4543a"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "expectedResult",
+    "source": "`fair_badges` is the badge log of the June fair. Kevin Germon has a Vigie badge. Who at Vigie gives him his orders? Return 1 row: the `holder`, the `company` and the `door`.",
+    "text": "`fair_badges` — журнал бейджей июньской выставки. У Kevin Germon бейдж Vigie. Кто в Vigie отдаёт ему приказы? Верни 1 строку: `holder`, `company` и `door`.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — expectedResult",
+    "rev": "7a149630d681"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "expectedShapeNote",
+    "source": "1 row: a name, a company and a door.",
+    "text": "1 строка: имя, компания и дверь.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — expectedShapeNote",
+    "rev": "7fbee06a3bbb"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "afterText",
+    "source": "Bertrand Lacombe, a director of Vigie. `Room B` is where he met Kevin Germon.",
+    "text": "Bertrand Lacombe, директор Vigie. В переговорной (`Room B`) он встречался с Kevin Germon.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — afterText",
+    "rev": "13e8b2f231bc"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "lead",
+    "source": "Find who Dele Okonjo, or rather Kevin Germon, was with at the June insurance fair.",
+    "text": "Найди, с кем Деле Оконджо, а точнее Kevin Germon, был на июньской страховой выставке.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — lead",
+    "rev": "c4cfdf37c1c1"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "`brikoko_sales`: the company card buys the kit on the 7 evenings. `metro_validations`: 2 Navigo at `Ledru-Rollin` before each purchase. Only 1 also left the metro near every claim. `navigo_cards`: Dele Okonjo.",
+    "text": "`brikoko_sales`: корпоративная карта покупает снаряжение в 7 вечеров. `metro_validations`: 2 карты Navigo на `Ledru-Rollin` перед каждой покупкой. Только 1 выходила из метро и рядом с каждым страховым случаем. `navigo_cards`: Деле Оконджо.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "eea69191c440"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "`dele_phone_v4`, read backwards with `leaked_key`, each code minus 5. It names Kevin Germon and 3 meetings in `Room B` at 11:00. `fair_badges`: Bertrand Lacombe, Vigie Assurances.",
+    "text": "`dele_phone_v4`, прочитанный задом наперёд с `leaked_key`, каждый код минус 5. В нём есть Kevin Germon и 3 встречи в переговорной (`Room B`) в 11:00. `fair_badges`: Bertrand Lacombe, Vigie Assurances.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "e1ba61904d34"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`fair_badges`: Helene Marsac is Vigie's other director. She met Dele Okonjo under his own name, in `Room A` at 14:00, at a City meeting.",
+    "text": "`fair_badges`: Helene Marsac — второй директор Vigie. Она встретилась с Деле Оконджо под его настоящим именем в переговорной (`Room A`) в 14:00, на встрече мэрии.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "3405d18c7d9f"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own title",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own arcTitle",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "text": "PROLOGUE",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "Before the first query: what a turnstile records. And the ticket left in the hall.",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own summary",
+    "rev": "ef692f08a934"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "2 minutes, no typing. Reyes opens the network log.",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own pitchMarkdown",
+    "rev": "6e497133d39e"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "NOVEMBER 2, 2026",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's date",
+    "rev": "e1de7a669c25"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's headline",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "The network log",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's subheadline",
+    "rev": "0d7eba8e9971"
+  },
+  {
+    "id": "steps[ramponeau-prologue-watched]",
+    "field": "title",
+    "text": "Prologue",
+    "note": "dossier \"Rue Ramponeau\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[ramponeau-prologue-watched]",
+    "field": "instructions",
+    "text": "Watch the briefing.",
+    "note": "dossier \"Rue Ramponeau\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

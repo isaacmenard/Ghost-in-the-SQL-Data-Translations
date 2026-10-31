@@ -1,0 +1,474 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Who Is K?",
+    "text": "K는 누구인가?",
+    "note": "dossier \"Who Is K?\" · the dossier's own title",
+    "rev": "4198822814de"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "피날레",
+    "note": "dossier \"Who Is K?\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The day after the van. K had the crew's kit ready at a shop, paid on a company card. Find who carried it. Then find who pays K.",
+    "text": "호송 차량 사건 다음 날. K는 한 상점에서 법인 카드로 결제해 일당의 장비를 준비해 두었다. 장비를 운반한 자를 찾아라. 그런 다음 K에게 자금을 대는 자를 찾아라.",
+    "note": "dossier \"Who Is K?\" · the dossier's own summary",
+    "rev": "ca5065e88514"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Wednesday 16 December. Paris.\n\nThe van reached the Tribunal. K is still a letter. Give him a name.",
+    "text": "2026년 12월 16일 수요일. 파리.\n\n호송 차량은 법원에 도착했다. K는 아직 글자 하나일 뿐이다. 그에게 이름을 찾아주어라.",
+    "note": "dossier \"Who Is K?\" · the dossier's own pitchMarkdown",
+    "rev": "c7e2871ff64f"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "8 tables, 1 map and 1 telephone.\n\n`crew_messages` holds the crew's messages with K, already in plain text. `brikoko_sales` and `brikoko_cards` are the shop's sales and its loyalty cards.\n\n`metro_validations` holds the Navigo exits at 14 stations: the shop's, each claim's, and 4 more. `navigo_cards` says whose Navigo it is.\n\n`dele_phone_v4`, `leaked_key` and `fair_badges` are for later in the file. `fair_badges` is the badge log of the June fair.",
+    "text": "표 8개, 지도 1장, 전화기 1대.\n\n`crew_messages`에는 일당이 K와 주고받은 메시지가 이미 평문으로 담겨 있다. `brikoko_sales`와 `brikoko_cards`는 상점의 판매 내역과 포인트 카드다.\n\n`metro_validations`에는 14개 역의 승차권 하차 기록이 담겨 있다. 상점 인근 역, 각 청구 건의 발생지 인근 역, 그리고 다른 역 4곳이다. `navigo_cards`는 누구의 승차권인지 보여준다.\n\n`dele_phone_v4`, `leaked_key`, `fair_badges`는 사건 파일 후반에 확인한다. `fair_badges`는 6월 박람회의 출입증 태그 기록이다.",
+    "note": "dossier \"Who Is K?\" · the dossier's own rulesMarkdown",
+    "rev": "5230cb04779b"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who is K, and who pays him?",
+    "text": "K는 누구이며, 그에게 돈을 대는 자는 누구인가?",
+    "note": "dossier \"Who Is K?\" · the dossier's own openQuestion",
+    "rev": "9030d58d4eb2"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "K is Dele Okonjo, and Bertrand Lacombe of Vigie pays him",
+    "text": "K는 Dele Okonjo이며, Vigie의 Bertrand Lacombe이 그에게 돈을 댄다",
+    "note": "dossier \"Who Is K?\" · the dossier's own verdictText",
+    "rev": "1d3beb5d4dca"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 16, 2026",
+    "text": "2026년 12월 16일",
+    "note": "dossier \"Who Is K?\" · the gazette's date",
+    "rev": "78b24ad3ab9e"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Who Is K?\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Prison Van Reaches the Court",
+    "text": "호송 차량, 법원 도착",
+    "note": "dossier \"Who Is K?\" · the gazette's headline",
+    "rev": "b34a2d3be04b"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "3 False Alarms, and the Police Were Already There",
+    "text": "3건의 허위 경보, 그리고 이미 현장에 있던 경찰",
+    "note": "dossier \"Who Is K?\" · the gazette's subheadline",
+    "rev": "515fadd45288"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "On Tuesday from 06:35, 3 banks on the van's route raised an alarm, 5 minutes apart. Police officers were already inside each of them. The van reached the Tribunal at 06:50.\n\nThe man who planned it signs his messages with one letter, K.",
+    "text": "화요일 06:35부터 호송 차량 이동 경로에 있던 은행 3곳이 5분 간격으로 비상벨을 울렸다. 각 은행 안에는 이미 경찰관이 배치되어 있었다. 호송 차량은 06:50에 법원에 도착했다.\n\n범행을 계획한 자는 메시지에 글자 하나, K로 서명한다.",
+    "note": "dossier \"Who Is K?\" · the gazette's editorialArticle",
+    "rev": "82f73d0feb48"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Nobody ran to the banks. We were already there.\"",
+    "text": "“아무도 은행으로 달려가지 않았다. 우리는 이미 그곳에 있었다.”",
+    "note": "dossier \"Who Is K?\" · the gazette's leadQuote",
+    "rev": "c5e9b53fdcd8"
+  },
+  {
+    "id": "documents[metro-1216]",
+    "field": "title",
+    "source": "Wednesday 16 December 2026",
+    "text": "2026년 12월 16일 수요일",
+    "note": "dossier \"Who Is K?\" · document `metro-1216` — title",
+    "rev": "e2e4dedc0f21"
+  },
+  {
+    "id": "documents[metro-1216-city]",
+    "field": "title",
+    "source": "The City Picks Its Insurer in January",
+    "text": "시 당국, 1월에 보험사 선정",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-city` — title",
+    "rev": "8e4847fcf8e2"
+  },
+  {
+    "id": "documents[metro-1216-city]",
+    "field": "contentMarkdown",
+    "source": "In January, the City of Paris picks the insurer of all its buildings. Its buildings office makes the choice. Vigie Assurances is the favourite. Okonjo Insurance, hit by a year of claims, could go bankrupt.",
+    "text": "1월, 파리시는 시 소유 모든 건물을 맡을 보험사를 선정한다. 시청 건축과가 결정을 내린다. Vigie Assurances이 유력 후보다. 1년 동안 쏟아진 청구 건으로 타격을 입은 Okonjo Insurance은 파산 위기에 처할 수 있다.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-city` — contentMarkdown",
+    "rev": "35bc6b49d9fe"
+  },
+  {
+    "id": "documents[metro-1216-samuel]",
+    "field": "title",
+    "source": "Samuel Okonjo: \"Somebody Wants Our Company to Fail\"",
+    "text": "Samuel Okonjo: “누군가 우리 회사가 무너지기를 바란다”",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-samuel` — title",
+    "rev": "683dfeba22e2"
+  },
+  {
+    "id": "documents[metro-1216-samuel]",
+    "field": "contentMarkdown",
+    "source": "Samuel Okonjo, head of Okonjo Insurance, spoke for the first time yesterday. \"7 banks, 2 fires, 1 insurer. Somebody wants our company to fail.\"",
+    "text": "Okonjo Insurance 대표 Samuel Okonjo가 어제 처음으로 입을 열었다. “은행 7곳, 화재 2건, 보험사 1곳. 누군가 우리 회사가 무너지기를 바라고 있다.”",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-samuel` — contentMarkdown",
+    "rev": "84f76c9b8fcc"
+  },
+  {
+    "id": "documents[metro-1216-fair]",
+    "field": "title",
+    "source": "Paris Public Insurance Day: Next Week",
+    "text": "파리 공공보험의 날: 다음 주",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-fair` — title",
+    "rev": "fa9ca4a6ae59"
+  },
+  {
+    "id": "documents[metro-1216-fair]",
+    "field": "contentMarkdown",
+    "source": "On 22 and 23 December, the City's buyers meet the insurance companies at Porte de Versailles. Vigie Assurances comes with its 2 directors, Helene Marsac and Bertrand Lacombe.",
+    "text": "12월 22일과 23일, 시청 구매 담당자들은 포르트 드 베르사유에서 보험사들을 만난다. Vigie Assurances에서는 이사 2명인 Helene Marsac과 Bertrand Lacombe이 참석한다.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-fair` — contentMarkdown",
+    "rev": "305bf0e607bc"
+  },
+  {
+    "id": "documents[metro-1216-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 6",
+    "text": "뮤트폰 6",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-mutefone` — title",
+    "rev": "1468fc7a5782"
+  },
+  {
+    "id": "documents[metro-1216-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Your own number, inside every code.",
+    "text": "모든 암호 안에 담긴, 당신만의 번호.",
+    "note": "dossier \"Who Is K?\" · document `metro-1216-mutefone` — contentMarkdown",
+    "rev": "fc495d2ff309"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE CREW'S MAP",
+    "text": "일당의 지도",
+    "note": "dossier \"Who Is K?\" · document `paris-map` — title",
+    "rev": "3543463c381b"
+  },
+  {
+    "id": "documents[network-plan]",
+    "field": "title",
+    "source": "METRO MAP",
+    "text": "지하철 노선도",
+    "note": "dossier \"Who Is K?\" · document `network-plan` — title",
+    "rev": "0c70e3586d23"
+  },
+  {
+    "id": "documents[okonjo-claims]",
+    "field": "title",
+    "source": "OKONJO INSURANCE: THE CLAIMS",
+    "text": "Okonjo Insurance: 청구 내역",
+    "note": "dossier \"Who Is K?\" · document `okonjo-claims` — title",
+    "rev": "20759bff5c3b"
+  },
+  {
+    "id": "documents[okonjo-claims]",
+    "field": "contentMarkdown",
+    "source": "**Every closed file where Okonjo Insurance is the insurer.** Beside each, the nearest metro station.\n\n| day | what | metro |\n| --- | --- | --- |\n| 14 October 2025 | College Jean Moulin, the fire | `Crimee` |\n| 5 June | Rivage Passy, robbed | `Passy` |\n| 10 July | Municipale Vaugirard, robbed | `Vaugirard` |\n| 7 August | Vernier Batignolles, robbed | `Rome` |\n| 11 September | Orme Lecourbe, robbed | `Sevres-Lecourbe` |\n| 9 October | Civique Auteuil, robbed | `Michel-Ange-Auteuil` |\n| 21 October | The Auteuil greenhouses, the fire | `Michel-Ange-Molitor` |\n| 6 November | Municipale Ternes, robbed | `Ternes` |\n| 4 December | Civique Mozart, the attempt | `Jasmin` |",
+    "text": "**Okonjo Insurance이 담당한 모든 종결 사건 파일.** 각 사건 옆에는 가장 가까운 지하철역이 적혀 있다.\n\n| 일자 | 내용 | 지하철역 |\n| --- | --- | --- |\n| 2025년 10월 14일 | College Jean Moulin, 화재 | `Crimee` |\n| 6월 5일 | Rivage Passy, 강도 사건 | `Passy` |\n| 7월 10일 | Municipale Vaugirard, 강도 사건 | `Vaugirard` |\n| 8월 7일 | Vernier Batignolles, 강도 사건 | `Rome` |\n| 9월 11일 | Orme Lecourbe, 강도 사건 | `Sevres-Lecourbe` |\n| 10월 9일 | Civique Auteuil, 강도 사건 | `Michel-Ange-Auteuil` |\n| 10월 21일 | 오퇴유 온실, 화재 | `Michel-Ange-Molitor` |\n| 11월 6일 | Municipale Ternes, 강도 사건 | `Ternes` |\n| 12월 4일 | Civique Mozart, 미수 사건 | `Jasmin` |",
+    "note": "dossier \"Who Is K?\" · document `okonjo-claims` — contentMarkdown",
+    "rev": "7935d265f1dd"
+  },
+  {
+    "id": "documents[fair-cutting]",
+    "field": "title",
+    "source": "FROM THE PAPER, 1 JULY 2026",
+    "text": "2026년 7월 1일 자 신문",
+    "note": "dossier \"Who Is K?\" · document `fair-cutting` — title",
+    "rev": "d43b9ca5146e"
+  },
+  {
+    "id": "documents[fair-cutting]",
+    "field": "contentMarkdown",
+    "source": "**Paris Insurance Fair: 3 Days, 40 Insurers.** The fair closes today at Porte de Versailles. It opened on 29 June.\n\n*Dele Okonjo, for the City of Paris, with his brother Samuel Okonjo, head of Okonjo Insurance.*",
+    "text": "**파리 보험 박람회: 3일간, 40개 보험사 참가.** 박람회가 오늘 포르트 드 베르사유에서 막을 내린다. 개막일은 6월 29일이었다.\n\n*파리시 소속 Dele Okonjo와 그의 형제이자 Okonjo Insurance 대표인 Samuel Okonjo.*",
+    "note": "dossier \"Who Is K?\" · document `fair-cutting` — contentMarkdown",
+    "rev": "c647c2a95192"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "title",
+    "source": "SEARCH OF DELE OKONJO'S FLAT",
+    "text": "Dele Okonjo의 아파트 수색",
+    "note": "dossier \"Who Is K?\" · document `the-search` — title",
+    "rev": "f7bfaed17a81"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "contentMarkdown",
+    "source": "**12 Rue de Reuilly, 4th floor. Wednesday 16 December 2026, 18:40.**\n\nDele Okonjo was arrested at home, once his name was known. In his flat:\n\n| what | how many |\n| --- | --- |\n| `Crowbar`, Brikoko label | 3 |\n| `Rope`, Brikoko label | 4 |\n| `Tape`, Brikoko label | 5 |\n| `Gloves`, Brikoko label | 4 pairs |\n| cash, in 50-euro notes, in a sports bag | 60,000 euros |\n| a Mutefone V4 | 1 |\n| a badge for the Paris Public Insurance Day: `Dele Okonjo`, `City of Paris` | 1 |\n| a badge for the same day: `Kevin Germon`, `Vigie Assurances` | 1 |\n| a badge kept from the June fair: `F-101`, `Dele Okonjo`, `City of Paris` | 1 |\n| a badge kept from the June fair: `F-131`, `Kevin Germon`, `Vigie Assurances` | 1 |\n\nThe messages on the telephone are in `dele_phone_v4`.\n\nDele Okonjo answered no question.",
+    "text": "**뤼 드 뢰이 12번지 4층. 2026년 12월 16일 수요일 18:40.**\n\n신원이 확인된 직후 Dele Okonjo는 자택에서 체포되었다. 주거지 내부 발견 물품:\n\n| 품목 | 수량 |\n| --- | --- |\n| `Crowbar`, Brikoko 라벨 | 3 |\n| `Rope`, Brikoko 라벨 | 4 |\n| `Tape`, Brikoko 라벨 | 5 |\n| `Gloves`, Brikoko 라벨 | 4켤레 |\n| 스포츠 가방에 든 50유로 지폐 현금 | 60,000유로 |\n| 뮈트폰 V4 | 1 |\n| 파리 공공 보험의 날 출입증: `Dele Okonjo`, `City of Paris` | 1 |\n| 같은 날짜의 출입증: `Kevin Germon`, `Vigie Assurances` | 1 |\n| 6월 박람회 출입증 보관분: `F-101`, `Dele Okonjo`, `City of Paris` | 1 |\n| 6월 박람회 출입증 보관분: `F-131`, `Kevin Germon`, `Vigie Assurances` | 1 |\n\n전화기에 남은 메시지는 `dele_phone_v4`에 있다.\n\nDele Okonjo는 어떤 질문에도 답하지 않았다.",
+    "note": "dossier \"Who Is K?\" · document `the-search` — contentMarkdown",
+    "rev": "2b461c0af101"
+  },
+  {
+    "id": "documents[fair-plan]",
+    "field": "title",
+    "source": "PARIS INSURANCE FAIR: THE FLOOR",
+    "text": "파리 보험 박람회: 행사장 배치도",
+    "note": "dossier \"Who Is K?\" · document `fair-plan` — title",
+    "rev": "9da853490ab9"
+  },
+  {
+    "id": "documents[fair-plan]",
+    "field": "contentMarkdown",
+    "source": "**The floor of the June fair.**\n\nEvery door has a badge reader. The names are those of `fair_badges`. `Room A`, `Room B` and `Room C` are closed meeting rooms.",
+    "text": "**6월 박람회장 평면도.**\n\n모든 문에는 출입증 인식기가 설치되어 있다. 구역 명칭은 `fair_badges`의 이름과 일치한다. 회의실 A(`Room A`), 회의실 B(`Room B`), 회의실 C(`Room C`)는 닫혀 있다.",
+    "note": "dossier \"Who Is K?\" · document `fair-plan` — contentMarkdown",
+    "rev": "409e28304855"
+  },
+  {
+    "id": "documents[the-leak-v4]",
+    "field": "title",
+    "source": "POSTED ONLINE, MONDAY 14 DECEMBER",
+    "text": "온라인 게시, 12월 14일 월요일",
+    "note": "dossier \"Who Is K?\" · document `the-leak-v4` — title",
+    "rev": "afe6f77a30f2"
+  },
+  {
+    "id": "documents[the-leak-v4]",
+    "field": "contentMarkdown",
+    "source": "**part 2: the v4.**\n\nv4 uses the v2 key from `leaked_key`, with 2 changes:\n\n1. it adds 5 to every code. so a v4 code can go past 99.\n2. it sends the message backwards. the last letter is `pos` 1.\n\nthe update also codes again every message already on the telephone, the old ones too.\n\nthat's it (and they called that a security update lol)",
+    "text": "**2부: v4.**\n\nv4는 `leaked_key`의 v2 키를 사용하며, 변경점은 2가지다:\n\n1. 모든 코드에 5를 더한다. 그래서 v4 코드는 99를 넘길 수 있다.\n2. 메시지를 역순으로 전송한다. 마지막 글자가 `pos` 1이 된다.\n\n이번 업데이트는 전화기에 이미 있던 모든 메시지도 다시 암호화한다. 오래된 메시지까지 전부.\n\n그게 끝이다 (이걸 보안 업데이트라고 부르다니 ㅋㅋㅋ)",
+    "note": "dossier \"Who Is K?\" · document `the-leak-v4` — contentMarkdown",
+    "rev": "212ab1778f5b"
+  },
+  {
+    "id": "csvFiles[crew_messages]",
+    "field": "description",
+    "source": "The crew's telephone, decoded: every message, the day, the contact, `In` or `Out`, and the `message`.",
+    "text": "해독된 일당의 전화 기록: 모든 메시지, 날짜, 연락처, 수신(`In`) 또는 발신(`Out`), 그리고 `message`.",
+    "note": "dossier \"Who Is K?\" · the `crew_messages` table — description",
+    "rev": "e17f5f5d9524"
+  },
+  {
+    "id": "csvFiles[brikoko_sales]",
+    "field": "description",
+    "source": "The sales of the Brikoko shop on the crew's map, June to December 2026: the day, the time, the item, how many, the price, and the loyalty `card` if one was used.",
+    "text": "일당의 지도에 표시된 Brikoko 상점의 2026년 6월부터 12월까지 판매 내역: 날짜, 시간, 품목, 수량, 가격, 그리고 사용된 경우 멤버십 `card`.",
+    "note": "dossier \"Who Is K?\" · the `brikoko_sales` table — description",
+    "rev": "48082b3499d5"
+  },
+  {
+    "id": "csvFiles[brikoko_cards]",
+    "field": "description",
+    "source": "Brikoko's loyalty cards: the `card`, its `holder` and an `address`.",
+    "text": "Brikoko의 멤버십 카드: `card`, 소지자 `holder`, 그리고 `address`.",
+    "note": "dossier \"Who Is K?\" · the `brikoko_cards` table — description",
+    "rev": "139853b354de"
+  },
+  {
+    "id": "csvFiles[metro_validations]",
+    "field": "description",
+    "source": "Every Navigo exit from June to December 2026, at 14 stations. They are the shop's, each claim's, and 4 more.",
+    "text": "2026년 6월부터 12월까지 14개 역에서의 모든 나비고 승차권 하차 기록. 상점 소재 역, 각 청구지의 역, 그리고 추가 4개 역이다.",
+    "note": "dossier \"Who Is K?\" · the `metro_validations` table — description",
+    "rev": "ce446c533fc8"
+  },
+  {
+    "id": "csvFiles[navigo_cards]",
+    "field": "description",
+    "source": "Who holds each Navigo: `card_id`, `holder_last`, `holder_first`.",
+    "text": "각 나비고 승차권의 소지자: `card_id`, `holder_last`, `holder_first`.",
+    "note": "dossier \"Who Is K?\" · the `navigo_cards` table — description",
+    "rev": "e940e693b738"
+  },
+  {
+    "id": "csvFiles[dele_phone_v4]",
+    "field": "description",
+    "source": "Dele Okonjo's Mutefone V4, coded, one row per code: the message, the day, the contact, the direction, the place of the code, and the code, `num`.",
+    "text": "암호화된 Dele Okonjo의 뮤트폰 V4 내역, 코드 하나당 한 행: 메시지, 날짜, 연락처, 방향, 코드 위치, 그리고 코드 `num`.",
+    "note": "dossier \"Who Is K?\" · the `dele_phone_v4` table — description",
+    "rev": "a80c422dac5b"
+  },
+  {
+    "id": "csvFiles[leaked_key]",
+    "field": "description",
+    "source": "The Mutefone V2 key, leaked online on 14 December: each code, `num`, and the `symbol` it stands for.",
+    "text": "12월 14일 온라인에 유출된 뮤트폰 V2 암호 키: 각 코드 `num`, 그리고 해당 코드가 나타내는 `symbol`.",
+    "note": "dossier \"Who Is K?\" · the `leaked_key` table — description",
+    "rev": "a9e60b12469a"
+  },
+  {
+    "id": "csvFiles[fair_badges]",
+    "field": "description",
+    "source": "The badge log of the Paris Insurance Fair, 29 June to 1 July 2026: the badge, its holder, the company, the door, the day and the time.",
+    "text": "2026년 6월 29일부터 7월 1일까지 파리 보험 박람회의 출입증 기록: 출입증, 소지자, 회사, 출입문, 날짜, 시간.",
+    "note": "dossier \"Who Is K?\" · the `fair_badges` table — description",
+    "rev": "42919343146b"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "title",
+    "source": "18:00, the Shop",
+    "text": "18:00, 상점",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — title",
+    "rev": "b8e1878e539a"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "instructions",
+    "source": "The evening before each robbery, K had the kit ready at the shop by 18:00. A company card paid each time. `metro_validations` holds the Navigo exits.",
+    "text": "강도 사건 전날 저녁마다 K는 18:00까지 상점에 장비를 준비해 두었다. 결제는 매번 법인 카드로 이루어졌다. `metro_validations`에 승차권 하차 기록이 있다.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — instructions",
+    "rev": "756f1be55bf9"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "expectedResult",
+    "source": "Find the man who carried the kit. Return his row of `navigo_cards`.",
+    "text": "장비를 운반한 자를 찾아라. `navigo_cards`에서 그의 행을 반환해라.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — expectedResult",
+    "rev": "b8fda5e6fb6c"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "expectedShapeNote",
+    "source": "1 row: his Navigo and his name.",
+    "text": "1개 행: 그의 승차권과 이름.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — expectedShapeNote",
+    "rev": "2f2ef1105e84"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterText",
+    "source": "Dele Okonjo. Samuel Okonjo's brother. We arrested him at home this evening.",
+    "text": "Dele Okonjo. Samuel Okonjo의 동생이다. 오늘 저녁 집에서 체포했다.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterText",
+    "rev": "c25565df5c70"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterTextNext",
+    "source": "We found the shop's tools at his home. 60,000 euros in cash. A Mutefone V4. And 4 fair badges.",
+    "text": "놈의 집에서 그 매장의 공구들을 찾아냈다. 현금 60,000 유로. 뮤트폰 V4. 그리고 박람회 출입증 4장.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterTextNext",
+    "rev": "a416a529ac22"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "afterTextThen",
+    "source": "2 badges for next week, 2 kept from the June fair. That fair sent us its badge log. He won't talk. Find who paid him, and why.",
+    "text": "다음 주용 출입증 2장, 6월 박람회에서 챙겨 둔 2장. 그 박람회에서 출입증 기록을 보내왔다. 놈은 입을 열지 않는다. 누가 돈을 댔는지, 왜인지 찾아라.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — afterTextThen",
+    "rev": "6a884c58aa76"
+  },
+  {
+    "id": "steps[the-kit]",
+    "field": "lead",
+    "source": "Check the Brikoko sales first. Then look in the metro for the one person who was there at every incident.",
+    "text": "Brikoko 판매 내역을 먼저 확인해라. 그다음 지하철에서 모든 사건에 있었던 한 사람을 찾아라.",
+    "note": "dossier \"Who Is K?\" · checkpoint 1/2 \"18:00, the Shop\" — lead",
+    "rev": "3bd20b3e799f"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "title",
+    "source": "Who Runs Kevin Germon?",
+    "text": "Kevin Germon의 배후는 누구인가?",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — title",
+    "rev": "91d76933c93f"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "instructions",
+    "source": "Dele Okonjo says nothing about the 60,000 euros. 4 fair badges were in his flat. His telephone is in `dele_phone_v4`.",
+    "text": "Dele Okonjo는 60,000유로에 대해 아무 말도 하지 않는다. 그의 아파트에 박람회 출입증 4장이 있었다. 그의 전화기 내역은 `dele_phone_v4`에 있다.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — instructions",
+    "rev": "ca9aa8d4543a"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "expectedResult",
+    "source": "`fair_badges` is the badge log of the June fair. Kevin Germon has a Vigie badge. Who at Vigie gives him his orders? Return 1 row: the `holder`, the `company` and the `door`.",
+    "text": "`fair_badges`는 6월 박람회의 출입증 태그 기록이다. Kevin Germon은 Vigie의 출입증을 가지고 있다. Vigie에서 그에게 지시를 내리는 자는 누구인가? 1개 행을 반환해라: `holder`, `company`, `door`.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — expectedResult",
+    "rev": "7a149630d681"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "expectedShapeNote",
+    "source": "1 row: a name, a company and a door.",
+    "text": "1개 행: 이름, 회사, 출입문.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — expectedShapeNote",
+    "rev": "7fbee06a3bbb"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "afterText",
+    "source": "Bertrand Lacombe, a director of Vigie. `Room B` is where he met Kevin Germon.",
+    "text": "Bertrand Lacombe, Vigie의 이사다. 놈은 회의실(`Room B`)에서 Kevin Germon을 만났다.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — afterText",
+    "rev": "13e8b2f231bc"
+  },
+  {
+    "id": "steps[the-handler]",
+    "field": "lead",
+    "source": "Find who Dele Okonjo, or rather Kevin Germon, was with at the June insurance fair.",
+    "text": "Dele Okonjo, 아니 Kevin Germon이 6월 보험 박람회에서 누구와 함께 있었는지 찾아라.",
+    "note": "dossier \"Who Is K?\" · checkpoint 2/2 \"Who Runs Kevin Germon?\" — lead",
+    "rev": "c4cfdf37c1c1"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "`brikoko_sales`: the company card buys the kit on the 7 evenings. `metro_validations`: 2 Navigo at `Ledru-Rollin` before each purchase. Only 1 also left the metro near every claim. `navigo_cards`: Dele Okonjo.",
+    "text": "`brikoko_sales`: 법인 카드가 7번의 저녁에 장비를 샀다. `metro_validations`: 매번 구매 직전 `Ledru-Rollin`에서 Navigo 2장. 모든 청구 현장 근처에서도 지하철을 나온 것은 1장뿐이다. `navigo_cards`: Dele Okonjo.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "eea69191c440"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "`dele_phone_v4`, read backwards with `leaked_key`, each code minus 5. It names Kevin Germon and 3 meetings in `Room B` at 11:00. `fair_badges`: Bertrand Lacombe, Vigie Assurances.",
+    "text": "`dele_phone_v4`를 `leaked_key`로 각 코드에서 5를 빼고 역순으로 해독했다. Kevin Germon의 이름과 11:00에 회의실(`Room B`)에서 가진 3번의 만남이 적혀 있다. `fair_badges`: Bertrand Lacombe, Vigie Assurances.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "e1ba61904d34"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`fair_badges`: Helene Marsac is Vigie's other director. She met Dele Okonjo under his own name, in `Room A` at 14:00, at a City meeting.",
+    "text": "`fair_badges`: Helene Marsac은 Vigie의 다른 이사다. 14:00에 회의실(`Room A`)에서 본명을 쓴 Dele Okonjo를 파리시 회의에서 만났다.",
+    "note": "dossier \"Who Is K?\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "3405d18c7d9f"
+  }
+]

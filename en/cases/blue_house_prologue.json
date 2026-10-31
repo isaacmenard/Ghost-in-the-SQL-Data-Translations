@@ -1,0 +1,72 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "Blue on Sunday",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own title",
+    "rev": "385b51aa09e2"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "The Blue Houses",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own arcTitle",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "text": "PROLOGUE",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "Before the shop's sales: 5 houses painted blue, and 1 pot.",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own summary",
+    "rev": "6d176f51ddca"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "1 minute, no typing. Reyes shows 2 of the 5 houses, and the pot.",
+    "note": "dossier \"Blue on Sunday\" · the dossier's own pitchMarkdown",
+    "rev": "31582509e5b6"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "JULY 1, 2026",
+    "note": "dossier \"Blue on Sunday\" · the gazette's date",
+    "rev": "c62e5cae9e61"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Blue on Sunday",
+    "note": "dossier \"Blue on Sunday\" · the gazette's headline",
+    "rev": "385b51aa09e2"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "5 Houses on One Street",
+    "note": "dossier \"Blue on Sunday\" · the gazette's subheadline",
+    "rev": "e9c9cc6bd5f4"
+  },
+  {
+    "id": "steps[blue-house-prologue-watched]",
+    "field": "title",
+    "text": "Prologue",
+    "note": "dossier \"Blue on Sunday\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[blue-house-prologue-watched]",
+    "field": "instructions",
+    "text": "Watch the briefing.",
+    "note": "dossier \"Blue on Sunday\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

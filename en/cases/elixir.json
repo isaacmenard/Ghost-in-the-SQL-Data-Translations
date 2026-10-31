@@ -1,0 +1,317 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "text": "Elixir V",
+    "note": "dossier \"Elixir V\" · the dossier's own title",
+    "rev": "a1e9dee954fd"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "text": "Elixir V",
+    "note": "dossier \"Elixir V\" · the dossier's own arcTitle",
+    "rev": "a1e9dee954fd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "text": "A fire killed Odile Vernet, a plant scientist, in her Paris greenhouses. Her Elixir V was 3 flowers, and nobody knows which.",
+    "note": "dossier \"Elixir V\" · the dossier's own summary",
+    "rev": "7efad4c6c4de"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "text": "Monday 23 November 2026. Paris, Auteuil.\n\nOdile Vernet, a plant scientist, made 1 extract, Elixir V, from 3 flowers. It was a medicine, not ready yet, and very promising. On 21 October a fire destroyed her private greenhouses. She died in it, trying to save her work. It started on the bench where her last bottle stood, so the police have the file.\n\n1 bottle is left. Find its 3 flowers.",
+    "note": "dossier \"Elixir V\" · the dossier's own pitchMarkdown",
+    "rev": "7ff9565dad40"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "text": "1 table.\n\n`flowers` is every flower Odile Vernet tested, 1 row each, with its lab figures. `state` is `'fresh'` or `'dried'`. `moisture` is the share of water in a dried flower, from 0 to 1. It is empty for a fresh one.\n\nOdile Vernet never heated her greenhouses, so a flower bloomed only in its `season`. `spring` is March to May. `summer` is June to August. `autumn` is September to November. `winter` is December to February. A flower marked `ALL` is in bloom all year.\n\nYou can use one table 3 times in one query, as 3 copies: `FROM flowers AS a, flowers AS b, flowers AS c`. That puts every flower beside every flower, itself included. Write `a.common_name`, `b.common_name` and `c.common_name` to tell the copies apart.",
+    "note": "dossier \"Elixir V\" · the dossier's own rulesMarkdown",
+    "rev": "0e384219ec87"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "text": "Which 3 flowers did Odile Vernet put in Elixir V?",
+    "note": "dossier \"Elixir V\" · the dossier's own openQuestion",
+    "rev": "266bb5f3da62"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "text": "German Chamomile, Lemon Balm, True Lavender",
+    "note": "dossier \"Elixir V\" · the dossier's own verdictText",
+    "rev": "8ce53b96d600"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "text": "NOVEMBER 23, 2026",
+    "note": "dossier \"Elixir V\" · the gazette's date",
+    "rev": "940382e7453a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "text": "Paris Crime Newsletter",
+    "note": "dossier \"Elixir V\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "text": "Which 3 Flowers Made Elixir V?",
+    "note": "dossier \"Elixir V\" · the gazette's headline",
+    "rev": "d32f51ed5d83"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "text": "Odile Vernet Dies in a Fire at Her Greenhouses",
+    "note": "dossier \"Elixir V\" · the gazette's subheadline",
+    "rev": "e64d7674ecde"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "text": "On 21 October a fire destroyed Odile Vernet's private greenhouses in Auteuil, in Paris. She died in the fire, trying to save her work. The fire started on the bench where her last bottle stood. Her lab and every plant she had grown were lost. 2 pages of her notebook were found, burnt.\n\nShe had made 1 extract, Elixir V, from 3 flowers. It was a medicine, not ready yet, and very promising. The foundation that paid for her work wants to make it again. 1 bottle is left.",
+    "note": "dossier \"Elixir V\" · the gazette's editorialArticle",
+    "rev": "21d4d5b54953"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "text": "\"She never wrote the 3 names down. We have 1 bottle and 2 burnt pages,\" says the director of her foundation.",
+    "note": "dossier \"Elixir V\" · the gazette's leadQuote",
+    "rev": "c2b01de6748b"
+  },
+  {
+    "id": "documents[the-bottle]",
+    "field": "title",
+    "text": "THE BOTTLE",
+    "note": "dossier \"Elixir V\" · document `the-bottle` — title",
+    "rev": "7187fccad696"
+  },
+  {
+    "id": "documents[the-mix]",
+    "field": "title",
+    "text": "ELIXIR V: 3 FLOWERS",
+    "note": "dossier \"Elixir V\" · document `the-mix` — title",
+    "rev": "819bd7897cab"
+  },
+  {
+    "id": "documents[odile-notebook]",
+    "field": "title",
+    "text": "ODILE VERNET'S NOTEBOOK",
+    "note": "dossier \"Elixir V\" · document `odile-notebook` — title",
+    "rev": "8302737c52d3"
+  },
+  {
+    "id": "documents[odile-notebook]",
+    "field": "contentMarkdown",
+    "text": "**5 July 2025, 14:00.** Elixir V, my only batch.\n\n2 `fresh` flowers and 1 `dried` flower, in equal parts.\n\nThis week I picked all 3 in my greenhouse while they were in bloom. The third one took 2 days to dry.\n\nThis batch meets my 3 limits.",
+    "note": "dossier \"Elixir V\" · document `odile-notebook` — contentMarkdown",
+    "rev": "10b0b156e277"
+  },
+  {
+    "id": "documents[lab-report]",
+    "field": "title",
+    "text": "LAB REPORT: THE BOTTLE",
+    "note": "dossier \"Elixir V\" · document `lab-report` — title",
+    "rev": "8b23d90c1804"
+  },
+  {
+    "id": "documents[lab-report]",
+    "field": "contentMarkdown",
+    "text": "An independent lab tested the bottle. The batch had to meet Odile Vernet's limits. The limits are on 3 figures, `A`, `K` and `F`, from the 3 flowers.\n\n**In the formulas.** 1 and 2 are the fresh flowers, 3 is the dried one. `D` is `dpph_ic50`. `N` is `nfkb_ic50`. `P` is `phenols_100g`. `h₃` is the `moisture` of flower 3.\n\n**Why (1−h₃).** The figures of the dried flower are for its dry weight, without water. In the mix, only (1−h₃) of its weight is that dry part.\n\n**The limits.** A batch passes only if all 3 hold. `F` must be 17 or more, and 21 or less. `K` is rounded to 2 places, then compared: `ROUND(K, 2) = 29`. In `F`, use `K` as it is, not rounded.\n\n**The tests.** `A` comes from the DPPH test. `K` comes from the NF-κB test. `F` counts the phenols. `abts_ic50` is another test, and the limits do not use it.",
+    "note": "dossier \"Elixir V\" · document `lab-report` — contentMarkdown",
+    "rev": "bd2d99a85bc4"
+  },
+  {
+    "id": "documents[the-formulas]",
+    "field": "title",
+    "text": "THE FORMULAS",
+    "note": "dossier \"Elixir V\" · document `the-formulas` — title",
+    "rev": "5f5ccb0bcb0c"
+  },
+  {
+    "id": "documents[the-key]",
+    "field": "title",
+    "text": "THE LIMITS",
+    "note": "dossier \"Elixir V\" · document `the-key` — title",
+    "rev": "cd6c803ef857"
+  },
+  {
+    "id": "documents[three-times]",
+    "field": "title",
+    "text": "USE THE TABLE 3 TIMES",
+    "note": "dossier \"Elixir V\" · document `three-times` — title",
+    "rev": "27182212f5c5"
+  },
+  {
+    "id": "documents[three-times]",
+    "field": "contentMarkdown",
+    "text": "`FROM flowers AS a, flowers AS b, flowers AS c`\n\nEach flower is paired with every flower, itself included. Keep `a` and `b` `'fresh'`, `c` `'dried'`. Each mix is then on 2 rows: `a` then `b`, and `b` then `a`. When only 1 mix is left, end with `LIMIT 1`.",
+    "note": "dossier \"Elixir V\" · document `three-times` — contentMarkdown",
+    "rev": "0c2545f9bbef"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "text": "HOW TO GIVE THE ANSWER",
+    "note": "dossier \"Elixir V\" · document `how-to-answer` — title",
+    "rev": "d0bb7b6a1e06"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "text": "Once you have found the 3 flowers, type their names yourself. Put each one in single quotes, and name its column:\n\n```sql\nSELECT 'Flower name' AS flower_a,\n  'Flower name' AS flower_b,\n  'Flower name' AS flower_c\n```\n\n`flower_a` and `flower_b` are the 2 fresh flowers, in either order. `flower_c` is the dried one. Run it, then press Verify.",
+    "note": "dossier \"Elixir V\" · document `how-to-answer` — contentMarkdown",
+    "rev": "f3a1d035a982"
+  },
+  {
+    "id": "documents[metro-1123]",
+    "field": "title",
+    "text": "Monday 23 November 2026",
+    "note": "dossier \"Elixir V\" · document `metro-1123` — title",
+    "rev": "961fe4164e8d"
+  },
+  {
+    "id": "documents[metro-1123-auteuil]",
+    "field": "title",
+    "text": "Auteuil Fire: The Insurer Is Waiting",
+    "note": "dossier \"Elixir V\" · document `metro-1123-auteuil` — title",
+    "rev": "2e33142c9fb8"
+  },
+  {
+    "id": "documents[metro-1123-auteuil]",
+    "field": "contentMarkdown",
+    "text": "The cause of the fire in Odile Vernet's greenhouses is still unknown. Okonjo Insurance is handling the claim.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-auteuil` — contentMarkdown",
+    "rev": "8c52c07d522a"
+  },
+  {
+    "id": "documents[metro-1123-hautin]",
+    "field": "title",
+    "text": "Rue Ramponeau: Trial in the Spring",
+    "note": "dossier \"Elixir V\" · document `metro-1123-hautin` — title",
+    "rev": "9894ebe9bf7b"
+  },
+  {
+    "id": "documents[metro-1123-hautin]",
+    "field": "contentMarkdown",
+    "text": "The man arrested on 4 November will be tried in the spring for the attack.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-hautin` — contentMarkdown",
+    "rev": "d3dacb000d06"
+  },
+  {
+    "id": "documents[metro-1123-orsay]",
+    "field": "title",
+    "text": "Orsay: A Man Charged Over the Crown",
+    "note": "dossier \"Elixir V\" · document `metro-1123-orsay` — title",
+    "rev": "9bdf28f4e421"
+  },
+  {
+    "id": "documents[metro-1123-orsay]",
+    "field": "contentMarkdown",
+    "text": "The crown was stolen on 19 November. A man has been charged. The museum says nothing more.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-orsay` — contentMarkdown",
+    "rev": "7ad1e53b5c71"
+  },
+  {
+    "id": "documents[metro-1123-mutefone]",
+    "field": "title",
+    "text": "MUTEFONE 5",
+    "note": "dossier \"Elixir V\" · document `metro-1123-mutefone` — title",
+    "rev": "1cb2ffb4d69b"
+  },
+  {
+    "id": "documents[metro-1123-mutefone]",
+    "field": "contentMarkdown",
+    "text": "Nobody else reads it. Not even us.",
+    "note": "dossier \"Elixir V\" · document `metro-1123-mutefone` — contentMarkdown",
+    "rev": "0eaee87e1abc"
+  },
+  {
+    "id": "csvFiles[flowers]",
+    "field": "description",
+    "text": "Every flower Odile Vernet tested, 1 row each: its `state`, its `season`, and its lab figures. `moisture` is empty for a fresh flower.",
+    "note": "dossier \"Elixir V\" · the `flowers` table — description",
+    "rev": "84cb6060ba76"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "title",
+    "text": "The Elixir",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — title",
+    "rev": "76f1aaa66955"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "instructions",
+    "text": "Odile Vernet made 1 batch of Elixir V from 3 flowers, and it met her limits. The lab report and her notebook say the rest.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — instructions",
+    "rev": "75f09054e299"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "expectedResult",
+    "text": "First, search `flowers` and find her mix. Then give me only the 3 names, in 1 row: `flower_a`, `flower_b` and `flower_c`.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — expectedResult",
+    "rev": "6073c70594b2"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "expectedShapeNote",
+    "text": "1 row: the 3 names of her mix.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — expectedShapeNote",
+    "rev": "551699c4d00b"
+  },
+  {
+    "id": "steps[the-elixir]",
+    "field": "lead",
+    "text": "Start with the lab report, formulas and limits. More than 1 mix meets them. Then check each flower's `season`. 2 rows remain: one mix, in 2 orders. Keep 1.",
+    "note": "dossier \"Elixir V\" · checkpoint 1/1 \"The Elixir\" — lead",
+    "rev": "5828167f6309"
+  },
+  {
+    "id": "closing[the-key]",
+    "field": "say",
+    "text": "The bottle met the limits: 3 flowers, 2 `fresh` and 1 `dried`.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "855b7fa867f4"
+  },
+  {
+    "id": "closing[july]",
+    "field": "say",
+    "text": "Odile Vernet made the batch on 5 July. So each flower had to be in bloom in July: `summer` or `ALL`. Only 1 mix meets the limits and the season.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "d04f68c1ffde"
+  },
+  {
+    "id": "closing[the-three]",
+    "field": "say",
+    "text": "`German Chamomile`, `Lemon Balm`, `True Lavender`. The foundation can make Elixir V again.",
+    "note": "dossier \"Elixir V\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "789de22a3843"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "text": "The limits → `flowers`, 3 at a time → the mixes that meet them.",
+    "note": "dossier \"Elixir V\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "e67390d41016"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "text": "Made 5 July → `flowers.season` → 1 mix: `German Chamomile`, `Lemon Balm`, `True Lavender`.",
+    "note": "dossier \"Elixir V\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "e1d0806ed1bc"
+  }
+]

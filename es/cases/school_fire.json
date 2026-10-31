@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Intro",
+    "text": "Introducción",
+    "note": "dossier \"Intro\" · the dossier's own title",
+    "rev": "24601bcaae6e"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "A school burned on a Tuesday night. The whole district said somebody set it on fire. The Paris Emergency Switchboard sent the crime unit a year of its calls, alarms and patrols. One call came in before the first witness saw the fire.",
+    "text": "Un colegio ardió un martes por la noche. Todo el distrito decía que había sido provocado. La Centralita de Emergencias de París envió a la brigada criminal un año de sus llamadas, alarmas y patrullas. Una llamada entró antes de que el primer testigo viera el incendio.",
+    "note": "dossier \"Intro\" · the dossier's own summary",
+    "rev": "b09da2d3ca91"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "The science wing of College Jean Moulin burned on the evening of 14 October. Nobody was hurt. Everybody has a theory.\n\nYou have a year of the Paris Emergency Switchboard's log and 4 words of SQL.",
+    "text": "El ala de ciencias (`Science Wing`) del College Jean Moulin ardió la noche del 14 de octubre. Nadie resultó herido. Todo el mundo tiene una teoría.\n\nTienes un año de registros de la Centralita de Emergencias de París y 4 palabras de SQL.",
+    "note": "dossier \"Intro\" · the dossier's own pitchMarkdown",
+    "rev": "eef3928ea309"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "One table, `dispatch_log`: a year of the Paris Emergency Switchboard's log.",
+    "text": "Una tabla, `dispatch_log`: un año de registros de la Centralita de Emergencias de París.",
+    "note": "dossier \"Intro\" · the dossier's own rulesMarkdown",
+    "rev": "37eb104a63ae"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Which call reported the school fire before the first witness saw it?",
+    "text": "¿Qué llamada avisó del incendio del colegio antes de que el primer testigo lo viera?",
+    "note": "dossier \"Intro\" · the dossier's own openQuestion",
+    "rev": "8be22eafd8aa"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "15 DE OCTUBRE DE 2025",
+    "note": "dossier \"Intro\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "Redactor jefe de sucesos",
+    "note": "dossier \"Intro\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Criminal Fire Destroys Science Wing at College Jean Moulin",
+    "text": "Un incendio provocado arrasa el ala de ciencias del College Jean Moulin",
+    "note": "dossier \"Intro\" · the gazette's headline",
+    "rev": "9b567c5f31b0"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Flames Seen From the Street at 21:12. Neighbours Insist It Was Deliberate",
+    "text": "Llamas vistas desde la calle a las 21:12. Los vecinos insisten en que fue provocado",
+    "note": "dossier \"Intro\" · the gazette's subheadline",
+    "rev": "d73761861262"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "The science wing of College Jean Moulin burned last night. Nobody was hurt. A passer-by saw flames at 21:12, and the firefighters were there a minute later. By the next morning the district said somebody started it on purpose. There was a chemistry store, and no system to put out a fire.\n\nThe police have no suspects and one file. It holds a year of calls from the Paris Emergency Switchboard. Detectives have to find one night in a year of calls. Then they have to find the time of that call.",
+    "text": "El ala de ciencias (`Science Wing`) del College Jean Moulin ardió anoche. Nadie resultó herido. Un transeúnte vio llamas a las 21:12, y los bomberos llegaron un minuto después. A la mañana siguiente, el distrito decía que alguien había provocado el incendio. Había un almacén de productos químicos y ningún sistema contra incendios.\n\nLa policía no tiene sospechosos, solo un archivo. Contiene un año de llamadas de la Centralita de Emergencias de París. Los investigadores tienen que encontrar una noche en un año de llamadas. Luego tienen que averiguar la hora de esa llamada.",
+    "note": "dossier \"Intro\" · the gazette's editorialArticle",
+    "rev": "373db2f3dbdb"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"One call reached us 14 minutes before anyone on the street saw a flame.\"",
+    "text": "«Nos llegó una llamada 14 minutos antes de que nadie en la calle viera una llama.»",
+    "note": "dossier \"Intro\" · the gazette's leadQuote",
+    "rev": "2a67c4aa556e"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "Un año en la Centralita de Emergencias de París: cada llamada, avistamiento, panel de alarma, patrulla y camión de bomberos en París, con el día y la hora en que se anotó.",
+    "note": "dossier \"Intro\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "title",
+    "source": "Open the *Archive*",
+    "text": "Abrir el *archivo*",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — title",
+    "rev": "4a8001986460"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "instructions",
+    "source": "The Paris Emergency Switchboard logged a year of emergency calls in Paris.",
+    "text": "La Centralita de Emergencias de París registró un año de llamadas de emergencia en París.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — instructions",
+    "rev": "796bcdde51f9"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedResult",
+    "source": "Type `SELECT * FROM dispatch_log` and Run it. When the rows are there, press Verify. `SELECT *` asks for every column, and `FROM` names the table.",
+    "text": "Escribe `SELECT * FROM dispatch_log` y pulsa Ejecutar. Cuando aparezcan las filas, pulsa Verificar. `SELECT *` pide todas las columnas y `FROM` indica la tabla.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedResult",
+    "rev": "022c5c3a8f9a"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the year, with all 8 columns.",
+    "text": "Todas las filas del año, con las 8 columnas.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — expectedShapeNote",
+    "rev": "96eec5578a93"
+  },
+  {
+    "id": "steps[open-the-archive]",
+    "field": "afterText",
+    "source": "2,400 rows in a year. Calls, witnesses, alarms, patrols.",
+    "text": "2 400 filas en un año. Llamadas, testimonios, alarmas, patrullas.",
+    "note": "dossier \"Intro\" · checkpoint 1/3 \"Open the *Archive*\" — afterText",
+    "rev": "618ee8457308"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "title",
+    "source": "The *Night*",
+    "text": "La *noche*",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — title",
+    "rev": "a325233e428a"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "instructions",
+    "source": "The fire was on 14 October.",
+    "text": "El incendio fue el 14 de octubre.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — instructions",
+    "rev": "58b4470217ab"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedResult",
+    "source": "Keep only the rows of that day, `2025-10-14`, from `dispatch_log`. `WHERE` keeps the rows where a condition is true. Write the column, `=`, then the value in single quotes.",
+    "text": "Conserva solo las filas de ese día, `2025-10-14`, de `dispatch_log`. `WHERE` conserva las filas en las que se cumple una condición. Escribe la columna, `=` y luego el valor entre comillas simples.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedResult",
+    "rev": "d8938759f698"
+  },
+  {
+    "id": "steps[the-night]",
+    "field": "expectedShapeNote",
+    "source": "16 rows: everything logged that day.",
+    "text": "16 filas: todo lo registrado ese día.",
+    "note": "dossier \"Intro\" · checkpoint 2/3 \"The *Night*\" — expectedShapeNote",
+    "rev": "08103ab5882e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "title",
+    "source": "Too *Early*",
+    "text": "Demasiado *pronto*",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — title",
+    "rev": "70ebd44fc27e"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "instructions",
+    "source": "The first witness saw the school's flames at 21:12. One call about the fire came in before that.",
+    "text": "El primer testigo vio las llamas del colegio a las 21:12. Una llamada sobre el incendio llegó antes.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — instructions",
+    "rev": "ce5078b69894"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedResult",
+    "source": "Find that call in `dispatch_log` and return its row. `AND` adds a second condition to a `WHERE`.",
+    "text": "Encuentra esa llamada en `dispatch_log` y devuelve su fila. `AND` añade una segunda condición a un `WHERE`.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedResult",
+    "rev": "b884ce09b8f9"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "expectedShapeNote",
+    "source": "One row: the early call.",
+    "text": "Una sola fila: la llamada previa.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — expectedShapeNote",
+    "rev": "f47b0870a81b"
+  },
+  {
+    "id": "steps[too-early]",
+    "field": "afterText",
+    "source": "20:58. 14 minutes before the first witness saw the fire.",
+    "text": "20:58. 14 minutos antes de que el primer testigo viera el fuego.",
+    "note": "dossier \"Intro\" · checkpoint 3/3 \"Too *Early*\" — afterText",
+    "rev": "152ae094925a"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "Llamas a las 21:12 → `dispatch_log` → una llamada previa por el incendio del colegio: 20:58, `LINE 4417`.",
+    "note": "dossier \"Intro\" · the cleared sheet's chain, step 1/1 — text",
+    "rev": "d2913b0af757"
+  }
+]

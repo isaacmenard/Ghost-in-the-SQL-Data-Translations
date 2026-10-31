@@ -1,0 +1,90 @@
+[
+  {
+    "id": "V1-desk",
+    "field": "goal",
+    "source": "Your desk.",
+    "text": "Tu escritorio.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes",
+    "rev": "5b31a74d1f48"
+  },
+  {
+    "id": "V1-desk",
+    "field": "sayName",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "V1-desk",
+    "field": "say",
+    "source": "Welcome to your desk. I'll show you where everything is, then leave you to work.",
+    "text": "Bienvenido a tu escritorio. Te enseño dónde está cada cosa y luego te dejo trabajar.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "5b0a408e73a7"
+  },
+  {
+    "id": "V2-editor",
+    "field": "goal",
+    "source": "The query goes in the query desk.",
+    "text": "La consulta va en la mesa de consultas.",
+    "note": "lesson dev-orientation, beat 2/5",
+    "rev": "76de1b9c68a6"
+  },
+  {
+    "id": "V2-editor",
+    "field": "coach",
+    "source": "You write the query here. It is SQL, and it is read-only. `SELECT`, nothing else.",
+    "text": "Escribes la consulta aquí. Es SQL y es de solo lectura. `SELECT`, nada más.",
+    "note": "lesson dev-orientation, beat 2/5 · goal: The query goes in the query desk.",
+    "rev": "9ff58f4a3788"
+  },
+  {
+    "id": "V3-run",
+    "field": "goal",
+    "source": "Run executes the query.",
+    "text": "Ejecutar lanza la consulta.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1",
+    "rev": "16fe35bd8fca"
+  },
+  {
+    "id": "V3-run",
+    "field": "coach",
+    "source": "Run executes the query. Run it as many times as you like. The rows come back underneath.",
+    "text": "Ejecutar lanza la consulta. Ejecútala tantas veces como quieras. Las filas salen debajo.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1 · goal: Run executes the query.",
+    "rev": "56df8a2b0ee3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "goal",
+    "source": "Verify submits your answer.",
+    "text": "Verificar envía tu respuesta.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1",
+    "rev": "5434a8503dd3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "coach",
+    "source": "Verify sends those rows in as your answer. It reads the rows you brought back and nothing else.",
+    "text": "Verificar manda esas filas como tu respuesta. Lee las filas que has obtenido y nada más.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1 · goal: Verify submits your answer.",
+    "rev": "89c0a5cefad3"
+  },
+  {
+    "id": "V5-card",
+    "field": "goal",
+    "source": "The card lists every clause.",
+    "text": "La ficha lista todas las cláusulas.",
+    "note": "lesson dev-orientation, beat 5/5",
+    "rev": "9b07bfefd2da"
+  },
+  {
+    "id": "V5-card",
+    "field": "coach",
+    "source": "The card lists every clause the game asks for, and the tables. That is everything.",
+    "text": "La ficha lista todas las cláusulas que pide el juego, y las tablas. Eso es todo.",
+    "note": "lesson dev-orientation, beat 5/5 · goal: The card lists every clause.",
+    "rev": "cbf9ac49ff27"
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Letters From La Sante",
+    "text": "来自La Sante的信",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own title",
+    "rev": "c31dedd753c4"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "终章",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "The 3 men who robbed the banks are in \"La Sante\" prison. They write to somebody outside, and their telephone can be read now.",
+    "text": "抢劫银行的3个人关在“La Sante”监狱。他们还在给外面的人发消息，现在能看他们的电话了。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own summary",
+    "rev": "328401e72f6f"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Monday 14 December. \"La Sante\" prison, Paris.\n\nThe 3 men who robbed the banks write to somebody outside. Read what they say.",
+    "text": "12月14日星期一。巴黎，“La Sante”监狱。\n\n抢劫银行的3个人还在给外面的人发消息。看他们说了什么。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "d911f0442e05"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables, 1 map and 1 telephone.\n\n`mutefone_codes` holds every message of the crew's telephone, coded, one row per code. `leaked_key` is the V2 key leaked online this morning. It turns a code into a letter.",
+    "text": "2张表、1张地图和1部电话。\n\n`mutefone_codes`存着这伙人电话里的每条消息，均已编码，每个代码占一行。`leaked_key`是今天早上泄露到网上的V2密钥，能把代码转成字母。",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own rulesMarkdown",
+    "rev": "6de2bd2fa1ec"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "What has K planned for the van tomorrow, and when?",
+    "text": "明天K对押送车有什么计划，定在什么时候？",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own openQuestion",
+    "rev": "f338e3cb3a8d"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "False alarms at 3 banks on the van's route, then the Tribunal at 06:50",
+    "text": "在押送车路线上的3家银行制造虚假警报，随后于06:50到达法院",
+    "note": "dossier \"Letters From La Sante\" · the dossier's own verdictText",
+    "rev": "2fdd606a41e9"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "2026年12月14日",
+    "note": "dossier \"Letters From La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "《巴黎罪案快报》",
+    "note": "dossier \"Letters From La Sante\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "The Telephone Nobody Could Read Can Now Be Read",
+    "text": "曾无人能读懂的电话如今终可解读",
+    "note": "dossier \"Letters From La Sante\" · the gazette's headline",
+    "rev": "27989caa59f8"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "How the Mutefone Codes Its Messages Is Posted Online",
+    "text": "Mutefone编码信息的方法已公布在网上",
+    "note": "dossier \"Letters From La Sante\" · the gazette's subheadline",
+    "rev": "2d71858fb93b"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "This morning, the way the Mutefone codes its secret messages was posted online. It covers versions 1 to 4. The key of version 2 was posted with it. Anybody can now read a V2.\n\nMutefone says version 5 is safe.",
+    "text": "今天早晨，有人在网上公布了Mutefone对机密消息编码的方法，涵盖版本1至4，版本2的密钥也一同公开。如今任何人都能看懂V2的消息。\n\nMutefone表示版本5安全。",
+    "note": "dossier \"Letters From La Sante\" · the gazette's editorialArticle",
+    "rev": "0ae3937ad882"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"Version 6 is out today. This time, nobody reads it.\"",
+    "text": "“第6版今天上市。这次，谁也看不了。”",
+    "note": "dossier \"Letters From La Sante\" · the gazette's leadQuote",
+    "rev": "bdc164a2c386"
+  },
+  {
+    "id": "documents[metro-1214]",
+    "field": "title",
+    "source": "Monday 14 December 2026",
+    "text": "2026年12月14日星期一",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214` — title",
+    "rev": "60c0c1f0d592"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "title",
+    "source": "Vigie Assurances Nearly Bigger Than Okonjo",
+    "text": "Vigie Assurances规模直逼Okonjo",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — title",
+    "rev": "0823474c446b"
+  },
+  {
+    "id": "documents[metro-1214-vigie]",
+    "field": "contentMarkdown",
+    "source": "Vigie Assurances is about to become the biggest insurer in Paris. This autumn it won a run of contracts for the City's buildings. Okonjo Insurance, the biggest for years, is in serious trouble. It could go bankrupt.",
+    "text": "Vigie Assurances即将成为巴黎最大的保险公司。今年秋天，该公司接连拿下巴黎市政府建筑的多份承保合同。多年来规模最大的Okonjo Insurance如今深陷困境，面临破产。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-vigie` — contentMarkdown",
+    "rev": "3710aa8ed622"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "title",
+    "source": "New Year: The Metro Runs All Night",
+    "text": "新年：地铁通宵运营",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — title",
+    "rev": "937dc5be2eaa"
+  },
+  {
+    "id": "documents[metro-1214-night]",
+    "field": "contentMarkdown",
+    "source": "On 31 December, the M13 runs all night.",
+    "text": "12月31日，M13通宵运营。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-night` — contentMarkdown",
+    "rev": "eb725e5a9368"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 6",
+    "text": "MUTEFONE 6",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — title",
+    "rev": "1468fc7a5782"
+  },
+  {
+    "id": "documents[metro-1214-mutefone]",
+    "field": "contentMarkdown",
+    "source": "This time, nobody reads it.",
+    "text": "这次，谁也看不了。",
+    "note": "dossier \"Letters From La Sante\" · document `metro-1214-mutefone` — contentMarkdown",
+    "rev": "f0a511690398"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "title",
+    "source": "FROM THE HEAD GUARD, WING D",
+    "text": "来自D监区看守长",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — title",
+    "rev": "4677a9a97ed6"
+  },
+  {
+    "id": "documents[guard-report]",
+    "field": "contentMarkdown",
+    "source": "**\"La Sante\" prison, 13 December.** The 3 men came in on 5 December. They are held in wing D. Their cells are `D214`, `D215` and `D216`. They do not speak to us. On Tuesday 15 December, a van takes them to the Tribunal for their hearing.\n\n**They have a telephone.** It was hidden in cell `D216`, a Mutefone V2. We found it on 6 December and put it back. That way, we read what they send. Every message on it is coded. The messages are in `mutefone_codes`.",
+    "text": "**“La Sante”监狱，12月13日。**这3个人于12月5日入监，关在D监区。他们的牢房是`D214`、`D215`和`D216`。他们不跟我们说话。12月15日星期二，一辆押送车要送他们去法院出庭。\n\n**他们有一部电话。**电话藏在`D216`牢房里，是一部Mutefone V2。我们在12月6日发现后又放了回去。这样一来，我们就能看到他们发送的内容。上面的每条消息都经过编码。这些消息都在`mutefone_codes`里。",
+    "note": "dossier \"Letters From La Sante\" · document `guard-report` — contentMarkdown",
+    "rev": "f239c15e2283"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "title",
+    "source": "POSTED ONLINE, MONDAY 14 DECEMBER",
+    "text": "发布于网络，12月14日星期一",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — title",
+    "rev": "afe6f77a30f2"
+  },
+  {
+    "id": "documents[the-leak]",
+    "field": "contentMarkdown",
+    "source": "**Mutefone says nobody can read its messages. here is how it codes them, v1 to v4.**\n\nevery letter and every number becomes a code from 10 to 99. a space is `/`, and `/` has its own code. the codes go out in the order of the message.\n\nthe key of v2 is posted with this, as `leaked_key`. 1 code = 1 letter.\n\nnow anybody can read a V2 (and they called that secret lol)",
+    "text": "**Mutefone说没人能读懂它的消息。下面是它的编码方式，v1到v4。**\n\n每个字母和每个数字都变成10到99的代码。空格变成`/`，`/`也有自己的代码。代码按消息顺序发出。\n\nv2的密钥也一起公开了，就是`leaked_key`。1个代码=1个字母。\n\n现在谁都能读懂V2了（他们还管这叫保密，真可笑）。",
+    "note": "dossier \"Letters From La Sante\" · document `the-leak` — contentMarkdown",
+    "rev": "340fc2f34d0d"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "title",
+    "source": "MUTEFONE V2, QUICK START",
+    "text": "MUTEFONE V2，快速入门",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — title",
+    "rev": "a4d15896dc41"
+  },
+  {
+    "id": "documents[the-notice]",
+    "field": "contentMarkdown",
+    "source": "**What you say stays between you.**\n\n### Secret messages\n\nYour Mutefone codes every message before it leaves, and reads it back when it arrives. Nobody else can read it, not even us.",
+    "text": "**你说的话，只有你们知道。**\n\n### 密信\n\nMutefone会在发出前把每条消息转成代码，收到时再读出来。别人谁也看不了，连我们都不行。",
+    "note": "dossier \"Letters From La Sante\" · document `the-notice` — contentMarkdown",
+    "rev": "ada8ec1ce64e"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "title",
+    "source": "GROUP_CONCAT",
+    "text": "GROUP_CONCAT",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — title",
+    "rev": "131d68f7c809"
+  },
+  {
+    "id": "documents[one-code-per-row]",
+    "field": "contentMarkdown",
+    "source": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)` puts the values of a group side by side, in the order of `at_time`.\n\nIn `demo`, on 14 March, `Alpha` is at 23:40 and `Beta` at 02:05. It gives `BetaAlpha`.",
+    "text": "`GROUP_CONCAT(column_1, '' ORDER BY at_time)`按`at_time`的顺序把同一组的值拼在一起。\n\n在`demo`里，3月14日有23:40的`Alpha`和02:05的`Beta`。结果是`BetaAlpha`。",
+    "note": "dossier \"Letters From La Sante\" · document `one-code-per-row` — contentMarkdown",
+    "rev": "c506a89abdfa"
+  },
+  {
+    "id": "documents[paris-map]",
+    "field": "title",
+    "source": "THE CREW'S MAP",
+    "text": "团伙地图",
+    "note": "dossier \"Letters From La Sante\" · document `paris-map` — title",
+    "rev": "3543463c381b"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "title",
+    "source": "FOUND TODAY",
+    "text": "今日发现",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — title",
+    "rev": "779f0df7e653"
+  },
+  {
+    "id": "documents[found-today]",
+    "field": "contentMarkdown",
+    "source": "This map was found today in one of the cells.",
+    "text": "今天在其中一间牢房里发现了这张地图。",
+    "note": "dossier \"Letters From La Sante\" · document `found-today` — contentMarkdown",
+    "rev": "9ceb9e8e8657"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "title",
+    "source": "THE CREW'S 7 BANKS",
+    "text": "团伙的7家银行",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — title",
+    "rev": "861c39fdeecc"
+  },
+  {
+    "id": "documents[the-robberies]",
+    "field": "contentMarkdown",
+    "source": "**From the bank file.** 6 robberies since June. On 4 December, the 3 men were caught at the 7th bank.\n\n| day | bank |\n| --- | --- |\n| 5 June | Rivage Passy |\n| 10 July | Municipale Vaugirard |\n| 7 August | Vernier Batignolles |\n| 11 September | Orme Lecourbe |\n| 9 October | Civique Auteuil |\n| 6 November | Municipale Ternes |\n| 4 December | Civique Mozart, the attempt |",
+    "text": "**来自银行案卷。**6月以来发生6起抢劫案。12月4日，这3个人在第7家银行落网。\n\n| 日期 | 银行 |\n| --- | --- |\n| 6月5日 | Rivage Passy |\n| 7月10日 | Municipale Vaugirard |\n| 8月7日 | Vernier Batignolles |\n| 9月11日 | Orme Lecourbe |\n| 10月9日 | Civique Auteuil |\n| 11月6日 | Municipale Ternes |\n| 12月4日 | Civique Mozart，未遂 |",
+    "note": "dossier \"Letters From La Sante\" · document `the-robberies` — contentMarkdown",
+    "rev": "ed39b6783784"
+  },
+  {
+    "id": "csvFiles[mutefone_codes]",
+    "field": "description",
+    "source": "Every message of the crew's telephone, one row per code: the message, the day, the contact, `In` or `Out`, the place of the code in the message, and the code, `num`.",
+    "text": "团伙电话里的每条信息，每个代码一行：信息、日期、联系人、收到（`In`）或发出（`Out`）、代码在信息里的位置，和代码`num`。",
+    "note": "dossier \"Letters From La Sante\" · the `mutefone_codes` table — description",
+    "rev": "424652450dc3"
+  },
+  {
+    "id": "csvFiles[leaked_key]",
+    "field": "description",
+    "source": "The Mutefone V2 key, leaked online this morning: each code, `num`, and the `symbol` it stands for.",
+    "text": "Mutefone V2密钥，今天上午在网上泄露：每个代码`num`及其代表的`symbol`。",
+    "note": "dossier \"Letters From La Sante\" · the `leaked_key` table — description",
+    "rev": "54e8d4b5dd45"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "title",
+    "source": "The Grid",
+    "text": "网格",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — title",
+    "rev": "24227e8d4bf4"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "instructions",
+    "source": "Every message on the telephone is in `mutefone_codes`, one row per code. `leaked_key` turns each code into its letter.",
+    "text": "电话里的每条消息都在`mutefone_codes`里，每个代码占一行。`leaked_key`把每个代码转成对应的字母。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — instructions",
+    "rev": "21cb5cbc46ef"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedResult",
+    "source": "Read the messages in plain text. Keep only the contact the crew planned its robberies with. Return 1 row per message, with its `sent_on`, `contact`, `direction` and `message`.",
+    "text": "查看明文消息。只保留这伙人策划抢劫时联系的联络人。每条消息返回1行，包含它的`sent_on`、`contact`、`direction`和`message`。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedResult",
+    "rev": "8d926b7f912a"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "expectedShapeNote",
+    "source": "1 row per message with that contact, in plain text.",
+    "text": "与那个联络人的每条消息各占1行，均为明文。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — expectedShapeNote",
+    "rev": "36df766ce96d"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "afterText",
+    "source": "K. The evening before each robbery: first the kit, then a meeting.",
+    "text": "K。每次抢劫前一晚：先取工具，再碰头。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — afterText",
+    "rev": "89a0dd9a8019"
+  },
+  {
+    "id": "steps[the-grid]",
+    "field": "lead",
+    "source": "Join `leaked_key` to the crew's Mutefone to read it. Then keep only the messages of their boss.",
+    "text": "把`leaked_key`连到同伙的Mutefone上看。然后只留他们头儿的消息。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 1/2 \"The Grid\" — lead",
+    "rev": "20ef8992ba2c"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "title",
+    "source": "Tomorrow",
+    "text": "明天",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — title",
+    "rev": "456a73bbcefb"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "instructions",
+    "source": "Today is Monday 14 December. The crew's map is on the board. K's messages are in `mutefone_codes`, read with `leaked_key`.",
+    "text": "今天是12月14日星期一。这伙人的地图在案情板上。K的消息都在`mutefone_codes`里，配合`leaked_key`查看。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — instructions",
+    "rev": "9264156c1432"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedResult",
+    "source": "Keep only the messages where K sets tomorrow's plan. Return their `message`, 1 row each, from the earliest hour to the latest.",
+    "text": "只保留K布置明天计划的消息。每条消息返回1行`message`，从最早的时间到最晚。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedResult",
+    "rev": "425bafdc9703"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "expectedShapeNote",
+    "source": "1 row per step of tomorrow's plan, in order.",
+    "text": "明天计划的每个步骤按顺序各占1行。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — expectedShapeNote",
+    "rev": "704e4c8ec955"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "afterText",
+    "source": "3 false alarms on the van's route, 5 minutes apart. Then the van at the Tribunal.",
+    "text": "押送车路线上3次假警报，间隔5分钟。然后押送车到法院。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — afterText",
+    "rev": "cf4aaeb808d0"
+  },
+  {
+    "id": "steps[tomorrow]",
+    "field": "lead",
+    "source": "Read what K sent after the crew gave him the hearing day. Many meeting plans. I am afraid one is for the van tomorrow.",
+    "text": "同伙把开庭的日子告诉了K。看K后来发了什么。接头计划很多。恐怕有一个是冲着明天的囚车来的。",
+    "note": "dossier \"Letters From La Sante\" · checkpoint 2/2 \"Tomorrow\" — lead",
+    "rev": "cd45823a5ebe"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "`mutefone_codes` → `JOIN leaked_key` → K's squares on the map match the robbed banks. Each one the evening before.",
+    "text": "`mutefone_codes` → `JOIN leaked_key` → K在地图上的格子和被抢的银行对得上。每次都是前一天晚上。",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "efc37096a694"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "After `TRIBUNAL/20261215`, K's messages dated `20261215` → the van's route. `C4` to `C1`, 06:35 to 06:50.",
+    "text": "在`TRIBUNAL/20261215`之后，K在`20261215`发出的消息→押送车的路线。`C4`到`C1`，06:35到06:50。",
+    "note": "dossier \"Letters From La Sante\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "51a72232db13"
+  }
+]

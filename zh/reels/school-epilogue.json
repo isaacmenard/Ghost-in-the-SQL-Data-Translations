@@ -1,0 +1,434 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Chapter One",
+    "text": "第一章",
+    "note": "reel school-epilogue · the chapter head, top left · chapter: Chapter One",
+    "rev": "3e93ded32801"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue · the line beside the chapter head · chapter: Chapter One",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "105 ROWS · 6 COLUMNS",
+    "text": "105行 · 6列",
+    "note": "reel school-epilogue · the words around the figures of the keycard_log set piece · chapter: Chapter One",
+    "rev": "abdaf8ecc8a7"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 101 more rows, and 2 more columns",
+    "text": "…还有101行和2列",
+    "note": "reel school-epilogue · what the keycard_log sample leaves out · chapter: Chapter One",
+    "rev": "9e73ba7192a5"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "30 ROWS · 6 COLUMNS",
+    "text": "30行 · 6列",
+    "note": "reel school-epilogue · the second set piece (line_register) · chapter: Chapter One",
+    "rev": "fecee157f7d9"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 28 more rows, and 3 more columns",
+    "text": "…还有28行和3列",
+    "note": "reel school-epilogue · what the second sample leaves out · chapter: Chapter One",
+    "rev": "220bfdd4ecfa"
+  },
+  {
+    "id": "E1-call",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 1/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E1-call",
+    "field": "text",
+    "source": "20:58, a call from `LINE 4417`. The first witness saw flames at 21:12. That's 14 minutes after the call.",
+    "text": "20:58，`LINE 4417`来电。第一位目击者在21:12看到火光。比来电时间晚了14分钟。",
+    "note": "reel school-epilogue, beat 1/16 · the line itself · speaker Detective Reyes",
+    "rev": "6ceafeedb6f2"
+  },
+  {
+    "id": "E1-call",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 1/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E2-room",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 2/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E2-room",
+    "field": "text",
+    "source": "From 18:00 to 22:00, `LINE 4417` is the telephone in the `Lodge`. The call was made from there.",
+    "text": "18:00到22:00，`LINE 4417`是校工室（`Lodge`）的电话。电话是从那儿打的。",
+    "note": "reel school-epilogue, beat 2/16 · the line itself · speaker Detective Reyes",
+    "rev": "3a0138cd1d69"
+  },
+  {
+    "id": "E2-room",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 2/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-pell",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 3/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-pell",
+    "field": "text",
+    "source": "The last one into the `Lodge` before the call was Victor Pell, the caretaker. 20:44.",
+    "text": "来电前最后一个进校工室（`Lodge`）的是校工（`Caretaker`）Victor Pell。20:44。",
+    "note": "reel school-epilogue, beat 3/16 · the line itself · speaker Detective Reyes",
+    "rev": "b5b214fa1bde"
+  },
+  {
+    "id": "E3-pell",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 3/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 4/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "text",
+    "source": "Ruth Abasi went into the `Lodge` at 21:05. After the call.",
+    "text": "Ruth Abasi在21:05进了校工室（`Lodge`）。在那通电话之后。",
+    "note": "reel school-epilogue, beat 4/16 · the line itself · speaker Detective Reyes",
+    "rev": "60cbedc44628"
+  },
+  {
+    "id": "E3-abasi",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 4/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-said",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 5/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-said",
+    "field": "text",
+    "source": "When we asked him, he said it wasn't him. Only his usual round: the `Gym`, then the `Science Wing`.",
+    "text": "问他的时候，他说不是自己干的。只是照常巡视：先是体育馆（`Gym`），然后是理科楼（`Science Wing`）。",
+    "note": "reel school-epilogue, beat 5/16 · the line itself · speaker Detective Reyes",
+    "rev": "1988be42fb09"
+  },
+  {
+    "id": "E3-said",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 5/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 6/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "text",
+    "source": "No badge at the `Gym` that evening. He badged into the `Boiler Room` at 20:35. That's where the white spirit is kept.",
+    "text": "那天晚上他没在体育馆（`Gym`）刷卡。他在20:35刷卡进了锅炉房（`Boiler Room`）。松香水就存放在那儿。",
+    "note": "reel school-epilogue, beat 6/16 · the line itself · speaker Detective Reyes",
+    "rev": "a5ef1cc215ff"
+  },
+  {
+    "id": "E3-boiler",
+    "field": "subject",
+    "source": "HOW IT WAS FOUND",
+    "text": "调查经过",
+    "note": "reel school-epilogue, beat 6/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "a7eec5c84683"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 7/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "text",
+    "source": "Victor Pell confessed. A man paid him in cash to burn the science wing.",
+    "text": "Victor Pell招了。有人给他现金，让他烧了理科楼（`Science Wing`）。",
+    "note": "reel school-epilogue, beat 7/16 · the line itself · speaker Detective Reyes",
+    "rev": "cbde1bba6b52"
+  },
+  {
+    "id": "E4-confessed",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 7/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 8/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "text",
+    "source": "His words: \"A man came to the lodge on Monday morning. He left an envelope of cash.\"",
+    "text": "他的原话：“周一早上有个男人来到校工室（`Lodge`）。留下了一个装有现金的信封。”",
+    "note": "reel school-epilogue, beat 8/16 · the line itself · speaker Detective Reyes",
+    "rev": "1c9e880bdf16"
+  },
+  {
+    "id": "E4-envelope",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 8/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 9/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-photos",
+    "field": "text",
+    "source": "\"There were photos of my daughter in it too. If I said no, he could hurt her.\"",
+    "text": "“里面还有我女儿的照片。我要是不答应，他就会伤害她。”",
+    "note": "reel school-epilogue, beat 9/16 · the line itself · speaker Detective Reyes",
+    "rev": "e9e57e1f7f26"
+  },
+  {
+    "id": "E4-photos",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 9/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-job",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 10/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-job",
+    "field": "text",
+    "source": "\"Burn the science wing at night, when it's empty. Nobody gets hurt. That was what we agreed.\"",
+    "text": "“夜里去烧理科楼（`Science Wing`），趁里面没人。不伤人。说好的就是这样。”",
+    "note": "reel school-epilogue, beat 10/16 · the line itself · speaker Detective Reyes",
+    "rev": "246c46224af7"
+  },
+  {
+    "id": "E4-job",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 10/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 11/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "text",
+    "source": "\"20:35. The boiler room. I took the school's white spirit.\"",
+    "text": "“20:35。锅炉房（`Boiler Room`）。我拿了学校的松香水。”",
+    "note": "reel school-epilogue, beat 11/16 · the line itself · speaker Detective Reyes",
+    "rev": "c00b6d7028c5"
+  },
+  {
+    "id": "E4-spirit",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 11/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-call",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 12/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-call",
+    "field": "text",
+    "source": "\"I started the fire and went back to the lodge. At 20:58 I phoned the emergency line myself.\"",
+    "text": "“我点了火，回了校工室（`Lodge`）。20:58，我自己打了紧急电话。”",
+    "note": "reel school-epilogue, beat 12/16 · the line itself · speaker Detective Reyes",
+    "rev": "79d9e0d4af27"
+  },
+  {
+    "id": "E4-call",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 12/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E4-why",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 13/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E4-why",
+    "field": "text",
+    "source": "\"I wanted it to burn. Not to kill anyone.\"",
+    "text": "“我是想把它烧了。不想杀人。”",
+    "note": "reel school-epilogue, beat 13/16 · the line itself · speaker Detective Reyes",
+    "rev": "6bca03dfbea5"
+  },
+  {
+    "id": "E4-why",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 13/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 14/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "text",
+    "source": "He doesn't know that man's name. He only knows the money came from Okonjo Insurance.",
+    "text": "他不知道那人叫什么。只知道钱来自Okonjo Insurance。",
+    "note": "reel school-epilogue, beat 14/16 · the line itself · speaker Detective Reyes",
+    "rev": "4c139242b27a"
+  },
+  {
+    "id": "E5-insurer",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 14/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 15/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "text",
+    "source": "Okonjo.",
+    "text": "Okonjo。",
+    "note": "reel school-epilogue, beat 15/16 · the line itself · speaker Detective Reyes",
+    "rev": "b83f4c7c4b0c"
+  },
+  {
+    "id": "E6-okonjo",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 15/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  },
+  {
+    "id": "E7-name",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "雷耶斯警探",
+    "note": "reel school-epilogue, beat 16/16 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "E7-name",
+    "field": "text",
+    "source": "I know that name.",
+    "text": "我认得这个名字。",
+    "note": "reel school-epilogue, beat 16/16 · the line itself · speaker Detective Reyes",
+    "rev": "575b1ff75517"
+  },
+  {
+    "id": "E7-name",
+    "field": "subject",
+    "source": "WHAT HE SAID",
+    "text": "他的供词",
+    "note": "reel school-epilogue, beat 16/16 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "199d9af22e6c"
+  }
+]

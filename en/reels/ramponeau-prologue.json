@@ -1,0 +1,135 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "text": "Standalone",
+    "note": "reel ramponeau-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "text": "RUE RAMPONEAU",
+    "note": "reel ramponeau-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "832ad82ec09a"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "text": "5,408 ROWS · 7 COLUMNS",
+    "note": "reel ramponeau-prologue · the words around the figures of the validations set piece · chapter: Standalone",
+    "rev": "d8ede74474fc"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "text": "… 5,404 more rows, and 1 more column",
+    "note": "reel ramponeau-prologue · what the validations sample leaves out · chapter: Standalone",
+    "rev": "1a7dcea5b317"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel ramponeau-prologue, beat 1/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "text",
+    "text": "Friday night, rue Ramponeau, Paris. A man pushes a woman aged `71` to the floor in her entrance hall. He takes her handbag.",
+    "note": "reel ramponeau-prologue, beat 1/5 · the line itself · speaker Detective Reyes",
+    "rev": "52f01882cce1"
+  },
+  {
+    "id": "R1-hallway",
+    "field": "subject",
+    "text": "WHAT HAPPENED",
+    "note": "reel ramponeau-prologue, beat 1/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel ramponeau-prologue, beat 2/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "text",
+    "text": "We've got one thing: `the used ticket he dropped in the building's hall`.",
+    "note": "reel ramponeau-prologue, beat 2/5 · the line itself · speaker Detective Reyes",
+    "rev": "20ee5a4350de"
+  },
+  {
+    "id": "R2-ticket",
+    "field": "subject",
+    "text": "WHAT HAPPENED",
+    "note": "reel ramponeau-prologue, beat 2/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "1e3455c3f4b8"
+  },
+  {
+    "id": "R3-network",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel ramponeau-prologue, beat 3/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R3-network",
+    "field": "text",
+    "text": "Every gate in the city records the card that opens it. `7 lines, 2 months`.",
+    "note": "reel ramponeau-prologue, beat 3/5 · the line itself · speaker Detective Reyes",
+    "rev": "5abda15bb118"
+  },
+  {
+    "id": "R3-network",
+    "field": "subject",
+    "text": "WHAT THE NETWORK WROTE DOWN",
+    "note": "reel ramponeau-prologue, beat 3/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R4-book",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel ramponeau-prologue, beat 4/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R4-book",
+    "field": "text",
+    "text": "One row each time a ticket goes through a gate.",
+    "note": "reel ramponeau-prologue, beat 4/5 · the line itself · speaker Detective Reyes",
+    "rev": "6faf1ba124d7"
+  },
+  {
+    "id": "R4-book",
+    "field": "subject",
+    "text": "WHAT THE NETWORK WROTE DOWN",
+    "note": "reel ramponeau-prologue, beat 4/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf071dce8c91"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "name",
+    "text": "Detective Reyes",
+    "note": "reel ramponeau-prologue, beat 5/5 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "text",
+    "text": "Ours is a paper card for 10 trips. No name on it. Start there.",
+    "note": "reel ramponeau-prologue, beat 5/5 · the line itself · speaker Detective Reyes",
+    "rev": "44e916597bf2"
+  },
+  {
+    "id": "R6-handoff",
+    "field": "subject",
+    "text": "WHO YOU ARE LOOKING AT",
+    "note": "reel ramponeau-prologue, beat 5/5 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ffd11392eaf6"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "One Year, One Table",
+    "text": "一年，一张表",
+    "note": "dossier \"One Year, One Table\" · the dossier's own title",
+    "rev": "fbe5634771da"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The School Fire",
+    "text": "学校大火",
+    "note": "dossier \"One Year, One Table\" · the dossier's own arcTitle",
+    "rev": "03c1ee9badba"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "序幕",
+    "note": "dossier \"One Year, One Table\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the first case: the fire, and the table of every emergency in Paris.",
+    "text": "第一起案件前：火灾，以及记录了巴黎所有紧急事件的数据表。",
+    "note": "dossier \"One Year, One Table\" · the dossier's own summary",
+    "rev": "334b49e62b00"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "30 seconds, no typing. Reyes names the fire and the table.",
+    "text": "30秒，不用碰键盘。雷耶斯点出火灾和那张表。",
+    "note": "dossier \"One Year, One Table\" · the dossier's own pitchMarkdown",
+    "rev": "75bf639ce343"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 15, 2025",
+    "text": "2025年10月15日",
+    "note": "dossier \"One Year, One Table\" · the gazette's date",
+    "rev": "25c2a9a3f95a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "One Year, One Table",
+    "text": "一年，一张表",
+    "note": "dossier \"One Year, One Table\" · the gazette's headline",
+    "rev": "fbe5634771da"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris Emergency Switchboard",
+    "text": "巴黎紧急呼叫中心",
+    "note": "dossier \"One Year, One Table\" · the gazette's subheadline",
+    "rev": "1008cf6d0d18"
+  },
+  {
+    "id": "steps[prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "序幕",
+    "note": "dossier \"One Year, One Table\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "看简报。",
+    "note": "dossier \"One Year, One Table\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

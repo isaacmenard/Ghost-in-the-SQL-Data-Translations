@@ -1,0 +1,218 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "단편",
+    "note": "reel orsay-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "3,329 ROWS · 5 COLUMNS",
+    "text": "3,329행 · 5열",
+    "note": "reel orsay-prologue · the words around the figures of the badge_passages set piece · chapter: Standalone",
+    "rev": "aaff54c08e0c"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 3,327 more rows",
+    "text": "… 외 3,327행",
+    "note": "reel orsay-prologue · what the badge_passages sample leaves out · chapter: Standalone",
+    "rev": "52baca33965b"
+  },
+  {
+    "id": "second",
+    "field": "meta",
+    "source": "224 ROWS · 4 COLUMNS",
+    "text": "224행 · 4열",
+    "note": "reel orsay-prologue · the second set piece (badge_holders) · chapter: Standalone",
+    "rev": "e3c613e5eff4"
+  },
+  {
+    "id": "second",
+    "field": "more",
+    "source": "… 222 more rows",
+    "text": "… 외 222행",
+    "note": "reel orsay-prologue · what the second sample leaves out · chapter: Standalone",
+    "rev": "76c2546c978b"
+  },
+  {
+    "id": "O1-crown",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 1/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-crown",
+    "field": "text",
+    "source": "Musee d'Orsay, Thursday. The exhibition opens tonight at 20:00, with a crown on show.",
+    "text": "Musee d'Orsay, 목요일. 오늘 밤 20:00에 전시가 개막하며, 왕관이 전시된다.",
+    "note": "reel orsay-prologue, beat 1/7 · the line itself · speaker Detective Reyes",
+    "rev": "2b9cec2e0597"
+  },
+  {
+    "id": "O1-crown",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue, beat 1/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-locked",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 2/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-locked",
+    "field": "text",
+    "source": "17:30, it was locked in its case, in the `Reserve`.",
+    "text": "17:30, 수장고(`Reserve`) 진열장에 잠겨 있었다.",
+    "note": "reel orsay-prologue, beat 2/7 · the line itself · speaker Detective Reyes",
+    "rev": "415603b03f32"
+  },
+  {
+    "id": "O1-locked",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue, beat 2/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-empty",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 3/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-empty",
+    "field": "text",
+    "source": "18:40, a guard went to fetch it. Empty.",
+    "text": "18:40, 경비원(`Security Guard`)이 가지러 갔다. 텅 비어 있었다.",
+    "note": "reel orsay-prologue, beat 3/7 · the line itself · speaker Detective Reyes",
+    "rev": "b972a3620fa5"
+  },
+  {
+    "id": "O1-empty",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue, beat 3/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-door",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 4/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-door",
+    "field": "text",
+    "source": "The `Reserve` door wasn't forced. Staff badges only.",
+    "text": "수장고(`Reserve`) 문에 강제 침입 흔적은 없다. 직원 배지로만 열린다.",
+    "note": "reel orsay-prologue, beat 4/7 · the line itself · speaker Detective Reyes",
+    "rev": "06258a864afe"
+  },
+  {
+    "id": "O1-door",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue, beat 4/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-sick",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 5/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-sick",
+    "field": "text",
+    "source": "Etienne Vasseur, the registrar, ate a late lunch. Food poisoning, right after the first bite. Nobody else was sick.",
+    "text": "등록 담당관(`Registrar`) Etienne Vasseur는 점심을 늦게 먹었다. 첫 술을 뜨자마자 식중독 증세를 보였다. 다른 사람은 아무 탈 없었다.",
+    "note": "reel orsay-prologue, beat 5/7 · the line itself · speaker Detective Reyes",
+    "rev": "f50bcbaa90eb"
+  },
+  {
+    "id": "O1-sick",
+    "field": "subject",
+    "source": "THE CROWN",
+    "text": "왕관",
+    "note": "reel orsay-prologue, beat 5/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "e9bae01d4061"
+  },
+  {
+    "id": "O1-log",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 6/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-log",
+    "field": "text",
+    "source": "Every door in the museum reads a badge, going in and going out. `badge_passages` holds every swipe.",
+    "text": "미술관의 모든 문은 들어갈 때와 나갈 때 배지를 인식한다. `badge_passages`에 모든 출입 기록이 들어 있다.",
+    "note": "reel orsay-prologue, beat 6/7 · the line itself · speaker Detective Reyes",
+    "rev": "29781d1c8ce9"
+  },
+  {
+    "id": "O1-log",
+    "field": "subject",
+    "source": "THE BADGES",
+    "text": "배지",
+    "note": "reel orsay-prologue, beat 6/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ae0092f0db83"
+  },
+  {
+    "id": "O1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "레이에스 형사",
+    "note": "reel orsay-prologue, beat 7/7 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "O1-order",
+    "field": "text",
+    "source": "`badge_holders` says whose badge is whose. Find the badge that opened the `Reserve`, then whose badge it was.",
+    "text": "`badge_holders`에 어느 배지가 누구 것인지 나와 있다. 수장고(`Reserve`)를 연 배지를 찾고, 그다음 누구 배지였는지 찾아라.",
+    "note": "reel orsay-prologue, beat 7/7 · the line itself · speaker Detective Reyes",
+    "rev": "d7e403765e7f"
+  },
+  {
+    "id": "O1-order",
+    "field": "subject",
+    "source": "THE BADGES",
+    "text": "배지",
+    "note": "reel orsay-prologue, beat 7/7 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "ae0092f0db83"
+  }
+]

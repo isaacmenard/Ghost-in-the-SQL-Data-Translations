@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Three Back Rooms",
+    "text": "Три дальние комнаты",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own title",
+    "rev": "af43269df92c"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Hospital Stalker",
+    "text": "Больничный преследователь",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own arcTitle",
+    "rev": "e7c984779c57"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "ПРОЛОГ",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the door log: 3 attacks in one week, and the table that recorded every badge.",
+    "text": "До журнала пропусков: 3 нападения за одну неделю и таблица, которая фиксировала каждый пропуск.",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own summary",
+    "rev": "e6d645f9f364"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes names the 3 attacks and hands over the door log.",
+    "text": "1 минута, без ввода. Рейес называет 3 нападения и передает журнал пропусков.",
+    "note": "dossier \"Three Back Rooms\" · the dossier's own pitchMarkdown",
+    "rev": "a66c5b21350d"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "FEBRUARY 6, 2026",
+    "text": "6 ФЕВРАЛЯ 2026 ГОДА",
+    "note": "dossier \"Three Back Rooms\" · the gazette's date",
+    "rev": "b65c0893ec58"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Three Back Rooms",
+    "text": "Три дальние комнаты",
+    "note": "dossier \"Three Back Rooms\" · the gazette's headline",
+    "rev": "af43269df92c"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Hopital Lamarck",
+    "text": "Hopital Lamarck",
+    "note": "dossier \"Three Back Rooms\" · the gazette's subheadline",
+    "rev": "ffbc8170a64a"
+  },
+  {
+    "id": "steps[hospital-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Пролог",
+    "note": "dossier \"Three Back Rooms\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[hospital-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Посмотри инструктаж.",
+    "note": "dossier \"Three Back Rooms\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

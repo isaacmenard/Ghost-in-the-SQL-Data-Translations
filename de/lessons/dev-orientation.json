@@ -1,0 +1,90 @@
+[
+  {
+    "id": "V1-desk",
+    "field": "goal",
+    "source": "Your desk.",
+    "text": "Dein Schreibtisch.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes",
+    "rev": "5b31a74d1f48"
+  },
+  {
+    "id": "V1-desk",
+    "field": "sayName",
+    "source": "Detective Reyes",
+    "text": "Inspektor Reyes",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "V1-desk",
+    "field": "say",
+    "source": "Welcome to your desk. I'll show you where everything is, then leave you to work.",
+    "text": "Willkommen an deinem Schreibtisch. Ich zeige dir, wo alles liegt, dann lasse ich dich arbeiten.",
+    "note": "lesson dev-orientation, beat 1/5 · speaker Detective Reyes · goal: Your desk.",
+    "rev": "5b0a408e73a7"
+  },
+  {
+    "id": "V2-editor",
+    "field": "goal",
+    "source": "The query goes in the query desk.",
+    "text": "Die Abfrage kommt auf den Abfragetisch.",
+    "note": "lesson dev-orientation, beat 2/5",
+    "rev": "76de1b9c68a6"
+  },
+  {
+    "id": "V2-editor",
+    "field": "coach",
+    "source": "You write the query here. It is SQL, and it is read-only. `SELECT`, nothing else.",
+    "text": "Die Abfrage schreibst du hier. Es ist SQL und rein lesend. `SELECT`, sonst nichts.",
+    "note": "lesson dev-orientation, beat 2/5 · goal: The query goes in the query desk.",
+    "rev": "9ff58f4a3788"
+  },
+  {
+    "id": "V3-run",
+    "field": "goal",
+    "source": "Run executes the query.",
+    "text": "Ausführen startet die Abfrage.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1",
+    "rev": "16fe35bd8fca"
+  },
+  {
+    "id": "V3-run",
+    "field": "coach",
+    "source": "Run executes the query. Run it as many times as you like. The rows come back underneath.",
+    "text": "Ausführen startet die Abfrage. Führe sie so oft aus, wie du willst. Die Zeilen erscheinen darunter.",
+    "note": "lesson dev-orientation, beat 3/5 · difficulty 1 · goal: Run executes the query.",
+    "rev": "56df8a2b0ee3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "goal",
+    "source": "Verify submits your answer.",
+    "text": "Prüfen reicht deine Antwort ein.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1",
+    "rev": "5434a8503dd3"
+  },
+  {
+    "id": "V4-verify",
+    "field": "coach",
+    "source": "Verify sends those rows in as your answer. It reads the rows you brought back and nothing else.",
+    "text": "Prüfen schickt diese Zeilen als deine Antwort. Es liest die Zeilen, nicht die Abfrage, die du geschrieben hast.",
+    "note": "lesson dev-orientation, beat 4/5 · difficulty 1 · goal: Verify submits your answer.",
+    "rev": "89c0a5cefad3"
+  },
+  {
+    "id": "V5-card",
+    "field": "goal",
+    "source": "The card lists every clause.",
+    "text": "Die Karte listet jede Klausel.",
+    "note": "lesson dev-orientation, beat 5/5",
+    "rev": "9b07bfefd2da"
+  },
+  {
+    "id": "V5-card",
+    "field": "coach",
+    "source": "The card lists every clause the game asks for, and the tables. That is everything.",
+    "text": "Die Karte listet jede Klausel, die das Spiel verlangt, und die Tabellen. Das ist alles.",
+    "note": "lesson dev-orientation, beat 5/5 · goal: The card lists every clause.",
+    "rev": "cbf9ac49ff27"
+  }
+]

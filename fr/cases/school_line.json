@@ -1,0 +1,242 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "JOIN",
+    "text": "JOIN",
+    "note": "dossier \"JOIN\" · the dossier's own title",
+    "rev": "a9e153ee4bba"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "`LINE 4417` reported the school fire 14 minutes before the first witness saw it. The telephone company's register lists the room each line's telephone is in.",
+    "text": "`LINE 4417` a signalé l’incendie du collège 14 minutes avant que le premier témoin le voie. Le registre de la compagnie de téléphone indique la salle où se trouve le téléphone de chaque ligne.",
+    "note": "dossier \"JOIN\" · the dossier's own summary",
+    "rev": "ce6c84142009"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "A call reached the Paris Emergency Switchboard at 20:58 from `LINE 4417`. The first witness saw the fire at 21:12.\n\n`LINE 4417` is on the telephone company's bills.",
+    "text": "Un appel provenant de `LINE 4417` est parvenu au standard des urgences de Paris à 20:58. Le premier témoin a vu l’incendie à 21:12.\n\n`LINE 4417` figure sur les factures de la compagnie de téléphone.",
+    "note": "dossier \"JOIN\" · the dossier's own pitchMarkdown",
+    "rev": "b94ae081fef5"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables, `dispatch_log` and `line_register`.",
+    "text": "2 tables, `dispatch_log` et `line_register`.",
+    "note": "dossier \"JOIN\" · the dossier's own rulesMarkdown",
+    "rev": "7d8a59ab81f5"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "From which room of the school was the 20:58 call on `LINE 4417` made?",
+    "text": "Depuis quelle salle du collège l’appel de 20:58 sur `LINE 4417` a-t-il été passé ?",
+    "note": "dossier \"JOIN\" · the dossier's own openQuestion",
+    "rev": "b6c3b915afe7"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "OCTOBER 16, 2025",
+    "text": "16 OCTOBRE 2025",
+    "note": "dossier \"JOIN\" · the gazette's date",
+    "rev": "64c7845dbafb"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Chief Forensics Reporter",
+    "text": "Chef de rubrique police scientifique",
+    "note": "dossier \"JOIN\" · the gazette's author",
+    "rev": "a499e29ad81a"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "School Fire Call Came Before Any Witness, Police Confirm",
+    "text": "L’appel signalant l’incendie du collège a précédé tous les témoins, confirme la police",
+    "note": "dossier \"JOIN\" · the gazette's headline",
+    "rev": "44a2bbc65338"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Detectives Trace a Single Line to rue Curial",
+    "text": "Les enquêteurs remontent une seule ligne jusqu’à la rue Curial",
+    "note": "dossier \"JOIN\" · the gazette's subheadline",
+    "rev": "dc5bed2fee79"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "A call about the school fire reached the Paris Emergency Switchboard at 20:58. The first witness saw flames 14 minutes later.\n\nThe call came from `LINE 4417`. The line is on the telephone company's bills, at the school's own address, 12 rue Curial. Detectives want to know which room the call was made from.",
+    "text": "Un appel concernant l’incendie du collège est parvenu au standard des urgences de Paris à 20:58. Le premier témoin a vu les flammes 14 minutes plus tard.\n\nL’appel provenait de `LINE 4417`. La ligne figure sur les factures de la compagnie de téléphone, à l’adresse même du collège, 12 rue Curial. Les enquêteurs veulent savoir dans quelle salle l’appel a été passé.",
+    "note": "dossier \"JOIN\" · the gazette's editorialArticle",
+    "rev": "01695dde199a"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"That call came 14 minutes before any witness.\"",
+    "text": "« Cet appel est arrivé 14 minutes avant tout témoin. »",
+    "note": "dossier \"JOIN\" · the gazette's leadQuote",
+    "rev": "01ab9fddb58c"
+  },
+  {
+    "id": "csvFiles[line_register]",
+    "field": "description",
+    "source": "Every telephone line the telephone company bills: the subscriber, the room its telephone is in and at which hours, the street and the district. A `Flat` is where a caretaker lives on site.",
+    "text": "Toutes les lignes téléphoniques facturées par la compagnie de téléphone : l’abonné, la salle où se trouve son téléphone et à quelles heures, la rue et le quartier. Le `Flat` est le logement d’un gardien (`Caretaker`) sur place.",
+    "note": "dossier \"JOIN\" · the `line_register` table — description",
+    "rev": "d1d43a3365c6"
+  },
+  {
+    "id": "csvFiles[dispatch_log]",
+    "field": "description",
+    "source": "A year at the Paris Emergency Switchboard: every call, sighting, alarm panel, patrol and fire engine in Paris, with the day and the hour it was written down.",
+    "text": "Une année au standard des urgences de Paris : chaque appel, témoignage, boîtier, patrouille et camion de pompiers traités à Paris, avec le jour et l’heure de consignation.",
+    "note": "dossier \"JOIN\" · the `dispatch_log` table — description",
+    "rev": "1d81c8a3f444"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "title",
+    "source": "The *Register*",
+    "text": "Le *registre*",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — title",
+    "rev": "77e36607e75d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "instructions",
+    "source": "Somebody pays a bill for `LINE 4417`. The telephone company lists every line it bills in `line_register`.",
+    "text": "Quelqu’un paie une facture pour `LINE 4417`. La compagnie de téléphone répertorie chaque ligne facturée dans `line_register`.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — instructions",
+    "rev": "940eb8039a3d"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedResult",
+    "source": "Instead of `*`, name the columns you want, separated by a comma. From `line_register`, show only the columns `line` and `subscriber`.",
+    "text": "Au lieu de `*`, indique les colonnes voulues en les séparant par une virgule. Dans `line_register`, n’affiche que les colonnes `line` et `subscriber`.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedResult",
+    "rev": "2ab0cef3dc3a"
+  },
+  {
+    "id": "steps[the-line-book]",
+    "field": "expectedShapeNote",
+    "source": "Every row of the register: 30 rows, 2 columns.",
+    "text": "Toutes les lignes du registre : 30 lignes, 2 colonnes.",
+    "note": "dossier \"JOIN\" · checkpoint 1/3 \"The *Register*\" — expectedShapeNote",
+    "rev": "18f7ff3c5d59"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "title",
+    "source": "Join the *Two*",
+    "text": "Joindre les *deux*",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — title",
+    "rev": "a0116fba9d00"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "instructions",
+    "source": "Both tables hold the line number: `source` in `dispatch_log`, `line` in `line_register`. In the register, `hours` says when the line's telephone is in that room.",
+    "text": "Les deux tables contiennent le numéro de ligne : `source` dans `dispatch_log`, `line` dans `line_register`. Dans le registre, `hours` indique quand le téléphone de la ligne se trouve dans cette salle.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — instructions",
+    "rev": "f8df19f998a7"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedResult",
+    "source": "Start from the calls, `FROM dispatch_log`. Then add `JOIN line_register ON source = line`: each call from a line in the register gets that line's room. Keep the calls of `2025-10-14`. Show only the time, the line, the room and its hours.",
+    "text": "Pars des appels, `FROM dispatch_log`. Puis ajoute `JOIN line_register ON source = line` : chaque appel passé depuis une ligne du registre est associé à la salle correspondante. Garde les appels du `2025-10-14`. N’affiche que l’heure, la ligne, la salle et ses horaires.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedResult",
+    "rev": "340e0a684a68"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "expectedShapeNote",
+    "source": "9 rows: the calls of that day from a billed line.",
+    "text": "9 lignes : les appels de ce jour venus d’une ligne facturée.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — expectedShapeNote",
+    "rev": "e69981f8cc17"
+  },
+  {
+    "id": "steps[link-the-two]",
+    "field": "afterText",
+    "source": "9 rows. A call with no line in the register isn't in the result. The 20:58 call appears 3 times: `LINE 4417` has 3 rooms.",
+    "text": "9 lignes de résultat. Un appel dont le numéro n’est pas dans le registre n’y figure pas. L’appel de 20:58 apparaît 3 fois : `LINE 4417` a 3 salles.",
+    "note": "dossier \"JOIN\" · checkpoint 2/3 \"Join the *Two*\" — afterText",
+    "rev": "84595d6da798"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "title",
+    "source": "Which *Room*",
+    "text": "Quelle *salle*",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — title",
+    "rev": "37ea3a02953e"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "instructions",
+    "source": "The early call came from `LINE 4417` at 20:58.",
+    "text": "L’appel arrivé trop tôt venait de `LINE 4417`, à 20:58.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — instructions",
+    "rev": "6dd29d687cff"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedResult",
+    "source": "Join `dispatch_log` and `line_register` again. Which room was the call made from? Keep only that row, and only the columns `room` and `at_time`.",
+    "text": "Associe de nouveau `dispatch_log` et `line_register`. Dans quelle salle l’appel a-t-il été passé ? Ne garde que cette ligne, et seulement les colonnes `room` et `at_time`.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedResult",
+    "rev": "2e9ec45dfe5c"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "expectedShapeNote",
+    "source": "One row: the room and the time.",
+    "text": "Une seule ligne : la salle et l’heure.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — expectedShapeNote",
+    "rev": "64dcb4d28e92"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "afterText",
+    "source": "The `Lodge`. At 20:58, that line was the `Lodge` telephone.",
+    "text": "La loge (`Lodge`). À 20:58, cette ligne était le téléphone de la loge.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — afterText",
+    "rev": "654ad1975a9b"
+  },
+  {
+    "id": "steps[which-room]",
+    "field": "lead",
+    "source": "`LINE 4417` has more than one row in `line_register`. Check each one against the day and the hour of the call.",
+    "text": "`LINE 4417` a plus d’une ligne dans `line_register`. Compare chacune avec le jour et l’heure de l’appel.",
+    "note": "dossier \"JOIN\" · checkpoint 3/3 \"Which *Room*\" — lead",
+    "rev": "c615cf41d7f5"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "Flames at 21:12 → `dispatch_log` → one school fire call before it: 20:58, `LINE 4417`.",
+    "text": "Flammes à 21:12 → `dispatch_log` → un appel antérieur pour l’incendie du collège : 20:58, `LINE 4417`.",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 1/2 — text",
+    "rev": "d2913b0af757"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "20:58 is between 18:00 and 22:00 → `line_register` → then `LINE 4417` is the `Lodge`.",
+    "text": "20:58 est entre 18:00 et 22:00 → `line_register` → `LINE 4417` est alors la `Lodge`.",
+    "note": "dossier \"JOIN\" · the cleared sheet's chain, step 2/2 — text",
+    "rev": "c148cb65f478"
+  }
+]

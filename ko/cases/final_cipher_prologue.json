@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "La Sante",
+    "text": "라 상테",
+    "note": "dossier \"La Sante\" · the dossier's own title",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Finale",
+    "text": "피날레",
+    "note": "dossier \"La Sante\" · the dossier's own arcTitle",
+    "rev": "b460ffb71d8b"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "프롤로그",
+    "note": "dossier \"La Sante\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the tables: the 3 men in \"La Sante\" prison, and their telephone.",
+    "text": "표를 확인하기 전: “La Sante” 교도소의 3명과 그들의 전화기.",
+    "note": "dossier \"La Sante\" · the dossier's own summary",
+    "rev": "d198454fefd1"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes shows what the 3 men who robbed the banks write from prison.",
+    "text": "1분, 입력 없음. 은행을 턴 남자 3명이 교도소에서 무엇을 보내는지 레이에스가 보여준다.",
+    "note": "dossier \"La Sante\" · the dossier's own pitchMarkdown",
+    "rev": "30da6284bd5b"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "DECEMBER 14, 2026",
+    "text": "2026년 12월 14일",
+    "note": "dossier \"La Sante\" · the gazette's date",
+    "rev": "7c325b17778c"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "La Sante",
+    "text": "라 상테",
+    "note": "dossier \"La Sante\" · the gazette's headline",
+    "rev": "1166e675e989"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "파리",
+    "note": "dossier \"La Sante\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "프롤로그",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[final-cipher-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "브리핑을 봐라.",
+    "note": "dossier \"La Sante\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

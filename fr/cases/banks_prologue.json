@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Six Banks",
+    "text": "Six banques",
+    "note": "dossier \"Six Banks\" · the dossier's own title",
+    "rev": "8f3bdddc80e4"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Next Bank",
+    "text": "La prochaine banque",
+    "note": "dossier \"Six Banks\" · the dossier's own arcTitle",
+    "rev": "23cf7015df91"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "PROLOGUE",
+    "note": "dossier \"Six Banks\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the table: 6 robberies, and the table of every bank in Paris.",
+    "text": "Avant la table : 6 braquages, et la table de toutes les banques de Paris.",
+    "note": "dossier \"Six Banks\" · the dossier's own summary",
+    "rev": "597d995fdb57"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "1 minute, no typing. Reyes names the 6 robberies and hands over the bank table.",
+    "text": "1 minute, sans rien taper. Reyes cite les 6 braquages et remet la table des banques.",
+    "note": "dossier \"Six Banks\" · the dossier's own pitchMarkdown",
+    "rev": "bde374207a1b"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 7, 2026",
+    "text": "7 NOVEMBRE 2026",
+    "note": "dossier \"Six Banks\" · the gazette's date",
+    "rev": "7a3c5be67383"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Six Banks",
+    "text": "Six banques",
+    "note": "dossier \"Six Banks\" · the gazette's headline",
+    "rev": "8f3bdddc80e4"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Paris",
+    "text": "Paris",
+    "note": "dossier \"Six Banks\" · the gazette's subheadline",
+    "rev": "5dd272b4f316"
+  },
+  {
+    "id": "steps[banks-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Prologue",
+    "note": "dossier \"Six Banks\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[banks-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Regarde le briefing.",
+    "note": "dossier \"Six Banks\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "The Blue Houses",
+    "text": "蓝房子",
+    "note": "dossier \"The Blue Houses\" · the dossier's own title",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "The Blue Houses",
+    "text": "蓝房子",
+    "note": "dossier \"The Blue Houses\" · the dossier's own arcTitle",
+    "rev": "d31d5f782c22"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "5 houses on Villa Godin, in `Saint Fargeau`, painted blue in the night. Each one after a party. 1 pot was left behind.",
+    "text": "`Saint Fargeau`的Villa Godin，5栋房子夜里被人刷成蓝色，每次都在派对之后。现场留下1个油漆罐。",
+    "note": "dossier \"The Blue Houses\" · the dossier's own summary",
+    "rev": "79d9415c6014"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "Wednesday 1 July. Villa Godin, Paris.\n\n5 houses painted blue since April. 1 pot in a hedge.",
+    "text": "7月1日，星期三。巴黎Villa Godin。\n\n4月以来，5栋房子被刷成蓝色。树篱里有1个油漆罐。",
+    "note": "dossier \"The Blue Houses\" · the dossier's own pitchMarkdown",
+    "rev": "9688c516caf4"
+  },
+  {
+    "id": "",
+    "field": "rulesMarkdown",
+    "source": "2 tables.\n\n`shop_sales` is every sale at the neighbourhood hardware shop, April to June. It is the only shop near the street that sells `Brikoko`. One row per sale. `card` is the loyalty card the customer paid with, and is empty when they had none.\n\n`loyalty_cards` is the list of cards. One row per `card`: who holds it, and the part of town they live in.",
+    "text": "2张表。\n\n`shop_sales`记录附近街区五金店4月至6月的每笔销售。这是这条街附近唯一卖`Brikoko`的店。每笔销售占一行。`card`是顾客结账时使用的会员卡，没用卡就留空。\n\n`loyalty_cards`是会员卡名单。每张`card`占一行：持卡人及所在街区。",
+    "note": "dossier \"The Blue Houses\" · the dossier's own rulesMarkdown",
+    "rev": "4306baec1d9d"
+  },
+  {
+    "id": "",
+    "field": "openQuestion",
+    "source": "Who painted the 5 houses on Villa Godin blue?",
+    "text": "是谁把Villa Godin的5栋房子刷成了蓝色？",
+    "note": "dossier \"The Blue Houses\" · the dossier's own openQuestion",
+    "rev": "3263bd8a55fe"
+  },
+  {
+    "id": "",
+    "field": "verdictText",
+    "source": "Miles Greaves",
+    "text": "Miles Greaves",
+    "note": "dossier \"The Blue Houses\" · the dossier's own verdictText",
+    "rev": "4f3d36038e6c"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "JULY 1, 2026",
+    "text": "2026年7月1日",
+    "note": "dossier \"The Blue Houses\" · the gazette's date",
+    "rev": "c62e5cae9e61"
+  },
+  {
+    "id": "newsletter",
+    "field": "author",
+    "source": "Paris Crime Newsletter",
+    "text": "《巴黎罪案快报》",
+    "note": "dossier \"The Blue Houses\" · the gazette's author",
+    "rev": "1d123d86e62d"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "A 5th House Painted Blue on Villa Godin",
+    "text": "Villa Godin第5栋房子被刷成蓝色",
+    "note": "dossier \"The Blue Houses\" · the gazette's headline",
+    "rev": "f82074368171"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "Every Owner Had a Party the Night Before",
+    "text": "每位房主前一晚都办过派对",
+    "note": "dossier \"The Blue Houses\" · the gazette's subheadline",
+    "rev": "97291185a152"
+  },
+  {
+    "id": "newsletter",
+    "field": "editorialArticle",
+    "source": "Jess Harlow woke up on Sunday to a blue house at 12 Villa Godin, Paris. 2 weeks earlier, the same happened to Tom Fairley's house, at number 4. Since April, 3 other houses on the same street were painted before them.\n\nEach owner had a party on the Saturday night. Nobody saw who did it. A pot of paint was found in Jess Harlow's hedge.",
+    "text": "星期天早晨，Jess Harlow醒来，巴黎Villa Godin 12号的房子已经变成蓝色。2周前是4号Tom Fairley的房子。从4月起，这条街上还有3栋房子在他们之前被刷过。\n\n每位房主都在星期六晚上办过派对。没人看见是谁干的。Jess Harlow家的树篱里找到了一罐油漆。",
+    "note": "dossier \"The Blue Houses\" · the gazette's editorialArticle",
+    "rev": "f84f6b3dbec7"
+  },
+  {
+    "id": "newsletter",
+    "field": "leadQuote",
+    "source": "\"The last guests left at midnight. At 6 in the morning, the house was blue.\"",
+    "text": "“最后的客人半夜走了。早上6点，房子就变蓝了。”",
+    "note": "dossier \"The Blue Houses\" · the gazette's leadQuote",
+    "rev": "d22d61cd7299"
+  },
+  {
+    "id": "documents[the-houses]",
+    "field": "title",
+    "source": "2 OF THE 5 HOUSES",
+    "text": "5栋房子中的2栋",
+    "note": "dossier \"The Blue Houses\" · document `the-houses` — title",
+    "rev": "e77272562acd"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "title",
+    "source": "EVIDENCE TAG",
+    "text": "物证标签",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — title",
+    "rev": "056de9129af3"
+  },
+  {
+    "id": "documents[evidence-tag]",
+    "field": "contentMarkdown",
+    "source": "**Found:** Sunday 28 June, 06:10, in the hedge of 12 `Villa Godin`.\n\n**Object:** 1 pot of `Blue Paint`, with its stick.\n\n**Brand on the label:** `Brikoko`.\n\n**Price sticker on the lid:** the hardware shop's, dated June 2026.",
+    "text": "**发现**：6月28日，星期天，06:10，`Villa Godin` 12号的树篱中。\n\n**物品**：1罐蓝油漆（`Blue Paint`），带搅拌棒。\n\n**标签品牌**：`Brikoko`。\n\n**盖子上的价格标签**：五金店的，日期是2026年6月。",
+    "note": "dossier \"The Blue Houses\" · document `evidence-tag` — contentMarkdown",
+    "rev": "19952d2589a3"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "title",
+    "source": "THE 5 HOUSES",
+    "text": "5栋房子",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — title",
+    "rev": "1fc8ad46c224"
+  },
+  {
+    "id": "documents[the-five]",
+    "field": "contentMarkdown",
+    "source": "All 5 are on Villa Godin, in `Saint Fargeau`.\n\nPainted at night, one at a time, after each party. Since April.",
+    "text": "5栋都在Villa Godin，位于`Saint Fargeau`。\n\n都是夜里刷的，一次一栋，每次派对之后。从4月开始。",
+    "note": "dossier \"The Blue Houses\" · document `the-five` — contentMarkdown",
+    "rev": "7c51669e5b59"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "title",
+    "source": "THE NEIGHBOUR AT NUMBER 9",
+    "text": "9号邻居",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — title",
+    "rev": "f7eee49bdd33"
+  },
+  {
+    "id": "documents[the-neighbour]",
+    "field": "contentMarkdown",
+    "source": "Night of 27 June, about 03:00.\n\n\"A man came out of number 12's garden with a ladder. His hands were blue. No car. He walked away along the street. I think he lives around here, but I couldn't say where.\"",
+    "text": "6月27日夜里，03:00左右。\n\n“有个男人拿着梯子从12号的花园里出来。手是蓝的。没开车。他顺着街走远了。我觉得他就住在这一带，但说不上来在哪儿。”",
+    "note": "dossier \"The Blue Houses\" · document `the-neighbour` — contentMarkdown",
+    "rev": "b13cb71f849a"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "title",
+    "source": "HOW TO SEND AN ANSWER",
+    "text": "如何提交答案",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — title",
+    "rev": "3af18589dab2"
+  },
+  {
+    "id": "documents[how-to-answer]",
+    "field": "contentMarkdown",
+    "source": "Once you have the card, return its row from `loyalty_cards`.\n\nFor example, if you think the answer is card `LC-0001`, type this:\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "text": "拿到卡后，去`loyalty_cards`查对应的行。\n\n例如，如果你认为答案是卡`LC-0001`，输入：\n\n```sql\nSELECT *\nFROM loyalty_cards\nWHERE card = 'LC-0001'\n```",
+    "note": "dossier \"The Blue Houses\" · document `how-to-answer` — contentMarkdown",
+    "rev": "16ab4de8d129"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "title",
+    "source": "MILES GREAVES'S FLAT, 2 JULY",
+    "text": "Miles Greaves的住处，7月2日",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — title",
+    "rev": "3fbdd3b93d91"
+  },
+  {
+    "id": "documents[the-search]",
+    "field": "contentMarkdown",
+    "source": "**In the cellar:** 2 pots of `Brikoko` `Blue Paint`, with the same June price sticker.\n\n**On a shelf:** a pair of gardening gloves, stiff with blue paint.\n\nHe says the parties on Villa Godin were too loud.",
+    "text": "**地下室**：2罐`Brikoko`蓝油漆（`Blue Paint`），贴着同样的6月价格标签。\n\n**架子上**：一副园艺手套，沾着蓝油漆，已经发硬。\n\n他说Villa Godin上的派对太吵。",
+    "note": "dossier \"The Blue Houses\" · document `the-search` — contentMarkdown",
+    "rev": "64787a4f0ea7"
+  },
+  {
+    "id": "documents[metro-0701]",
+    "field": "title",
+    "source": "Wednesday 1 July 2026",
+    "text": "2026年7月1日星期三",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701` — title",
+    "rev": "c77097286629"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "title",
+    "source": "Paris Insurance Fair: 3 Days, 40 Insurers",
+    "text": "巴黎保险博览会：为期3天，40家保险公司参展",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — title",
+    "rev": "a66e37de2fd3"
+  },
+  {
+    "id": "documents[metro-0701-fair]",
+    "field": "contentMarkdown",
+    "source": "The fair closes today at Porte de Versailles, after 3 days. The City of Paris will choose the insurer of its schools in the autumn.\n\n*Dele Okonjo, for the City of Paris, with his brother Samuel Okonjo, head of Okonjo Insurance.*",
+    "text": "为期3天的博览会今天在Porte de Versailles闭幕。巴黎市将在秋季选定各学校的保险公司。\n\n*代表巴黎市的Dele Okonjo与他的兄弟、Okonjo Insurance负责人Samuel Okonjo。*",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-fair` — contentMarkdown",
+    "rev": "c4c3e89b27be"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "title",
+    "source": "Jean Moulin Fire: Trial in 2027",
+    "text": "Jean Moulin火灾案：2027年开庭",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — title",
+    "rev": "fd3a721c2911"
+  },
+  {
+    "id": "documents[metro-0701-pell]",
+    "field": "contentMarkdown",
+    "source": "Victor Pell will be tried in 2027 for the fire at College Jean Moulin. The school opens again in September.",
+    "text": "Victor Pell因College Jean Moulin火灾将于2027年受审。学校9月重新开学。",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-pell` — contentMarkdown",
+    "rev": "6d208cd72375"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "title",
+    "source": "Hopital Lamarck: Trial in the Autumn",
+    "text": "Hopital Lamarck案：秋季开庭",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — title",
+    "rev": "3f5f88f20c3d"
+  },
+  {
+    "id": "documents[metro-0701-marsh]",
+    "field": "contentMarkdown",
+    "source": "The man charged in February with the hospital attacks will be tried in the autumn.",
+    "text": "2月因医院袭击案遭指控的男子将在秋季受审。",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-marsh` — contentMarkdown",
+    "rev": "2a77354c6d25"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "title",
+    "source": "MUTEFONE 3",
+    "text": "MUTEFONE 3",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — title",
+    "rev": "727afd541743"
+  },
+  {
+    "id": "documents[metro-0701-mutefone]",
+    "field": "contentMarkdown",
+    "source": "Write it. Only they can read it.",
+    "text": "写下来。只有他们能看懂。",
+    "note": "dossier \"The Blue Houses\" · document `metro-0701-mutefone` — contentMarkdown",
+    "rev": "8e3c692b752d"
+  },
+  {
+    "id": "csvFiles[shop_sales]",
+    "field": "description",
+    "source": "Every sale at the neighbourhood hardware shop, 1 April to 30 June. One row per sale, with the `card` the customer paid with.",
+    "text": "街区五金店4月1日至6月30日的全部销售记录。每行一笔销售，包含顾客付款所用的卡（`card`）。",
+    "note": "dossier \"The Blue Houses\" · the `shop_sales` table — description",
+    "rev": "52cb7bade1b7"
+  },
+  {
+    "id": "csvFiles[loyalty_cards]",
+    "field": "description",
+    "source": "The 260 loyalty cards of the shop. One row per card: the `card`, its `holder`, the `house` number and the `neighbourhood` they live in.",
+    "text": "店里的260张会员卡。每行一张卡：卡号（`card`）、持卡人（`holder`）、门牌号（`house`）和居住街区（`neighbourhood`）。",
+    "note": "dossier \"The Blue Houses\" · the `loyalty_cards` table — description",
+    "rev": "3cb246d2311b"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "title",
+    "source": "Who Painted",
+    "text": "谁刷的",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — title",
+    "rev": "e688bbb017e4"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "instructions",
+    "source": "Since April, somebody has painted 5 houses blue, each one at night. A pot was left behind at the last house.",
+    "text": "4月以来，有人把5栋房子刷成了蓝色，每次都在夜里。最后一栋房子那儿留下了油漆罐。",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — instructions",
+    "rev": "31ec853c4eea"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedResult",
+    "source": "Find who painted them, with `shop_sales` and `loyalty_cards`. Return their row from `loyalty_cards`.",
+    "text": "用`shop_sales`和`loyalty_cards`找出是谁刷的。返回此人在`loyalty_cards`中的那一行。",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedResult",
+    "rev": "85d3f3b18b38"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "expectedShapeNote",
+    "source": "1 row of `loyalty_cards`. The card, name and part of town of the painter.",
+    "text": "`loyalty_cards`中的1行。刷房子的人的卡号、姓名和所在街区。",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — expectedShapeNote",
+    "rev": "bb4268f33f7d"
+  },
+  {
+    "id": "steps[who-painted]",
+    "field": "lead",
+    "source": "Look in `shop_sales` for the paint on the evidence tag, brand included. Then keep the neighbourhood of the 5 houses.",
+    "text": "在`shop_sales`里查物证标签上的油漆，连品牌一起。然后保留那5栋房子所在的街区。",
+    "note": "dossier \"The Blue Houses\" · checkpoint 1/1 \"Who Painted\" — lead",
+    "rev": "b8d562c05f25"
+  },
+  {
+    "id": "closing[his-quarter]",
+    "field": "say",
+    "source": "Miles Greaves. `Saint Fargeau` is on his card, like the 5 houses.",
+    "text": "Miles Greaves。他的卡登记在`Saint Fargeau`，和那5栋房子一样。",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 1/3, said after the last stamp — say",
+    "rev": "7fa9baf67965"
+  },
+  {
+    "id": "closing[the-walk]",
+    "field": "say",
+    "source": "The neighbour saw a man leave on foot, with blue hands. He thinks the man lives nearby.",
+    "text": "邻居看见个男人走路离开，两手是蓝的。他觉得那人就住在附近。",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 2/3, said after the last stamp — say",
+    "rev": "1df2fbf08ec8"
+  },
+  {
+    "id": "closing[the-visit]",
+    "field": "say",
+    "source": "In his cellar: 2 pots of that same blue, and gloves stiff with it. He says the parties on Villa Godin were too loud.",
+    "text": "在他地下室里：2罐同样的蓝漆，手套沾了漆硬邦邦的。他说Villa Godin上的派对太吵了。",
+    "note": "dossier \"The Blue Houses\" · Reyes's closing, shot 3/3, said after the last stamp — say",
+    "rev": "3f16ddf5e550"
+  },
+  {
+    "id": "explanation[step-1]",
+    "field": "text",
+    "source": "The evidence tag: `Brikoko`, sold in June → `shop_sales` → 2 cards.",
+    "text": "物证标签：`Brikoko`，6月售出 → `shop_sales` → 2张卡。",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 1/3 — text",
+    "rev": "53d592d74c83"
+  },
+  {
+    "id": "explanation[step-2]",
+    "field": "text",
+    "source": "On foot, may live nearby → `loyalty_cards` → 1 of the 2 in `Saint Fargeau`.",
+    "text": "步行，可能住在附近 → `loyalty_cards` → 2人中有1人住在`Saint Fargeau`。",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 2/3 — text",
+    "rev": "1e4609433e9d"
+  },
+  {
+    "id": "explanation[step-3]",
+    "field": "text",
+    "source": "`LC-0147` → Miles Greaves.",
+    "text": "`LC-0147` → Miles Greaves。",
+    "note": "dossier \"The Blue Houses\" · the cleared sheet's chain, step 3/3 — text",
+    "rev": "dd7131b4b05d"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Independiente",
+    "note": "reel banks-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "6 BANKS",
+    "text": "6 BANCOS",
+    "note": "reel banks-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "100 ROWS · 10 COLUMNS",
+    "text": "100 FILAS · 10 COLUMNAS",
+    "note": "reel banks-prologue · the words around the figures of the banks set piece · chapter: Standalone",
+    "rev": "5bdf01e9a41f"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 98 more rows, and 4 more columns",
+    "text": "… 98 filas y 4 columnas más",
+    "note": "reel banks-prologue · what the banks sample leaves out · chapter: Standalone",
+    "rev": "2f3ebe74ad4e"
+  },
+  {
+    "id": "B1-six",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 1/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-six",
+    "field": "text",
+    "source": "6 banks robbed in Paris since June. It's the same 3 men every time.",
+    "text": "6 bancos atracados en París desde junio. Siempre los mismos 3 hombres.",
+    "note": "reel banks-prologue, beat 1/8 · the line itself · speaker Detective Reyes",
+    "rev": "0bddb6af01cb"
+  },
+  {
+    "id": "B1-six",
+    "field": "subject",
+    "source": "6 BANKS",
+    "text": "6 BANCOS",
+    "note": "reel banks-prologue, beat 1/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "B1-van",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 2/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-van",
+    "field": "text",
+    "source": "A white van. 7 minutes inside each bank.",
+    "text": "Una furgoneta blanca. 7 minutos en cada banco.",
+    "note": "reel banks-prologue, beat 2/8 · the line itself · speaker Detective Reyes",
+    "rev": "d78ab5eb1ed1"
+  },
+  {
+    "id": "B1-van",
+    "field": "subject",
+    "source": "6 BANKS",
+    "text": "6 BANCOS",
+    "note": "reel banks-prologue, beat 2/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "3c5002929acd"
+  },
+  {
+    "id": "B1-map",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 3/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-map",
+    "field": "text",
+    "source": "Every bank in Paris, with its `bank_id` beside it.",
+    "text": "Todos los bancos de París, con su `bank_id` al lado.",
+    "note": "reel banks-prologue, beat 3/8 · the line itself · speaker Detective Reyes",
+    "rev": "7e78b1442aae"
+  },
+  {
+    "id": "B1-map",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "EL MAPA",
+    "note": "reel banks-prologue, beat 3/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 4/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "text",
+    "source": "The crossed rings. That's the 6 they robbed.",
+    "text": "Los anillos tachados. Son los 6 bancos atracados.",
+    "note": "reel banks-prologue, beat 4/8 · the line itself · speaker Detective Reyes",
+    "rev": "be34eb422277"
+  },
+  {
+    "id": "B1-zoom",
+    "field": "subject",
+    "source": "THE MAP",
+    "text": "EL MAPA",
+    "note": "reel banks-prologue, beat 4/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "330a58d99dfb"
+  },
+  {
+    "id": "B1-table",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 5/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-table",
+    "field": "text",
+    "source": "The `banks` database has all 100 banks in Paris. The 6 robbed banks are in there too.",
+    "text": "La base de datos `banks` tiene los 100 bancos de París. Los 6 bancos atracados también están ahí.",
+    "note": "reel banks-prologue, beat 5/8 · the line itself · speaker Detective Reyes",
+    "rev": "7fac068f37ab"
+  },
+  {
+    "id": "B1-table",
+    "field": "subject",
+    "source": "EVERY BANK IN PARIS",
+    "text": "TODOS LOS BANCOS DE PARÍS",
+    "note": "reel banks-prologue, beat 5/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-group",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 6/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-group",
+    "field": "text",
+    "source": "Using `GROUP BY`, you'll get 1 row per sector, public or private.",
+    "text": "Con `GROUP BY`, sacas 1 fila por sector, público o privado.",
+    "note": "reel banks-prologue, beat 6/8 · the line itself · speaker Detective Reyes",
+    "rev": "6efcec645ffd"
+  },
+  {
+    "id": "B1-group",
+    "field": "subject",
+    "source": "EVERY BANK IN PARIS",
+    "text": "TODOS LOS BANCOS DE PARÍS",
+    "note": "reel banks-prologue, beat 6/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-calc",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 7/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-calc",
+    "field": "text",
+    "source": "Add `AVG` or `COUNT`, and you get 1 figure per sector.",
+    "text": "Añade `AVG` o `COUNT`, y sacas 1 cifra por sector.",
+    "note": "reel banks-prologue, beat 7/8 · the line itself · speaker Detective Reyes",
+    "rev": "a73e9e722ab9"
+  },
+  {
+    "id": "B1-calc",
+    "field": "subject",
+    "source": "EVERY BANK IN PARIS",
+    "text": "TODOS LOS BANCOS DE PARÍS",
+    "note": "reel banks-prologue, beat 7/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  },
+  {
+    "id": "B1-order",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel banks-prologue, beat 8/8 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "B1-order",
+    "field": "text",
+    "source": "Find their pattern. Then find which bank they'll rob this Friday.",
+    "text": "Encuentra su patrón. Luego, encuentra qué banco van a atracar este viernes.",
+    "note": "reel banks-prologue, beat 8/8 · the line itself · speaker Detective Reyes",
+    "rev": "2e0790195ea2"
+  },
+  {
+    "id": "B1-order",
+    "field": "subject",
+    "source": "EVERY BANK IN PARIS",
+    "text": "TODOS LOS BANCOS DE PARÍS",
+    "note": "reel banks-prologue, beat 8/8 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "cf2d40902940"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "",
+    "field": "title",
+    "source": "Rue Ramponeau",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own title",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "",
+    "field": "arcTitle",
+    "source": "Rue Ramponeau",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own arcTitle",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "",
+    "field": "partLabel",
+    "source": "PROLOGUE",
+    "text": "PROLOGO",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own partLabel",
+    "rev": "186d5f51dbfd"
+  },
+  {
+    "id": "",
+    "field": "summary",
+    "source": "Before the first query: what a turnstile records. And the ticket left in the hall.",
+    "text": "Prima della prima query: cosa registra un tornello. E il biglietto lasciato nell’atrio.",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own summary",
+    "rev": "ef692f08a934"
+  },
+  {
+    "id": "",
+    "field": "pitchMarkdown",
+    "source": "2 minutes, no typing. Reyes opens the network log.",
+    "text": "2 minuti, senza digitare. Reyes apre il registro della rete.",
+    "note": "dossier \"Rue Ramponeau\" · the dossier's own pitchMarkdown",
+    "rev": "6e497133d39e"
+  },
+  {
+    "id": "newsletter",
+    "field": "date",
+    "source": "NOVEMBER 2, 2026",
+    "text": "2 NOVEMBRE 2026",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's date",
+    "rev": "e1de7a669c25"
+  },
+  {
+    "id": "newsletter",
+    "field": "headline",
+    "source": "Rue Ramponeau",
+    "text": "Rue Ramponeau",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's headline",
+    "rev": "78edc567b1ae"
+  },
+  {
+    "id": "newsletter",
+    "field": "subheadline",
+    "source": "The network log",
+    "text": "Il registro della rete",
+    "note": "dossier \"Rue Ramponeau\" · the gazette's subheadline",
+    "rev": "0d7eba8e9971"
+  },
+  {
+    "id": "steps[ramponeau-prologue-watched]",
+    "field": "title",
+    "source": "Prologue",
+    "text": "Prologo",
+    "note": "dossier \"Rue Ramponeau\" · checkpoint 1/1 \"Prologue\" — title",
+    "rev": "eb7f661e0d35"
+  },
+  {
+    "id": "steps[ramponeau-prologue-watched]",
+    "field": "instructions",
+    "source": "Watch the briefing.",
+    "text": "Guarda il briefing.",
+    "note": "dossier \"Rue Ramponeau\" · checkpoint 1/1 \"Prologue\" — instructions",
+    "rev": "addbdc1e1f91"
+  }
+]

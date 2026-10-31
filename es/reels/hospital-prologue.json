@@ -1,0 +1,178 @@
+[
+  {
+    "id": "",
+    "field": "chapter",
+    "source": "Standalone",
+    "text": "Independiente",
+    "note": "reel hospital-prologue · the chapter head, top left · chapter: Standalone",
+    "rev": "c697bed3453e"
+  },
+  {
+    "id": "",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue · the line beside the chapter head · chapter: Standalone",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "table",
+    "field": "meta",
+    "source": "768 ROWS · 6 COLUMNS",
+    "text": "768 FILAS · 6 COLUMNAS",
+    "note": "reel hospital-prologue · the words around the figures of the door_log set piece · chapter: Standalone",
+    "rev": "5e0bf6af5fd5"
+  },
+  {
+    "id": "table",
+    "field": "more",
+    "source": "… 766 more rows, and 1 more column",
+    "text": "… 766 filas y 1 columna más",
+    "note": "reel hospital-prologue · what the door_log sample leaves out · chapter: Standalone",
+    "rev": "e3eb702775d7"
+  },
+  {
+    "id": "H1-three",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 1/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-three",
+    "field": "text",
+    "source": "Hopital Lamarck. 3 of the staff were attacked this week.",
+    "text": "Hopital Lamarck. 3 miembros del personal han sido agredidos esta semana.",
+    "note": "reel hospital-prologue, beat 1/6 · the line itself · speaker Detective Reyes",
+    "rev": "6bb9369a00b5"
+  },
+  {
+    "id": "H1-three",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue, beat 1/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "H1-mon",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 2/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-mon",
+    "field": "text",
+    "source": "Monday, it's the `Supply Room`. Amira Saleh.",
+    "text": "El lunes, el almacén de suministros (`Supply Room`). Amira Saleh.",
+    "note": "reel hospital-prologue, beat 2/6 · the line itself · speaker Detective Reyes",
+    "rev": "a396f41611f1"
+  },
+  {
+    "id": "H1-mon",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue, beat 2/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "H1-wed",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 3/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-wed",
+    "field": "text",
+    "source": "Wednesday, the `Waste Room`. Helen Shaw.",
+    "text": "El miércoles, el cuarto de residuos (`Waste Room`). Helen Shaw.",
+    "note": "reel hospital-prologue, beat 3/6 · the line itself · speaker Detective Reyes",
+    "rev": "eaf838f20eee"
+  },
+  {
+    "id": "H1-wed",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue, beat 3/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "H1-thu",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 4/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-thu",
+    "field": "text",
+    "source": "Thursday, the `Loading Bay`. Grace Mensah.",
+    "text": "El jueves, el muelle de carga (`Loading Bay`). Grace Mensah.",
+    "note": "reel hospital-prologue, beat 4/6 · the line itself · speaker Detective Reyes",
+    "rev": "293db86badda"
+  },
+  {
+    "id": "H1-thu",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue, beat 4/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "H1-box",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 5/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-box",
+    "field": "text",
+    "source": "Grabbed from behind, every time, just after taking morphine out of the `Drug Reserve`. He took the box. None of them saw his face or recognised his voice.",
+    "text": "Agarradas por la espalda, siempre, justo después de sacar morfina de la reserva de medicamentos (`Drug Reserve`). Se llevó la caja. Ninguna vio su cara ni reconoció su voz.",
+    "note": "reel hospital-prologue, beat 5/6 · the line itself · speaker Detective Reyes",
+    "rev": "268e55deb748"
+  },
+  {
+    "id": "H1-box",
+    "field": "subject",
+    "source": "THREE ATTACKS",
+    "text": "TRES AGRESIONES",
+    "note": "reel hospital-prologue, beat 5/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "fe57b1ef1340"
+  },
+  {
+    "id": "H1-log",
+    "field": "name",
+    "source": "Detective Reyes",
+    "text": "Inspector Reyes",
+    "note": "reel hospital-prologue, beat 6/6 · the byline · speaker Detective Reyes",
+    "rev": "43c2841a616c"
+  },
+  {
+    "id": "H1-log",
+    "field": "text",
+    "source": "There's a badge reader on every staff door. `door_log` has every swipe going in: who, which door, what day, what time.",
+    "text": "Hay un lector de tarjetas en cada puerta del personal. `door_log` registra cada entrada: quién, qué puerta, qué día y a qué hora.",
+    "note": "reel hospital-prologue, beat 6/6 · the line itself · speaker Detective Reyes",
+    "rev": "502bd7af64ec"
+  },
+  {
+    "id": "H1-log",
+    "field": "subject",
+    "source": "THE DOOR LOG",
+    "text": "EL REGISTRO DE ENTRADAS",
+    "note": "reel hospital-prologue, beat 6/6 · overrides the reel's subject on this beat · speaker Detective Reyes",
+    "rev": "5ba11f8c060c"
+  }
+]
